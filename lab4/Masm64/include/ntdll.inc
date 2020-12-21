@@ -1,0 +1,3984 @@
+extern __imp_A_SHAFinal:qword 
+A_SHAFinal TEXTEQU <__imp_A_SHAFinal> 
+extern __imp_A_SHAInit:qword 
+A_SHAInit TEXTEQU <__imp_A_SHAInit> 
+extern __imp_A_SHAUpdate:qword 
+A_SHAUpdate TEXTEQU <__imp_A_SHAUpdate> 
+extern __imp_AlpcAdjustCompletionListConcurrencyCount:qword 
+AlpcAdjustCompletionListConcurrencyCount TEXTEQU <__imp_AlpcAdjustCompletionListConcurrencyCount> 
+extern __imp_AlpcFreeCompletionListMessage:qword 
+AlpcFreeCompletionListMessage TEXTEQU <__imp_AlpcFreeCompletionListMessage> 
+extern __imp_AlpcGetCompletionListLastMessageInformation:qword 
+AlpcGetCompletionListLastMessageInformation TEXTEQU <__imp_AlpcGetCompletionListLastMessageInformation> 
+extern __imp_AlpcGetCompletionListMessageAttributes:qword 
+AlpcGetCompletionListMessageAttributes TEXTEQU <__imp_AlpcGetCompletionListMessageAttributes> 
+extern __imp_AlpcGetHeaderSize:qword 
+AlpcGetHeaderSize TEXTEQU <__imp_AlpcGetHeaderSize> 
+extern __imp_AlpcGetMessageAttribute:qword 
+AlpcGetMessageAttribute TEXTEQU <__imp_AlpcGetMessageAttribute> 
+extern __imp_AlpcGetMessageFromCompletionList:qword 
+AlpcGetMessageFromCompletionList TEXTEQU <__imp_AlpcGetMessageFromCompletionList> 
+extern __imp_AlpcGetOutstandingCompletionListMessageCount:qword 
+AlpcGetOutstandingCompletionListMessageCount TEXTEQU <__imp_AlpcGetOutstandingCompletionListMessageCount> 
+extern __imp_AlpcInitializeMessageAttribute:qword 
+AlpcInitializeMessageAttribute TEXTEQU <__imp_AlpcInitializeMessageAttribute> 
+extern __imp_AlpcMaxAllowedMessageLength:qword 
+AlpcMaxAllowedMessageLength TEXTEQU <__imp_AlpcMaxAllowedMessageLength> 
+extern __imp_AlpcRegisterCompletionList:qword 
+AlpcRegisterCompletionList TEXTEQU <__imp_AlpcRegisterCompletionList> 
+extern __imp_AlpcRegisterCompletionListWorkerThread:qword 
+AlpcRegisterCompletionListWorkerThread TEXTEQU <__imp_AlpcRegisterCompletionListWorkerThread> 
+extern __imp_AlpcRundownCompletionList:qword 
+AlpcRundownCompletionList TEXTEQU <__imp_AlpcRundownCompletionList> 
+extern __imp_AlpcUnregisterCompletionList:qword 
+AlpcUnregisterCompletionList TEXTEQU <__imp_AlpcUnregisterCompletionList> 
+extern __imp_AlpcUnregisterCompletionListWorkerThread:qword 
+AlpcUnregisterCompletionListWorkerThread TEXTEQU <__imp_AlpcUnregisterCompletionListWorkerThread> 
+extern __imp_CsrAllocateCaptureBuffer:qword 
+CsrAllocateCaptureBuffer TEXTEQU <__imp_CsrAllocateCaptureBuffer> 
+extern __imp_CsrAllocateMessagePointer:qword 
+CsrAllocateMessagePointer TEXTEQU <__imp_CsrAllocateMessagePointer> 
+extern __imp_CsrCaptureMessageBuffer:qword 
+CsrCaptureMessageBuffer TEXTEQU <__imp_CsrCaptureMessageBuffer> 
+extern __imp_CsrCaptureMessageMultiUnicodeStringsInPlace:qword 
+CsrCaptureMessageMultiUnicodeStringsInPlace TEXTEQU <__imp_CsrCaptureMessageMultiUnicodeStringsInPlace> 
+extern __imp_CsrCaptureMessageString:qword 
+CsrCaptureMessageString TEXTEQU <__imp_CsrCaptureMessageString> 
+extern __imp_CsrCaptureTimeout:qword 
+CsrCaptureTimeout TEXTEQU <__imp_CsrCaptureTimeout> 
+extern __imp_CsrClientCallServer:qword 
+CsrClientCallServer TEXTEQU <__imp_CsrClientCallServer> 
+extern __imp_CsrClientConnectToServer:qword 
+CsrClientConnectToServer TEXTEQU <__imp_CsrClientConnectToServer> 
+extern __imp_CsrFreeCaptureBuffer:qword 
+CsrFreeCaptureBuffer TEXTEQU <__imp_CsrFreeCaptureBuffer> 
+extern __imp_CsrGetProcessId:qword 
+CsrGetProcessId TEXTEQU <__imp_CsrGetProcessId> 
+extern __imp_CsrIdentifyAlertableThread:qword 
+CsrIdentifyAlertableThread TEXTEQU <__imp_CsrIdentifyAlertableThread> 
+extern __imp_CsrSetPriorityClass:qword 
+CsrSetPriorityClass TEXTEQU <__imp_CsrSetPriorityClass> 
+extern __imp_CsrVerifyRegion:qword 
+CsrVerifyRegion TEXTEQU <__imp_CsrVerifyRegion> 
+extern __imp_DbgBreakPoint:qword 
+DbgBreakPoint TEXTEQU <__imp_DbgBreakPoint> 
+extern __imp_DbgPrint:qword 
+DbgPrint TEXTEQU <__imp_DbgPrint> 
+extern __imp_DbgPrintEx:qword 
+DbgPrintEx TEXTEQU <__imp_DbgPrintEx> 
+extern __imp_DbgPrintReturnControlC:qword 
+DbgPrintReturnControlC TEXTEQU <__imp_DbgPrintReturnControlC> 
+extern __imp_DbgPrompt:qword 
+DbgPrompt TEXTEQU <__imp_DbgPrompt> 
+extern __imp_DbgQueryDebugFilterState:qword 
+DbgQueryDebugFilterState TEXTEQU <__imp_DbgQueryDebugFilterState> 
+extern __imp_DbgSetDebugFilterState:qword 
+DbgSetDebugFilterState TEXTEQU <__imp_DbgSetDebugFilterState> 
+extern __imp_DbgUiConnectToDbg:qword 
+DbgUiConnectToDbg TEXTEQU <__imp_DbgUiConnectToDbg> 
+extern __imp_DbgUiContinue:qword 
+DbgUiContinue TEXTEQU <__imp_DbgUiContinue> 
+extern __imp_DbgUiConvertStateChangeStructure:qword 
+DbgUiConvertStateChangeStructure TEXTEQU <__imp_DbgUiConvertStateChangeStructure> 
+extern __imp_DbgUiDebugActiveProcess:qword 
+DbgUiDebugActiveProcess TEXTEQU <__imp_DbgUiDebugActiveProcess> 
+extern __imp_DbgUiGetThreadDebugObject:qword 
+DbgUiGetThreadDebugObject TEXTEQU <__imp_DbgUiGetThreadDebugObject> 
+extern __imp_DbgUiIssueRemoteBreakin:qword 
+DbgUiIssueRemoteBreakin TEXTEQU <__imp_DbgUiIssueRemoteBreakin> 
+extern __imp_DbgUiRemoteBreakin:qword 
+DbgUiRemoteBreakin TEXTEQU <__imp_DbgUiRemoteBreakin> 
+extern __imp_DbgUiSetThreadDebugObject:qword 
+DbgUiSetThreadDebugObject TEXTEQU <__imp_DbgUiSetThreadDebugObject> 
+extern __imp_DbgUiStopDebugging:qword 
+DbgUiStopDebugging TEXTEQU <__imp_DbgUiStopDebugging> 
+extern __imp_DbgUiWaitStateChange:qword 
+DbgUiWaitStateChange TEXTEQU <__imp_DbgUiWaitStateChange> 
+extern __imp_DbgUserBreakPoint:qword 
+DbgUserBreakPoint TEXTEQU <__imp_DbgUserBreakPoint> 
+extern __imp_EtwCreateTraceInstanceId:qword 
+EtwCreateTraceInstanceId TEXTEQU <__imp_EtwCreateTraceInstanceId> 
+extern __imp_EtwDeliverDataBlock:qword 
+EtwDeliverDataBlock TEXTEQU <__imp_EtwDeliverDataBlock> 
+extern __imp_EtwEnumerateProcessRegGuids:qword 
+EtwEnumerateProcessRegGuids TEXTEQU <__imp_EtwEnumerateProcessRegGuids> 
+extern __imp_EtwEventActivityIdControl:qword 
+EtwEventActivityIdControl TEXTEQU <__imp_EtwEventActivityIdControl> 
+extern __imp_EtwEventEnabled:qword 
+EtwEventEnabled TEXTEQU <__imp_EtwEventEnabled> 
+extern __imp_EtwEventProviderEnabled:qword 
+EtwEventProviderEnabled TEXTEQU <__imp_EtwEventProviderEnabled> 
+extern __imp_EtwEventRegister:qword 
+EtwEventRegister TEXTEQU <__imp_EtwEventRegister> 
+extern __imp_EtwEventUnregister:qword 
+EtwEventUnregister TEXTEQU <__imp_EtwEventUnregister> 
+extern __imp_EtwEventWrite:qword 
+EtwEventWrite TEXTEQU <__imp_EtwEventWrite> 
+extern __imp_EtwEventWriteEndScenario:qword 
+EtwEventWriteEndScenario TEXTEQU <__imp_EtwEventWriteEndScenario> 
+extern __imp_EtwEventWriteEx:qword 
+EtwEventWriteEx TEXTEQU <__imp_EtwEventWriteEx> 
+extern __imp_EtwEventWriteFull:qword 
+EtwEventWriteFull TEXTEQU <__imp_EtwEventWriteFull> 
+extern __imp_EtwEventWriteNoRegistration:qword 
+EtwEventWriteNoRegistration TEXTEQU <__imp_EtwEventWriteNoRegistration> 
+extern __imp_EtwEventWriteStartScenario:qword 
+EtwEventWriteStartScenario TEXTEQU <__imp_EtwEventWriteStartScenario> 
+extern __imp_EtwEventWriteString:qword 
+EtwEventWriteString TEXTEQU <__imp_EtwEventWriteString> 
+extern __imp_EtwEventWriteTransfer:qword 
+EtwEventWriteTransfer TEXTEQU <__imp_EtwEventWriteTransfer> 
+extern __imp_EtwGetTraceEnableFlags:qword 
+EtwGetTraceEnableFlags TEXTEQU <__imp_EtwGetTraceEnableFlags> 
+extern __imp_EtwGetTraceEnableLevel:qword 
+EtwGetTraceEnableLevel TEXTEQU <__imp_EtwGetTraceEnableLevel> 
+extern __imp_EtwGetTraceLoggerHandle:qword 
+EtwGetTraceLoggerHandle TEXTEQU <__imp_EtwGetTraceLoggerHandle> 
+extern __imp_EtwLogTraceEvent:qword 
+EtwLogTraceEvent TEXTEQU <__imp_EtwLogTraceEvent> 
+extern __imp_EtwNotificationRegister:qword 
+EtwNotificationRegister TEXTEQU <__imp_EtwNotificationRegister> 
+extern __imp_EtwNotificationUnregister:qword 
+EtwNotificationUnregister TEXTEQU <__imp_EtwNotificationUnregister> 
+extern __imp_EtwProcessPrivateLoggerRequest:qword 
+EtwProcessPrivateLoggerRequest TEXTEQU <__imp_EtwProcessPrivateLoggerRequest> 
+extern __imp_EtwRegisterSecurityProvider:qword 
+EtwRegisterSecurityProvider TEXTEQU <__imp_EtwRegisterSecurityProvider> 
+extern __imp_EtwRegisterTraceGuidsA:qword 
+EtwRegisterTraceGuids TEXTEQU <__imp_EtwRegisterTraceGuidsA> 
+extern __imp_EtwRegisterTraceGuidsW:qword 
+EtwRegisterTraceGuidsW TEXTEQU <__imp_EtwRegisterTraceGuidsW> 
+extern __imp_EtwReplyNotification:qword 
+EtwReplyNotification TEXTEQU <__imp_EtwReplyNotification> 
+extern __imp_EtwSendNotification:qword 
+EtwSendNotification TEXTEQU <__imp_EtwSendNotification> 
+extern __imp_EtwSetMark:qword 
+EtwSetMark TEXTEQU <__imp_EtwSetMark> 
+extern __imp_EtwTraceEventInstance:qword 
+EtwTraceEventInstance TEXTEQU <__imp_EtwTraceEventInstance> 
+extern __imp_EtwTraceMessage:qword 
+EtwTraceMessage TEXTEQU <__imp_EtwTraceMessage> 
+extern __imp_EtwTraceMessageVa:qword 
+EtwTraceMessageV TEXTEQU <__imp_EtwTraceMessageVa> 
+extern __imp_EtwUnregisterTraceGuids:qword 
+EtwUnregisterTraceGuids TEXTEQU <__imp_EtwUnregisterTraceGuids> 
+extern __imp_EtwWriteUMSecurityEvent:qword 
+EtwWriteUMSecurityEvent TEXTEQU <__imp_EtwWriteUMSecurityEvent> 
+extern __imp_EtwpCreateEtwThread:qword 
+EtwpCreateEtwThread TEXTEQU <__imp_EtwpCreateEtwThread> 
+extern __imp_EtwpGetCpuSpeed:qword 
+EtwpGetCpuSpeed TEXTEQU <__imp_EtwpGetCpuSpeed> 
+extern __imp_EtwpNotificationThread:qword 
+EtwpNotificationThread TEXTEQU <__imp_EtwpNotificationThread> 
+extern __imp_EvtIntReportAuthzEventAndSourceAsync:qword 
+EvtIntReportAuthzEventAndSourceAsync TEXTEQU <__imp_EvtIntReportAuthzEventAndSourceAsync> 
+extern __imp_EvtIntReportEventAndSourceAsync:qword 
+EvtIntReportEventAndSourceAsync TEXTEQU <__imp_EvtIntReportEventAndSourceAsync> 
+extern __imp_ExpInterlockedPopEntrySListEnd:qword 
+ExpInterlockedPopEntrySListEnd TEXTEQU <__imp_ExpInterlockedPopEntrySListEnd> 
+extern __imp_ExpInterlockedPopEntrySListEnd16:qword 
+ExpInterlockedPopEntrySListEnd16 TEXTEQU <__imp_ExpInterlockedPopEntrySListEnd16> 
+extern __imp_ExpInterlockedPopEntrySListFault:qword 
+ExpInterlockedPopEntrySListFault TEXTEQU <__imp_ExpInterlockedPopEntrySListFault> 
+extern __imp_ExpInterlockedPopEntrySListFault16:qword 
+ExpInterlockedPopEntrySListFault16 TEXTEQU <__imp_ExpInterlockedPopEntrySListFault16> 
+extern __imp_ExpInterlockedPopEntrySListResume:qword 
+ExpInterlockedPopEntrySListResume TEXTEQU <__imp_ExpInterlockedPopEntrySListResume> 
+extern __imp_ExpInterlockedPopEntrySListResume16:qword 
+ExpInterlockedPopEntrySListResume16 TEXTEQU <__imp_ExpInterlockedPopEntrySListResume16> 
+extern __imp_KiRaiseUserExceptionDispatcher:qword 
+KiRaiseUserExceptionDispatcher TEXTEQU <__imp_KiRaiseUserExceptionDispatcher> 
+extern __imp_KiUserApcDispatcher:qword 
+KiUserApcDispatcher TEXTEQU <__imp_KiUserApcDispatcher> 
+extern __imp_KiUserCallbackDispatcher:qword 
+KiUserCallbackDispatcher TEXTEQU <__imp_KiUserCallbackDispatcher> 
+extern __imp_KiUserExceptionDispatcher:qword 
+KiUserExceptionDispatcher TEXTEQU <__imp_KiUserExceptionDispatcher> 
+extern __imp_LdrAccessResource:qword 
+LdrAccessResource TEXTEQU <__imp_LdrAccessResource> 
+extern __imp_LdrAddLoadAsDataTable:qword 
+LdrAddLoadAsDataTable TEXTEQU <__imp_LdrAddLoadAsDataTable> 
+extern __imp_LdrAddRefDll:qword 
+LdrAddRefDll TEXTEQU <__imp_LdrAddRefDll> 
+extern __imp_LdrDisableThreadCalloutsForDll:qword 
+LdrDisableThreadCalloutsForDll TEXTEQU <__imp_LdrDisableThreadCalloutsForDll> 
+extern __imp_LdrEnumResources:qword 
+LdrEnumResources TEXTEQU <__imp_LdrEnumResources> 
+extern __imp_LdrEnumerateLoadedModules:qword 
+LdrEnumerateLoadedModules TEXTEQU <__imp_LdrEnumerateLoadedModules> 
+extern __imp_LdrFindEntryForAddress:qword 
+LdrFindEntryForAddress TEXTEQU <__imp_LdrFindEntryForAddress> 
+extern __imp_LdrFindResourceDirectory_U:qword 
+LdrFindResourceDirectory_U TEXTEQU <__imp_LdrFindResourceDirectory_U> 
+extern __imp_LdrFindResourceEx_U:qword 
+LdrFindResourceEx_U TEXTEQU <__imp_LdrFindResourceEx_U> 
+extern __imp_LdrFindResource_U:qword 
+LdrFindResource_U TEXTEQU <__imp_LdrFindResource_U> 
+extern __imp_LdrFlushAlternateResourceModules:qword 
+LdrFlushAlternateResourceModules TEXTEQU <__imp_LdrFlushAlternateResourceModules> 
+extern __imp_LdrGetDllHandle:qword 
+LdrGetDllHandle TEXTEQU <__imp_LdrGetDllHandle> 
+extern __imp_LdrGetDllHandleByMapping:qword 
+LdrGetDllHandleByMapping TEXTEQU <__imp_LdrGetDllHandleByMapping> 
+extern __imp_LdrGetDllHandleByName:qword 
+LdrGetDllHandleByName TEXTEQU <__imp_LdrGetDllHandleByName> 
+extern __imp_LdrGetDllHandleEx:qword 
+LdrGetDllHandleEx TEXTEQU <__imp_LdrGetDllHandleEx> 
+extern __imp_LdrGetFailureData:qword 
+LdrGetFailureDat TEXTEQU <__imp_LdrGetFailureData> 
+extern __imp_LdrGetFileNameFromLoadAsDataTable:qword 
+LdrGetFileNameFromLoadAsDataTable TEXTEQU <__imp_LdrGetFileNameFromLoadAsDataTable> 
+extern __imp_LdrGetKnownDllSectionHandle:qword 
+LdrGetKnownDllSectionHandle TEXTEQU <__imp_LdrGetKnownDllSectionHandle> 
+extern __imp_LdrGetProcedureAddress:qword 
+LdrGetProcedureAddress TEXTEQU <__imp_LdrGetProcedureAddress> 
+extern __imp_LdrGetProcedureAddressEx:qword 
+LdrGetProcedureAddressEx TEXTEQU <__imp_LdrGetProcedureAddressEx> 
+extern __imp_LdrHotPatchRoutine:qword 
+LdrHotPatchRoutine TEXTEQU <__imp_LdrHotPatchRoutine> 
+extern __imp_LdrInitShimEngineDynamic:qword 
+LdrInitShimEngineDynamic TEXTEQU <__imp_LdrInitShimEngineDynamic> 
+extern __imp_LdrInitializeThunk:qword 
+LdrInitializeThunk TEXTEQU <__imp_LdrInitializeThunk> 
+extern __imp_LdrLoadAlternateResourceModule:qword 
+LdrLoadAlternateResourceModule TEXTEQU <__imp_LdrLoadAlternateResourceModule> 
+extern __imp_LdrLoadAlternateResourceModuleEx:qword 
+LdrLoadAlternateResourceModuleEx TEXTEQU <__imp_LdrLoadAlternateResourceModuleEx> 
+extern __imp_LdrLoadDll:qword 
+LdrLoadDll TEXTEQU <__imp_LdrLoadDll> 
+extern __imp_LdrLockLoaderLock:qword 
+LdrLockLoaderLock TEXTEQU <__imp_LdrLockLoaderLock> 
+extern __imp_LdrOpenImageFileOptionsKey:qword 
+LdrOpenImageFileOptionsKey TEXTEQU <__imp_LdrOpenImageFileOptionsKey> 
+extern __imp_LdrProcessInitializationComplete:qword 
+LdrProcessInitializationComplete TEXTEQU <__imp_LdrProcessInitializationComplete> 
+extern __imp_LdrProcessRelocationBlock:qword 
+LdrProcessRelocationBlock TEXTEQU <__imp_LdrProcessRelocationBlock> 
+extern __imp_LdrQueryImageFileExecutionOptions:qword 
+LdrQueryImageFileExecutionOptions TEXTEQU <__imp_LdrQueryImageFileExecutionOptions> 
+extern __imp_LdrQueryImageFileExecutionOptionsEx:qword 
+LdrQueryImageFileExecutionOptionsEx TEXTEQU <__imp_LdrQueryImageFileExecutionOptionsEx> 
+extern __imp_LdrQueryImageFileKeyOption:qword 
+LdrQueryImageFileKeyOption TEXTEQU <__imp_LdrQueryImageFileKeyOption> 
+extern __imp_LdrQueryModuleServiceTags:qword 
+LdrQueryModuleServiceTags TEXTEQU <__imp_LdrQueryModuleServiceTags> 
+extern __imp_LdrQueryProcessModuleInformation:qword 
+LdrQueryProcessModuleInformation TEXTEQU <__imp_LdrQueryProcessModuleInformation> 
+extern __imp_LdrRegisterDllNotification:qword 
+LdrRegisterDllNotification TEXTEQU <__imp_LdrRegisterDllNotification> 
+extern __imp_LdrRemoveLoadAsDataTable:qword 
+LdrRemoveLoadAsDataTable TEXTEQU <__imp_LdrRemoveLoadAsDataTable> 
+extern __imp_LdrResFindResource:qword 
+LdrResFindResource TEXTEQU <__imp_LdrResFindResource> 
+extern __imp_LdrResFindResourceDirectory:qword 
+LdrResFindResourceDirectory TEXTEQU <__imp_LdrResFindResourceDirectory> 
+extern __imp_LdrResGetRCConfig:qword 
+LdrResGetRCConfig TEXTEQU <__imp_LdrResGetRCConfig> 
+extern __imp_LdrResRelease:qword 
+LdrResRelease TEXTEQU <__imp_LdrResRelease> 
+extern __imp_LdrResSearchResource:qword 
+LdrResSearchResource TEXTEQU <__imp_LdrResSearchResource> 
+extern __imp_LdrRscIsTypeExist:qword 
+LdrRscIsTypeExist TEXTEQU <__imp_LdrRscIsTypeExist> 
+extern __imp_LdrSetAppCompatDllRedirectionCallback:qword 
+LdrSetAppCompatDllRedirectionCallback TEXTEQU <__imp_LdrSetAppCompatDllRedirectionCallback> 
+extern __imp_LdrSetDllManifestProber:qword 
+LdrSetDllManifestProber TEXTEQU <__imp_LdrSetDllManifestProber> 
+extern __imp_LdrSetMUICacheType:qword 
+LdrSetMUICacheType TEXTEQU <__imp_LdrSetMUICacheType> 
+extern __imp_LdrShutdownProcess:qword 
+LdrShutdownProcess TEXTEQU <__imp_LdrShutdownProcess> 
+extern __imp_LdrShutdownThread:qword 
+LdrShutdownThread TEXTEQU <__imp_LdrShutdownThread> 
+extern __imp_LdrSystemDllInitBlock:qword 
+LdrSystemDllInitBlock TEXTEQU <__imp_LdrSystemDllInitBlock> 
+extern __imp_LdrUnloadAlternateResourceModule:qword 
+LdrUnloadAlternateResourceModule TEXTEQU <__imp_LdrUnloadAlternateResourceModule> 
+extern __imp_LdrUnloadAlternateResourceModuleEx:qword 
+LdrUnloadAlternateResourceModuleEx TEXTEQU <__imp_LdrUnloadAlternateResourceModuleEx> 
+extern __imp_LdrUnloadDll:qword 
+LdrUnloadDll TEXTEQU <__imp_LdrUnloadDll> 
+extern __imp_LdrUnlockLoaderLock:qword 
+LdrUnlockLoaderLock TEXTEQU <__imp_LdrUnlockLoaderLock> 
+extern __imp_LdrUnregisterDllNotification:qword 
+LdrUnregisterDllNotification TEXTEQU <__imp_LdrUnregisterDllNotification> 
+extern __imp_LdrVerifyImageMatchesChecksum:qword 
+LdrVerifyImageMatchesChecksum TEXTEQU <__imp_LdrVerifyImageMatchesChecksum> 
+extern __imp_LdrVerifyImageMatchesChecksumEx:qword 
+LdrVerifyImageMatchesChecksumEx TEXTEQU <__imp_LdrVerifyImageMatchesChecksumEx> 
+extern __imp_LdrpResGetMappingSize:qword 
+LdrpResGetMappingSize TEXTEQU <__imp_LdrpResGetMappingSize> 
+extern __imp_LdrpResGetResourceDirectory:qword 
+LdrpResGetResourceDirectory TEXTEQU <__imp_LdrpResGetResourceDirectory> 
+extern __imp_MD4Final:qword 
+MD4Final TEXTEQU <__imp_MD4Final> 
+extern __imp_MD4Init:qword 
+MD4Init TEXTEQU <__imp_MD4Init> 
+extern __imp_MD4Update:qword 
+MD4Update TEXTEQU <__imp_MD4Update> 
+extern __imp_MD5Final:qword 
+MD5Final TEXTEQU <__imp_MD5Final> 
+extern __imp_MD5Init:qword 
+MD5Init TEXTEQU <__imp_MD5Init> 
+extern __imp_MD5Update:qword 
+MD5Update TEXTEQU <__imp_MD5Update> 
+extern __imp_NlsAnsiCodePage:qword 
+NlsAnsiCodePage TEXTEQU <__imp_NlsAnsiCodePage> 
+extern __imp_NlsMbCodePageTag:qword 
+NlsMbCodePageTag TEXTEQU <__imp_NlsMbCodePageTag> 
+extern __imp_NlsMbOemCodePageTag:qword 
+NlsMbOemCodePageTag TEXTEQU <__imp_NlsMbOemCodePageTag> 
+extern __imp_NtAcceptConnectPort:qword 
+NtAcceptConnectPort TEXTEQU <__imp_NtAcceptConnectPort> 
+extern __imp_NtAccessCheck:qword 
+NtAccessCheck TEXTEQU <__imp_NtAccessCheck> 
+extern __imp_NtAccessCheckAndAuditAlarm:qword 
+NtAccessCheckAndAuditAlarm TEXTEQU <__imp_NtAccessCheckAndAuditAlarm> 
+extern __imp_NtAccessCheckByType:qword 
+NtAccessCheckByType TEXTEQU <__imp_NtAccessCheckByType> 
+extern __imp_NtAccessCheckByTypeAndAuditAlarm:qword 
+NtAccessCheckByTypeAndAuditAlarm TEXTEQU <__imp_NtAccessCheckByTypeAndAuditAlarm> 
+extern __imp_NtAccessCheckByTypeResultList:qword 
+NtAccessCheckByTypeResultList TEXTEQU <__imp_NtAccessCheckByTypeResultList> 
+extern __imp_NtAccessCheckByTypeResultListAndAuditAlarm:qword 
+NtAccessCheckByTypeResultListAndAuditAlarm TEXTEQU <__imp_NtAccessCheckByTypeResultListAndAuditAlarm> 
+extern __imp_NtAccessCheckByTypeResultListAndAuditAlarmByHandle:qword 
+NtAccessCheckByTypeResultListAndAuditAlarmByHandle TEXTEQU <__imp_NtAccessCheckByTypeResultListAndAuditAlarmByHandle> 
+extern __imp_NtAddAtom:qword 
+NtAddAtom TEXTEQU <__imp_NtAddAtom> 
+extern __imp_NtAddBootEntry:qword 
+NtAddBootEntry TEXTEQU <__imp_NtAddBootEntry> 
+extern __imp_NtAddDriverEntry:qword 
+NtAddDriverEntry TEXTEQU <__imp_NtAddDriverEntry> 
+extern __imp_NtAdjustGroupsToken:qword 
+NtAdjustGroupsToken TEXTEQU <__imp_NtAdjustGroupsToken> 
+extern __imp_NtAdjustPrivilegesToken:qword 
+NtAdjustPrivilegesToken TEXTEQU <__imp_NtAdjustPrivilegesToken> 
+extern __imp_NtAlertResumeThread:qword 
+NtAlertResumeThread TEXTEQU <__imp_NtAlertResumeThread> 
+extern __imp_NtAlertThread:qword 
+NtAlertThread TEXTEQU <__imp_NtAlertThread> 
+extern __imp_NtAllocateLocallyUniqueId:qword 
+NtAllocateLocallyUniqueId TEXTEQU <__imp_NtAllocateLocallyUniqueId> 
+extern __imp_NtAllocateReserveObject:qword 
+NtAllocateReserveObject TEXTEQU <__imp_NtAllocateReserveObject> 
+extern __imp_NtAllocateUserPhysicalPages:qword 
+NtAllocateUserPhysicalPages TEXTEQU <__imp_NtAllocateUserPhysicalPages> 
+extern __imp_NtAllocateUuids:qword 
+NtAllocateUuids TEXTEQU <__imp_NtAllocateUuids> 
+extern __imp_NtAllocateVirtualMemory:qword 
+NtAllocateVirtualMemory TEXTEQU <__imp_NtAllocateVirtualMemory> 
+extern __imp_NtAlpcAcceptConnectPort:qword 
+NtAlpcAcceptConnectPort TEXTEQU <__imp_NtAlpcAcceptConnectPort> 
+extern __imp_NtAlpcCancelMessage:qword 
+NtAlpcCancelMessage TEXTEQU <__imp_NtAlpcCancelMessage> 
+extern __imp_NtAlpcConnectPort:qword 
+NtAlpcConnectPort TEXTEQU <__imp_NtAlpcConnectPort> 
+extern __imp_NtAlpcCreatePort:qword 
+NtAlpcCreatePort TEXTEQU <__imp_NtAlpcCreatePort> 
+extern __imp_NtAlpcCreatePortSection:qword 
+NtAlpcCreatePortSection TEXTEQU <__imp_NtAlpcCreatePortSection> 
+extern __imp_NtAlpcCreateResourceReserve:qword 
+NtAlpcCreateResourceReserve TEXTEQU <__imp_NtAlpcCreateResourceReserve> 
+extern __imp_NtAlpcCreateSectionView:qword 
+NtAlpcCreateSectionView TEXTEQU <__imp_NtAlpcCreateSectionView> 
+extern __imp_NtAlpcCreateSecurityContext:qword 
+NtAlpcCreateSecurityContext TEXTEQU <__imp_NtAlpcCreateSecurityContext> 
+extern __imp_NtAlpcDeletePortSection:qword 
+NtAlpcDeletePortSection TEXTEQU <__imp_NtAlpcDeletePortSection> 
+extern __imp_NtAlpcDeleteResourceReserve:qword 
+NtAlpcDeleteResourceReserve TEXTEQU <__imp_NtAlpcDeleteResourceReserve> 
+extern __imp_NtAlpcDeleteSectionView:qword 
+NtAlpcDeleteSectionView TEXTEQU <__imp_NtAlpcDeleteSectionView> 
+extern __imp_NtAlpcDeleteSecurityContext:qword 
+NtAlpcDeleteSecurityContext TEXTEQU <__imp_NtAlpcDeleteSecurityContext> 
+extern __imp_NtAlpcDisconnectPort:qword 
+NtAlpcDisconnectPort TEXTEQU <__imp_NtAlpcDisconnectPort> 
+extern __imp_NtAlpcImpersonateClientOfPort:qword 
+NtAlpcImpersonateClientOfPort TEXTEQU <__imp_NtAlpcImpersonateClientOfPort> 
+extern __imp_NtAlpcOpenSenderProcess:qword 
+NtAlpcOpenSenderProcess TEXTEQU <__imp_NtAlpcOpenSenderProcess> 
+extern __imp_NtAlpcOpenSenderThread:qword 
+NtAlpcOpenSenderThread TEXTEQU <__imp_NtAlpcOpenSenderThread> 
+extern __imp_NtAlpcQueryInformation:qword 
+NtAlpcQueryInformation TEXTEQU <__imp_NtAlpcQueryInformation> 
+extern __imp_NtAlpcQueryInformationMessage:qword 
+NtAlpcQueryInformationMessage TEXTEQU <__imp_NtAlpcQueryInformationMessage> 
+extern __imp_NtAlpcRevokeSecurityContext:qword 
+NtAlpcRevokeSecurityContext TEXTEQU <__imp_NtAlpcRevokeSecurityContext> 
+extern __imp_NtAlpcSendWaitReceivePort:qword 
+NtAlpcSendWaitReceivePort TEXTEQU <__imp_NtAlpcSendWaitReceivePort> 
+extern __imp_NtAlpcSetInformation:qword 
+NtAlpcSetInformation TEXTEQU <__imp_NtAlpcSetInformation> 
+extern __imp_NtApphelpCacheControl:qword 
+NtApphelpCacheControl TEXTEQU <__imp_NtApphelpCacheControl> 
+extern __imp_NtAreMappedFilesTheSame:qword 
+NtAreMappedFilesTheSame TEXTEQU <__imp_NtAreMappedFilesTheSame> 
+extern __imp_NtAssignProcessToJobObject:qword 
+NtAssignProcessToJobObject TEXTEQU <__imp_NtAssignProcessToJobObject> 
+extern __imp_NtCallbackReturn:qword 
+NtCallbackReturn TEXTEQU <__imp_NtCallbackReturn> 
+extern __imp_NtCancelIoFile:qword 
+NtCancelIoFile TEXTEQU <__imp_NtCancelIoFile> 
+extern __imp_NtCancelIoFileEx:qword 
+NtCancelIoFileEx TEXTEQU <__imp_NtCancelIoFileEx> 
+extern __imp_NtCancelSynchronousIoFile:qword 
+NtCancelSynchronousIoFile TEXTEQU <__imp_NtCancelSynchronousIoFile> 
+extern __imp_NtCancelTimer:qword 
+NtCancelTimer TEXTEQU <__imp_NtCancelTimer> 
+extern __imp_NtClearEvent:qword 
+NtClearEvent TEXTEQU <__imp_NtClearEvent> 
+extern __imp_NtClose:qword 
+NtClose TEXTEQU <__imp_NtClose> 
+extern __imp_NtCloseObjectAuditAlarm:qword 
+NtCloseObjectAuditAlarm TEXTEQU <__imp_NtCloseObjectAuditAlarm> 
+extern __imp_NtCommitComplete:qword 
+NtCommitComplete TEXTEQU <__imp_NtCommitComplete> 
+extern __imp_NtCommitEnlistment:qword 
+NtCommitEnlistment TEXTEQU <__imp_NtCommitEnlistment> 
+extern __imp_NtCommitTransaction:qword 
+NtCommitTransaction TEXTEQU <__imp_NtCommitTransaction> 
+extern __imp_NtCompactKeys:qword 
+NtCompactKeys TEXTEQU <__imp_NtCompactKeys> 
+extern __imp_NtCompareTokens:qword 
+NtCompareTokens TEXTEQU <__imp_NtCompareTokens> 
+extern __imp_NtCompleteConnectPort:qword 
+NtCompleteConnectPort TEXTEQU <__imp_NtCompleteConnectPort> 
+extern __imp_NtCompressKey:qword 
+NtCompressKey TEXTEQU <__imp_NtCompressKey> 
+extern __imp_NtConnectPort:qword 
+NtConnectPort TEXTEQU <__imp_NtConnectPort> 
+extern __imp_NtContinue:qword 
+NtContinue TEXTEQU <__imp_NtContinue> 
+extern __imp_NtCreateDebugObject:qword 
+NtCreateDebugObject TEXTEQU <__imp_NtCreateDebugObject> 
+extern __imp_NtCreateDirectoryObject:qword 
+NtCreateDirectoryObject TEXTEQU <__imp_NtCreateDirectoryObject> 
+extern __imp_NtCreateEnlistment:qword 
+NtCreateEnlistment TEXTEQU <__imp_NtCreateEnlistment> 
+extern __imp_NtCreateEvent:qword 
+NtCreateEvent TEXTEQU <__imp_NtCreateEvent> 
+extern __imp_NtCreateEventPair:qword 
+NtCreateEventPair TEXTEQU <__imp_NtCreateEventPair> 
+extern __imp_NtCreateFile:qword 
+NtCreateFile TEXTEQU <__imp_NtCreateFile> 
+extern __imp_NtCreateIoCompletion:qword 
+NtCreateIoCompletion TEXTEQU <__imp_NtCreateIoCompletion> 
+extern __imp_NtCreateJobObject:qword 
+NtCreateJobObject TEXTEQU <__imp_NtCreateJobObject> 
+extern __imp_NtCreateJobSet:qword 
+NtCreateJobSet TEXTEQU <__imp_NtCreateJobSet> 
+extern __imp_NtCreateKey:qword 
+NtCreateKey TEXTEQU <__imp_NtCreateKey> 
+extern __imp_NtCreateKeyTransacted:qword 
+NtCreateKeyTransacted TEXTEQU <__imp_NtCreateKeyTransacted> 
+extern __imp_NtCreateKeyedEvent:qword 
+NtCreateKeyedEvent TEXTEQU <__imp_NtCreateKeyedEvent> 
+extern __imp_NtCreateMailslotFile:qword 
+NtCreateMailslotFile TEXTEQU <__imp_NtCreateMailslotFile> 
+extern __imp_NtCreateMutant:qword 
+NtCreateMutant TEXTEQU <__imp_NtCreateMutant> 
+extern __imp_NtCreateNamedPipeFile:qword 
+NtCreateNamedPipeFile TEXTEQU <__imp_NtCreateNamedPipeFile> 
+extern __imp_NtCreatePagingFile:qword 
+NtCreatePagingFile TEXTEQU <__imp_NtCreatePagingFile> 
+extern __imp_NtCreatePort:qword 
+NtCreatePort TEXTEQU <__imp_NtCreatePort> 
+extern __imp_NtCreatePrivateNamespace:qword 
+NtCreatePrivateNamespace TEXTEQU <__imp_NtCreatePrivateNamespace> 
+extern __imp_NtCreateProcess:qword 
+NtCreateProcess TEXTEQU <__imp_NtCreateProcess> 
+extern __imp_NtCreateProcessEx:qword 
+NtCreateProcessEx TEXTEQU <__imp_NtCreateProcessEx> 
+extern __imp_NtCreateProfile:qword 
+NtCreateProfile TEXTEQU <__imp_NtCreateProfile> 
+extern __imp_NtCreateProfileEx:qword 
+NtCreateProfileEx TEXTEQU <__imp_NtCreateProfileEx> 
+extern __imp_NtCreateResourceManager:qword 
+NtCreateResourceManager TEXTEQU <__imp_NtCreateResourceManager> 
+extern __imp_NtCreateSection:qword 
+NtCreateSection TEXTEQU <__imp_NtCreateSection> 
+extern __imp_NtCreateSemaphore:qword 
+NtCreateSemaphore TEXTEQU <__imp_NtCreateSemaphore> 
+extern __imp_NtCreateSymbolicLinkObject:qword 
+NtCreateSymbolicLinkObject TEXTEQU <__imp_NtCreateSymbolicLinkObject> 
+extern __imp_NtCreateThread:qword 
+NtCreateThread TEXTEQU <__imp_NtCreateThread> 
+extern __imp_NtCreateThreadEx:qword 
+NtCreateThreadEx TEXTEQU <__imp_NtCreateThreadEx> 
+extern __imp_NtCreateTimer:qword 
+NtCreateTimer TEXTEQU <__imp_NtCreateTimer> 
+extern __imp_NtCreateToken:qword 
+NtCreateToken TEXTEQU <__imp_NtCreateToken> 
+extern __imp_NtCreateTransaction:qword 
+NtCreateTransaction TEXTEQU <__imp_NtCreateTransaction> 
+extern __imp_NtCreateTransactionManager:qword 
+NtCreateTransactionManager TEXTEQU <__imp_NtCreateTransactionManager> 
+extern __imp_NtCreateUserProcess:qword 
+NtCreateUserProcess TEXTEQU <__imp_NtCreateUserProcess> 
+extern __imp_NtCreateWaitablePort:qword 
+NtCreateWaitablePort TEXTEQU <__imp_NtCreateWaitablePort> 
+extern __imp_NtCreateWorkerFactory:qword 
+NtCreateWorkerFactory TEXTEQU <__imp_NtCreateWorkerFactory> 
+extern __imp_NtDebugActiveProcess:qword 
+NtDebugActiveProcess TEXTEQU <__imp_NtDebugActiveProcess> 
+extern __imp_NtDebugContinue:qword 
+NtDebugContinue TEXTEQU <__imp_NtDebugContinue> 
+extern __imp_NtDelayExecution:qword 
+NtDelayExecution TEXTEQU <__imp_NtDelayExecution> 
+extern __imp_NtDeleteAtom:qword 
+NtDeleteAtom TEXTEQU <__imp_NtDeleteAtom> 
+extern __imp_NtDeleteBootEntry:qword 
+NtDeleteBootEntry TEXTEQU <__imp_NtDeleteBootEntry> 
+extern __imp_NtDeleteDriverEntry:qword 
+NtDeleteDriverEntry TEXTEQU <__imp_NtDeleteDriverEntry> 
+extern __imp_NtDeleteFile:qword 
+NtDeleteFile TEXTEQU <__imp_NtDeleteFile> 
+extern __imp_NtDeleteKey:qword 
+NtDeleteKey TEXTEQU <__imp_NtDeleteKey> 
+extern __imp_NtDeleteObjectAuditAlarm:qword 
+NtDeleteObjectAuditAlarm TEXTEQU <__imp_NtDeleteObjectAuditAlarm> 
+extern __imp_NtDeletePrivateNamespace:qword 
+NtDeletePrivateNamespace TEXTEQU <__imp_NtDeletePrivateNamespace> 
+extern __imp_NtDeleteValueKey:qword 
+NtDeleteValueKey TEXTEQU <__imp_NtDeleteValueKey> 
+extern __imp_NtDeviceIoControlFile:qword 
+NtDeviceIoControlFile TEXTEQU <__imp_NtDeviceIoControlFile> 
+extern __imp_NtDisableLastKnownGood:qword 
+NtDisableLastKnownGood TEXTEQU <__imp_NtDisableLastKnownGood> 
+extern __imp_NtDisplayString:qword 
+NtDisplayString TEXTEQU <__imp_NtDisplayString> 
+extern __imp_NtDrawText:qword 
+NtDrawText TEXTEQU <__imp_NtDrawText> 
+extern __imp_NtDuplicateObject:qword 
+NtDuplicateObject TEXTEQU <__imp_NtDuplicateObject> 
+extern __imp_NtDuplicateToken:qword 
+NtDuplicateToken TEXTEQU <__imp_NtDuplicateToken> 
+extern __imp_NtEnableLastKnownGood:qword 
+NtEnableLastKnownGood TEXTEQU <__imp_NtEnableLastKnownGood> 
+extern __imp_NtEnumerateBootEntries:qword 
+NtEnumerateBootEntries TEXTEQU <__imp_NtEnumerateBootEntries> 
+extern __imp_NtEnumerateDriverEntries:qword 
+NtEnumerateDriverEntries TEXTEQU <__imp_NtEnumerateDriverEntries> 
+extern __imp_NtEnumerateKey:qword 
+NtEnumerateKey TEXTEQU <__imp_NtEnumerateKey> 
+extern __imp_NtEnumerateSystemEnvironmentValuesEx:qword 
+NtEnumerateSystemEnvironmentValuesEx TEXTEQU <__imp_NtEnumerateSystemEnvironmentValuesEx> 
+extern __imp_NtEnumerateTransactionObject:qword 
+NtEnumerateTransactionObject TEXTEQU <__imp_NtEnumerateTransactionObject> 
+extern __imp_NtEnumerateValueKey:qword 
+NtEnumerateValueKey TEXTEQU <__imp_NtEnumerateValueKey> 
+extern __imp_NtExtendSection:qword 
+NtExtendSection TEXTEQU <__imp_NtExtendSection> 
+extern __imp_NtFilterToken:qword 
+NtFilterToken TEXTEQU <__imp_NtFilterToken> 
+extern __imp_NtFindAtom:qword 
+NtFindAtom TEXTEQU <__imp_NtFindAtom> 
+extern __imp_NtFlushBuffersFile:qword 
+NtFlushBuffersFile TEXTEQU <__imp_NtFlushBuffersFile> 
+extern __imp_NtFlushInstallUILanguage:qword 
+NtFlushInstallUILanguage TEXTEQU <__imp_NtFlushInstallUILanguage> 
+extern __imp_NtFlushInstructionCache:qword 
+NtFlushInstructionCache TEXTEQU <__imp_NtFlushInstructionCache> 
+extern __imp_NtFlushKey:qword 
+NtFlushKey TEXTEQU <__imp_NtFlushKey> 
+extern __imp_NtFlushProcessWriteBuffers:qword 
+NtFlushProcessWriteBuffers TEXTEQU <__imp_NtFlushProcessWriteBuffers> 
+extern __imp_NtFlushVirtualMemory:qword 
+NtFlushVirtualMemory TEXTEQU <__imp_NtFlushVirtualMemory> 
+extern __imp_NtFlushWriteBuffer:qword 
+NtFlushWriteBuffer TEXTEQU <__imp_NtFlushWriteBuffer> 
+extern __imp_NtFreeUserPhysicalPages:qword 
+NtFreeUserPhysicalPages TEXTEQU <__imp_NtFreeUserPhysicalPages> 
+extern __imp_NtFreeVirtualMemory:qword 
+NtFreeVirtualMemory TEXTEQU <__imp_NtFreeVirtualMemory> 
+extern __imp_NtFreezeRegistry:qword 
+NtFreezeRegistry TEXTEQU <__imp_NtFreezeRegistry> 
+extern __imp_NtFreezeTransactions:qword 
+NtFreezeTransactions TEXTEQU <__imp_NtFreezeTransactions> 
+extern __imp_NtFsControlFile:qword 
+NtFsControlFile TEXTEQU <__imp_NtFsControlFile> 
+extern __imp_NtGetContextThread:qword 
+NtGetContextThread TEXTEQU <__imp_NtGetContextThread> 
+extern __imp_NtGetCurrentProcessorNumber:qword 
+NtGetCurrentProcessorNumber TEXTEQU <__imp_NtGetCurrentProcessorNumber> 
+extern __imp_NtGetDevicePowerState:qword 
+NtGetDevicePowerState TEXTEQU <__imp_NtGetDevicePowerState> 
+extern __imp_NtGetMUIRegistryInfo:qword 
+NtGetMUIRegistryInfo TEXTEQU <__imp_NtGetMUIRegistryInfo> 
+extern __imp_NtGetNextProcess:qword 
+NtGetNextProcess TEXTEQU <__imp_NtGetNextProcess> 
+extern __imp_NtGetNextThread:qword 
+NtGetNextThread TEXTEQU <__imp_NtGetNextThread> 
+extern __imp_NtGetNlsSectionPtr:qword 
+NtGetNlsSectionPtr TEXTEQU <__imp_NtGetNlsSectionPtr> 
+extern __imp_NtGetNotificationResourceManager:qword 
+NtGetNotificationResourceManager TEXTEQU <__imp_NtGetNotificationResourceManager> 
+extern __imp_NtGetPlugPlayEvent:qword 
+NtGetPlugPlayEvent TEXTEQU <__imp_NtGetPlugPlayEvent> 
+extern __imp_NtGetTickCount:qword 
+NtGetTickCount TEXTEQU <__imp_NtGetTickCount> 
+extern __imp_NtGetWriteWatch:qword 
+NtGetWriteWatch TEXTEQU <__imp_NtGetWriteWatch> 
+extern __imp_NtImpersonateAnonymousToken:qword 
+NtImpersonateAnonymousToken TEXTEQU <__imp_NtImpersonateAnonymousToken> 
+extern __imp_NtImpersonateClientOfPort:qword 
+NtImpersonateClientOfPort TEXTEQU <__imp_NtImpersonateClientOfPort> 
+extern __imp_NtImpersonateThread:qword 
+NtImpersonateThread TEXTEQU <__imp_NtImpersonateThread> 
+extern __imp_NtInitializeNlsFiles:qword 
+NtInitializeNlsFiles TEXTEQU <__imp_NtInitializeNlsFiles> 
+extern __imp_NtInitializeRegistry:qword 
+NtInitializeRegistry TEXTEQU <__imp_NtInitializeRegistry> 
+extern __imp_NtInitiatePowerAction:qword 
+NtInitiatePowerAction TEXTEQU <__imp_NtInitiatePowerAction> 
+extern __imp_NtIsProcessInJob:qword 
+NtIsProcessInJob TEXTEQU <__imp_NtIsProcessInJob> 
+extern __imp_NtIsSystemResumeAutomatic:qword 
+NtIsSystemResumeAutomatic TEXTEQU <__imp_NtIsSystemResumeAutomatic> 
+extern __imp_NtIsUILanguageComitted:qword 
+NtIsUILanguageComitted TEXTEQU <__imp_NtIsUILanguageComitted> 
+extern __imp_NtListenPort:qword 
+NtListenPort TEXTEQU <__imp_NtListenPort> 
+extern __imp_NtLoadDriver:qword 
+NtLoadDriver TEXTEQU <__imp_NtLoadDriver> 
+extern __imp_NtLoadKey:qword 
+NtLoadKey TEXTEQU <__imp_NtLoadKey> 
+extern __imp_NtLoadKey2:qword 
+NtLoadKey2 TEXTEQU <__imp_NtLoadKey2> 
+extern __imp_NtLoadKeyEx:qword 
+NtLoadKeyEx TEXTEQU <__imp_NtLoadKeyEx> 
+extern __imp_NtLockFile:qword 
+NtLockFile TEXTEQU <__imp_NtLockFile> 
+extern __imp_NtLockProductActivationKeys:qword 
+NtLockProductActivationKeys TEXTEQU <__imp_NtLockProductActivationKeys> 
+extern __imp_NtLockRegistryKey:qword 
+NtLockRegistryKey TEXTEQU <__imp_NtLockRegistryKey> 
+extern __imp_NtLockVirtualMemory:qword 
+NtLockVirtualMemory TEXTEQU <__imp_NtLockVirtualMemory> 
+extern __imp_NtMakePermanentObject:qword 
+NtMakePermanentObject TEXTEQU <__imp_NtMakePermanentObject> 
+extern __imp_NtMakeTemporaryObject:qword 
+NtMakeTemporaryObject TEXTEQU <__imp_NtMakeTemporaryObject> 
+extern __imp_NtMapCMFModule:qword 
+NtMapCMFModule TEXTEQU <__imp_NtMapCMFModule> 
+extern __imp_NtMapUserPhysicalPages:qword 
+NtMapUserPhysicalPages TEXTEQU <__imp_NtMapUserPhysicalPages> 
+extern __imp_NtMapUserPhysicalPagesScatter:qword 
+NtMapUserPhysicalPagesScatter TEXTEQU <__imp_NtMapUserPhysicalPagesScatter> 
+extern __imp_NtMapViewOfSection:qword 
+NtMapViewOfSection TEXTEQU <__imp_NtMapViewOfSection> 
+extern __imp_NtModifyBootEntry:qword 
+NtModifyBootEntry TEXTEQU <__imp_NtModifyBootEntry> 
+extern __imp_NtModifyDriverEntry:qword 
+NtModifyDriverEntry TEXTEQU <__imp_NtModifyDriverEntry> 
+extern __imp_NtNotifyChangeDirectoryFile:qword 
+NtNotifyChangeDirectoryFile TEXTEQU <__imp_NtNotifyChangeDirectoryFile> 
+extern __imp_NtNotifyChangeKey:qword 
+NtNotifyChangeKey TEXTEQU <__imp_NtNotifyChangeKey> 
+extern __imp_NtNotifyChangeMultipleKeys:qword 
+NtNotifyChangeMultipleKeys TEXTEQU <__imp_NtNotifyChangeMultipleKeys> 
+extern __imp_NtNotifyChangeSession:qword 
+NtNotifyChangeSession TEXTEQU <__imp_NtNotifyChangeSession> 
+extern __imp_NtOpenDirectoryObject:qword 
+NtOpenDirectoryObject TEXTEQU <__imp_NtOpenDirectoryObject> 
+extern __imp_NtOpenEnlistment:qword 
+NtOpenEnlistment TEXTEQU <__imp_NtOpenEnlistment> 
+extern __imp_NtOpenEvent:qword 
+NtOpenEvent TEXTEQU <__imp_NtOpenEvent> 
+extern __imp_NtOpenEventPair:qword 
+NtOpenEventPair TEXTEQU <__imp_NtOpenEventPair> 
+extern __imp_NtOpenFile:qword 
+NtOpenFile TEXTEQU <__imp_NtOpenFile> 
+extern __imp_NtOpenIoCompletion:qword 
+NtOpenIoCompletion TEXTEQU <__imp_NtOpenIoCompletion> 
+extern __imp_NtOpenJobObject:qword 
+NtOpenJobObject TEXTEQU <__imp_NtOpenJobObject> 
+extern __imp_NtOpenKey:qword 
+NtOpenKey TEXTEQU <__imp_NtOpenKey> 
+extern __imp_NtOpenKeyEx:qword 
+NtOpenKeyEx TEXTEQU <__imp_NtOpenKeyEx> 
+extern __imp_NtOpenKeyTransacted:qword 
+NtOpenKeyTransacted TEXTEQU <__imp_NtOpenKeyTransacted> 
+extern __imp_NtOpenKeyTransactedEx:qword 
+NtOpenKeyTransactedEx TEXTEQU <__imp_NtOpenKeyTransactedEx> 
+extern __imp_NtOpenKeyedEvent:qword 
+NtOpenKeyedEvent TEXTEQU <__imp_NtOpenKeyedEvent> 
+extern __imp_NtOpenMutant:qword 
+NtOpenMutant TEXTEQU <__imp_NtOpenMutant> 
+extern __imp_NtOpenObjectAuditAlarm:qword 
+NtOpenObjectAuditAlarm TEXTEQU <__imp_NtOpenObjectAuditAlarm> 
+extern __imp_NtOpenPrivateNamespace:qword 
+NtOpenPrivateNamespace TEXTEQU <__imp_NtOpenPrivateNamespace> 
+extern __imp_NtOpenProcess:qword 
+NtOpenProcess TEXTEQU <__imp_NtOpenProcess> 
+extern __imp_NtOpenProcessToken:qword 
+NtOpenProcessToken TEXTEQU <__imp_NtOpenProcessToken> 
+extern __imp_NtOpenProcessTokenEx:qword 
+NtOpenProcessTokenEx TEXTEQU <__imp_NtOpenProcessTokenEx> 
+extern __imp_NtOpenResourceManager:qword 
+NtOpenResourceManager TEXTEQU <__imp_NtOpenResourceManager> 
+extern __imp_NtOpenSection:qword 
+NtOpenSection TEXTEQU <__imp_NtOpenSection> 
+extern __imp_NtOpenSemaphore:qword 
+NtOpenSemaphore TEXTEQU <__imp_NtOpenSemaphore> 
+extern __imp_NtOpenSession:qword 
+NtOpenSession TEXTEQU <__imp_NtOpenSession> 
+extern __imp_NtOpenSymbolicLinkObject:qword 
+NtOpenSymbolicLinkObject TEXTEQU <__imp_NtOpenSymbolicLinkObject> 
+extern __imp_NtOpenThread:qword 
+NtOpenThread TEXTEQU <__imp_NtOpenThread> 
+extern __imp_NtOpenThreadToken:qword 
+NtOpenThreadToken TEXTEQU <__imp_NtOpenThreadToken> 
+extern __imp_NtOpenThreadTokenEx:qword 
+NtOpenThreadTokenEx TEXTEQU <__imp_NtOpenThreadTokenEx> 
+extern __imp_NtOpenTimer:qword 
+NtOpenTimer TEXTEQU <__imp_NtOpenTimer> 
+extern __imp_NtOpenTransaction:qword 
+NtOpenTransaction TEXTEQU <__imp_NtOpenTransaction> 
+extern __imp_NtOpenTransactionManager:qword 
+NtOpenTransactionManager TEXTEQU <__imp_NtOpenTransactionManager> 
+extern __imp_NtPlugPlayControl:qword 
+NtPlugPlayControl TEXTEQU <__imp_NtPlugPlayControl> 
+extern __imp_NtPowerInformation:qword 
+NtPowerInformation TEXTEQU <__imp_NtPowerInformation> 
+extern __imp_NtPrePrepareComplete:qword 
+NtPrePrepareComplete TEXTEQU <__imp_NtPrePrepareComplete> 
+extern __imp_NtPrePrepareEnlistment:qword 
+NtPrePrepareEnlistment TEXTEQU <__imp_NtPrePrepareEnlistment> 
+extern __imp_NtPrepareComplete:qword 
+NtPrepareComplete TEXTEQU <__imp_NtPrepareComplete> 
+extern __imp_NtPrepareEnlistment:qword 
+NtPrepareEnlistment TEXTEQU <__imp_NtPrepareEnlistment> 
+extern __imp_NtPrivilegeCheck:qword 
+NtPrivilegeCheck TEXTEQU <__imp_NtPrivilegeCheck> 
+extern __imp_NtPrivilegeObjectAuditAlarm:qword 
+NtPrivilegeObjectAuditAlarm TEXTEQU <__imp_NtPrivilegeObjectAuditAlarm> 
+extern __imp_NtPrivilegedServiceAuditAlarm:qword 
+NtPrivilegedServiceAuditAlarm TEXTEQU <__imp_NtPrivilegedServiceAuditAlarm> 
+extern __imp_NtPropagationComplete:qword 
+NtPropagationComplete TEXTEQU <__imp_NtPropagationComplete> 
+extern __imp_NtPropagationFailed:qword 
+NtPropagationFailed TEXTEQU <__imp_NtPropagationFailed> 
+extern __imp_NtProtectVirtualMemory:qword 
+NtProtectVirtualMemory TEXTEQU <__imp_NtProtectVirtualMemory> 
+extern __imp_NtPulseEvent:qword 
+NtPulseEvent TEXTEQU <__imp_NtPulseEvent> 
+extern __imp_NtQueryAttributesFile:qword 
+NtQueryAttributesFile TEXTEQU <__imp_NtQueryAttributesFile> 
+extern __imp_NtQueryBootEntryOrder:qword 
+NtQueryBootEntryOrder TEXTEQU <__imp_NtQueryBootEntryOrder> 
+extern __imp_NtQueryBootOptions:qword 
+NtQueryBootOptions TEXTEQU <__imp_NtQueryBootOptions> 
+extern __imp_NtQueryDebugFilterState:qword 
+NtQueryDebugFilterState TEXTEQU <__imp_NtQueryDebugFilterState> 
+extern __imp_NtQueryDefaultLocale:qword 
+NtQueryDefaultLocale TEXTEQU <__imp_NtQueryDefaultLocale> 
+extern __imp_NtQueryDefaultUILanguage:qword 
+NtQueryDefaultUILanguage TEXTEQU <__imp_NtQueryDefaultUILanguage> 
+extern __imp_NtQueryDirectoryFile:qword 
+NtQueryDirectoryFile TEXTEQU <__imp_NtQueryDirectoryFile> 
+extern __imp_NtQueryDirectoryObject:qword 
+NtQueryDirectoryObject TEXTEQU <__imp_NtQueryDirectoryObject> 
+extern __imp_NtQueryDriverEntryOrder:qword 
+NtQueryDriverEntryOrder TEXTEQU <__imp_NtQueryDriverEntryOrder> 
+extern __imp_NtQueryEaFile:qword 
+NtQueryEaFile TEXTEQU <__imp_NtQueryEaFile> 
+extern __imp_NtQueryEvent:qword 
+NtQueryEvent TEXTEQU <__imp_NtQueryEvent> 
+extern __imp_NtQueryFullAttributesFile:qword 
+NtQueryFullAttributesFile TEXTEQU <__imp_NtQueryFullAttributesFile> 
+extern __imp_NtQueryInformationAtom:qword 
+NtQueryInformationAtom TEXTEQU <__imp_NtQueryInformationAtom> 
+extern __imp_NtQueryInformationEnlistment:qword 
+NtQueryInformationEnlistment TEXTEQU <__imp_NtQueryInformationEnlistment> 
+extern __imp_NtQueryInformationFile:qword 
+NtQueryInformationFile TEXTEQU <__imp_NtQueryInformationFile> 
+extern __imp_NtQueryInformationJobObject:qword 
+NtQueryInformationJobObject TEXTEQU <__imp_NtQueryInformationJobObject> 
+extern __imp_NtQueryInformationPort:qword 
+NtQueryInformationPort TEXTEQU <__imp_NtQueryInformationPort> 
+extern __imp_NtQueryInformationProcess:qword 
+NtQueryInformationProcess TEXTEQU <__imp_NtQueryInformationProcess> 
+extern __imp_NtQueryInformationResourceManager:qword 
+NtQueryInformationResourceManager TEXTEQU <__imp_NtQueryInformationResourceManager> 
+extern __imp_NtQueryInformationThread:qword 
+NtQueryInformationThread TEXTEQU <__imp_NtQueryInformationThread> 
+extern __imp_NtQueryInformationToken:qword 
+NtQueryInformationToken TEXTEQU <__imp_NtQueryInformationToken> 
+extern __imp_NtQueryInformationTransaction:qword 
+NtQueryInformationTransaction TEXTEQU <__imp_NtQueryInformationTransaction> 
+extern __imp_NtQueryInformationTransactionManager:qword 
+NtQueryInformationTransactionManager TEXTEQU <__imp_NtQueryInformationTransactionManager> 
+extern __imp_NtQueryInformationWorkerFactory:qword 
+NtQueryInformationWorkerFactory TEXTEQU <__imp_NtQueryInformationWorkerFactory> 
+extern __imp_NtQueryInstallUILanguage:qword 
+NtQueryInstallUILanguage TEXTEQU <__imp_NtQueryInstallUILanguage> 
+extern __imp_NtQueryIntervalProfile:qword 
+NtQueryIntervalProfile TEXTEQU <__imp_NtQueryIntervalProfile> 
+extern __imp_NtQueryIoCompletion:qword 
+NtQueryIoCompletion TEXTEQU <__imp_NtQueryIoCompletion> 
+extern __imp_NtQueryKey:qword 
+NtQueryKey TEXTEQU <__imp_NtQueryKey> 
+extern __imp_NtQueryLicenseValue:qword 
+NtQueryLicenseValue TEXTEQU <__imp_NtQueryLicenseValue> 
+extern __imp_NtQueryMultipleValueKey:qword 
+NtQueryMultipleValueKey TEXTEQU <__imp_NtQueryMultipleValueKey> 
+extern __imp_NtQueryMutant:qword 
+NtQueryMutant TEXTEQU <__imp_NtQueryMutant> 
+extern __imp_NtQueryObject:qword 
+NtQueryObject TEXTEQU <__imp_NtQueryObject> 
+extern __imp_NtQueryOpenSubKeys:qword 
+NtQueryOpenSubKeys TEXTEQU <__imp_NtQueryOpenSubKeys> 
+extern __imp_NtQueryOpenSubKeysEx:qword 
+NtQueryOpenSubKeysEx TEXTEQU <__imp_NtQueryOpenSubKeysEx> 
+extern __imp_NtQueryPerformanceCounter:qword 
+NtQueryPerformanceCounter TEXTEQU <__imp_NtQueryPerformanceCounter> 
+extern __imp_NtQueryPortInformationProcess:qword 
+NtQueryPortInformationProcess TEXTEQU <__imp_NtQueryPortInformationProcess> 
+extern __imp_NtQueryQuotaInformationFile:qword 
+NtQueryQuotaInformationFile TEXTEQU <__imp_NtQueryQuotaInformationFile> 
+extern __imp_NtQuerySection:qword 
+NtQuerySection TEXTEQU <__imp_NtQuerySection> 
+extern __imp_NtQuerySecurityAttributesToken:qword 
+NtQuerySecurityAttributesToken TEXTEQU <__imp_NtQuerySecurityAttributesToken> 
+extern __imp_NtQuerySecurityObject:qword 
+NtQuerySecurityObject TEXTEQU <__imp_NtQuerySecurityObject> 
+extern __imp_NtQuerySemaphore:qword 
+NtQuerySemaphore TEXTEQU <__imp_NtQuerySemaphore> 
+extern __imp_NtQuerySymbolicLinkObject:qword 
+NtQuerySymbolicLinkObject TEXTEQU <__imp_NtQuerySymbolicLinkObject> 
+extern __imp_NtQuerySystemEnvironmentValue:qword 
+NtQuerySystemEnvironmentValue TEXTEQU <__imp_NtQuerySystemEnvironmentValue> 
+extern __imp_NtQuerySystemEnvironmentValueEx:qword 
+NtQuerySystemEnvironmentValueEx TEXTEQU <__imp_NtQuerySystemEnvironmentValueEx> 
+extern __imp_NtQuerySystemInformation:qword 
+NtQuerySystemInformation TEXTEQU <__imp_NtQuerySystemInformation> 
+extern __imp_NtQuerySystemInformationEx:qword 
+NtQuerySystemInformationEx TEXTEQU <__imp_NtQuerySystemInformationEx> 
+extern __imp_NtQuerySystemTime:qword 
+NtQuerySystemTime TEXTEQU <__imp_NtQuerySystemTime> 
+extern __imp_NtQueryTimer:qword 
+NtQueryTimer TEXTEQU <__imp_NtQueryTimer> 
+extern __imp_NtQueryTimerResolution:qword 
+NtQueryTimerResolution TEXTEQU <__imp_NtQueryTimerResolution> 
+extern __imp_NtQueryValueKey:qword 
+NtQueryValueKey TEXTEQU <__imp_NtQueryValueKey> 
+extern __imp_NtQueryVirtualMemory:qword 
+NtQueryVirtualMemory TEXTEQU <__imp_NtQueryVirtualMemory> 
+extern __imp_NtQueryVolumeInformationFile:qword 
+NtQueryVolumeInformationFile TEXTEQU <__imp_NtQueryVolumeInformationFile> 
+extern __imp_NtQueueApcThread:qword 
+NtQueueApcThread TEXTEQU <__imp_NtQueueApcThread> 
+extern __imp_NtQueueApcThreadEx:qword 
+NtQueueApcThreadEx TEXTEQU <__imp_NtQueueApcThreadEx> 
+extern __imp_NtRaiseException:qword 
+NtRaiseException TEXTEQU <__imp_NtRaiseException> 
+extern __imp_NtRaiseHardError:qword 
+NtRaiseHardError TEXTEQU <__imp_NtRaiseHardError> 
+extern __imp_NtReadFile:qword 
+NtReadFile TEXTEQU <__imp_NtReadFile> 
+extern __imp_NtReadFileScatter:qword 
+NtReadFileScatter TEXTEQU <__imp_NtReadFileScatter> 
+extern __imp_NtReadOnlyEnlistment:qword 
+NtReadOnlyEnlistment TEXTEQU <__imp_NtReadOnlyEnlistment> 
+extern __imp_NtReadRequestData:qword 
+NtReadRequestDat TEXTEQU <__imp_NtReadRequestData> 
+extern __imp_NtReadVirtualMemory:qword 
+NtReadVirtualMemory TEXTEQU <__imp_NtReadVirtualMemory> 
+extern __imp_NtRecoverEnlistment:qword 
+NtRecoverEnlistment TEXTEQU <__imp_NtRecoverEnlistment> 
+extern __imp_NtRecoverResourceManager:qword 
+NtRecoverResourceManager TEXTEQU <__imp_NtRecoverResourceManager> 
+extern __imp_NtRecoverTransactionManager:qword 
+NtRecoverTransactionManager TEXTEQU <__imp_NtRecoverTransactionManager> 
+extern __imp_NtRegisterProtocolAddressInformation:qword 
+NtRegisterProtocolAddressInformation TEXTEQU <__imp_NtRegisterProtocolAddressInformation> 
+extern __imp_NtRegisterThreadTerminatePort:qword 
+NtRegisterThreadTerminatePort TEXTEQU <__imp_NtRegisterThreadTerminatePort> 
+extern __imp_NtReleaseKeyedEvent:qword 
+NtReleaseKeyedEvent TEXTEQU <__imp_NtReleaseKeyedEvent> 
+extern __imp_NtReleaseMutant:qword 
+NtReleaseMutant TEXTEQU <__imp_NtReleaseMutant> 
+extern __imp_NtReleaseSemaphore:qword 
+NtReleaseSemaphore TEXTEQU <__imp_NtReleaseSemaphore> 
+extern __imp_NtReleaseWorkerFactoryWorker:qword 
+NtReleaseWorkerFactoryWorker TEXTEQU <__imp_NtReleaseWorkerFactoryWorker> 
+extern __imp_NtRemoveIoCompletion:qword 
+NtRemoveIoCompletion TEXTEQU <__imp_NtRemoveIoCompletion> 
+extern __imp_NtRemoveIoCompletionEx:qword 
+NtRemoveIoCompletionEx TEXTEQU <__imp_NtRemoveIoCompletionEx> 
+extern __imp_NtRemoveProcessDebug:qword 
+NtRemoveProcessDebug TEXTEQU <__imp_NtRemoveProcessDebug> 
+extern __imp_NtRenameKey:qword 
+NtRenameKey TEXTEQU <__imp_NtRenameKey> 
+extern __imp_NtRenameTransactionManager:qword 
+NtRenameTransactionManager TEXTEQU <__imp_NtRenameTransactionManager> 
+extern __imp_NtReplaceKey:qword 
+NtReplaceKey TEXTEQU <__imp_NtReplaceKey> 
+extern __imp_NtReplacePartitionUnit:qword 
+NtReplacePartitionUnit TEXTEQU <__imp_NtReplacePartitionUnit> 
+extern __imp_NtReplyPort:qword 
+NtReplyPort TEXTEQU <__imp_NtReplyPort> 
+extern __imp_NtReplyWaitReceivePort:qword 
+NtReplyWaitReceivePort TEXTEQU <__imp_NtReplyWaitReceivePort> 
+extern __imp_NtReplyWaitReceivePortEx:qword 
+NtReplyWaitReceivePortEx TEXTEQU <__imp_NtReplyWaitReceivePortEx> 
+extern __imp_NtReplyWaitReplyPort:qword 
+NtReplyWaitReplyPort TEXTEQU <__imp_NtReplyWaitReplyPort> 
+extern __imp_NtRequestPort:qword 
+NtRequestPort TEXTEQU <__imp_NtRequestPort> 
+extern __imp_NtRequestWaitReplyPort:qword 
+NtRequestWaitReplyPort TEXTEQU <__imp_NtRequestWaitReplyPort> 
+extern __imp_NtResetEvent:qword 
+NtResetEvent TEXTEQU <__imp_NtResetEvent> 
+extern __imp_NtResetWriteWatch:qword 
+NtResetWriteWatch TEXTEQU <__imp_NtResetWriteWatch> 
+extern __imp_NtRestoreKey:qword 
+NtRestoreKey TEXTEQU <__imp_NtRestoreKey> 
+extern __imp_NtResumeProcess:qword 
+NtResumeProcess TEXTEQU <__imp_NtResumeProcess> 
+extern __imp_NtResumeThread:qword 
+NtResumeThread TEXTEQU <__imp_NtResumeThread> 
+extern __imp_NtRollbackComplete:qword 
+NtRollbackComplete TEXTEQU <__imp_NtRollbackComplete> 
+extern __imp_NtRollbackEnlistment:qword 
+NtRollbackEnlistment TEXTEQU <__imp_NtRollbackEnlistment> 
+extern __imp_NtRollbackTransaction:qword 
+NtRollbackTransaction TEXTEQU <__imp_NtRollbackTransaction> 
+extern __imp_NtRollforwardTransactionManager:qword 
+NtRollforwardTransactionManager TEXTEQU <__imp_NtRollforwardTransactionManager> 
+extern __imp_NtSaveKey:qword 
+NtSaveKey TEXTEQU <__imp_NtSaveKey> 
+extern __imp_NtSaveKeyEx:qword 
+NtSaveKeyEx TEXTEQU <__imp_NtSaveKeyEx> 
+extern __imp_NtSaveMergedKeys:qword 
+NtSaveMergedKeys TEXTEQU <__imp_NtSaveMergedKeys> 
+extern __imp_NtSecureConnectPort:qword 
+NtSecureConnectPort TEXTEQU <__imp_NtSecureConnectPort> 
+extern __imp_NtSerializeBoot:qword 
+NtSerializeBoot TEXTEQU <__imp_NtSerializeBoot> 
+extern __imp_NtSetBootEntryOrder:qword 
+NtSetBootEntryOrder TEXTEQU <__imp_NtSetBootEntryOrder> 
+extern __imp_NtSetBootOptions:qword 
+NtSetBootOptions TEXTEQU <__imp_NtSetBootOptions> 
+extern __imp_NtSetContextThread:qword 
+NtSetContextThread TEXTEQU <__imp_NtSetContextThread> 
+extern __imp_NtSetDebugFilterState:qword 
+NtSetDebugFilterState TEXTEQU <__imp_NtSetDebugFilterState> 
+extern __imp_NtSetDefaultHardErrorPort:qword 
+NtSetDefaultHardErrorPort TEXTEQU <__imp_NtSetDefaultHardErrorPort> 
+extern __imp_NtSetDefaultLocale:qword 
+NtSetDefaultLocale TEXTEQU <__imp_NtSetDefaultLocale> 
+extern __imp_NtSetDefaultUILanguage:qword 
+NtSetDefaultUILanguage TEXTEQU <__imp_NtSetDefaultUILanguage> 
+extern __imp_NtSetDriverEntryOrder:qword 
+NtSetDriverEntryOrder TEXTEQU <__imp_NtSetDriverEntryOrder> 
+extern __imp_NtSetEaFile:qword 
+NtSetEaFile TEXTEQU <__imp_NtSetEaFile> 
+extern __imp_NtSetEvent:qword 
+NtSetEvent TEXTEQU <__imp_NtSetEvent> 
+extern __imp_NtSetEventBoostPriority:qword 
+NtSetEventBoostPriority TEXTEQU <__imp_NtSetEventBoostPriority> 
+extern __imp_NtSetHighEventPair:qword 
+NtSetHighEventPair TEXTEQU <__imp_NtSetHighEventPair> 
+extern __imp_NtSetHighWaitLowEventPair:qword 
+NtSetHighWaitLowEventPair TEXTEQU <__imp_NtSetHighWaitLowEventPair> 
+extern __imp_NtSetInformationDebugObject:qword 
+NtSetInformationDebugObject TEXTEQU <__imp_NtSetInformationDebugObject> 
+extern __imp_NtSetInformationEnlistment:qword 
+NtSetInformationEnlistment TEXTEQU <__imp_NtSetInformationEnlistment> 
+extern __imp_NtSetInformationFile:qword 
+NtSetInformationFile TEXTEQU <__imp_NtSetInformationFile> 
+extern __imp_NtSetInformationJobObject:qword 
+NtSetInformationJobObject TEXTEQU <__imp_NtSetInformationJobObject> 
+extern __imp_NtSetInformationKey:qword 
+NtSetInformationKey TEXTEQU <__imp_NtSetInformationKey> 
+extern __imp_NtSetInformationObject:qword 
+NtSetInformationObject TEXTEQU <__imp_NtSetInformationObject> 
+extern __imp_NtSetInformationProcess:qword 
+NtSetInformationProcess TEXTEQU <__imp_NtSetInformationProcess> 
+extern __imp_NtSetInformationResourceManager:qword 
+NtSetInformationResourceManager TEXTEQU <__imp_NtSetInformationResourceManager> 
+extern __imp_NtSetInformationThread:qword 
+NtSetInformationThread TEXTEQU <__imp_NtSetInformationThread> 
+extern __imp_NtSetInformationToken:qword 
+NtSetInformationToken TEXTEQU <__imp_NtSetInformationToken> 
+extern __imp_NtSetInformationTransaction:qword 
+NtSetInformationTransaction TEXTEQU <__imp_NtSetInformationTransaction> 
+extern __imp_NtSetInformationTransactionManager:qword 
+NtSetInformationTransactionManager TEXTEQU <__imp_NtSetInformationTransactionManager> 
+extern __imp_NtSetInformationWorkerFactory:qword 
+NtSetInformationWorkerFactory TEXTEQU <__imp_NtSetInformationWorkerFactory> 
+extern __imp_NtSetIntervalProfile:qword 
+NtSetIntervalProfile TEXTEQU <__imp_NtSetIntervalProfile> 
+extern __imp_NtSetIoCompletion:qword 
+NtSetIoCompletion TEXTEQU <__imp_NtSetIoCompletion> 
+extern __imp_NtSetIoCompletionEx:qword 
+NtSetIoCompletionEx TEXTEQU <__imp_NtSetIoCompletionEx> 
+extern __imp_NtSetLdtEntries:qword 
+NtSetLdtEntries TEXTEQU <__imp_NtSetLdtEntries> 
+extern __imp_NtSetLowEventPair:qword 
+NtSetLowEventPair TEXTEQU <__imp_NtSetLowEventPair> 
+extern __imp_NtSetLowWaitHighEventPair:qword 
+NtSetLowWaitHighEventPair TEXTEQU <__imp_NtSetLowWaitHighEventPair> 
+extern __imp_NtSetQuotaInformationFile:qword 
+NtSetQuotaInformationFile TEXTEQU <__imp_NtSetQuotaInformationFile> 
+extern __imp_NtSetSecurityObject:qword 
+NtSetSecurityObject TEXTEQU <__imp_NtSetSecurityObject> 
+extern __imp_NtSetSystemEnvironmentValue:qword 
+NtSetSystemEnvironmentValue TEXTEQU <__imp_NtSetSystemEnvironmentValue> 
+extern __imp_NtSetSystemEnvironmentValueEx:qword 
+NtSetSystemEnvironmentValueEx TEXTEQU <__imp_NtSetSystemEnvironmentValueEx> 
+extern __imp_NtSetSystemInformation:qword 
+NtSetSystemInformation TEXTEQU <__imp_NtSetSystemInformation> 
+extern __imp_NtSetSystemPowerState:qword 
+NtSetSystemPowerState TEXTEQU <__imp_NtSetSystemPowerState> 
+extern __imp_NtSetSystemTime:qword 
+NtSetSystemTime TEXTEQU <__imp_NtSetSystemTime> 
+extern __imp_NtSetThreadExecutionState:qword 
+NtSetThreadExecutionState TEXTEQU <__imp_NtSetThreadExecutionState> 
+extern __imp_NtSetTimer:qword 
+NtSetTimer TEXTEQU <__imp_NtSetTimer> 
+extern __imp_NtSetTimerEx:qword 
+NtSetTimerEx TEXTEQU <__imp_NtSetTimerEx> 
+extern __imp_NtSetTimerResolution:qword 
+NtSetTimerResolution TEXTEQU <__imp_NtSetTimerResolution> 
+extern __imp_NtSetUuidSeed:qword 
+NtSetUuidSeed TEXTEQU <__imp_NtSetUuidSeed> 
+extern __imp_NtSetValueKey:qword 
+NtSetValueKey TEXTEQU <__imp_NtSetValueKey> 
+extern __imp_NtSetVolumeInformationFile:qword 
+NtSetVolumeInformationFile TEXTEQU <__imp_NtSetVolumeInformationFile> 
+extern __imp_NtShutdownSystem:qword 
+NtShutdownSystem TEXTEQU <__imp_NtShutdownSystem> 
+extern __imp_NtShutdownWorkerFactory:qword 
+NtShutdownWorkerFactory TEXTEQU <__imp_NtShutdownWorkerFactory> 
+extern __imp_NtSignalAndWaitForSingleObject:qword 
+NtSignalAndWaitForSingleObject TEXTEQU <__imp_NtSignalAndWaitForSingleObject> 
+extern __imp_NtSinglePhaseReject:qword 
+NtSinglePhaseReject TEXTEQU <__imp_NtSinglePhaseReject> 
+extern __imp_NtStartProfile:qword 
+NtStartProfile TEXTEQU <__imp_NtStartProfile> 
+extern __imp_NtStopProfile:qword 
+NtStopProfile TEXTEQU <__imp_NtStopProfile> 
+extern __imp_NtSuspendProcess:qword 
+NtSuspendProcess TEXTEQU <__imp_NtSuspendProcess> 
+extern __imp_NtSuspendThread:qword 
+NtSuspendThread TEXTEQU <__imp_NtSuspendThread> 
+extern __imp_NtSystemDebugControl:qword 
+NtSystemDebugControl TEXTEQU <__imp_NtSystemDebugControl> 
+extern __imp_NtTerminateJobObject:qword 
+NtTerminateJobObject TEXTEQU <__imp_NtTerminateJobObject> 
+extern __imp_NtTerminateProcess:qword 
+NtTerminateProcess TEXTEQU <__imp_NtTerminateProcess> 
+extern __imp_NtTerminateThread:qword 
+NtTerminateThread TEXTEQU <__imp_NtTerminateThread> 
+extern __imp_NtTestAlert:qword 
+NtTestAlert TEXTEQU <__imp_NtTestAlert> 
+extern __imp_NtThawRegistry:qword 
+NtThawRegistry TEXTEQU <__imp_NtThawRegistry> 
+extern __imp_NtThawTransactions:qword 
+NtThawTransactions TEXTEQU <__imp_NtThawTransactions> 
+extern __imp_NtTraceControl:qword 
+NtTraceControl TEXTEQU <__imp_NtTraceControl> 
+extern __imp_NtTraceEvent:qword 
+NtTraceEvent TEXTEQU <__imp_NtTraceEvent> 
+extern __imp_NtTranslateFilePath:qword 
+NtTranslateFilePath TEXTEQU <__imp_NtTranslateFilePath> 
+extern __imp_NtUmsThreadYield:qword 
+NtUmsThreadYield TEXTEQU <__imp_NtUmsThreadYield> 
+extern __imp_NtUnloadDriver:qword 
+NtUnloadDriver TEXTEQU <__imp_NtUnloadDriver> 
+extern __imp_NtUnloadKey:qword 
+NtUnloadKey TEXTEQU <__imp_NtUnloadKey> 
+extern __imp_NtUnloadKey2:qword 
+NtUnloadKey2 TEXTEQU <__imp_NtUnloadKey2> 
+extern __imp_NtUnloadKeyEx:qword 
+NtUnloadKeyEx TEXTEQU <__imp_NtUnloadKeyEx> 
+extern __imp_NtUnlockFile:qword 
+NtUnlockFile TEXTEQU <__imp_NtUnlockFile> 
+extern __imp_NtUnlockVirtualMemory:qword 
+NtUnlockVirtualMemory TEXTEQU <__imp_NtUnlockVirtualMemory> 
+extern __imp_NtUnmapViewOfSection:qword 
+NtUnmapViewOfSection TEXTEQU <__imp_NtUnmapViewOfSection> 
+extern __imp_NtVdmControl:qword 
+NtVdmControl TEXTEQU <__imp_NtVdmControl> 
+extern __imp_NtWaitForDebugEvent:qword 
+NtWaitForDebugEvent TEXTEQU <__imp_NtWaitForDebugEvent> 
+extern __imp_NtWaitForKeyedEvent:qword 
+NtWaitForKeyedEvent TEXTEQU <__imp_NtWaitForKeyedEvent> 
+extern __imp_NtWaitForMultipleObjects:qword 
+NtWaitForMultipleObjects TEXTEQU <__imp_NtWaitForMultipleObjects> 
+extern __imp_NtWaitForMultipleObjects32:qword 
+NtWaitForMultipleObjects32 TEXTEQU <__imp_NtWaitForMultipleObjects32> 
+extern __imp_NtWaitForSingleObject:qword 
+NtWaitForSingleObject TEXTEQU <__imp_NtWaitForSingleObject> 
+extern __imp_NtWaitForWorkViaWorkerFactory:qword 
+NtWaitForWorkViaWorkerFactory TEXTEQU <__imp_NtWaitForWorkViaWorkerFactory> 
+extern __imp_NtWaitHighEventPair:qword 
+NtWaitHighEventPair TEXTEQU <__imp_NtWaitHighEventPair> 
+extern __imp_NtWaitLowEventPair:qword 
+NtWaitLowEventPair TEXTEQU <__imp_NtWaitLowEventPair> 
+extern __imp_NtWorkerFactoryWorkerReady:qword 
+NtWorkerFactoryWorkerReady TEXTEQU <__imp_NtWorkerFactoryWorkerReady> 
+extern __imp_NtWriteFile:qword 
+NtWriteFile TEXTEQU <__imp_NtWriteFile> 
+extern __imp_NtWriteFileGather:qword 
+NtWriteFileGather TEXTEQU <__imp_NtWriteFileGather> 
+extern __imp_NtWriteRequestData:qword 
+NtWriteRequestDat TEXTEQU <__imp_NtWriteRequestData> 
+extern __imp_NtWriteVirtualMemory:qword 
+NtWriteVirtualMemory TEXTEQU <__imp_NtWriteVirtualMemory> 
+extern __imp_NtYieldExecution:qword 
+NtYieldExecution TEXTEQU <__imp_NtYieldExecution> 
+extern __imp_NtdllDefWindowProc_A:qword 
+NtdllDefWindowProc_ TEXTEQU <__imp_NtdllDefWindowProc_A> 
+extern __imp_NtdllDefWindowProc_W:qword 
+NtdllDefWindowProc_W TEXTEQU <__imp_NtdllDefWindowProc_W> 
+extern __imp_NtdllDialogWndProc_A:qword 
+NtdllDialogWndProc_ TEXTEQU <__imp_NtdllDialogWndProc_A> 
+extern __imp_NtdllDialogWndProc_W:qword 
+NtdllDialogWndProc_W TEXTEQU <__imp_NtdllDialogWndProc_W> 
+extern __imp_PfxFindPrefix:qword 
+PfxFindPrefix TEXTEQU <__imp_PfxFindPrefix> 
+extern __imp_PfxInitialize:qword 
+PfxInitialize TEXTEQU <__imp_PfxInitialize> 
+extern __imp_PfxInsertPrefix:qword 
+PfxInsertPrefix TEXTEQU <__imp_PfxInsertPrefix> 
+extern __imp_PfxRemovePrefix:qword 
+PfxRemovePrefix TEXTEQU <__imp_PfxRemovePrefix> 
+extern __imp_RtlAbortRXact:qword 
+RtlAbortRXact TEXTEQU <__imp_RtlAbortRXact> 
+extern __imp_RtlAbsoluteToSelfRelativeSD:qword 
+RtlAbsoluteToSelfRelativeSD TEXTEQU <__imp_RtlAbsoluteToSelfRelativeSD> 
+extern __imp_RtlAcquirePebLock:qword 
+RtlAcquirePebLock TEXTEQU <__imp_RtlAcquirePebLock> 
+extern __imp_RtlAcquirePrivilege:qword 
+RtlAcquirePrivilege TEXTEQU <__imp_RtlAcquirePrivilege> 
+extern __imp_RtlAcquireReleaseSRWLockExclusive:qword 
+RtlAcquireReleaseSRWLockExclusive TEXTEQU <__imp_RtlAcquireReleaseSRWLockExclusive> 
+extern __imp_RtlAcquireResourceExclusive:qword 
+RtlAcquireResourceExclusive TEXTEQU <__imp_RtlAcquireResourceExclusive> 
+extern __imp_RtlAcquireResourceShared:qword 
+RtlAcquireResourceShared TEXTEQU <__imp_RtlAcquireResourceShared> 
+extern __imp_RtlAcquireSRWLockExclusive:qword 
+RtlAcquireSRWLockExclusive TEXTEQU <__imp_RtlAcquireSRWLockExclusive> 
+extern __imp_RtlAcquireSRWLockShared:qword 
+RtlAcquireSRWLockShared TEXTEQU <__imp_RtlAcquireSRWLockShared> 
+extern __imp_RtlActivateActivationContext:qword 
+RtlActivateActivationContext TEXTEQU <__imp_RtlActivateActivationContext> 
+extern __imp_RtlActivateActivationContextEx:qword 
+RtlActivateActivationContextEx TEXTEQU <__imp_RtlActivateActivationContextEx> 
+extern __imp_RtlActivateActivationContextUnsafeFast:qword 
+RtlActivateActivationContextUnsafeFast TEXTEQU <__imp_RtlActivateActivationContextUnsafeFast> 
+extern __imp_RtlAddAccessAllowedAce:qword 
+RtlAddAccessAllowedAce TEXTEQU <__imp_RtlAddAccessAllowedAce> 
+extern __imp_RtlAddAccessAllowedAceEx:qword 
+RtlAddAccessAllowedAceEx TEXTEQU <__imp_RtlAddAccessAllowedAceEx> 
+extern __imp_RtlAddAccessAllowedObjectAce:qword 
+RtlAddAccessAllowedObjectAce TEXTEQU <__imp_RtlAddAccessAllowedObjectAce> 
+extern __imp_RtlAddAccessDeniedAce:qword 
+RtlAddAccessDeniedAce TEXTEQU <__imp_RtlAddAccessDeniedAce> 
+extern __imp_RtlAddAccessDeniedAceEx:qword 
+RtlAddAccessDeniedAceEx TEXTEQU <__imp_RtlAddAccessDeniedAceEx> 
+extern __imp_RtlAddAccessDeniedObjectAce:qword 
+RtlAddAccessDeniedObjectAce TEXTEQU <__imp_RtlAddAccessDeniedObjectAce> 
+extern __imp_RtlAddAce:qword 
+RtlAddAce TEXTEQU <__imp_RtlAddAce> 
+extern __imp_RtlAddActionToRXact:qword 
+RtlAddActionToRXact TEXTEQU <__imp_RtlAddActionToRXact> 
+extern __imp_RtlAddAtomToAtomTable:qword 
+RtlAddAtomToAtomTable TEXTEQU <__imp_RtlAddAtomToAtomTable> 
+extern __imp_RtlAddAttributeActionToRXact:qword 
+RtlAddAttributeActionToRXact TEXTEQU <__imp_RtlAddAttributeActionToRXact> 
+extern __imp_RtlAddAuditAccessAce:qword 
+RtlAddAuditAccessAce TEXTEQU <__imp_RtlAddAuditAccessAce> 
+extern __imp_RtlAddAuditAccessAceEx:qword 
+RtlAddAuditAccessAceEx TEXTEQU <__imp_RtlAddAuditAccessAceEx> 
+extern __imp_RtlAddAuditAccessObjectAce:qword 
+RtlAddAuditAccessObjectAce TEXTEQU <__imp_RtlAddAuditAccessObjectAce> 
+extern __imp_RtlAddCompoundAce:qword 
+RtlAddCompoundAce TEXTEQU <__imp_RtlAddCompoundAce> 
+extern __imp_RtlAddFunctionTable:qword 
+RtlAddFunctionTable TEXTEQU <__imp_RtlAddFunctionTable> 
+extern __imp_RtlAddIntegrityLabelToBoundaryDescriptor:qword 
+RtlAddIntegrityLabelToBoundaryDescriptor TEXTEQU <__imp_RtlAddIntegrityLabelToBoundaryDescriptor> 
+extern __imp_RtlAddMandatoryAce:qword 
+RtlAddMandatoryAce TEXTEQU <__imp_RtlAddMandatoryAce> 
+extern __imp_RtlAddRefActivationContext:qword 
+RtlAddRefActivationContext TEXTEQU <__imp_RtlAddRefActivationContext> 
+extern __imp_RtlAddRefMemoryStream:qword 
+RtlAddRefMemoryStream TEXTEQU <__imp_RtlAddRefMemoryStream> 
+extern __imp_RtlAddSIDToBoundaryDescriptor:qword 
+RtlAddSIDToBoundaryDescriptor TEXTEQU <__imp_RtlAddSIDToBoundaryDescriptor> 
+extern __imp_RtlAddVectoredContinueHandler:qword 
+RtlAddVectoredContinueHandler TEXTEQU <__imp_RtlAddVectoredContinueHandler> 
+extern __imp_RtlAddVectoredExceptionHandler:qword 
+RtlAddVectoredExceptionHandler TEXTEQU <__imp_RtlAddVectoredExceptionHandler> 
+extern __imp_RtlAddressInSectionTable:qword 
+RtlAddressInSectionTable TEXTEQU <__imp_RtlAddressInSectionTable> 
+extern __imp_RtlAdjustPrivilege:qword 
+RtlAdjustPrivilege TEXTEQU <__imp_RtlAdjustPrivilege> 
+extern __imp_RtlAllocateActivationContextStack:qword 
+RtlAllocateActivationContextStack TEXTEQU <__imp_RtlAllocateActivationContextStack> 
+extern __imp_RtlAllocateAndInitializeSid:qword 
+RtlAllocateAndInitializeSid TEXTEQU <__imp_RtlAllocateAndInitializeSid> 
+extern __imp_RtlAllocateHandle:qword 
+RtlAllocateHandle TEXTEQU <__imp_RtlAllocateHandle> 
+extern __imp_RtlAllocateHeap:qword 
+RtlAllocateHeap TEXTEQU <__imp_RtlAllocateHeap> 
+extern __imp_RtlAllocateMemoryBlockLookaside:qword 
+RtlAllocateMemoryBlockLookaside TEXTEQU <__imp_RtlAllocateMemoryBlockLookaside> 
+extern __imp_RtlAllocateMemoryZone:qword 
+RtlAllocateMemoryZone TEXTEQU <__imp_RtlAllocateMemoryZone> 
+extern __imp_RtlAnsiCharToUnicodeChar:qword 
+RtlAnsiCharToUnicodeChar TEXTEQU <__imp_RtlAnsiCharToUnicodeChar> 
+extern __imp_RtlAnsiStringToUnicodeSize:qword 
+RtlAnsiStringToUnicodeSize TEXTEQU <__imp_RtlAnsiStringToUnicodeSize> 
+extern __imp_RtlAnsiStringToUnicodeString:qword 
+RtlAnsiStringToUnicodeString TEXTEQU <__imp_RtlAnsiStringToUnicodeString> 
+extern __imp_RtlAppendAsciizToString:qword 
+RtlAppendAsciizToString TEXTEQU <__imp_RtlAppendAsciizToString> 
+extern __imp_RtlAppendPathElement:qword 
+RtlAppendPathElement TEXTEQU <__imp_RtlAppendPathElement> 
+extern __imp_RtlAppendStringToString:qword 
+RtlAppendStringToString TEXTEQU <__imp_RtlAppendStringToString> 
+extern __imp_RtlAppendUnicodeStringToString:qword 
+RtlAppendUnicodeStringToString TEXTEQU <__imp_RtlAppendUnicodeStringToString> 
+extern __imp_RtlAppendUnicodeToString:qword 
+RtlAppendUnicodeToString TEXTEQU <__imp_RtlAppendUnicodeToString> 
+extern __imp_RtlApplicationVerifierStop:qword 
+RtlApplicationVerifierStop TEXTEQU <__imp_RtlApplicationVerifierStop> 
+extern __imp_RtlApplyRXact:qword 
+RtlApplyRXact TEXTEQU <__imp_RtlApplyRXact> 
+extern __imp_RtlApplyRXactNoFlush:qword 
+RtlApplyRXactNoFlush TEXTEQU <__imp_RtlApplyRXactNoFlush> 
+extern __imp_RtlAreAllAccessesGranted:qword 
+RtlAreAllAccessesGranted TEXTEQU <__imp_RtlAreAllAccessesGranted> 
+extern __imp_RtlAreAnyAccessesGranted:qword 
+RtlAreAnyAccessesGranted TEXTEQU <__imp_RtlAreAnyAccessesGranted> 
+extern __imp_RtlAreBitsClear:qword 
+RtlAreBitsClear TEXTEQU <__imp_RtlAreBitsClear> 
+extern __imp_RtlAreBitsSet:qword 
+RtlAreBitsSet TEXTEQU <__imp_RtlAreBitsSet> 
+extern __imp_RtlAssert:qword 
+RtlAssert TEXTEQU <__imp_RtlAssert> 
+extern __imp_RtlBarrier:qword 
+RtlBarrier TEXTEQU <__imp_RtlBarrier> 
+extern __imp_RtlBarrierForDelete:qword 
+RtlBarrierForDelete TEXTEQU <__imp_RtlBarrierForDelete> 
+extern __imp_RtlCancelTimer:qword 
+RtlCancelTimer TEXTEQU <__imp_RtlCancelTimer> 
+extern __imp_RtlCaptureContext:qword 
+RtlCaptureContext TEXTEQU <__imp_RtlCaptureContext> 
+extern __imp_RtlCaptureStackBackTrace:qword 
+RtlCaptureStackBackTrace TEXTEQU <__imp_RtlCaptureStackBackTrace> 
+extern __imp_RtlCharToInteger:qword 
+RtlCharToInteger TEXTEQU <__imp_RtlCharToInteger> 
+extern __imp_RtlCheckForOrphanedCriticalSections:qword 
+RtlCheckForOrphanedCriticalSections TEXTEQU <__imp_RtlCheckForOrphanedCriticalSections> 
+extern __imp_RtlCheckRegistryKey:qword 
+RtlCheckRegistryKey TEXTEQU <__imp_RtlCheckRegistryKey> 
+extern __imp_RtlCleanUpTEBLangLists:qword 
+RtlCleanUpTEBLangLists TEXTEQU <__imp_RtlCleanUpTEBLangLists> 
+extern __imp_RtlClearAllBits:qword 
+RtlClearAllBits TEXTEQU <__imp_RtlClearAllBits> 
+extern __imp_RtlClearBits:qword 
+RtlClearBits TEXTEQU <__imp_RtlClearBits> 
+extern __imp_RtlCloneMemoryStream:qword 
+RtlCloneMemoryStream TEXTEQU <__imp_RtlCloneMemoryStream> 
+extern __imp_RtlCloneUserProcess:qword 
+RtlCloneUserProcess TEXTEQU <__imp_RtlCloneUserProcess> 
+extern __imp_RtlCmDecodeMemIoResource:qword 
+RtlCmDecodeMemIoResource TEXTEQU <__imp_RtlCmDecodeMemIoResource> 
+extern __imp_RtlCmEncodeMemIoResource:qword 
+RtlCmEncodeMemIoResource TEXTEQU <__imp_RtlCmEncodeMemIoResource> 
+extern __imp_RtlCommitDebugInfo:qword 
+RtlCommitDebugInfo TEXTEQU <__imp_RtlCommitDebugInfo> 
+extern __imp_RtlCommitMemoryStream:qword 
+RtlCommitMemoryStream TEXTEQU <__imp_RtlCommitMemoryStream> 
+extern __imp_RtlCompactHeap:qword 
+RtlCompactHeap TEXTEQU <__imp_RtlCompactHeap> 
+extern __imp_RtlCompareAltitudes:qword 
+RtlCompareAltitudes TEXTEQU <__imp_RtlCompareAltitudes> 
+extern __imp_RtlCompareMemory:qword 
+RtlCompareMemory TEXTEQU <__imp_RtlCompareMemory> 
+extern __imp_RtlCompareMemoryUlong:qword 
+RtlCompareMemoryUlong TEXTEQU <__imp_RtlCompareMemoryUlong> 
+extern __imp_RtlCompareString:qword 
+RtlCompareString TEXTEQU <__imp_RtlCompareString> 
+extern __imp_RtlCompareUnicodeString:qword 
+RtlCompareUnicodeString TEXTEQU <__imp_RtlCompareUnicodeString> 
+extern __imp_RtlCompareUnicodeStrings:qword 
+RtlCompareUnicodeStrings TEXTEQU <__imp_RtlCompareUnicodeStrings> 
+extern __imp_RtlCompleteProcessCloning:qword 
+RtlCompleteProcessCloning TEXTEQU <__imp_RtlCompleteProcessCloning> 
+extern __imp_RtlCompressBuffer:qword 
+RtlCompressBuffer TEXTEQU <__imp_RtlCompressBuffer> 
+extern __imp_RtlComputeCrc32:qword 
+RtlComputeCrc32 TEXTEQU <__imp_RtlComputeCrc32> 
+extern __imp_RtlComputeImportTableHash:qword 
+RtlComputeImportTableHash TEXTEQU <__imp_RtlComputeImportTableHash> 
+extern __imp_RtlComputePrivatizedDllName_U:qword 
+RtlComputePrivatizedDllName_U TEXTEQU <__imp_RtlComputePrivatizedDllName_U> 
+extern __imp_RtlConnectToSm:qword 
+RtlConnectToSm TEXTEQU <__imp_RtlConnectToSm> 
+extern __imp_RtlConsoleMultiByteToUnicodeN:qword 
+RtlConsoleMultiByteToUnicodeN TEXTEQU <__imp_RtlConsoleMultiByteToUnicodeN> 
+extern __imp_RtlContractHashTable:qword 
+RtlContractHashTable TEXTEQU <__imp_RtlContractHashTable> 
+extern __imp_RtlConvertExclusiveToShared:qword 
+RtlConvertExclusiveToShared TEXTEQU <__imp_RtlConvertExclusiveToShared> 
+extern __imp_RtlConvertLCIDToString:qword 
+RtlConvertLCIDToString TEXTEQU <__imp_RtlConvertLCIDToString> 
+extern __imp_RtlConvertSharedToExclusive:qword 
+RtlConvertSharedToExclusive TEXTEQU <__imp_RtlConvertSharedToExclusive> 
+extern __imp_RtlConvertSidToUnicodeString:qword 
+RtlConvertSidToUnicodeString TEXTEQU <__imp_RtlConvertSidToUnicodeString> 
+extern __imp_RtlConvertToAutoInheritSecurityObject:qword 
+RtlConvertToAutoInheritSecurityObject TEXTEQU <__imp_RtlConvertToAutoInheritSecurityObject> 
+extern __imp_RtlConvertUiListToApiList:qword 
+RtlConvertUiListToApiList TEXTEQU <__imp_RtlConvertUiListToApiList> 
+extern __imp_RtlCopyContext:qword 
+RtlCopyContext TEXTEQU <__imp_RtlCopyContext> 
+extern __imp_RtlCopyExtendedContext:qword 
+RtlCopyExtendedContext TEXTEQU <__imp_RtlCopyExtendedContext> 
+extern __imp_RtlCopyLuid:qword 
+RtlCopyLuid TEXTEQU <__imp_RtlCopyLuid> 
+extern __imp_RtlCopyLuidAndAttributesArray:qword 
+RtlCopyLuidAndAttributesArray TEXTEQU <__imp_RtlCopyLuidAndAttributesArray> 
+extern __imp_RtlCopyMappedMemory:qword 
+RtlCopyMappedMemory TEXTEQU <__imp_RtlCopyMappedMemory> 
+extern __imp_RtlCopyMemory:qword 
+RtlCopyMemory TEXTEQU <__imp_RtlCopyMemory> 
+extern __imp_RtlCopyMemoryNonTemporal:qword 
+RtlCopyMemoryNonTemporal TEXTEQU <__imp_RtlCopyMemoryNonTemporal> 
+extern __imp_RtlCopyMemoryStreamTo:qword 
+RtlCopyMemoryStreamTo TEXTEQU <__imp_RtlCopyMemoryStreamTo> 
+extern __imp_RtlCopyOutOfProcessMemoryStreamTo:qword 
+RtlCopyOutOfProcessMemoryStreamTo TEXTEQU <__imp_RtlCopyOutOfProcessMemoryStreamTo> 
+extern __imp_RtlCopySecurityDescriptor:qword 
+RtlCopySecurityDescriptor TEXTEQU <__imp_RtlCopySecurityDescriptor> 
+extern __imp_RtlCopySid:qword 
+RtlCopySid TEXTEQU <__imp_RtlCopySid> 
+extern __imp_RtlCopySidAndAttributesArray:qword 
+RtlCopySidAndAttributesArray TEXTEQU <__imp_RtlCopySidAndAttributesArray> 
+extern __imp_RtlCopyString:qword 
+RtlCopyString TEXTEQU <__imp_RtlCopyString> 
+extern __imp_RtlCopyUnicodeString:qword 
+RtlCopyUnicodeString TEXTEQU <__imp_RtlCopyUnicodeString> 
+extern __imp_RtlCreateAcl:qword 
+RtlCreateAcl TEXTEQU <__imp_RtlCreateAcl> 
+extern __imp_RtlCreateActivationContext:qword 
+RtlCreateActivationContext TEXTEQU <__imp_RtlCreateActivationContext> 
+extern __imp_RtlCreateAndSetSD:qword 
+RtlCreateAndSetSD TEXTEQU <__imp_RtlCreateAndSetSD> 
+extern __imp_RtlCreateAtomTable:qword 
+RtlCreateAtomTable TEXTEQU <__imp_RtlCreateAtomTable> 
+extern __imp_RtlCreateBootStatusDataFile:qword 
+RtlCreateBootStatusDataFile TEXTEQU <__imp_RtlCreateBootStatusDataFile> 
+extern __imp_RtlCreateBoundaryDescriptor:qword 
+RtlCreateBoundaryDescriptor TEXTEQU <__imp_RtlCreateBoundaryDescriptor> 
+extern __imp_RtlCreateEnvironment:qword 
+RtlCreateEnvironment TEXTEQU <__imp_RtlCreateEnvironment> 
+extern __imp_RtlCreateEnvironmentEx:qword 
+RtlCreateEnvironmentEx TEXTEQU <__imp_RtlCreateEnvironmentEx> 
+extern __imp_RtlCreateHashTable:qword 
+RtlCreateHashTable TEXTEQU <__imp_RtlCreateHashTable> 
+extern __imp_RtlCreateHeap:qword 
+RtlCreateHeap TEXTEQU <__imp_RtlCreateHeap> 
+extern __imp_RtlCreateMemoryBlockLookaside:qword 
+RtlCreateMemoryBlockLookaside TEXTEQU <__imp_RtlCreateMemoryBlockLookaside> 
+extern __imp_RtlCreateMemoryZone:qword 
+RtlCreateMemoryZone TEXTEQU <__imp_RtlCreateMemoryZone> 
+extern __imp_RtlCreateProcessParameters:qword 
+RtlCreateProcessParameters TEXTEQU <__imp_RtlCreateProcessParameters> 
+extern __imp_RtlCreateProcessParametersEx:qword 
+RtlCreateProcessParametersEx TEXTEQU <__imp_RtlCreateProcessParametersEx> 
+extern __imp_RtlCreateProcessReflection:qword 
+RtlCreateProcessReflection TEXTEQU <__imp_RtlCreateProcessReflection> 
+extern __imp_RtlCreateQueryDebugBuffer:qword 
+RtlCreateQueryDebugBuffer TEXTEQU <__imp_RtlCreateQueryDebugBuffer> 
+extern __imp_RtlCreateRegistryKey:qword 
+RtlCreateRegistryKey TEXTEQU <__imp_RtlCreateRegistryKey> 
+extern __imp_RtlCreateSecurityDescriptor:qword 
+RtlCreateSecurityDescriptor TEXTEQU <__imp_RtlCreateSecurityDescriptor> 
+extern __imp_RtlCreateServiceSid:qword 
+RtlCreateServiceSid TEXTEQU <__imp_RtlCreateServiceSid> 
+extern __imp_RtlCreateSystemVolumeInformationFolder:qword 
+RtlCreateSystemVolumeInformationFolder TEXTEQU <__imp_RtlCreateSystemVolumeInformationFolder> 
+extern __imp_RtlCreateTagHeap:qword 
+RtlCreateTagHeap TEXTEQU <__imp_RtlCreateTagHeap> 
+extern __imp_RtlCreateTimer:qword 
+RtlCreateTimer TEXTEQU <__imp_RtlCreateTimer> 
+extern __imp_RtlCreateTimerQueue:qword 
+RtlCreateTimerQueue TEXTEQU <__imp_RtlCreateTimerQueue> 
+extern __imp_RtlCreateUmsCompletionList:qword 
+RtlCreateUmsCompletionList TEXTEQU <__imp_RtlCreateUmsCompletionList> 
+extern __imp_RtlCreateUmsThread:qword 
+RtlCreateUmsThread TEXTEQU <__imp_RtlCreateUmsThread> 
+extern __imp_RtlCreateUmsThreadContext:qword 
+RtlCreateUmsThreadContext TEXTEQU <__imp_RtlCreateUmsThreadContext> 
+extern __imp_RtlCreateUnicodeString:qword 
+RtlCreateUnicodeString TEXTEQU <__imp_RtlCreateUnicodeString> 
+extern __imp_RtlCreateUnicodeStringFromAsciiz:qword 
+RtlCreateUnicodeStringFromAsciiz TEXTEQU <__imp_RtlCreateUnicodeStringFromAsciiz> 
+extern __imp_RtlCreateUserProcess:qword 
+RtlCreateUserProcess TEXTEQU <__imp_RtlCreateUserProcess> 
+extern __imp_RtlCreateUserSecurityObject:qword 
+RtlCreateUserSecurityObject TEXTEQU <__imp_RtlCreateUserSecurityObject> 
+extern __imp_RtlCreateUserStack:qword 
+RtlCreateUserStack TEXTEQU <__imp_RtlCreateUserStack> 
+extern __imp_RtlCreateUserThread:qword 
+RtlCreateUserThread TEXTEQU <__imp_RtlCreateUserThread> 
+extern __imp_RtlCreateVirtualAccountSid:qword 
+RtlCreateVirtualAccountSid TEXTEQU <__imp_RtlCreateVirtualAccountSid> 
+extern __imp_RtlCultureNameToLCID:qword 
+RtlCultureNameToLCID TEXTEQU <__imp_RtlCultureNameToLCID> 
+extern __imp_RtlCustomCPToUnicodeN:qword 
+RtlCustomCPToUnicodeN TEXTEQU <__imp_RtlCustomCPToUnicodeN> 
+extern __imp_RtlCutoverTimeToSystemTime:qword 
+RtlCutoverTimeToSystemTime TEXTEQU <__imp_RtlCutoverTimeToSystemTime> 
+extern __imp_RtlDeCommitDebugInfo:qword 
+RtlDeCommitDebugInfo TEXTEQU <__imp_RtlDeCommitDebugInfo> 
+extern __imp_RtlDeNormalizeProcessParams:qword 
+RtlDeNormalizeProcessParams TEXTEQU <__imp_RtlDeNormalizeProcessParams> 
+extern __imp_RtlDeactivateActivationContext:qword 
+RtlDeactivateActivationContext TEXTEQU <__imp_RtlDeactivateActivationContext> 
+extern __imp_RtlDeactivateActivationContextUnsafeFast:qword 
+RtlDeactivateActivationContextUnsafeFast TEXTEQU <__imp_RtlDeactivateActivationContextUnsafeFast> 
+extern __imp_RtlDebugPrintTimes:qword 
+RtlDebugPrintTimes TEXTEQU <__imp_RtlDebugPrintTimes> 
+extern __imp_RtlDecodePointer:qword 
+RtlDecodePointer TEXTEQU <__imp_RtlDecodePointer> 
+extern __imp_RtlDecodeSystemPointer:qword 
+RtlDecodeSystemPointer TEXTEQU <__imp_RtlDecodeSystemPointer> 
+extern __imp_RtlDecompressBuffer:qword 
+RtlDecompressBuffer TEXTEQU <__imp_RtlDecompressBuffer> 
+extern __imp_RtlDecompressFragment:qword 
+RtlDecompressFragment TEXTEQU <__imp_RtlDecompressFragment> 
+extern __imp_RtlDefaultNpAcl:qword 
+RtlDefaultNpAcl TEXTEQU <__imp_RtlDefaultNpAcl> 
+extern __imp_RtlDelete:qword 
+RtlDelete TEXTEQU <__imp_RtlDelete> 
+extern __imp_RtlDeleteAce:qword 
+RtlDeleteAce TEXTEQU <__imp_RtlDeleteAce> 
+extern __imp_RtlDeleteAtomFromAtomTable:qword 
+RtlDeleteAtomFromAtomTable TEXTEQU <__imp_RtlDeleteAtomFromAtomTable> 
+extern __imp_RtlDeleteBarrier:qword 
+RtlDeleteBarrier TEXTEQU <__imp_RtlDeleteBarrier> 
+extern __imp_RtlDeleteBoundaryDescriptor:qword 
+RtlDeleteBoundaryDescriptor TEXTEQU <__imp_RtlDeleteBoundaryDescriptor> 
+extern __imp_RtlDeleteCriticalSection:qword 
+RtlDeleteCriticalSection TEXTEQU <__imp_RtlDeleteCriticalSection> 
+extern __imp_RtlDeleteElementGenericTable:qword 
+RtlDeleteElementGenericTable TEXTEQU <__imp_RtlDeleteElementGenericTable> 
+extern __imp_RtlDeleteElementGenericTableAvl:qword 
+RtlDeleteElementGenericTableAvl TEXTEQU <__imp_RtlDeleteElementGenericTableAvl> 
+extern __imp_RtlDeleteFunctionTable:qword 
+RtlDeleteFunctionTable TEXTEQU <__imp_RtlDeleteFunctionTable> 
+extern __imp_RtlDeleteHashTable:qword 
+RtlDeleteHashTable TEXTEQU <__imp_RtlDeleteHashTable> 
+extern __imp_RtlDeleteNoSplay:qword 
+RtlDeleteNoSplay TEXTEQU <__imp_RtlDeleteNoSplay> 
+extern __imp_RtlDeleteRegistryValue:qword 
+RtlDeleteRegistryValue TEXTEQU <__imp_RtlDeleteRegistryValue> 
+extern __imp_RtlDeleteResource:qword 
+RtlDeleteResource TEXTEQU <__imp_RtlDeleteResource> 
+extern __imp_RtlDeleteSecurityObject:qword 
+RtlDeleteSecurityObject TEXTEQU <__imp_RtlDeleteSecurityObject> 
+extern __imp_RtlDeleteTimer:qword 
+RtlDeleteTimer TEXTEQU <__imp_RtlDeleteTimer> 
+extern __imp_RtlDeleteTimerQueue:qword 
+RtlDeleteTimerQueue TEXTEQU <__imp_RtlDeleteTimerQueue> 
+extern __imp_RtlDeleteTimerQueueEx:qword 
+RtlDeleteTimerQueueEx TEXTEQU <__imp_RtlDeleteTimerQueueEx> 
+extern __imp_RtlDeleteUmsCompletionList:qword 
+RtlDeleteUmsCompletionList TEXTEQU <__imp_RtlDeleteUmsCompletionList> 
+extern __imp_RtlDeleteUmsThreadContext:qword 
+RtlDeleteUmsThreadContext TEXTEQU <__imp_RtlDeleteUmsThreadContext> 
+extern __imp_RtlDequeueUmsCompletionListItems:qword 
+RtlDequeueUmsCompletionListItems TEXTEQU <__imp_RtlDequeueUmsCompletionListItems> 
+extern __imp_RtlDeregisterSecureMemoryCacheCallback:qword 
+RtlDeregisterSecureMemoryCacheCallback TEXTEQU <__imp_RtlDeregisterSecureMemoryCacheCallback> 
+extern __imp_RtlDeregisterWait:qword 
+RtlDeregisterWait TEXTEQU <__imp_RtlDeregisterWait> 
+extern __imp_RtlDeregisterWaitEx:qword 
+RtlDeregisterWaitEx TEXTEQU <__imp_RtlDeregisterWaitEx> 
+extern __imp_RtlDestroyAtomTable:qword 
+RtlDestroyAtomTable TEXTEQU <__imp_RtlDestroyAtomTable> 
+extern __imp_RtlDestroyEnvironment:qword 
+RtlDestroyEnvironment TEXTEQU <__imp_RtlDestroyEnvironment> 
+extern __imp_RtlDestroyHandleTable:qword 
+RtlDestroyHandleTable TEXTEQU <__imp_RtlDestroyHandleTable> 
+extern __imp_RtlDestroyHeap:qword 
+RtlDestroyHeap TEXTEQU <__imp_RtlDestroyHeap> 
+extern __imp_RtlDestroyMemoryBlockLookaside:qword 
+RtlDestroyMemoryBlockLookaside TEXTEQU <__imp_RtlDestroyMemoryBlockLookaside> 
+extern __imp_RtlDestroyMemoryZone:qword 
+RtlDestroyMemoryZone TEXTEQU <__imp_RtlDestroyMemoryZone> 
+extern __imp_RtlDestroyProcessParameters:qword 
+RtlDestroyProcessParameters TEXTEQU <__imp_RtlDestroyProcessParameters> 
+extern __imp_RtlDestroyQueryDebugBuffer:qword 
+RtlDestroyQueryDebugBuffer TEXTEQU <__imp_RtlDestroyQueryDebugBuffer> 
+extern __imp_RtlDetectHeapLeaks:qword 
+RtlDetectHeapLeaks TEXTEQU <__imp_RtlDetectHeapLeaks> 
+extern __imp_RtlDetermineDosPathNameType_U:qword 
+RtlDetermineDosPathNameType_U TEXTEQU <__imp_RtlDetermineDosPathNameType_U> 
+extern __imp_RtlDisableThreadProfiling:qword 
+RtlDisableThreadProfiling TEXTEQU <__imp_RtlDisableThreadProfiling> 
+extern __imp_RtlDllShutdownInProgress:qword 
+RtlDllShutdownInProgress TEXTEQU <__imp_RtlDllShutdownInProgress> 
+extern __imp_RtlDnsHostNameToComputerName:qword 
+RtlDnsHostNameToComputerName TEXTEQU <__imp_RtlDnsHostNameToComputerName> 
+extern __imp_RtlDoesFileExists_U:qword 
+RtlDoesFileExists_U TEXTEQU <__imp_RtlDoesFileExists_U> 
+extern __imp_RtlDosApplyFileIsolationRedirection_Ustr:qword 
+RtlDosApplyFileIsolationRedirection_Ustr TEXTEQU <__imp_RtlDosApplyFileIsolationRedirection_Ustr> 
+extern __imp_RtlDosPathNameToNtPathName_U:qword 
+RtlDosPathNameToNtPathName_U TEXTEQU <__imp_RtlDosPathNameToNtPathName_U> 
+extern __imp_RtlDosPathNameToNtPathName_U_WithStatus:qword 
+RtlDosPathNameToNtPathName_U_WithStatus TEXTEQU <__imp_RtlDosPathNameToNtPathName_U_WithStatus> 
+extern __imp_RtlDosPathNameToRelativeNtPathName_U:qword 
+RtlDosPathNameToRelativeNtPathName_U TEXTEQU <__imp_RtlDosPathNameToRelativeNtPathName_U> 
+extern __imp_RtlDosPathNameToRelativeNtPathName_U_WithStatus:qword 
+RtlDosPathNameToRelativeNtPathName_U_WithStatus TEXTEQU <__imp_RtlDosPathNameToRelativeNtPathName_U_WithStatus> 
+extern __imp_RtlDosSearchPath_U:qword 
+RtlDosSearchPath_U TEXTEQU <__imp_RtlDosSearchPath_U> 
+extern __imp_RtlDosSearchPath_Ustr:qword 
+RtlDosSearchPath_Ustr TEXTEQU <__imp_RtlDosSearchPath_Ustr> 
+extern __imp_RtlDowncaseUnicodeChar:qword 
+RtlDowncaseUnicodeChar TEXTEQU <__imp_RtlDowncaseUnicodeChar> 
+extern __imp_RtlDowncaseUnicodeString:qword 
+RtlDowncaseUnicodeString TEXTEQU <__imp_RtlDowncaseUnicodeString> 
+extern __imp_RtlDumpResource:qword 
+RtlDumpResource TEXTEQU <__imp_RtlDumpResource> 
+extern __imp_RtlDuplicateUnicodeString:qword 
+RtlDuplicateUnicodeString TEXTEQU <__imp_RtlDuplicateUnicodeString> 
+extern __imp_RtlEmptyAtomTable:qword 
+RtlEmptyAtomTable TEXTEQU <__imp_RtlEmptyAtomTable> 
+extern __imp_RtlEnableEarlyCriticalSectionEventCreation:qword 
+RtlEnableEarlyCriticalSectionEventCreation TEXTEQU <__imp_RtlEnableEarlyCriticalSectionEventCreation> 
+extern __imp_RtlEnableThreadProfiling:qword 
+RtlEnableThreadProfiling TEXTEQU <__imp_RtlEnableThreadProfiling> 
+extern __imp_RtlEncodePointer:qword 
+RtlEncodePointer TEXTEQU <__imp_RtlEncodePointer> 
+extern __imp_RtlEncodeSystemPointer:qword 
+RtlEncodeSystemPointer TEXTEQU <__imp_RtlEncodeSystemPointer> 
+extern __imp_RtlEndEnumerationHashTable:qword 
+RtlEndEnumerationHashTable TEXTEQU <__imp_RtlEndEnumerationHashTable> 
+extern __imp_RtlEndWeakEnumerationHashTable:qword 
+RtlEndWeakEnumerationHashTable TEXTEQU <__imp_RtlEndWeakEnumerationHashTable> 
+extern __imp_RtlEnterCriticalSection:qword 
+RtlEnterCriticalSection TEXTEQU <__imp_RtlEnterCriticalSection> 
+extern __imp_RtlEnterUmsSchedulingMode:qword 
+RtlEnterUmsSchedulingMode TEXTEQU <__imp_RtlEnterUmsSchedulingMode> 
+extern __imp_RtlEnumProcessHeaps:qword 
+RtlEnumProcessHeaps TEXTEQU <__imp_RtlEnumProcessHeaps> 
+extern __imp_RtlEnumerateEntryHashTable:qword 
+RtlEnumerateEntryHashTable TEXTEQU <__imp_RtlEnumerateEntryHashTable> 
+extern __imp_RtlEnumerateGenericTable:qword 
+RtlEnumerateGenericTable TEXTEQU <__imp_RtlEnumerateGenericTable> 
+extern __imp_RtlEnumerateGenericTableAvl:qword 
+RtlEnumerateGenericTableAvl TEXTEQU <__imp_RtlEnumerateGenericTableAvl> 
+extern __imp_RtlEnumerateGenericTableLikeADirectory:qword 
+RtlEnumerateGenericTableLikeADirectory TEXTEQU <__imp_RtlEnumerateGenericTableLikeADirectory> 
+extern __imp_RtlEnumerateGenericTableWithoutSplaying:qword 
+RtlEnumerateGenericTableWithoutSplaying TEXTEQU <__imp_RtlEnumerateGenericTableWithoutSplaying> 
+extern __imp_RtlEnumerateGenericTableWithoutSplayingAvl:qword 
+RtlEnumerateGenericTableWithoutSplayingAvl TEXTEQU <__imp_RtlEnumerateGenericTableWithoutSplayingAvl> 
+extern __imp_RtlEqualComputerName:qword 
+RtlEqualComputerName TEXTEQU <__imp_RtlEqualComputerName> 
+extern __imp_RtlEqualDomainName:qword 
+RtlEqualDomainName TEXTEQU <__imp_RtlEqualDomainName> 
+extern __imp_RtlEqualLuid:qword 
+RtlEqualLuid TEXTEQU <__imp_RtlEqualLuid> 
+extern __imp_RtlEqualPrefixSid:qword 
+RtlEqualPrefixSid TEXTEQU <__imp_RtlEqualPrefixSid> 
+extern __imp_RtlEqualSid:qword 
+RtlEqualSid TEXTEQU <__imp_RtlEqualSid> 
+extern __imp_RtlEqualString:qword 
+RtlEqualString TEXTEQU <__imp_RtlEqualString> 
+extern __imp_RtlEqualUnicodeString:qword 
+RtlEqualUnicodeString TEXTEQU <__imp_RtlEqualUnicodeString> 
+extern __imp_RtlEraseUnicodeString:qword 
+RtlEraseUnicodeString TEXTEQU <__imp_RtlEraseUnicodeString> 
+extern __imp_RtlEthernetAddressToStringA:qword 
+RtlEthernetAddressToString TEXTEQU <__imp_RtlEthernetAddressToStringA> 
+extern __imp_RtlEthernetAddressToStringW:qword 
+RtlEthernetAddressToStringW TEXTEQU <__imp_RtlEthernetAddressToStringW> 
+extern __imp_RtlEthernetStringToAddressA:qword 
+RtlEthernetStringToAddress TEXTEQU <__imp_RtlEthernetStringToAddressA> 
+extern __imp_RtlEthernetStringToAddressW:qword 
+RtlEthernetStringToAddressW TEXTEQU <__imp_RtlEthernetStringToAddressW> 
+extern __imp_RtlExecuteUmsThread:qword 
+RtlExecuteUmsThread TEXTEQU <__imp_RtlExecuteUmsThread> 
+extern __imp_RtlExitUserProcess:qword 
+RtlExitUserProcess TEXTEQU <__imp_RtlExitUserProcess> 
+extern __imp_RtlExitUserThread:qword 
+RtlExitUserThread TEXTEQU <__imp_RtlExitUserThread> 
+extern __imp_RtlExpandEnvironmentStrings:qword 
+RtlExpandEnvironmentStrings TEXTEQU <__imp_RtlExpandEnvironmentStrings> 
+extern __imp_RtlExpandEnvironmentStrings_U:qword 
+RtlExpandEnvironmentStrings_U TEXTEQU <__imp_RtlExpandEnvironmentStrings_U> 
+extern __imp_RtlExpandHashTable:qword 
+RtlExpandHashTable TEXTEQU <__imp_RtlExpandHashTable> 
+extern __imp_RtlExtendMemoryBlockLookaside:qword 
+RtlExtendMemoryBlockLookaside TEXTEQU <__imp_RtlExtendMemoryBlockLookaside> 
+extern __imp_RtlExtendMemoryZone:qword 
+RtlExtendMemoryZone TEXTEQU <__imp_RtlExtendMemoryZone> 
+extern __imp_RtlFillMemory:qword 
+RtlFillMemory TEXTEQU <__imp_RtlFillMemory> 
+extern __imp_RtlFinalReleaseOutOfProcessMemoryStream:qword 
+RtlFinalReleaseOutOfProcessMemoryStream TEXTEQU <__imp_RtlFinalReleaseOutOfProcessMemoryStream> 
+extern __imp_RtlFindAceByType:qword 
+RtlFindAceByType TEXTEQU <__imp_RtlFindAceByType> 
+extern __imp_RtlFindActivationContextSectionGuid:qword 
+RtlFindActivationContextSectionGuid TEXTEQU <__imp_RtlFindActivationContextSectionGuid> 
+extern __imp_RtlFindActivationContextSectionString:qword 
+RtlFindActivationContextSectionString TEXTEQU <__imp_RtlFindActivationContextSectionString> 
+extern __imp_RtlFindCharInUnicodeString:qword 
+RtlFindCharInUnicodeString TEXTEQU <__imp_RtlFindCharInUnicodeString> 
+extern __imp_RtlFindClearBits:qword 
+RtlFindClearBits TEXTEQU <__imp_RtlFindClearBits> 
+extern __imp_RtlFindClearBitsAndSet:qword 
+RtlFindClearBitsAndSet TEXTEQU <__imp_RtlFindClearBitsAndSet> 
+extern __imp_RtlFindClearRuns:qword 
+RtlFindClearRuns TEXTEQU <__imp_RtlFindClearRuns> 
+extern __imp_RtlFindClosestEncodableLength:qword 
+RtlFindClosestEncodableLength TEXTEQU <__imp_RtlFindClosestEncodableLength> 
+extern __imp_RtlFindLastBackwardRunClear:qword 
+RtlFindLastBackwardRunClear TEXTEQU <__imp_RtlFindLastBackwardRunClear> 
+extern __imp_RtlFindLeastSignificantBit:qword 
+RtlFindLeastSignificantBit TEXTEQU <__imp_RtlFindLeastSignificantBit> 
+extern __imp_RtlFindLongestRunClear:qword 
+RtlFindLongestRunClear TEXTEQU <__imp_RtlFindLongestRunClear> 
+extern __imp_RtlFindMessage:qword 
+RtlFindMessage TEXTEQU <__imp_RtlFindMessage> 
+extern __imp_RtlFindMostSignificantBit:qword 
+RtlFindMostSignificantBit TEXTEQU <__imp_RtlFindMostSignificantBit> 
+extern __imp_RtlFindNextForwardRunClear:qword 
+RtlFindNextForwardRunClear TEXTEQU <__imp_RtlFindNextForwardRunClear> 
+extern __imp_RtlFindSetBits:qword 
+RtlFindSetBits TEXTEQU <__imp_RtlFindSetBits> 
+extern __imp_RtlFindSetBitsAndClear:qword 
+RtlFindSetBitsAndClear TEXTEQU <__imp_RtlFindSetBitsAndClear> 
+extern __imp_RtlFirstEntrySList:qword 
+RtlFirstEntrySList TEXTEQU <__imp_RtlFirstEntrySList> 
+extern __imp_RtlFirstFreeAce:qword 
+RtlFirstFreeAce TEXTEQU <__imp_RtlFirstFreeAce> 
+extern __imp_RtlFlsAlloc:qword 
+RtlFlsAlloc TEXTEQU <__imp_RtlFlsAlloc> 
+extern __imp_RtlFlsFree:qword 
+RtlFlsFree TEXTEQU <__imp_RtlFlsFree> 
+extern __imp_RtlFlushSecureMemoryCache:qword 
+RtlFlushSecureMemoryCache TEXTEQU <__imp_RtlFlushSecureMemoryCache> 
+extern __imp_RtlFormatCurrentUserKeyPath:qword 
+RtlFormatCurrentUserKeyPath TEXTEQU <__imp_RtlFormatCurrentUserKeyPath> 
+extern __imp_RtlFormatMessage:qword 
+RtlFormatMessage TEXTEQU <__imp_RtlFormatMessage> 
+extern __imp_RtlFormatMessageEx:qword 
+RtlFormatMessageEx TEXTEQU <__imp_RtlFormatMessageEx> 
+extern __imp_RtlFreeActivationContextStack:qword 
+RtlFreeActivationContextStack TEXTEQU <__imp_RtlFreeActivationContextStack> 
+extern __imp_RtlFreeAnsiString:qword 
+RtlFreeAnsiString TEXTEQU <__imp_RtlFreeAnsiString> 
+extern __imp_RtlFreeHandle:qword 
+RtlFreeHandle TEXTEQU <__imp_RtlFreeHandle> 
+extern __imp_RtlFreeHeap:qword 
+RtlFreeHeap TEXTEQU <__imp_RtlFreeHeap> 
+extern __imp_RtlFreeMemoryBlockLookaside:qword 
+RtlFreeMemoryBlockLookaside TEXTEQU <__imp_RtlFreeMemoryBlockLookaside> 
+extern __imp_RtlFreeOemString:qword 
+RtlFreeOemString TEXTEQU <__imp_RtlFreeOemString> 
+extern __imp_RtlFreeSid:qword 
+RtlFreeSid TEXTEQU <__imp_RtlFreeSid> 
+extern __imp_RtlFreeThreadActivationContextStack:qword 
+RtlFreeThreadActivationContextStack TEXTEQU <__imp_RtlFreeThreadActivationContextStack> 
+extern __imp_RtlFreeUnicodeString:qword 
+RtlFreeUnicodeString TEXTEQU <__imp_RtlFreeUnicodeString> 
+extern __imp_RtlFreeUserStack:qword 
+RtlFreeUserStack TEXTEQU <__imp_RtlFreeUserStack> 
+extern __imp_RtlGUIDFromString:qword 
+RtlGUIDFromString TEXTEQU <__imp_RtlGUIDFromString> 
+extern __imp_RtlGenerate8dot3Name:qword 
+RtlGenerate8dot3Name TEXTEQU <__imp_RtlGenerate8dot3Name> 
+extern __imp_RtlGetAce:qword 
+RtlGetAce TEXTEQU <__imp_RtlGetAce> 
+extern __imp_RtlGetActiveActivationContext:qword 
+RtlGetActiveActivationContext TEXTEQU <__imp_RtlGetActiveActivationContext> 
+extern __imp_RtlGetCallersAddress:qword 
+RtlGetCallersAddress TEXTEQU <__imp_RtlGetCallersAddress> 
+extern __imp_RtlGetCompressionWorkSpaceSize:qword 
+RtlGetCompressionWorkSpaceSize TEXTEQU <__imp_RtlGetCompressionWorkSpaceSize> 
+extern __imp_RtlGetControlSecurityDescriptor:qword 
+RtlGetControlSecurityDescriptor TEXTEQU <__imp_RtlGetControlSecurityDescriptor> 
+extern __imp_RtlGetCriticalSectionRecursionCount:qword 
+RtlGetCriticalSectionRecursionCount TEXTEQU <__imp_RtlGetCriticalSectionRecursionCount> 
+extern __imp_RtlGetCurrentDirectory_U:qword 
+RtlGetCurrentDirectory_U TEXTEQU <__imp_RtlGetCurrentDirectory_U> 
+extern __imp_RtlGetCurrentPeb:qword 
+RtlGetCurrentPeb TEXTEQU <__imp_RtlGetCurrentPeb> 
+extern __imp_RtlGetCurrentProcessorNumber:qword 
+RtlGetCurrentProcessorNumber TEXTEQU <__imp_RtlGetCurrentProcessorNumber> 
+extern __imp_RtlGetCurrentProcessorNumberEx:qword 
+RtlGetCurrentProcessorNumberEx TEXTEQU <__imp_RtlGetCurrentProcessorNumberEx> 
+extern __imp_RtlGetCurrentTransaction:qword 
+RtlGetCurrentTransaction TEXTEQU <__imp_RtlGetCurrentTransaction> 
+extern __imp_RtlGetCurrentUmsThread:qword 
+RtlGetCurrentUmsThread TEXTEQU <__imp_RtlGetCurrentUmsThread> 
+extern __imp_RtlGetDaclSecurityDescriptor:qword 
+RtlGetDaclSecurityDescriptor TEXTEQU <__imp_RtlGetDaclSecurityDescriptor> 
+extern __imp_RtlGetElementGenericTable:qword 
+RtlGetElementGenericTable TEXTEQU <__imp_RtlGetElementGenericTable> 
+extern __imp_RtlGetElementGenericTableAvl:qword 
+RtlGetElementGenericTableAvl TEXTEQU <__imp_RtlGetElementGenericTableAvl> 
+extern __imp_RtlGetEnabledExtendedFeatures:qword 
+RtlGetEnabledExtendedFeatures TEXTEQU <__imp_RtlGetEnabledExtendedFeatures> 
+extern __imp_RtlGetExtendedContextLength:qword 
+RtlGetExtendedContextLength TEXTEQU <__imp_RtlGetExtendedContextLength> 
+extern __imp_RtlGetExtendedFeaturesMask:qword 
+RtlGetExtendedFeaturesMask TEXTEQU <__imp_RtlGetExtendedFeaturesMask> 
+extern __imp_RtlGetFileMUIPath:qword 
+RtlGetFileMUIPath TEXTEQU <__imp_RtlGetFileMUIPath> 
+extern __imp_RtlGetFrame:qword 
+RtlGetFrame TEXTEQU <__imp_RtlGetFrame> 
+extern __imp_RtlGetFullPathName_U:qword 
+RtlGetFullPathName_U TEXTEQU <__imp_RtlGetFullPathName_U> 
+extern __imp_RtlGetFullPathName_UEx:qword 
+RtlGetFullPathName_UEx TEXTEQU <__imp_RtlGetFullPathName_UEx> 
+extern __imp_RtlGetFullPathName_UstrEx:qword 
+RtlGetFullPathName_UstrEx TEXTEQU <__imp_RtlGetFullPathName_UstrEx> 
+extern __imp_RtlGetFunctionTableListHead:qword 
+RtlGetFunctionTableListHead TEXTEQU <__imp_RtlGetFunctionTableListHead> 
+extern __imp_RtlGetGroupSecurityDescriptor:qword 
+RtlGetGroupSecurityDescriptor TEXTEQU <__imp_RtlGetGroupSecurityDescriptor> 
+extern __imp_RtlGetIntegerAtom:qword 
+RtlGetIntegerAtom TEXTEQU <__imp_RtlGetIntegerAtom> 
+extern __imp_RtlGetLastNtStatus:qword 
+RtlGetLastNtStatus TEXTEQU <__imp_RtlGetLastNtStatus> 
+extern __imp_RtlGetLastWin32Error:qword 
+RtlGetLastWin32Error TEXTEQU <__imp_RtlGetLastWin32Error> 
+extern __imp_RtlGetLengthWithoutLastFullDosOrNtPathElement:qword 
+RtlGetLengthWithoutLastFullDosOrNtPathElement TEXTEQU <__imp_RtlGetLengthWithoutLastFullDosOrNtPathElement> 
+extern __imp_RtlGetLengthWithoutTrailingPathSeperators:qword 
+RtlGetLengthWithoutTrailingPathSeperators TEXTEQU <__imp_RtlGetLengthWithoutTrailingPathSeperators> 
+extern __imp_RtlGetLocaleFileMappingAddress:qword 
+RtlGetLocaleFileMappingAddress TEXTEQU <__imp_RtlGetLocaleFileMappingAddress> 
+extern __imp_RtlGetLongestNtPathLength:qword 
+RtlGetLongestNtPathLength TEXTEQU <__imp_RtlGetLongestNtPathLength> 
+extern __imp_RtlGetNativeSystemInformation:qword 
+RtlGetNativeSystemInformation TEXTEQU <__imp_RtlGetNativeSystemInformation> 
+extern __imp_RtlGetNextEntryHashTable:qword 
+RtlGetNextEntryHashTable TEXTEQU <__imp_RtlGetNextEntryHashTable> 
+extern __imp_RtlGetNextUmsListItem:qword 
+RtlGetNextUmsListItem TEXTEQU <__imp_RtlGetNextUmsListItem> 
+extern __imp_RtlGetNtGlobalFlags:qword 
+RtlGetNtGlobalFlags TEXTEQU <__imp_RtlGetNtGlobalFlags> 
+extern __imp_RtlGetNtProductType:qword 
+RtlGetNtProductType TEXTEQU <__imp_RtlGetNtProductType> 
+extern __imp_RtlGetNtVersionNumbers:qword 
+RtlGetNtVersionNumbers TEXTEQU <__imp_RtlGetNtVersionNumbers> 
+extern __imp_RtlGetOwnerSecurityDescriptor:qword 
+RtlGetOwnerSecurityDescriptor TEXTEQU <__imp_RtlGetOwnerSecurityDescriptor> 
+extern __imp_RtlGetParentLocaleName:qword 
+RtlGetParentLocaleName TEXTEQU <__imp_RtlGetParentLocaleName> 
+extern __imp_RtlGetProcessHeaps:qword 
+RtlGetProcessHeaps TEXTEQU <__imp_RtlGetProcessHeaps> 
+extern __imp_RtlGetProcessPreferredUILanguages:qword 
+RtlGetProcessPreferredUILanguages TEXTEQU <__imp_RtlGetProcessPreferredUILanguages> 
+extern __imp_RtlGetProductInfo:qword 
+RtlGetProductInfo TEXTEQU <__imp_RtlGetProductInfo> 
+extern __imp_RtlGetSaclSecurityDescriptor:qword 
+RtlGetSaclSecurityDescriptor TEXTEQU <__imp_RtlGetSaclSecurityDescriptor> 
+extern __imp_RtlGetSecurityDescriptorRMControl:qword 
+RtlGetSecurityDescriptorRMControl TEXTEQU <__imp_RtlGetSecurityDescriptorRMControl> 
+extern __imp_RtlGetSetBootStatusData:qword 
+RtlGetSetBootStatusDat TEXTEQU <__imp_RtlGetSetBootStatusData> 
+extern __imp_RtlGetSystemPreferredUILanguages:qword 
+RtlGetSystemPreferredUILanguages TEXTEQU <__imp_RtlGetSystemPreferredUILanguages> 
+extern __imp_RtlGetThreadErrorMode:qword 
+RtlGetThreadErrorMode TEXTEQU <__imp_RtlGetThreadErrorMode> 
+extern __imp_RtlGetThreadLangIdByIndex:qword 
+RtlGetThreadLangIdByIndex TEXTEQU <__imp_RtlGetThreadLangIdByIndex> 
+extern __imp_RtlGetThreadPreferredUILanguages:qword 
+RtlGetThreadPreferredUILanguages TEXTEQU <__imp_RtlGetThreadPreferredUILanguages> 
+extern __imp_RtlGetUILanguageInfo:qword 
+RtlGetUILanguageInfo TEXTEQU <__imp_RtlGetUILanguageInfo> 
+extern __imp_RtlGetUmsCompletionListEvent:qword 
+RtlGetUmsCompletionListEvent TEXTEQU <__imp_RtlGetUmsCompletionListEvent> 
+extern __imp_RtlGetUnloadEventTrace:qword 
+RtlGetUnloadEventTrace TEXTEQU <__imp_RtlGetUnloadEventTrace> 
+extern __imp_RtlGetUnloadEventTraceEx:qword 
+RtlGetUnloadEventTraceEx TEXTEQU <__imp_RtlGetUnloadEventTraceEx> 
+extern __imp_RtlGetUserInfoHeap:qword 
+RtlGetUserInfoHeap TEXTEQU <__imp_RtlGetUserInfoHeap> 
+extern __imp_RtlGetUserPreferredUILanguages:qword 
+RtlGetUserPreferredUILanguages TEXTEQU <__imp_RtlGetUserPreferredUILanguages> 
+extern __imp_RtlGetVersion:qword 
+RtlGetVersion TEXTEQU <__imp_RtlGetVersion> 
+extern __imp_RtlHashUnicodeString:qword 
+RtlHashUnicodeString TEXTEQU <__imp_RtlHashUnicodeString> 
+extern __imp_RtlHeapTrkInitialize:qword 
+RtlHeapTrkInitialize TEXTEQU <__imp_RtlHeapTrkInitialize> 
+extern __imp_RtlIdentifierAuthoritySid:qword 
+RtlIdentifierAuthoritySid TEXTEQU <__imp_RtlIdentifierAuthoritySid> 
+extern __imp_RtlIdnToAscii:qword 
+RtlIdnToAscii TEXTEQU <__imp_RtlIdnToAscii> 
+extern __imp_RtlIdnToNameprepUnicode:qword 
+RtlIdnToNameprepUnicode TEXTEQU <__imp_RtlIdnToNameprepUnicode> 
+extern __imp_RtlIdnToUnicode:qword 
+RtlIdnToUnicode TEXTEQU <__imp_RtlIdnToUnicode> 
+extern __imp_RtlImageDirectoryEntryToData:qword 
+RtlImageDirectoryEntryToDat TEXTEQU <__imp_RtlImageDirectoryEntryToData> 
+extern __imp_RtlImageNtHeader:qword 
+RtlImageNtHeader TEXTEQU <__imp_RtlImageNtHeader> 
+extern __imp_RtlImageNtHeaderEx:qword 
+RtlImageNtHeaderEx TEXTEQU <__imp_RtlImageNtHeaderEx> 
+extern __imp_RtlImageRvaToSection:qword 
+RtlImageRvaToSection TEXTEQU <__imp_RtlImageRvaToSection> 
+extern __imp_RtlImageRvaToVa:qword 
+RtlImageRvaToV TEXTEQU <__imp_RtlImageRvaToVa> 
+extern __imp_RtlImpersonateSelf:qword 
+RtlImpersonateSelf TEXTEQU <__imp_RtlImpersonateSelf> 
+extern __imp_RtlImpersonateSelfEx:qword 
+RtlImpersonateSelfEx TEXTEQU <__imp_RtlImpersonateSelfEx> 
+extern __imp_RtlInitAnsiString:qword 
+RtlInitAnsiString TEXTEQU <__imp_RtlInitAnsiString> 
+extern __imp_RtlInitAnsiStringEx:qword 
+RtlInitAnsiStringEx TEXTEQU <__imp_RtlInitAnsiStringEx> 
+extern __imp_RtlInitBarrier:qword 
+RtlInitBarrier TEXTEQU <__imp_RtlInitBarrier> 
+extern __imp_RtlInitCodePageTable:qword 
+RtlInitCodePageTable TEXTEQU <__imp_RtlInitCodePageTable> 
+extern __imp_RtlInitEnumerationHashTable:qword 
+RtlInitEnumerationHashTable TEXTEQU <__imp_RtlInitEnumerationHashTable> 
+extern __imp_RtlInitMemoryStream:qword 
+RtlInitMemoryStream TEXTEQU <__imp_RtlInitMemoryStream> 
+extern __imp_RtlInitNlsTables:qword 
+RtlInitNlsTables TEXTEQU <__imp_RtlInitNlsTables> 
+extern __imp_RtlInitOutOfProcessMemoryStream:qword 
+RtlInitOutOfProcessMemoryStream TEXTEQU <__imp_RtlInitOutOfProcessMemoryStream> 
+extern __imp_RtlInitString:qword 
+RtlInitString TEXTEQU <__imp_RtlInitString> 
+extern __imp_RtlInitUnicodeString:qword 
+RtlInitUnicodeString TEXTEQU <__imp_RtlInitUnicodeString> 
+extern __imp_RtlInitUnicodeStringEx:qword 
+RtlInitUnicodeStringEx TEXTEQU <__imp_RtlInitUnicodeStringEx> 
+extern __imp_RtlInitWeakEnumerationHashTable:qword 
+RtlInitWeakEnumerationHashTable TEXTEQU <__imp_RtlInitWeakEnumerationHashTable> 
+extern __imp_RtlInitializeAtomPackage:qword 
+RtlInitializeAtomPackage TEXTEQU <__imp_RtlInitializeAtomPackage> 
+extern __imp_RtlInitializeBitMap:qword 
+RtlInitializeBitMap TEXTEQU <__imp_RtlInitializeBitMap> 
+extern __imp_RtlInitializeConditionVariable:qword 
+RtlInitializeConditionVariable TEXTEQU <__imp_RtlInitializeConditionVariable> 
+extern __imp_RtlInitializeContext:qword 
+RtlInitializeContext TEXTEQU <__imp_RtlInitializeContext> 
+extern __imp_RtlInitializeCriticalSection:qword 
+RtlInitializeCriticalSection TEXTEQU <__imp_RtlInitializeCriticalSection> 
+extern __imp_RtlInitializeCriticalSectionAndSpinCount:qword 
+RtlInitializeCriticalSectionAndSpinCount TEXTEQU <__imp_RtlInitializeCriticalSectionAndSpinCount> 
+extern __imp_RtlInitializeCriticalSectionEx:qword 
+RtlInitializeCriticalSectionEx TEXTEQU <__imp_RtlInitializeCriticalSectionEx> 
+extern __imp_RtlInitializeExtendedContext:qword 
+RtlInitializeExtendedContext TEXTEQU <__imp_RtlInitializeExtendedContext> 
+extern __imp_RtlInitializeGenericTable:qword 
+RtlInitializeGenericTable TEXTEQU <__imp_RtlInitializeGenericTable> 
+extern __imp_RtlInitializeGenericTableAvl:qword 
+RtlInitializeGenericTableAvl TEXTEQU <__imp_RtlInitializeGenericTableAvl> 
+extern __imp_RtlInitializeHandleTable:qword 
+RtlInitializeHandleTable TEXTEQU <__imp_RtlInitializeHandleTable> 
+extern __imp_RtlInitializeNtUserPfn:qword 
+RtlInitializeNtUserPfn TEXTEQU <__imp_RtlInitializeNtUserPfn> 
+extern __imp_RtlInitializeRXact:qword 
+RtlInitializeRXact TEXTEQU <__imp_RtlInitializeRXact> 
+extern __imp_RtlInitializeResource:qword 
+RtlInitializeResource TEXTEQU <__imp_RtlInitializeResource> 
+extern __imp_RtlInitializeSListHead:qword 
+RtlInitializeSListHead TEXTEQU <__imp_RtlInitializeSListHead> 
+extern __imp_RtlInitializeSRWLock:qword 
+RtlInitializeSRWLock TEXTEQU <__imp_RtlInitializeSRWLock> 
+extern __imp_RtlInitializeSid:qword 
+RtlInitializeSid TEXTEQU <__imp_RtlInitializeSid> 
+extern __imp_RtlInsertElementGenericTable:qword 
+RtlInsertElementGenericTable TEXTEQU <__imp_RtlInsertElementGenericTable> 
+extern __imp_RtlInsertElementGenericTableAvl:qword 
+RtlInsertElementGenericTableAvl TEXTEQU <__imp_RtlInsertElementGenericTableAvl> 
+extern __imp_RtlInsertElementGenericTableFull:qword 
+RtlInsertElementGenericTableFull TEXTEQU <__imp_RtlInsertElementGenericTableFull> 
+extern __imp_RtlInsertElementGenericTableFullAvl:qword 
+RtlInsertElementGenericTableFullAvl TEXTEQU <__imp_RtlInsertElementGenericTableFullAvl> 
+extern __imp_RtlInsertEntryHashTable:qword 
+RtlInsertEntryHashTable TEXTEQU <__imp_RtlInsertEntryHashTable> 
+extern __imp_RtlInstallFunctionTableCallback:qword 
+RtlInstallFunctionTableCallback TEXTEQU <__imp_RtlInstallFunctionTableCallback> 
+extern __imp_RtlInt64ToUnicodeString:qword 
+RtlInt64ToUnicodeString TEXTEQU <__imp_RtlInt64ToUnicodeString> 
+extern __imp_RtlIntegerToChar:qword 
+RtlIntegerToChar TEXTEQU <__imp_RtlIntegerToChar> 
+extern __imp_RtlIntegerToUnicodeString:qword 
+RtlIntegerToUnicodeString TEXTEQU <__imp_RtlIntegerToUnicodeString> 
+extern __imp_RtlInterlockedClearBitRun:qword 
+RtlInterlockedClearBitRun TEXTEQU <__imp_RtlInterlockedClearBitRun> 
+extern __imp_RtlInterlockedFlushSList:qword 
+RtlInterlockedFlushSList TEXTEQU <__imp_RtlInterlockedFlushSList> 
+extern __imp_RtlInterlockedPopEntrySList:qword 
+RtlInterlockedPopEntrySList TEXTEQU <__imp_RtlInterlockedPopEntrySList> 
+extern __imp_RtlInterlockedPushEntrySList:qword 
+RtlInterlockedPushEntrySList TEXTEQU <__imp_RtlInterlockedPushEntrySList> 
+extern __imp_RtlInterlockedPushListSList:qword 
+RtlInterlockedPushListSList TEXTEQU <__imp_RtlInterlockedPushListSList> 
+extern __imp_RtlInterlockedSetBitRun:qword 
+RtlInterlockedSetBitRun TEXTEQU <__imp_RtlInterlockedSetBitRun> 
+extern __imp_RtlIoDecodeMemIoResource:qword 
+RtlIoDecodeMemIoResource TEXTEQU <__imp_RtlIoDecodeMemIoResource> 
+extern __imp_RtlIoEncodeMemIoResource:qword 
+RtlIoEncodeMemIoResource TEXTEQU <__imp_RtlIoEncodeMemIoResource> 
+extern __imp_RtlIpv4AddressToStringA:qword 
+RtlIpv4AddressToString TEXTEQU <__imp_RtlIpv4AddressToStringA> 
+extern __imp_RtlIpv4AddressToStringExA:qword 
+RtlIpv4AddressToStringEx TEXTEQU <__imp_RtlIpv4AddressToStringExA> 
+extern __imp_RtlIpv4AddressToStringExW:qword 
+RtlIpv4AddressToStringExW TEXTEQU <__imp_RtlIpv4AddressToStringExW> 
+extern __imp_RtlIpv4AddressToStringW:qword 
+RtlIpv4AddressToStringW TEXTEQU <__imp_RtlIpv4AddressToStringW> 
+extern __imp_RtlIpv4StringToAddressA:qword 
+RtlIpv4StringToAddress TEXTEQU <__imp_RtlIpv4StringToAddressA> 
+extern __imp_RtlIpv4StringToAddressExA:qword 
+RtlIpv4StringToAddressEx TEXTEQU <__imp_RtlIpv4StringToAddressExA> 
+extern __imp_RtlIpv4StringToAddressExW:qword 
+RtlIpv4StringToAddressExW TEXTEQU <__imp_RtlIpv4StringToAddressExW> 
+extern __imp_RtlIpv4StringToAddressW:qword 
+RtlIpv4StringToAddressW TEXTEQU <__imp_RtlIpv4StringToAddressW> 
+extern __imp_RtlIpv6AddressToStringA:qword 
+RtlIpv6AddressToString TEXTEQU <__imp_RtlIpv6AddressToStringA> 
+extern __imp_RtlIpv6AddressToStringExA:qword 
+RtlIpv6AddressToStringEx TEXTEQU <__imp_RtlIpv6AddressToStringExA> 
+extern __imp_RtlIpv6AddressToStringExW:qword 
+RtlIpv6AddressToStringExW TEXTEQU <__imp_RtlIpv6AddressToStringExW> 
+extern __imp_RtlIpv6AddressToStringW:qword 
+RtlIpv6AddressToStringW TEXTEQU <__imp_RtlIpv6AddressToStringW> 
+extern __imp_RtlIpv6StringToAddressA:qword 
+RtlIpv6StringToAddress TEXTEQU <__imp_RtlIpv6StringToAddressA> 
+extern __imp_RtlIpv6StringToAddressExA:qword 
+RtlIpv6StringToAddressEx TEXTEQU <__imp_RtlIpv6StringToAddressExA> 
+extern __imp_RtlIpv6StringToAddressExW:qword 
+RtlIpv6StringToAddressExW TEXTEQU <__imp_RtlIpv6StringToAddressExW> 
+extern __imp_RtlIpv6StringToAddressW:qword 
+RtlIpv6StringToAddressW TEXTEQU <__imp_RtlIpv6StringToAddressW> 
+extern __imp_RtlIsActivationContextActive:qword 
+RtlIsActivationContextActive TEXTEQU <__imp_RtlIsActivationContextActive> 
+extern __imp_RtlIsCriticalSectionLocked:qword 
+RtlIsCriticalSectionLocked TEXTEQU <__imp_RtlIsCriticalSectionLocked> 
+extern __imp_RtlIsCriticalSectionLockedByThread:qword 
+RtlIsCriticalSectionLockedByThread TEXTEQU <__imp_RtlIsCriticalSectionLockedByThread> 
+extern __imp_RtlIsCurrentThreadAttachExempt:qword 
+RtlIsCurrentThreadAttachExempt TEXTEQU <__imp_RtlIsCurrentThreadAttachExempt> 
+extern __imp_RtlIsDosDeviceName_U:qword 
+RtlIsDosDeviceName_U TEXTEQU <__imp_RtlIsDosDeviceName_U> 
+extern __imp_RtlIsGenericTableEmpty:qword 
+RtlIsGenericTableEmpty TEXTEQU <__imp_RtlIsGenericTableEmpty> 
+extern __imp_RtlIsGenericTableEmptyAvl:qword 
+RtlIsGenericTableEmptyAvl TEXTEQU <__imp_RtlIsGenericTableEmptyAvl> 
+extern __imp_RtlIsNameInExpression:qword 
+RtlIsNameInExpression TEXTEQU <__imp_RtlIsNameInExpression> 
+extern __imp_RtlIsNameLegalDOS8Dot3:qword 
+RtlIsNameLegalDOS8Dot3 TEXTEQU <__imp_RtlIsNameLegalDOS8Dot3> 
+extern __imp_RtlIsNormalizedString:qword 
+RtlIsNormalizedString TEXTEQU <__imp_RtlIsNormalizedString> 
+extern __imp_RtlIsTextUnicode:qword 
+RtlIsTextUnicode TEXTEQU <__imp_RtlIsTextUnicode> 
+extern __imp_RtlIsThreadWithinLoaderCallout:qword 
+RtlIsThreadWithinLoaderCallout TEXTEQU <__imp_RtlIsThreadWithinLoaderCallout> 
+extern __imp_RtlIsValidHandle:qword 
+RtlIsValidHandle TEXTEQU <__imp_RtlIsValidHandle> 
+extern __imp_RtlIsValidIndexHandle:qword 
+RtlIsValidIndexHandle TEXTEQU <__imp_RtlIsValidIndexHandle> 
+extern __imp_RtlIsValidLocaleName:qword 
+RtlIsValidLocaleName TEXTEQU <__imp_RtlIsValidLocaleName> 
+extern __imp_RtlKnownExceptionFilter:qword 
+RtlKnownExceptionFilter TEXTEQU <__imp_RtlKnownExceptionFilter> 
+extern __imp_RtlLCIDToCultureName:qword 
+RtlLCIDToCultureName TEXTEQU <__imp_RtlLCIDToCultureName> 
+extern __imp_RtlLargeIntegerToChar:qword 
+RtlLargeIntegerToChar TEXTEQU <__imp_RtlLargeIntegerToChar> 
+extern __imp_RtlLcidToLocaleName:qword 
+RtlLcidToLocaleName TEXTEQU <__imp_RtlLcidToLocaleName> 
+extern __imp_RtlLeaveCriticalSection:qword 
+RtlLeaveCriticalSection TEXTEQU <__imp_RtlLeaveCriticalSection> 
+extern __imp_RtlLengthRequiredSid:qword 
+RtlLengthRequiredSid TEXTEQU <__imp_RtlLengthRequiredSid> 
+extern __imp_RtlLengthSecurityDescriptor:qword 
+RtlLengthSecurityDescriptor TEXTEQU <__imp_RtlLengthSecurityDescriptor> 
+extern __imp_RtlLengthSid:qword 
+RtlLengthSid TEXTEQU <__imp_RtlLengthSid> 
+extern __imp_RtlLoadString:qword 
+RtlLoadString TEXTEQU <__imp_RtlLoadString> 
+extern __imp_RtlLocalTimeToSystemTime:qword 
+RtlLocalTimeToSystemTime TEXTEQU <__imp_RtlLocalTimeToSystemTime> 
+extern __imp_RtlLocaleNameToLcid:qword 
+RtlLocaleNameToLcid TEXTEQU <__imp_RtlLocaleNameToLcid> 
+extern __imp_RtlLocateExtendedFeature:qword 
+RtlLocateExtendedFeature TEXTEQU <__imp_RtlLocateExtendedFeature> 
+extern __imp_RtlLocateLegacyContext:qword 
+RtlLocateLegacyContext TEXTEQU <__imp_RtlLocateLegacyContext> 
+extern __imp_RtlLockBootStatusData:qword 
+RtlLockBootStatusDat TEXTEQU <__imp_RtlLockBootStatusData> 
+extern __imp_RtlLockCurrentThread:qword 
+RtlLockCurrentThread TEXTEQU <__imp_RtlLockCurrentThread> 
+extern __imp_RtlLockHeap:qword 
+RtlLockHeap TEXTEQU <__imp_RtlLockHeap> 
+extern __imp_RtlLockMemoryBlockLookaside:qword 
+RtlLockMemoryBlockLookaside TEXTEQU <__imp_RtlLockMemoryBlockLookaside> 
+extern __imp_RtlLockMemoryStreamRegion:qword 
+RtlLockMemoryStreamRegion TEXTEQU <__imp_RtlLockMemoryStreamRegion> 
+extern __imp_RtlLockMemoryZone:qword 
+RtlLockMemoryZone TEXTEQU <__imp_RtlLockMemoryZone> 
+extern __imp_RtlLockModuleSection:qword 
+RtlLockModuleSection TEXTEQU <__imp_RtlLockModuleSection> 
+extern __imp_RtlLogStackBackTrace:qword 
+RtlLogStackBackTrace TEXTEQU <__imp_RtlLogStackBackTrace> 
+extern __imp_RtlLookupAtomInAtomTable:qword 
+RtlLookupAtomInAtomTable TEXTEQU <__imp_RtlLookupAtomInAtomTable> 
+extern __imp_RtlLookupElementGenericTable:qword 
+RtlLookupElementGenericTable TEXTEQU <__imp_RtlLookupElementGenericTable> 
+extern __imp_RtlLookupElementGenericTableAvl:qword 
+RtlLookupElementGenericTableAvl TEXTEQU <__imp_RtlLookupElementGenericTableAvl> 
+extern __imp_RtlLookupElementGenericTableFull:qword 
+RtlLookupElementGenericTableFull TEXTEQU <__imp_RtlLookupElementGenericTableFull> 
+extern __imp_RtlLookupElementGenericTableFullAvl:qword 
+RtlLookupElementGenericTableFullAvl TEXTEQU <__imp_RtlLookupElementGenericTableFullAvl> 
+extern __imp_RtlLookupEntryHashTable:qword 
+RtlLookupEntryHashTable TEXTEQU <__imp_RtlLookupEntryHashTable> 
+extern __imp_RtlLookupFunctionEntry:qword 
+RtlLookupFunctionEntry TEXTEQU <__imp_RtlLookupFunctionEntry> 
+extern __imp_RtlLookupFunctionTable:qword 
+RtlLookupFunctionTable TEXTEQU <__imp_RtlLookupFunctionTable> 
+extern __imp_RtlMakeSelfRelativeSD:qword 
+RtlMakeSelfRelativeSD TEXTEQU <__imp_RtlMakeSelfRelativeSD> 
+extern __imp_RtlMapGenericMask:qword 
+RtlMapGenericMask TEXTEQU <__imp_RtlMapGenericMask> 
+extern __imp_RtlMapSecurityErrorToNtStatus:qword 
+RtlMapSecurityErrorToNtStatus TEXTEQU <__imp_RtlMapSecurityErrorToNtStatus> 
+extern __imp_RtlMoveMemory:qword 
+RtlMoveMemory TEXTEQU <__imp_RtlMoveMemory> 
+extern __imp_RtlMultiAppendUnicodeStringBuffer:qword 
+RtlMultiAppendUnicodeStringBuffer TEXTEQU <__imp_RtlMultiAppendUnicodeStringBuffer> 
+extern __imp_RtlMultiByteToUnicodeN:qword 
+RtlMultiByteToUnicodeN TEXTEQU <__imp_RtlMultiByteToUnicodeN> 
+extern __imp_RtlMultiByteToUnicodeSize:qword 
+RtlMultiByteToUnicodeSize TEXTEQU <__imp_RtlMultiByteToUnicodeSize> 
+extern __imp_RtlMultipleAllocateHeap:qword 
+RtlMultipleAllocateHeap TEXTEQU <__imp_RtlMultipleAllocateHeap> 
+extern __imp_RtlMultipleFreeHeap:qword 
+RtlMultipleFreeHeap TEXTEQU <__imp_RtlMultipleFreeHeap> 
+extern __imp_RtlNewInstanceSecurityObject:qword 
+RtlNewInstanceSecurityObject TEXTEQU <__imp_RtlNewInstanceSecurityObject> 
+extern __imp_RtlNewSecurityGrantedAccess:qword 
+RtlNewSecurityGrantedAccess TEXTEQU <__imp_RtlNewSecurityGrantedAccess> 
+extern __imp_RtlNewSecurityObject:qword 
+RtlNewSecurityObject TEXTEQU <__imp_RtlNewSecurityObject> 
+extern __imp_RtlNewSecurityObjectEx:qword 
+RtlNewSecurityObjectEx TEXTEQU <__imp_RtlNewSecurityObjectEx> 
+extern __imp_RtlNewSecurityObjectWithMultipleInheritance:qword 
+RtlNewSecurityObjectWithMultipleInheritance TEXTEQU <__imp_RtlNewSecurityObjectWithMultipleInheritance> 
+extern __imp_RtlNormalizeProcessParams:qword 
+RtlNormalizeProcessParams TEXTEQU <__imp_RtlNormalizeProcessParams> 
+extern __imp_RtlNormalizeString:qword 
+RtlNormalizeString TEXTEQU <__imp_RtlNormalizeString> 
+extern __imp_RtlNtPathNameToDosPathName:qword 
+RtlNtPathNameToDosPathName TEXTEQU <__imp_RtlNtPathNameToDosPathName> 
+extern __imp_RtlNtStatusToDosError:qword 
+RtlNtStatusToDosError TEXTEQU <__imp_RtlNtStatusToDosError> 
+extern __imp_RtlNtStatusToDosErrorNoTeb:qword 
+RtlNtStatusToDosErrorNoTeb TEXTEQU <__imp_RtlNtStatusToDosErrorNoTeb> 
+extern __imp_RtlNtdllName:qword 
+RtlNtdllName TEXTEQU <__imp_RtlNtdllName> 
+extern __imp_RtlNumberGenericTableElements:qword 
+RtlNumberGenericTableElements TEXTEQU <__imp_RtlNumberGenericTableElements> 
+extern __imp_RtlNumberGenericTableElementsAvl:qword 
+RtlNumberGenericTableElementsAvl TEXTEQU <__imp_RtlNumberGenericTableElementsAvl> 
+extern __imp_RtlNumberOfClearBits:qword 
+RtlNumberOfClearBits TEXTEQU <__imp_RtlNumberOfClearBits> 
+extern __imp_RtlNumberOfSetBits:qword 
+RtlNumberOfSetBits TEXTEQU <__imp_RtlNumberOfSetBits> 
+extern __imp_RtlNumberOfSetBitsUlongPtr:qword 
+RtlNumberOfSetBitsUlongPtr TEXTEQU <__imp_RtlNumberOfSetBitsUlongPtr> 
+extern __imp_RtlOemStringToUnicodeSize:qword 
+RtlOemStringToUnicodeSize TEXTEQU <__imp_RtlOemStringToUnicodeSize> 
+extern __imp_RtlOemStringToUnicodeString:qword 
+RtlOemStringToUnicodeString TEXTEQU <__imp_RtlOemStringToUnicodeString> 
+extern __imp_RtlOemToUnicodeN:qword 
+RtlOemToUnicodeN TEXTEQU <__imp_RtlOemToUnicodeN> 
+extern __imp_RtlOpenCurrentUser:qword 
+RtlOpenCurrentUser TEXTEQU <__imp_RtlOpenCurrentUser> 
+extern __imp_RtlOwnerAcesPresent:qword 
+RtlOwnerAcesPresent TEXTEQU <__imp_RtlOwnerAcesPresent> 
+extern __imp_RtlPcToFileHeader:qword 
+RtlPcToFileHeader TEXTEQU <__imp_RtlPcToFileHeader> 
+extern __imp_RtlPinAtomInAtomTable:qword 
+RtlPinAtomInAtomTable TEXTEQU <__imp_RtlPinAtomInAtomTable> 
+extern __imp_RtlPopFrame:qword 
+RtlPopFrame TEXTEQU <__imp_RtlPopFrame> 
+extern __imp_RtlPrefixString:qword 
+RtlPrefixString TEXTEQU <__imp_RtlPrefixString> 
+extern __imp_RtlPrefixUnicodeString:qword 
+RtlPrefixUnicodeString TEXTEQU <__imp_RtlPrefixUnicodeString> 
+extern __imp_RtlPrepareForProcessCloning:qword 
+RtlPrepareForProcessCloning TEXTEQU <__imp_RtlPrepareForProcessCloning> 
+extern __imp_RtlProcessFlsData:qword 
+RtlProcessFlsDat TEXTEQU <__imp_RtlProcessFlsData> 
+extern __imp_RtlProtectHeap:qword 
+RtlProtectHeap TEXTEQU <__imp_RtlProtectHeap> 
+extern __imp_RtlPushFrame:qword 
+RtlPushFrame TEXTEQU <__imp_RtlPushFrame> 
+extern __imp_RtlQueryActivationContextApplicationSettings:qword 
+RtlQueryActivationContextApplicationSettings TEXTEQU <__imp_RtlQueryActivationContextApplicationSettings> 
+extern __imp_RtlQueryAtomInAtomTable:qword 
+RtlQueryAtomInAtomTable TEXTEQU <__imp_RtlQueryAtomInAtomTable> 
+extern __imp_RtlQueryCriticalSectionOwner:qword 
+RtlQueryCriticalSectionOwner TEXTEQU <__imp_RtlQueryCriticalSectionOwner> 
+extern __imp_RtlQueryDepthSList:qword 
+RtlQueryDepthSList TEXTEQU <__imp_RtlQueryDepthSList> 
+extern __imp_RtlQueryDynamicTimeZoneInformation:qword 
+RtlQueryDynamicTimeZoneInformation TEXTEQU <__imp_RtlQueryDynamicTimeZoneInformation> 
+extern __imp_RtlQueryElevationFlags:qword 
+RtlQueryElevationFlags TEXTEQU <__imp_RtlQueryElevationFlags> 
+extern __imp_RtlQueryEnvironmentVariable:qword 
+RtlQueryEnvironmentVariable TEXTEQU <__imp_RtlQueryEnvironmentVariable> 
+extern __imp_RtlQueryEnvironmentVariable_U:qword 
+RtlQueryEnvironmentVariable_U TEXTEQU <__imp_RtlQueryEnvironmentVariable_U> 
+extern __imp_RtlQueryHeapInformation:qword 
+RtlQueryHeapInformation TEXTEQU <__imp_RtlQueryHeapInformation> 
+extern __imp_RtlQueryInformationAcl:qword 
+RtlQueryInformationAcl TEXTEQU <__imp_RtlQueryInformationAcl> 
+extern __imp_RtlQueryInformationActivationContext:qword 
+RtlQueryInformationActivationContext TEXTEQU <__imp_RtlQueryInformationActivationContext> 
+extern __imp_RtlQueryInformationActiveActivationContext:qword 
+RtlQueryInformationActiveActivationContext TEXTEQU <__imp_RtlQueryInformationActiveActivationContext> 
+extern __imp_RtlQueryInterfaceMemoryStream:qword 
+RtlQueryInterfaceMemoryStream TEXTEQU <__imp_RtlQueryInterfaceMemoryStream> 
+extern __imp_RtlQueryModuleInformation:qword 
+RtlQueryModuleInformation TEXTEQU <__imp_RtlQueryModuleInformation> 
+extern __imp_RtlQueryPerformanceCounter:qword 
+RtlQueryPerformanceCounter TEXTEQU <__imp_RtlQueryPerformanceCounter> 
+extern __imp_RtlQueryPerformanceFrequency:qword 
+RtlQueryPerformanceFrequency TEXTEQU <__imp_RtlQueryPerformanceFrequency> 
+extern __imp_RtlQueryProcessBackTraceInformation:qword 
+RtlQueryProcessBackTraceInformation TEXTEQU <__imp_RtlQueryProcessBackTraceInformation> 
+extern __imp_RtlQueryProcessDebugInformation:qword 
+RtlQueryProcessDebugInformation TEXTEQU <__imp_RtlQueryProcessDebugInformation> 
+extern __imp_RtlQueryProcessHeapInformation:qword 
+RtlQueryProcessHeapInformation TEXTEQU <__imp_RtlQueryProcessHeapInformation> 
+extern __imp_RtlQueryProcessLockInformation:qword 
+RtlQueryProcessLockInformation TEXTEQU <__imp_RtlQueryProcessLockInformation> 
+extern __imp_RtlQueryRegistryValues:qword 
+RtlQueryRegistryValues TEXTEQU <__imp_RtlQueryRegistryValues> 
+extern __imp_RtlQuerySecurityObject:qword 
+RtlQuerySecurityObject TEXTEQU <__imp_RtlQuerySecurityObject> 
+extern __imp_RtlQueryTagHeap:qword 
+RtlQueryTagHeap TEXTEQU <__imp_RtlQueryTagHeap> 
+extern __imp_RtlQueryThreadProfiling:qword 
+RtlQueryThreadProfiling TEXTEQU <__imp_RtlQueryThreadProfiling> 
+extern __imp_RtlQueryTimeZoneInformation:qword 
+RtlQueryTimeZoneInformation TEXTEQU <__imp_RtlQueryTimeZoneInformation> 
+extern __imp_RtlQueryUmsThreadInformation:qword 
+RtlQueryUmsThreadInformation TEXTEQU <__imp_RtlQueryUmsThreadInformation> 
+extern __imp_RtlQueueApcWow64Thread:qword 
+RtlQueueApcWow64Thread TEXTEQU <__imp_RtlQueueApcWow64Thread> 
+extern __imp_RtlQueueWorkItem:qword 
+RtlQueueWorkItem TEXTEQU <__imp_RtlQueueWorkItem> 
+extern __imp_RtlRaiseException:qword 
+RtlRaiseException TEXTEQU <__imp_RtlRaiseException> 
+extern __imp_RtlRaiseStatus:qword 
+RtlRaiseStatus TEXTEQU <__imp_RtlRaiseStatus> 
+extern __imp_RtlRandom:qword 
+RtlRandom TEXTEQU <__imp_RtlRandom> 
+extern __imp_RtlRandomEx:qword 
+RtlRandomEx TEXTEQU <__imp_RtlRandomEx> 
+extern __imp_RtlReAllocateHeap:qword 
+RtlReAllocateHeap TEXTEQU <__imp_RtlReAllocateHeap> 
+extern __imp_RtlReadMemoryStream:qword 
+RtlReadMemoryStream TEXTEQU <__imp_RtlReadMemoryStream> 
+extern __imp_RtlReadOutOfProcessMemoryStream:qword 
+RtlReadOutOfProcessMemoryStream TEXTEQU <__imp_RtlReadOutOfProcessMemoryStream> 
+extern __imp_RtlReadThreadProfilingData:qword 
+RtlReadThreadProfilingDat TEXTEQU <__imp_RtlReadThreadProfilingData> 
+extern __imp_RtlRealPredecessor:qword 
+RtlRealPredecessor TEXTEQU <__imp_RtlRealPredecessor> 
+extern __imp_RtlRealSuccessor:qword 
+RtlRealSuccessor TEXTEQU <__imp_RtlRealSuccessor> 
+extern __imp_RtlRegisterSecureMemoryCacheCallback:qword 
+RtlRegisterSecureMemoryCacheCallback TEXTEQU <__imp_RtlRegisterSecureMemoryCacheCallback> 
+extern __imp_RtlRegisterThreadWithCsrss:qword 
+RtlRegisterThreadWithCsrss TEXTEQU <__imp_RtlRegisterThreadWithCsrss> 
+extern __imp_RtlRegisterWait:qword 
+RtlRegisterWait TEXTEQU <__imp_RtlRegisterWait> 
+extern __imp_RtlReleaseActivationContext:qword 
+RtlReleaseActivationContext TEXTEQU <__imp_RtlReleaseActivationContext> 
+extern __imp_RtlReleaseMemoryStream:qword 
+RtlReleaseMemoryStream TEXTEQU <__imp_RtlReleaseMemoryStream> 
+extern __imp_RtlReleasePebLock:qword 
+RtlReleasePebLock TEXTEQU <__imp_RtlReleasePebLock> 
+extern __imp_RtlReleasePrivilege:qword 
+RtlReleasePrivilege TEXTEQU <__imp_RtlReleasePrivilege> 
+extern __imp_RtlReleaseRelativeName:qword 
+RtlReleaseRelativeName TEXTEQU <__imp_RtlReleaseRelativeName> 
+extern __imp_RtlReleaseResource:qword 
+RtlReleaseResource TEXTEQU <__imp_RtlReleaseResource> 
+extern __imp_RtlReleaseSRWLockExclusive:qword 
+RtlReleaseSRWLockExclusive TEXTEQU <__imp_RtlReleaseSRWLockExclusive> 
+extern __imp_RtlReleaseSRWLockShared:qword 
+RtlReleaseSRWLockShared TEXTEQU <__imp_RtlReleaseSRWLockShared> 
+extern __imp_RtlRemoteCall:qword 
+RtlRemoteCall TEXTEQU <__imp_RtlRemoteCall> 
+extern __imp_RtlRemoveEntryHashTable:qword 
+RtlRemoveEntryHashTable TEXTEQU <__imp_RtlRemoveEntryHashTable> 
+extern __imp_RtlRemovePrivileges:qword 
+RtlRemovePrivileges TEXTEQU <__imp_RtlRemovePrivileges> 
+extern __imp_RtlRemoveVectoredContinueHandler:qword 
+RtlRemoveVectoredContinueHandler TEXTEQU <__imp_RtlRemoveVectoredContinueHandler> 
+extern __imp_RtlRemoveVectoredExceptionHandler:qword 
+RtlRemoveVectoredExceptionHandler TEXTEQU <__imp_RtlRemoveVectoredExceptionHandler> 
+extern __imp_RtlReplaceSidInSd:qword 
+RtlReplaceSidInSd TEXTEQU <__imp_RtlReplaceSidInSd> 
+extern __imp_RtlReportException:qword 
+RtlReportException TEXTEQU <__imp_RtlReportException> 
+extern __imp_RtlReportSilentProcessExit:qword 
+RtlReportSilentProcessExit TEXTEQU <__imp_RtlReportSilentProcessExit> 
+extern __imp_RtlReportSqmEscalation:qword 
+RtlReportSqmEscalation TEXTEQU <__imp_RtlReportSqmEscalation> 
+extern __imp_RtlResetMemoryBlockLookaside:qword 
+RtlResetMemoryBlockLookaside TEXTEQU <__imp_RtlResetMemoryBlockLookaside> 
+extern __imp_RtlResetMemoryZone:qword 
+RtlResetMemoryZone TEXTEQU <__imp_RtlResetMemoryZone> 
+extern __imp_RtlResetRtlTranslations:qword 
+RtlResetRtlTranslations TEXTEQU <__imp_RtlResetRtlTranslations> 
+extern __imp_RtlRestoreContext:qword 
+RtlRestoreContext TEXTEQU <__imp_RtlRestoreContext> 
+extern __imp_RtlRestoreLastWin32Error:qword 
+RtlRestoreLastWin32Error TEXTEQU <__imp_RtlRestoreLastWin32Error> 
+extern __imp_RtlRetrieveNtUserPfn:qword 
+RtlRetrieveNtUserPfn TEXTEQU <__imp_RtlRetrieveNtUserPfn> 
+extern __imp_RtlRevertMemoryStream:qword 
+RtlRevertMemoryStream TEXTEQU <__imp_RtlRevertMemoryStream> 
+extern __imp_RtlRunDecodeUnicodeString:qword 
+RtlRunDecodeUnicodeString TEXTEQU <__imp_RtlRunDecodeUnicodeString> 
+extern __imp_RtlRunEncodeUnicodeString:qword 
+RtlRunEncodeUnicodeString TEXTEQU <__imp_RtlRunEncodeUnicodeString> 
+extern __imp_RtlRunOnceBeginInitialize:qword 
+RtlRunOnceBeginInitialize TEXTEQU <__imp_RtlRunOnceBeginInitialize> 
+extern __imp_RtlRunOnceComplete:qword 
+RtlRunOnceComplete TEXTEQU <__imp_RtlRunOnceComplete> 
+extern __imp_RtlRunOnceExecuteOnce:qword 
+RtlRunOnceExecuteOnce TEXTEQU <__imp_RtlRunOnceExecuteOnce> 
+extern __imp_RtlRunOnceInitialize:qword 
+RtlRunOnceInitialize TEXTEQU <__imp_RtlRunOnceInitialize> 
+extern __imp_RtlSecondsSince1970ToTime:qword 
+RtlSecondsSince1970ToTime TEXTEQU <__imp_RtlSecondsSince1970ToTime> 
+extern __imp_RtlSecondsSince1980ToTime:qword 
+RtlSecondsSince1980ToTime TEXTEQU <__imp_RtlSecondsSince1980ToTime> 
+extern __imp_RtlSeekMemoryStream:qword 
+RtlSeekMemoryStream TEXTEQU <__imp_RtlSeekMemoryStream> 
+extern __imp_RtlSelfRelativeToAbsoluteSD:qword 
+RtlSelfRelativeToAbsoluteSD TEXTEQU <__imp_RtlSelfRelativeToAbsoluteSD> 
+extern __imp_RtlSelfRelativeToAbsoluteSD2:qword 
+RtlSelfRelativeToAbsoluteSD2 TEXTEQU <__imp_RtlSelfRelativeToAbsoluteSD2> 
+extern __imp_RtlSendMsgToSm:qword 
+RtlSendMsgToSm TEXTEQU <__imp_RtlSendMsgToSm> 
+extern __imp_RtlSetAllBits:qword 
+RtlSetAllBits TEXTEQU <__imp_RtlSetAllBits> 
+extern __imp_RtlSetAttributesSecurityDescriptor:qword 
+RtlSetAttributesSecurityDescriptor TEXTEQU <__imp_RtlSetAttributesSecurityDescriptor> 
+extern __imp_RtlSetBits:qword 
+RtlSetBits TEXTEQU <__imp_RtlSetBits> 
+extern __imp_RtlSetControlSecurityDescriptor:qword 
+RtlSetControlSecurityDescriptor TEXTEQU <__imp_RtlSetControlSecurityDescriptor> 
+extern __imp_RtlSetCriticalSectionSpinCount:qword 
+RtlSetCriticalSectionSpinCount TEXTEQU <__imp_RtlSetCriticalSectionSpinCount> 
+extern __imp_RtlSetCurrentDirectory_U:qword 
+RtlSetCurrentDirectory_U TEXTEQU <__imp_RtlSetCurrentDirectory_U> 
+extern __imp_RtlSetCurrentEnvironment:qword 
+RtlSetCurrentEnvironment TEXTEQU <__imp_RtlSetCurrentEnvironment> 
+extern __imp_RtlSetCurrentTransaction:qword 
+RtlSetCurrentTransaction TEXTEQU <__imp_RtlSetCurrentTransaction> 
+extern __imp_RtlSetDaclSecurityDescriptor:qword 
+RtlSetDaclSecurityDescriptor TEXTEQU <__imp_RtlSetDaclSecurityDescriptor> 
+extern __imp_RtlSetDynamicTimeZoneInformation:qword 
+RtlSetDynamicTimeZoneInformation TEXTEQU <__imp_RtlSetDynamicTimeZoneInformation> 
+extern __imp_RtlSetEnvironmentStrings:qword 
+RtlSetEnvironmentStrings TEXTEQU <__imp_RtlSetEnvironmentStrings> 
+extern __imp_RtlSetEnvironmentVar:qword 
+RtlSetEnvironmentVar TEXTEQU <__imp_RtlSetEnvironmentVar> 
+extern __imp_RtlSetEnvironmentVariable:qword 
+RtlSetEnvironmentVariable TEXTEQU <__imp_RtlSetEnvironmentVariable> 
+extern __imp_RtlSetExtendedFeaturesMask:qword 
+RtlSetExtendedFeaturesMask TEXTEQU <__imp_RtlSetExtendedFeaturesMask> 
+extern __imp_RtlSetGroupSecurityDescriptor:qword 
+RtlSetGroupSecurityDescriptor TEXTEQU <__imp_RtlSetGroupSecurityDescriptor> 
+extern __imp_RtlSetHeapInformation:qword 
+RtlSetHeapInformation TEXTEQU <__imp_RtlSetHeapInformation> 
+extern __imp_RtlSetInformationAcl:qword 
+RtlSetInformationAcl TEXTEQU <__imp_RtlSetInformationAcl> 
+extern __imp_RtlSetIoCompletionCallback:qword 
+RtlSetIoCompletionCallback TEXTEQU <__imp_RtlSetIoCompletionCallback> 
+extern __imp_RtlSetLastWin32Error:qword 
+RtlSetLastWin32Error TEXTEQU <__imp_RtlSetLastWin32Error> 
+extern __imp_RtlSetLastWin32ErrorAndNtStatusFromNtStatus:qword 
+RtlSetLastWin32ErrorAndNtStatusFromNtStatus TEXTEQU <__imp_RtlSetLastWin32ErrorAndNtStatusFromNtStatus> 
+extern __imp_RtlSetMemoryStreamSize:qword 
+RtlSetMemoryStreamSize TEXTEQU <__imp_RtlSetMemoryStreamSize> 
+extern __imp_RtlSetOwnerSecurityDescriptor:qword 
+RtlSetOwnerSecurityDescriptor TEXTEQU <__imp_RtlSetOwnerSecurityDescriptor> 
+extern __imp_RtlSetProcessDebugInformation:qword 
+RtlSetProcessDebugInformation TEXTEQU <__imp_RtlSetProcessDebugInformation> 
+extern __imp_RtlSetProcessIsCritical:qword 
+RtlSetProcessIsCritical TEXTEQU <__imp_RtlSetProcessIsCritical> 
+extern __imp_RtlSetProcessPreferredUILanguages:qword 
+RtlSetProcessPreferredUILanguages TEXTEQU <__imp_RtlSetProcessPreferredUILanguages> 
+extern __imp_RtlSetSaclSecurityDescriptor:qword 
+RtlSetSaclSecurityDescriptor TEXTEQU <__imp_RtlSetSaclSecurityDescriptor> 
+extern __imp_RtlSetSecurityDescriptorRMControl:qword 
+RtlSetSecurityDescriptorRMControl TEXTEQU <__imp_RtlSetSecurityDescriptorRMControl> 
+extern __imp_RtlSetSecurityObject:qword 
+RtlSetSecurityObject TEXTEQU <__imp_RtlSetSecurityObject> 
+extern __imp_RtlSetSecurityObjectEx:qword 
+RtlSetSecurityObjectEx TEXTEQU <__imp_RtlSetSecurityObjectEx> 
+extern __imp_RtlSetThreadErrorMode:qword 
+RtlSetThreadErrorMode TEXTEQU <__imp_RtlSetThreadErrorMode> 
+extern __imp_RtlSetThreadIsCritical:qword 
+RtlSetThreadIsCritical TEXTEQU <__imp_RtlSetThreadIsCritical> 
+extern __imp_RtlSetThreadPoolStartFunc:qword 
+RtlSetThreadPoolStartFunc TEXTEQU <__imp_RtlSetThreadPoolStartFunc> 
+extern __imp_RtlSetThreadPreferredUILanguages:qword 
+RtlSetThreadPreferredUILanguages TEXTEQU <__imp_RtlSetThreadPreferredUILanguages> 
+extern __imp_RtlSetTimeZoneInformation:qword 
+RtlSetTimeZoneInformation TEXTEQU <__imp_RtlSetTimeZoneInformation> 
+extern __imp_RtlSetTimer:qword 
+RtlSetTimer TEXTEQU <__imp_RtlSetTimer> 
+extern __imp_RtlSetUmsThreadInformation:qword 
+RtlSetUmsThreadInformation TEXTEQU <__imp_RtlSetUmsThreadInformation> 
+extern __imp_RtlSetUnhandledExceptionFilter:qword 
+RtlSetUnhandledExceptionFilter TEXTEQU <__imp_RtlSetUnhandledExceptionFilter> 
+extern __imp_RtlSetUserFlagsHeap:qword 
+RtlSetUserFlagsHeap TEXTEQU <__imp_RtlSetUserFlagsHeap> 
+extern __imp_RtlSetUserValueHeap:qword 
+RtlSetUserValueHeap TEXTEQU <__imp_RtlSetUserValueHeap> 
+extern __imp_RtlSidDominates:qword 
+RtlSidDominates TEXTEQU <__imp_RtlSidDominates> 
+extern __imp_RtlSidEqualLevel:qword 
+RtlSidEqualLevel TEXTEQU <__imp_RtlSidEqualLevel> 
+extern __imp_RtlSidHashInitialize:qword 
+RtlSidHashInitialize TEXTEQU <__imp_RtlSidHashInitialize> 
+extern __imp_RtlSidHashLookup:qword 
+RtlSidHashLookup TEXTEQU <__imp_RtlSidHashLookup> 
+extern __imp_RtlSidIsHigherLevel:qword 
+RtlSidIsHigherLevel TEXTEQU <__imp_RtlSidIsHigherLevel> 
+extern __imp_RtlSizeHeap:qword 
+RtlSizeHeap TEXTEQU <__imp_RtlSizeHeap> 
+extern __imp_RtlSleepConditionVariableCS:qword 
+RtlSleepConditionVariableCS TEXTEQU <__imp_RtlSleepConditionVariableCS> 
+extern __imp_RtlSleepConditionVariableSRW:qword 
+RtlSleepConditionVariableSRW TEXTEQU <__imp_RtlSleepConditionVariableSRW> 
+extern __imp_RtlSplay:qword 
+RtlSplay TEXTEQU <__imp_RtlSplay> 
+extern __imp_RtlStartRXact:qword 
+RtlStartRXact TEXTEQU <__imp_RtlStartRXact> 
+extern __imp_RtlStatMemoryStream:qword 
+RtlStatMemoryStream TEXTEQU <__imp_RtlStatMemoryStream> 
+extern __imp_RtlStringFromGUID:qword 
+RtlStringFromGUID TEXTEQU <__imp_RtlStringFromGUID> 
+extern __imp_RtlSubAuthorityCountSid:qword 
+RtlSubAuthorityCountSid TEXTEQU <__imp_RtlSubAuthorityCountSid> 
+extern __imp_RtlSubAuthoritySid:qword 
+RtlSubAuthoritySid TEXTEQU <__imp_RtlSubAuthoritySid> 
+extern __imp_RtlSubtreePredecessor:qword 
+RtlSubtreePredecessor TEXTEQU <__imp_RtlSubtreePredecessor> 
+extern __imp_RtlSubtreeSuccessor:qword 
+RtlSubtreeSuccessor TEXTEQU <__imp_RtlSubtreeSuccessor> 
+extern __imp_RtlSystemTimeToLocalTime:qword 
+RtlSystemTimeToLocalTime TEXTEQU <__imp_RtlSystemTimeToLocalTime> 
+extern __imp_RtlTestBit:qword 
+RtlTestBit TEXTEQU <__imp_RtlTestBit> 
+extern __imp_RtlTimeFieldsToTime:qword 
+RtlTimeFieldsToTime TEXTEQU <__imp_RtlTimeFieldsToTime> 
+extern __imp_RtlTimeToElapsedTimeFields:qword 
+RtlTimeToElapsedTimeFields TEXTEQU <__imp_RtlTimeToElapsedTimeFields> 
+extern __imp_RtlTimeToSecondsSince1970:qword 
+RtlTimeToSecondsSince1970 TEXTEQU <__imp_RtlTimeToSecondsSince1970> 
+extern __imp_RtlTimeToSecondsSince1980:qword 
+RtlTimeToSecondsSince1980 TEXTEQU <__imp_RtlTimeToSecondsSince1980> 
+extern __imp_RtlTimeToTimeFields:qword 
+RtlTimeToTimeFields TEXTEQU <__imp_RtlTimeToTimeFields> 
+extern __imp_RtlTraceDatabaseAdd:qword 
+RtlTraceDatabaseAdd TEXTEQU <__imp_RtlTraceDatabaseAdd> 
+extern __imp_RtlTraceDatabaseCreate:qword 
+RtlTraceDatabaseCreate TEXTEQU <__imp_RtlTraceDatabaseCreate> 
+extern __imp_RtlTraceDatabaseDestroy:qword 
+RtlTraceDatabaseDestroy TEXTEQU <__imp_RtlTraceDatabaseDestroy> 
+extern __imp_RtlTraceDatabaseEnumerate:qword 
+RtlTraceDatabaseEnumerate TEXTEQU <__imp_RtlTraceDatabaseEnumerate> 
+extern __imp_RtlTraceDatabaseFind:qword 
+RtlTraceDatabaseFind TEXTEQU <__imp_RtlTraceDatabaseFind> 
+extern __imp_RtlTraceDatabaseLock:qword 
+RtlTraceDatabaseLock TEXTEQU <__imp_RtlTraceDatabaseLock> 
+extern __imp_RtlTraceDatabaseUnlock:qword 
+RtlTraceDatabaseUnlock TEXTEQU <__imp_RtlTraceDatabaseUnlock> 
+extern __imp_RtlTraceDatabaseValidate:qword 
+RtlTraceDatabaseValidate TEXTEQU <__imp_RtlTraceDatabaseValidate> 
+extern __imp_RtlTryAcquirePebLock:qword 
+RtlTryAcquirePebLock TEXTEQU <__imp_RtlTryAcquirePebLock> 
+extern __imp_RtlTryAcquireSRWLockExclusive:qword 
+RtlTryAcquireSRWLockExclusive TEXTEQU <__imp_RtlTryAcquireSRWLockExclusive> 
+extern __imp_RtlTryAcquireSRWLockShared:qword 
+RtlTryAcquireSRWLockShared TEXTEQU <__imp_RtlTryAcquireSRWLockShared> 
+extern __imp_RtlTryEnterCriticalSection:qword 
+RtlTryEnterCriticalSection TEXTEQU <__imp_RtlTryEnterCriticalSection> 
+extern __imp_RtlUTF8ToUnicodeN:qword 
+RtlUTF8ToUnicodeN TEXTEQU <__imp_RtlUTF8ToUnicodeN> 
+extern __imp_RtlUmsThreadYield:qword 
+RtlUmsThreadYield TEXTEQU <__imp_RtlUmsThreadYield> 
+extern __imp_RtlUnhandledExceptionFilter:qword 
+RtlUnhandledExceptionFilter TEXTEQU <__imp_RtlUnhandledExceptionFilter> 
+extern __imp_RtlUnhandledExceptionFilter2:qword 
+RtlUnhandledExceptionFilter2 TEXTEQU <__imp_RtlUnhandledExceptionFilter2> 
+extern __imp_RtlUnicodeStringToAnsiSize:qword 
+RtlUnicodeStringToAnsiSize TEXTEQU <__imp_RtlUnicodeStringToAnsiSize> 
+extern __imp_RtlUnicodeStringToAnsiString:qword 
+RtlUnicodeStringToAnsiString TEXTEQU <__imp_RtlUnicodeStringToAnsiString> 
+extern __imp_RtlUnicodeStringToCountedOemString:qword 
+RtlUnicodeStringToCountedOemString TEXTEQU <__imp_RtlUnicodeStringToCountedOemString> 
+extern __imp_RtlUnicodeStringToInteger:qword 
+RtlUnicodeStringToInteger TEXTEQU <__imp_RtlUnicodeStringToInteger> 
+extern __imp_RtlUnicodeStringToOemSize:qword 
+RtlUnicodeStringToOemSize TEXTEQU <__imp_RtlUnicodeStringToOemSize> 
+extern __imp_RtlUnicodeStringToOemString:qword 
+RtlUnicodeStringToOemString TEXTEQU <__imp_RtlUnicodeStringToOemString> 
+extern __imp_RtlUnicodeToCustomCPN:qword 
+RtlUnicodeToCustomCPN TEXTEQU <__imp_RtlUnicodeToCustomCPN> 
+extern __imp_RtlUnicodeToMultiByteN:qword 
+RtlUnicodeToMultiByteN TEXTEQU <__imp_RtlUnicodeToMultiByteN> 
+extern __imp_RtlUnicodeToMultiByteSize:qword 
+RtlUnicodeToMultiByteSize TEXTEQU <__imp_RtlUnicodeToMultiByteSize> 
+extern __imp_RtlUnicodeToOemN:qword 
+RtlUnicodeToOemN TEXTEQU <__imp_RtlUnicodeToOemN> 
+extern __imp_RtlUnicodeToUTF8N:qword 
+RtlUnicodeToUTF8N TEXTEQU <__imp_RtlUnicodeToUTF8N> 
+extern __imp_RtlUniform:qword 
+RtlUniform TEXTEQU <__imp_RtlUniform> 
+extern __imp_RtlUnlockBootStatusData:qword 
+RtlUnlockBootStatusDat TEXTEQU <__imp_RtlUnlockBootStatusData> 
+extern __imp_RtlUnlockCurrentThread:qword 
+RtlUnlockCurrentThread TEXTEQU <__imp_RtlUnlockCurrentThread> 
+extern __imp_RtlUnlockHeap:qword 
+RtlUnlockHeap TEXTEQU <__imp_RtlUnlockHeap> 
+extern __imp_RtlUnlockMemoryBlockLookaside:qword 
+RtlUnlockMemoryBlockLookaside TEXTEQU <__imp_RtlUnlockMemoryBlockLookaside> 
+extern __imp_RtlUnlockMemoryStreamRegion:qword 
+RtlUnlockMemoryStreamRegion TEXTEQU <__imp_RtlUnlockMemoryStreamRegion> 
+extern __imp_RtlUnlockMemoryZone:qword 
+RtlUnlockMemoryZone TEXTEQU <__imp_RtlUnlockMemoryZone> 
+extern __imp_RtlUnlockModuleSection:qword 
+RtlUnlockModuleSection TEXTEQU <__imp_RtlUnlockModuleSection> 
+extern __imp_RtlUnwind:qword 
+RtlUnwind TEXTEQU <__imp_RtlUnwind> 
+extern __imp_RtlUnwindEx:qword 
+RtlUnwindEx TEXTEQU <__imp_RtlUnwindEx> 
+extern __imp_RtlUpcaseUnicodeChar:qword 
+RtlUpcaseUnicodeChar TEXTEQU <__imp_RtlUpcaseUnicodeChar> 
+extern __imp_RtlUpcaseUnicodeString:qword 
+RtlUpcaseUnicodeString TEXTEQU <__imp_RtlUpcaseUnicodeString> 
+extern __imp_RtlUpcaseUnicodeStringToAnsiString:qword 
+RtlUpcaseUnicodeStringToAnsiString TEXTEQU <__imp_RtlUpcaseUnicodeStringToAnsiString> 
+extern __imp_RtlUpcaseUnicodeStringToCountedOemString:qword 
+RtlUpcaseUnicodeStringToCountedOemString TEXTEQU <__imp_RtlUpcaseUnicodeStringToCountedOemString> 
+extern __imp_RtlUpcaseUnicodeStringToOemString:qword 
+RtlUpcaseUnicodeStringToOemString TEXTEQU <__imp_RtlUpcaseUnicodeStringToOemString> 
+extern __imp_RtlUpcaseUnicodeToCustomCPN:qword 
+RtlUpcaseUnicodeToCustomCPN TEXTEQU <__imp_RtlUpcaseUnicodeToCustomCPN> 
+extern __imp_RtlUpcaseUnicodeToMultiByteN:qword 
+RtlUpcaseUnicodeToMultiByteN TEXTEQU <__imp_RtlUpcaseUnicodeToMultiByteN> 
+extern __imp_RtlUpcaseUnicodeToOemN:qword 
+RtlUpcaseUnicodeToOemN TEXTEQU <__imp_RtlUpcaseUnicodeToOemN> 
+extern __imp_RtlUpdateClonedCriticalSection:qword 
+RtlUpdateClonedCriticalSection TEXTEQU <__imp_RtlUpdateClonedCriticalSection> 
+extern __imp_RtlUpdateClonedSRWLock:qword 
+RtlUpdateClonedSRWLock TEXTEQU <__imp_RtlUpdateClonedSRWLock> 
+extern __imp_RtlUpdateTimer:qword 
+RtlUpdateTimer TEXTEQU <__imp_RtlUpdateTimer> 
+extern __imp_RtlUpperChar:qword 
+RtlUpperChar TEXTEQU <__imp_RtlUpperChar> 
+extern __imp_RtlUpperString:qword 
+RtlUpperString TEXTEQU <__imp_RtlUpperString> 
+extern __imp_RtlUserThreadStart:qword 
+RtlUserThreadStart TEXTEQU <__imp_RtlUserThreadStart> 
+extern __imp_RtlValidAcl:qword 
+RtlValidAcl TEXTEQU <__imp_RtlValidAcl> 
+extern __imp_RtlValidRelativeSecurityDescriptor:qword 
+RtlValidRelativeSecurityDescriptor TEXTEQU <__imp_RtlValidRelativeSecurityDescriptor> 
+extern __imp_RtlValidSecurityDescriptor:qword 
+RtlValidSecurityDescriptor TEXTEQU <__imp_RtlValidSecurityDescriptor> 
+extern __imp_RtlValidSid:qword 
+RtlValidSid TEXTEQU <__imp_RtlValidSid> 
+extern __imp_RtlValidateHeap:qword 
+RtlValidateHeap TEXTEQU <__imp_RtlValidateHeap> 
+extern __imp_RtlValidateProcessHeaps:qword 
+RtlValidateProcessHeaps TEXTEQU <__imp_RtlValidateProcessHeaps> 
+extern __imp_RtlValidateUnicodeString:qword 
+RtlValidateUnicodeString TEXTEQU <__imp_RtlValidateUnicodeString> 
+extern __imp_RtlVerifyVersionInfo:qword 
+RtlVerifyVersionInfo TEXTEQU <__imp_RtlVerifyVersionInfo> 
+extern __imp_RtlVirtualUnwind:qword 
+RtlVirtualUnwind TEXTEQU <__imp_RtlVirtualUnwind> 
+extern __imp_RtlWakeAllConditionVariable:qword 
+RtlWakeAllConditionVariable TEXTEQU <__imp_RtlWakeAllConditionVariable> 
+extern __imp_RtlWakeConditionVariable:qword 
+RtlWakeConditionVariable TEXTEQU <__imp_RtlWakeConditionVariable> 
+extern __imp_RtlWalkFrameChain:qword 
+RtlWalkFrameChain TEXTEQU <__imp_RtlWalkFrameChain> 
+extern __imp_RtlWalkHeap:qword 
+RtlWalkHeap TEXTEQU <__imp_RtlWalkHeap> 
+extern __imp_RtlWeaklyEnumerateEntryHashTable:qword 
+RtlWeaklyEnumerateEntryHashTable TEXTEQU <__imp_RtlWeaklyEnumerateEntryHashTable> 
+extern __imp_RtlWerpReportException:qword 
+RtlWerpReportException TEXTEQU <__imp_RtlWerpReportException> 
+extern __imp_RtlWow64CallFunction64:qword 
+RtlWow64CallFunction64 TEXTEQU <__imp_RtlWow64CallFunction64> 
+extern __imp_RtlWow64EnableFsRedirection:qword 
+RtlWow64EnableFsRedirection TEXTEQU <__imp_RtlWow64EnableFsRedirection> 
+extern __imp_RtlWow64EnableFsRedirectionEx:qword 
+RtlWow64EnableFsRedirectionEx TEXTEQU <__imp_RtlWow64EnableFsRedirectionEx> 
+extern __imp_RtlWow64GetThreadContext:qword 
+RtlWow64GetThreadContext TEXTEQU <__imp_RtlWow64GetThreadContext> 
+extern __imp_RtlWow64GetThreadSelectorEntry:qword 
+RtlWow64GetThreadSelectorEntry TEXTEQU <__imp_RtlWow64GetThreadSelectorEntry> 
+extern __imp_RtlWow64LogMessageInEventLogger:qword 
+RtlWow64LogMessageInEventLogger TEXTEQU <__imp_RtlWow64LogMessageInEventLogger> 
+extern __imp_RtlWow64SetThreadContext:qword 
+RtlWow64SetThreadContext TEXTEQU <__imp_RtlWow64SetThreadContext> 
+extern __imp_RtlWow64SuspendThread:qword 
+RtlWow64SuspendThread TEXTEQU <__imp_RtlWow64SuspendThread> 
+extern __imp_RtlWriteMemoryStream:qword 
+RtlWriteMemoryStream TEXTEQU <__imp_RtlWriteMemoryStream> 
+extern __imp_RtlWriteRegistryValue:qword 
+RtlWriteRegistryValue TEXTEQU <__imp_RtlWriteRegistryValue> 
+extern __imp_RtlZeroHeap:qword 
+RtlZeroHeap TEXTEQU <__imp_RtlZeroHeap> 
+extern __imp_RtlZeroMemory:qword 
+RtlZeroMemory TEXTEQU <__imp_RtlZeroMemory> 
+extern __imp_RtlZombifyActivationContext:qword 
+RtlZombifyActivationContext TEXTEQU <__imp_RtlZombifyActivationContext> 
+extern __imp_RtlpApplyLengthFunction:qword 
+RtlpApplyLengthFunction TEXTEQU <__imp_RtlpApplyLengthFunction> 
+extern __imp_RtlpCheckDynamicTimeZoneInformation:qword 
+RtlpCheckDynamicTimeZoneInformation TEXTEQU <__imp_RtlpCheckDynamicTimeZoneInformation> 
+extern __imp_RtlpCleanupRegistryKeys:qword 
+RtlpCleanupRegistryKeys TEXTEQU <__imp_RtlpCleanupRegistryKeys> 
+extern __imp_RtlpConvertCultureNamesToLCIDs:qword 
+RtlpConvertCultureNamesToLCIDs TEXTEQU <__imp_RtlpConvertCultureNamesToLCIDs> 
+extern __imp_RtlpConvertLCIDsToCultureNames:qword 
+RtlpConvertLCIDsToCultureNames TEXTEQU <__imp_RtlpConvertLCIDsToCultureNames> 
+extern __imp_RtlpCreateProcessRegistryInfo:qword 
+RtlpCreateProcessRegistryInfo TEXTEQU <__imp_RtlpCreateProcessRegistryInfo> 
+extern __imp_RtlpEnsureBufferSize:qword 
+RtlpEnsureBufferSize TEXTEQU <__imp_RtlpEnsureBufferSize> 
+extern __imp_RtlpExecuteUmsThread:qword 
+RtlpExecuteUmsThread TEXTEQU <__imp_RtlpExecuteUmsThread> 
+extern __imp_RtlpGetLCIDFromLangInfoNode:qword 
+RtlpGetLCIDFromLangInfoNode TEXTEQU <__imp_RtlpGetLCIDFromLangInfoNode> 
+extern __imp_RtlpGetNameFromLangInfoNode:qword 
+RtlpGetNameFromLangInfoNode TEXTEQU <__imp_RtlpGetNameFromLangInfoNode> 
+extern __imp_RtlpGetSystemDefaultUILanguage:qword 
+RtlpGetSystemDefaultUILanguage TEXTEQU <__imp_RtlpGetSystemDefaultUILanguage> 
+extern __imp_RtlpGetUserOrMachineUILanguage4NLS:qword 
+RtlpGetUserOrMachineUILanguage4NLS TEXTEQU <__imp_RtlpGetUserOrMachineUILanguage4NLS> 
+extern __imp_RtlpInitializeLangRegistryInfo:qword 
+RtlpInitializeLangRegistryInfo TEXTEQU <__imp_RtlpInitializeLangRegistryInfo> 
+extern __imp_RtlpIsQualifiedLanguage:qword 
+RtlpIsQualifiedLanguage TEXTEQU <__imp_RtlpIsQualifiedLanguage> 
+extern __imp_RtlpLoadMachineUIByPolicy:qword 
+RtlpLoadMachineUIByPolicy TEXTEQU <__imp_RtlpLoadMachineUIByPolicy> 
+extern __imp_RtlpLoadUserUIByPolicy:qword 
+RtlpLoadUserUIByPolicy TEXTEQU <__imp_RtlpLoadUserUIByPolicy> 
+extern __imp_RtlpMuiFreeLangRegistryInfo:qword 
+RtlpMuiFreeLangRegistryInfo TEXTEQU <__imp_RtlpMuiFreeLangRegistryInfo> 
+extern __imp_RtlpMuiRegCreateRegistryInfo:qword 
+RtlpMuiRegCreateRegistryInfo TEXTEQU <__imp_RtlpMuiRegCreateRegistryInfo> 
+extern __imp_RtlpMuiRegFreeRegistryInfo:qword 
+RtlpMuiRegFreeRegistryInfo TEXTEQU <__imp_RtlpMuiRegFreeRegistryInfo> 
+extern __imp_RtlpMuiRegLoadRegistryInfo:qword 
+RtlpMuiRegLoadRegistryInfo TEXTEQU <__imp_RtlpMuiRegLoadRegistryInfo> 
+extern __imp_RtlpNotOwnerCriticalSection:qword 
+RtlpNotOwnerCriticalSection TEXTEQU <__imp_RtlpNotOwnerCriticalSection> 
+extern __imp_RtlpNtCreateKey:qword 
+RtlpNtCreateKey TEXTEQU <__imp_RtlpNtCreateKey> 
+extern __imp_RtlpNtEnumerateSubKey:qword 
+RtlpNtEnumerateSubKey TEXTEQU <__imp_RtlpNtEnumerateSubKey> 
+extern __imp_RtlpNtMakeTemporaryKey:qword 
+RtlpNtMakeTemporaryKey TEXTEQU <__imp_RtlpNtMakeTemporaryKey> 
+extern __imp_RtlpNtOpenKey:qword 
+RtlpNtOpenKey TEXTEQU <__imp_RtlpNtOpenKey> 
+extern __imp_RtlpNtQueryValueKey:qword 
+RtlpNtQueryValueKey TEXTEQU <__imp_RtlpNtQueryValueKey> 
+extern __imp_RtlpNtSetValueKey:qword 
+RtlpNtSetValueKey TEXTEQU <__imp_RtlpNtSetValueKey> 
+extern __imp_RtlpQueryDefaultUILanguage:qword 
+RtlpQueryDefaultUILanguage TEXTEQU <__imp_RtlpQueryDefaultUILanguage> 
+extern __imp_RtlpQueryProcessDebugInformationFromWow64:qword 
+RtlpQueryProcessDebugInformationFromWow64 TEXTEQU <__imp_RtlpQueryProcessDebugInformationFromWow64> 
+extern __imp_RtlpRefreshCachedUILanguage:qword 
+RtlpRefreshCachedUILanguage TEXTEQU <__imp_RtlpRefreshCachedUILanguage> 
+extern __imp_RtlpSetInstallLanguage:qword 
+RtlpSetInstallLanguage TEXTEQU <__imp_RtlpSetInstallLanguage> 
+extern __imp_RtlpSetPreferredUILanguages:qword 
+RtlpSetPreferredUILanguages TEXTEQU <__imp_RtlpSetPreferredUILanguages> 
+extern __imp_RtlpSetUserPreferredUILanguages:qword 
+RtlpSetUserPreferredUILanguages TEXTEQU <__imp_RtlpSetUserPreferredUILanguages> 
+extern __imp_RtlpUmsExecuteYieldThreadEnd:qword 
+RtlpUmsExecuteYieldThreadEnd TEXTEQU <__imp_RtlpUmsExecuteYieldThreadEnd> 
+extern __imp_RtlpUmsThreadYield:qword 
+RtlpUmsThreadYield TEXTEQU <__imp_RtlpUmsThreadYield> 
+extern __imp_RtlpUnWaitCriticalSection:qword 
+RtlpUnWaitCriticalSection TEXTEQU <__imp_RtlpUnWaitCriticalSection> 
+extern __imp_RtlpVerifyAndCommitUILanguageSettings:qword 
+RtlpVerifyAndCommitUILanguageSettings TEXTEQU <__imp_RtlpVerifyAndCommitUILanguageSettings> 
+extern __imp_RtlpWaitForCriticalSection:qword 
+RtlpWaitForCriticalSection TEXTEQU <__imp_RtlpWaitForCriticalSection> 
+extern __imp_RtlxAnsiStringToUnicodeSize:qword 
+RtlxAnsiStringToUnicodeSize TEXTEQU <__imp_RtlxAnsiStringToUnicodeSize> 
+extern __imp_RtlxOemStringToUnicodeSize:qword 
+RtlxOemStringToUnicodeSize TEXTEQU <__imp_RtlxOemStringToUnicodeSize> 
+extern __imp_RtlxUnicodeStringToAnsiSize:qword 
+RtlxUnicodeStringToAnsiSize TEXTEQU <__imp_RtlxUnicodeStringToAnsiSize> 
+extern __imp_RtlxUnicodeStringToOemSize:qword 
+RtlxUnicodeStringToOemSize TEXTEQU <__imp_RtlxUnicodeStringToOemSize> 
+extern __imp_SbExecuteProcedure:qword 
+SbExecuteProcedure TEXTEQU <__imp_SbExecuteProcedure> 
+extern __imp_SbSelectProcedure:qword 
+SbSelectProcedure TEXTEQU <__imp_SbSelectProcedure> 
+extern __imp_ShipAssert:qword 
+ShipAssert TEXTEQU <__imp_ShipAssert> 
+extern __imp_ShipAssertGetBufferInfo:qword 
+ShipAssertGetBufferInfo TEXTEQU <__imp_ShipAssertGetBufferInfo> 
+extern __imp_ShipAssertMsgA:qword 
+ShipAssertMsg TEXTEQU <__imp_ShipAssertMsgA> 
+extern __imp_ShipAssertMsgW:qword 
+ShipAssertMsgW TEXTEQU <__imp_ShipAssertMsgW> 
+extern __imp_TpAllocAlpcCompletion:qword 
+TpAllocAlpcCompletion TEXTEQU <__imp_TpAllocAlpcCompletion> 
+extern __imp_TpAllocAlpcCompletionEx:qword 
+TpAllocAlpcCompletionEx TEXTEQU <__imp_TpAllocAlpcCompletionEx> 
+extern __imp_TpAllocCleanupGroup:qword 
+TpAllocCleanupGroup TEXTEQU <__imp_TpAllocCleanupGroup> 
+extern __imp_TpAllocIoCompletion:qword 
+TpAllocIoCompletion TEXTEQU <__imp_TpAllocIoCompletion> 
+extern __imp_TpAllocPool:qword 
+TpAllocPool TEXTEQU <__imp_TpAllocPool> 
+extern __imp_TpAllocTimer:qword 
+TpAllocTimer TEXTEQU <__imp_TpAllocTimer> 
+extern __imp_TpAllocWait:qword 
+TpAllocWait TEXTEQU <__imp_TpAllocWait> 
+extern __imp_TpAllocWork:qword 
+TpAllocWork TEXTEQU <__imp_TpAllocWork> 
+extern __imp_TpAlpcRegisterCompletionList:qword 
+TpAlpcRegisterCompletionList TEXTEQU <__imp_TpAlpcRegisterCompletionList> 
+extern __imp_TpAlpcUnregisterCompletionList:qword 
+TpAlpcUnregisterCompletionList TEXTEQU <__imp_TpAlpcUnregisterCompletionList> 
+extern __imp_TpCallbackIndependent:qword 
+TpCallbackIndependent TEXTEQU <__imp_TpCallbackIndependent> 
+extern __imp_TpCallbackLeaveCriticalSectionOnCompletion:qword 
+TpCallbackLeaveCriticalSectionOnCompletion TEXTEQU <__imp_TpCallbackLeaveCriticalSectionOnCompletion> 
+extern __imp_TpCallbackMayRunLong:qword 
+TpCallbackMayRunLong TEXTEQU <__imp_TpCallbackMayRunLong> 
+extern __imp_TpCallbackReleaseMutexOnCompletion:qword 
+TpCallbackReleaseMutexOnCompletion TEXTEQU <__imp_TpCallbackReleaseMutexOnCompletion> 
+extern __imp_TpCallbackReleaseSemaphoreOnCompletion:qword 
+TpCallbackReleaseSemaphoreOnCompletion TEXTEQU <__imp_TpCallbackReleaseSemaphoreOnCompletion> 
+extern __imp_TpCallbackSetEventOnCompletion:qword 
+TpCallbackSetEventOnCompletion TEXTEQU <__imp_TpCallbackSetEventOnCompletion> 
+extern __imp_TpCallbackUnloadDllOnCompletion:qword 
+TpCallbackUnloadDllOnCompletion TEXTEQU <__imp_TpCallbackUnloadDllOnCompletion> 
+extern __imp_TpCancelAsyncIoOperation:qword 
+TpCancelAsyncIoOperation TEXTEQU <__imp_TpCancelAsyncIoOperation> 
+extern __imp_TpCaptureCaller:qword 
+TpCaptureCaller TEXTEQU <__imp_TpCaptureCaller> 
+extern __imp_TpCheckTerminateWorker:qword 
+TpCheckTerminateWorker TEXTEQU <__imp_TpCheckTerminateWorker> 
+extern __imp_TpDbgDumpHeapUsage:qword 
+TpDbgDumpHeapUsage TEXTEQU <__imp_TpDbgDumpHeapUsage> 
+extern __imp_TpDbgGetFreeInfo:qword 
+TpDbgGetFreeInfo TEXTEQU <__imp_TpDbgGetFreeInfo> 
+extern __imp_TpDbgSetLogRoutine:qword 
+TpDbgSetLogRoutine TEXTEQU <__imp_TpDbgSetLogRoutine> 
+extern __imp_TpDisablePoolCallbackChecks:qword 
+TpDisablePoolCallbackChecks TEXTEQU <__imp_TpDisablePoolCallbackChecks> 
+extern __imp_TpDisassociateCallback:qword 
+TpDisassociateCallback TEXTEQU <__imp_TpDisassociateCallback> 
+extern __imp_TpIsTimerSet:qword 
+TpIsTimerSet TEXTEQU <__imp_TpIsTimerSet> 
+extern __imp_TpPoolFreeUnusedNodes:qword 
+TpPoolFreeUnusedNodes TEXTEQU <__imp_TpPoolFreeUnusedNodes> 
+extern __imp_TpPostWork:qword 
+TpPostWork TEXTEQU <__imp_TpPostWork> 
+extern __imp_TpQueryPoolStackInformation:qword 
+TpQueryPoolStackInformation TEXTEQU <__imp_TpQueryPoolStackInformation> 
+extern __imp_TpReleaseAlpcCompletion:qword 
+TpReleaseAlpcCompletion TEXTEQU <__imp_TpReleaseAlpcCompletion> 
+extern __imp_TpReleaseCleanupGroup:qword 
+TpReleaseCleanupGroup TEXTEQU <__imp_TpReleaseCleanupGroup> 
+extern __imp_TpReleaseCleanupGroupMembers:qword 
+TpReleaseCleanupGroupMembers TEXTEQU <__imp_TpReleaseCleanupGroupMembers> 
+extern __imp_TpReleaseIoCompletion:qword 
+TpReleaseIoCompletion TEXTEQU <__imp_TpReleaseIoCompletion> 
+extern __imp_TpReleasePool:qword 
+TpReleasePool TEXTEQU <__imp_TpReleasePool> 
+extern __imp_TpReleaseTimer:qword 
+TpReleaseTimer TEXTEQU <__imp_TpReleaseTimer> 
+extern __imp_TpReleaseWait:qword 
+TpReleaseWait TEXTEQU <__imp_TpReleaseWait> 
+extern __imp_TpReleaseWork:qword 
+TpReleaseWork TEXTEQU <__imp_TpReleaseWork> 
+extern __imp_TpSetDefaultPoolMaxThreads:qword 
+TpSetDefaultPoolMaxThreads TEXTEQU <__imp_TpSetDefaultPoolMaxThreads> 
+extern __imp_TpSetDefaultPoolStackInformation:qword 
+TpSetDefaultPoolStackInformation TEXTEQU <__imp_TpSetDefaultPoolStackInformation> 
+extern __imp_TpSetPoolMaxThreads:qword 
+TpSetPoolMaxThreads TEXTEQU <__imp_TpSetPoolMaxThreads> 
+extern __imp_TpSetPoolMinThreads:qword 
+TpSetPoolMinThreads TEXTEQU <__imp_TpSetPoolMinThreads> 
+extern __imp_TpSetPoolStackInformation:qword 
+TpSetPoolStackInformation TEXTEQU <__imp_TpSetPoolStackInformation> 
+extern __imp_TpSetTimer:qword 
+TpSetTimer TEXTEQU <__imp_TpSetTimer> 
+extern __imp_TpSetWait:qword 
+TpSetWait TEXTEQU <__imp_TpSetWait> 
+extern __imp_TpSimpleTryPost:qword 
+TpSimpleTryPost TEXTEQU <__imp_TpSimpleTryPost> 
+extern __imp_TpStartAsyncIoOperation:qword 
+TpStartAsyncIoOperation TEXTEQU <__imp_TpStartAsyncIoOperation> 
+extern __imp_TpWaitForAlpcCompletion:qword 
+TpWaitForAlpcCompletion TEXTEQU <__imp_TpWaitForAlpcCompletion> 
+extern __imp_TpWaitForIoCompletion:qword 
+TpWaitForIoCompletion TEXTEQU <__imp_TpWaitForIoCompletion> 
+extern __imp_TpWaitForTimer:qword 
+TpWaitForTimer TEXTEQU <__imp_TpWaitForTimer> 
+extern __imp_TpWaitForWait:qword 
+TpWaitForWait TEXTEQU <__imp_TpWaitForWait> 
+extern __imp_TpWaitForWork:qword 
+TpWaitForWork TEXTEQU <__imp_TpWaitForWork> 
+extern __imp_VerSetConditionMask:qword 
+VerSetConditionMask TEXTEQU <__imp_VerSetConditionMask> 
+extern __imp_WerReportSQMEvent:qword 
+WerReportSQMEvent TEXTEQU <__imp_WerReportSQMEvent> 
+extern __imp_WinSqmAddToAverageDWORD:qword 
+WinSqmAddToAverageDWORD TEXTEQU <__imp_WinSqmAddToAverageDWORD> 
+extern __imp_WinSqmAddToStream:qword 
+WinSqmAddToStream TEXTEQU <__imp_WinSqmAddToStream> 
+extern __imp_WinSqmAddToStreamEx:qword 
+WinSqmAddToStreamEx TEXTEQU <__imp_WinSqmAddToStreamEx> 
+extern __imp_WinSqmCheckEscalationAddToStreamEx:qword 
+WinSqmCheckEscalationAddToStreamEx TEXTEQU <__imp_WinSqmCheckEscalationAddToStreamEx> 
+extern __imp_WinSqmCheckEscalationSetDWORD:qword 
+WinSqmCheckEscalationSetDWORD TEXTEQU <__imp_WinSqmCheckEscalationSetDWORD> 
+extern __imp_WinSqmCheckEscalationSetDWORD64:qword 
+WinSqmCheckEscalationSetDWORD64 TEXTEQU <__imp_WinSqmCheckEscalationSetDWORD64> 
+extern __imp_WinSqmCheckEscalationSetString:qword 
+WinSqmCheckEscalationSetString TEXTEQU <__imp_WinSqmCheckEscalationSetString> 
+extern __imp_WinSqmCommonDatapointDelete:qword 
+WinSqmCommonDatapointDelete TEXTEQU <__imp_WinSqmCommonDatapointDelete> 
+extern __imp_WinSqmCommonDatapointSetDWORD:qword 
+WinSqmCommonDatapointSetDWORD TEXTEQU <__imp_WinSqmCommonDatapointSetDWORD> 
+extern __imp_WinSqmCommonDatapointSetDWORD64:qword 
+WinSqmCommonDatapointSetDWORD64 TEXTEQU <__imp_WinSqmCommonDatapointSetDWORD64> 
+extern __imp_WinSqmCommonDatapointSetStreamEx:qword 
+WinSqmCommonDatapointSetStreamEx TEXTEQU <__imp_WinSqmCommonDatapointSetStreamEx> 
+extern __imp_WinSqmCommonDatapointSetString:qword 
+WinSqmCommonDatapointSetString TEXTEQU <__imp_WinSqmCommonDatapointSetString> 
+extern __imp_WinSqmEndSession:qword 
+WinSqmEndSession TEXTEQU <__imp_WinSqmEndSession> 
+extern __imp_WinSqmEventEnabled:qword 
+WinSqmEventEnabled TEXTEQU <__imp_WinSqmEventEnabled> 
+extern __imp_WinSqmEventWrite:qword 
+WinSqmEventWrite TEXTEQU <__imp_WinSqmEventWrite> 
+extern __imp_WinSqmGetEscalationRuleStatus:qword 
+WinSqmGetEscalationRuleStatus TEXTEQU <__imp_WinSqmGetEscalationRuleStatus> 
+extern __imp_WinSqmGetInstrumentationProperty:qword 
+WinSqmGetInstrumentationProperty TEXTEQU <__imp_WinSqmGetInstrumentationProperty> 
+extern __imp_WinSqmIncrementDWORD:qword 
+WinSqmIncrementDWORD TEXTEQU <__imp_WinSqmIncrementDWORD> 
+extern __imp_WinSqmIsOptedIn:qword 
+WinSqmIsOptedIn TEXTEQU <__imp_WinSqmIsOptedIn> 
+extern __imp_WinSqmIsOptedInEx:qword 
+WinSqmIsOptedInEx TEXTEQU <__imp_WinSqmIsOptedInEx> 
+extern __imp_WinSqmSetDWORD:qword 
+WinSqmSetDWORD TEXTEQU <__imp_WinSqmSetDWORD> 
+extern __imp_WinSqmSetDWORD64:qword 
+WinSqmSetDWORD64 TEXTEQU <__imp_WinSqmSetDWORD64> 
+extern __imp_WinSqmSetEscalationInfo:qword 
+WinSqmSetEscalationInfo TEXTEQU <__imp_WinSqmSetEscalationInfo> 
+extern __imp_WinSqmSetIfMaxDWORD:qword 
+WinSqmSetIfMaxDWORD TEXTEQU <__imp_WinSqmSetIfMaxDWORD> 
+extern __imp_WinSqmSetIfMinDWORD:qword 
+WinSqmSetIfMinDWORD TEXTEQU <__imp_WinSqmSetIfMinDWORD> 
+extern __imp_WinSqmSetString:qword 
+WinSqmSetString TEXTEQU <__imp_WinSqmSetString> 
+extern __imp_WinSqmStartSession:qword 
+WinSqmStartSession TEXTEQU <__imp_WinSqmStartSession> 
+extern __imp_ZwAcceptConnectPort:qword 
+ZwAcceptConnectPort TEXTEQU <__imp_ZwAcceptConnectPort> 
+extern __imp_ZwAccessCheck:qword 
+ZwAccessCheck TEXTEQU <__imp_ZwAccessCheck> 
+extern __imp_ZwAccessCheckAndAuditAlarm:qword 
+ZwAccessCheckAndAuditAlarm TEXTEQU <__imp_ZwAccessCheckAndAuditAlarm> 
+extern __imp_ZwAccessCheckByType:qword 
+ZwAccessCheckByType TEXTEQU <__imp_ZwAccessCheckByType> 
+extern __imp_ZwAccessCheckByTypeAndAuditAlarm:qword 
+ZwAccessCheckByTypeAndAuditAlarm TEXTEQU <__imp_ZwAccessCheckByTypeAndAuditAlarm> 
+extern __imp_ZwAccessCheckByTypeResultList:qword 
+ZwAccessCheckByTypeResultList TEXTEQU <__imp_ZwAccessCheckByTypeResultList> 
+extern __imp_ZwAccessCheckByTypeResultListAndAuditAlarm:qword 
+ZwAccessCheckByTypeResultListAndAuditAlarm TEXTEQU <__imp_ZwAccessCheckByTypeResultListAndAuditAlarm> 
+extern __imp_ZwAccessCheckByTypeResultListAndAuditAlarmByHandle:qword 
+ZwAccessCheckByTypeResultListAndAuditAlarmByHandle TEXTEQU <__imp_ZwAccessCheckByTypeResultListAndAuditAlarmByHandle> 
+extern __imp_ZwAddAtom:qword 
+ZwAddAtom TEXTEQU <__imp_ZwAddAtom> 
+extern __imp_ZwAddBootEntry:qword 
+ZwAddBootEntry TEXTEQU <__imp_ZwAddBootEntry> 
+extern __imp_ZwAddDriverEntry:qword 
+ZwAddDriverEntry TEXTEQU <__imp_ZwAddDriverEntry> 
+extern __imp_ZwAdjustGroupsToken:qword 
+ZwAdjustGroupsToken TEXTEQU <__imp_ZwAdjustGroupsToken> 
+extern __imp_ZwAdjustPrivilegesToken:qword 
+ZwAdjustPrivilegesToken TEXTEQU <__imp_ZwAdjustPrivilegesToken> 
+extern __imp_ZwAlertResumeThread:qword 
+ZwAlertResumeThread TEXTEQU <__imp_ZwAlertResumeThread> 
+extern __imp_ZwAlertThread:qword 
+ZwAlertThread TEXTEQU <__imp_ZwAlertThread> 
+extern __imp_ZwAllocateLocallyUniqueId:qword 
+ZwAllocateLocallyUniqueId TEXTEQU <__imp_ZwAllocateLocallyUniqueId> 
+extern __imp_ZwAllocateReserveObject:qword 
+ZwAllocateReserveObject TEXTEQU <__imp_ZwAllocateReserveObject> 
+extern __imp_ZwAllocateUserPhysicalPages:qword 
+ZwAllocateUserPhysicalPages TEXTEQU <__imp_ZwAllocateUserPhysicalPages> 
+extern __imp_ZwAllocateUuids:qword 
+ZwAllocateUuids TEXTEQU <__imp_ZwAllocateUuids> 
+extern __imp_ZwAllocateVirtualMemory:qword 
+ZwAllocateVirtualMemory TEXTEQU <__imp_ZwAllocateVirtualMemory> 
+extern __imp_ZwAlpcAcceptConnectPort:qword 
+ZwAlpcAcceptConnectPort TEXTEQU <__imp_ZwAlpcAcceptConnectPort> 
+extern __imp_ZwAlpcCancelMessage:qword 
+ZwAlpcCancelMessage TEXTEQU <__imp_ZwAlpcCancelMessage> 
+extern __imp_ZwAlpcConnectPort:qword 
+ZwAlpcConnectPort TEXTEQU <__imp_ZwAlpcConnectPort> 
+extern __imp_ZwAlpcCreatePort:qword 
+ZwAlpcCreatePort TEXTEQU <__imp_ZwAlpcCreatePort> 
+extern __imp_ZwAlpcCreatePortSection:qword 
+ZwAlpcCreatePortSection TEXTEQU <__imp_ZwAlpcCreatePortSection> 
+extern __imp_ZwAlpcCreateResourceReserve:qword 
+ZwAlpcCreateResourceReserve TEXTEQU <__imp_ZwAlpcCreateResourceReserve> 
+extern __imp_ZwAlpcCreateSectionView:qword 
+ZwAlpcCreateSectionView TEXTEQU <__imp_ZwAlpcCreateSectionView> 
+extern __imp_ZwAlpcCreateSecurityContext:qword 
+ZwAlpcCreateSecurityContext TEXTEQU <__imp_ZwAlpcCreateSecurityContext> 
+extern __imp_ZwAlpcDeletePortSection:qword 
+ZwAlpcDeletePortSection TEXTEQU <__imp_ZwAlpcDeletePortSection> 
+extern __imp_ZwAlpcDeleteResourceReserve:qword 
+ZwAlpcDeleteResourceReserve TEXTEQU <__imp_ZwAlpcDeleteResourceReserve> 
+extern __imp_ZwAlpcDeleteSectionView:qword 
+ZwAlpcDeleteSectionView TEXTEQU <__imp_ZwAlpcDeleteSectionView> 
+extern __imp_ZwAlpcDeleteSecurityContext:qword 
+ZwAlpcDeleteSecurityContext TEXTEQU <__imp_ZwAlpcDeleteSecurityContext> 
+extern __imp_ZwAlpcDisconnectPort:qword 
+ZwAlpcDisconnectPort TEXTEQU <__imp_ZwAlpcDisconnectPort> 
+extern __imp_ZwAlpcImpersonateClientOfPort:qword 
+ZwAlpcImpersonateClientOfPort TEXTEQU <__imp_ZwAlpcImpersonateClientOfPort> 
+extern __imp_ZwAlpcOpenSenderProcess:qword 
+ZwAlpcOpenSenderProcess TEXTEQU <__imp_ZwAlpcOpenSenderProcess> 
+extern __imp_ZwAlpcOpenSenderThread:qword 
+ZwAlpcOpenSenderThread TEXTEQU <__imp_ZwAlpcOpenSenderThread> 
+extern __imp_ZwAlpcQueryInformation:qword 
+ZwAlpcQueryInformation TEXTEQU <__imp_ZwAlpcQueryInformation> 
+extern __imp_ZwAlpcQueryInformationMessage:qword 
+ZwAlpcQueryInformationMessage TEXTEQU <__imp_ZwAlpcQueryInformationMessage> 
+extern __imp_ZwAlpcRevokeSecurityContext:qword 
+ZwAlpcRevokeSecurityContext TEXTEQU <__imp_ZwAlpcRevokeSecurityContext> 
+extern __imp_ZwAlpcSendWaitReceivePort:qword 
+ZwAlpcSendWaitReceivePort TEXTEQU <__imp_ZwAlpcSendWaitReceivePort> 
+extern __imp_ZwAlpcSetInformation:qword 
+ZwAlpcSetInformation TEXTEQU <__imp_ZwAlpcSetInformation> 
+extern __imp_ZwApphelpCacheControl:qword 
+ZwApphelpCacheControl TEXTEQU <__imp_ZwApphelpCacheControl> 
+extern __imp_ZwAreMappedFilesTheSame:qword 
+ZwAreMappedFilesTheSame TEXTEQU <__imp_ZwAreMappedFilesTheSame> 
+extern __imp_ZwAssignProcessToJobObject:qword 
+ZwAssignProcessToJobObject TEXTEQU <__imp_ZwAssignProcessToJobObject> 
+extern __imp_ZwCallbackReturn:qword 
+ZwCallbackReturn TEXTEQU <__imp_ZwCallbackReturn> 
+extern __imp_ZwCancelIoFile:qword 
+ZwCancelIoFile TEXTEQU <__imp_ZwCancelIoFile> 
+extern __imp_ZwCancelIoFileEx:qword 
+ZwCancelIoFileEx TEXTEQU <__imp_ZwCancelIoFileEx> 
+extern __imp_ZwCancelSynchronousIoFile:qword 
+ZwCancelSynchronousIoFile TEXTEQU <__imp_ZwCancelSynchronousIoFile> 
+extern __imp_ZwCancelTimer:qword 
+ZwCancelTimer TEXTEQU <__imp_ZwCancelTimer> 
+extern __imp_ZwClearEvent:qword 
+ZwClearEvent TEXTEQU <__imp_ZwClearEvent> 
+extern __imp_ZwClose:qword 
+ZwClose TEXTEQU <__imp_ZwClose> 
+extern __imp_ZwCloseObjectAuditAlarm:qword 
+ZwCloseObjectAuditAlarm TEXTEQU <__imp_ZwCloseObjectAuditAlarm> 
+extern __imp_ZwCommitComplete:qword 
+ZwCommitComplete TEXTEQU <__imp_ZwCommitComplete> 
+extern __imp_ZwCommitEnlistment:qword 
+ZwCommitEnlistment TEXTEQU <__imp_ZwCommitEnlistment> 
+extern __imp_ZwCommitTransaction:qword 
+ZwCommitTransaction TEXTEQU <__imp_ZwCommitTransaction> 
+extern __imp_ZwCompactKeys:qword 
+ZwCompactKeys TEXTEQU <__imp_ZwCompactKeys> 
+extern __imp_ZwCompareTokens:qword 
+ZwCompareTokens TEXTEQU <__imp_ZwCompareTokens> 
+extern __imp_ZwCompleteConnectPort:qword 
+ZwCompleteConnectPort TEXTEQU <__imp_ZwCompleteConnectPort> 
+extern __imp_ZwCompressKey:qword 
+ZwCompressKey TEXTEQU <__imp_ZwCompressKey> 
+extern __imp_ZwConnectPort:qword 
+ZwConnectPort TEXTEQU <__imp_ZwConnectPort> 
+extern __imp_ZwContinue:qword 
+ZwContinue TEXTEQU <__imp_ZwContinue> 
+extern __imp_ZwCreateDebugObject:qword 
+ZwCreateDebugObject TEXTEQU <__imp_ZwCreateDebugObject> 
+extern __imp_ZwCreateDirectoryObject:qword 
+ZwCreateDirectoryObject TEXTEQU <__imp_ZwCreateDirectoryObject> 
+extern __imp_ZwCreateEnlistment:qword 
+ZwCreateEnlistment TEXTEQU <__imp_ZwCreateEnlistment> 
+extern __imp_ZwCreateEvent:qword 
+ZwCreateEvent TEXTEQU <__imp_ZwCreateEvent> 
+extern __imp_ZwCreateEventPair:qword 
+ZwCreateEventPair TEXTEQU <__imp_ZwCreateEventPair> 
+extern __imp_ZwCreateFile:qword 
+ZwCreateFile TEXTEQU <__imp_ZwCreateFile> 
+extern __imp_ZwCreateIoCompletion:qword 
+ZwCreateIoCompletion TEXTEQU <__imp_ZwCreateIoCompletion> 
+extern __imp_ZwCreateJobObject:qword 
+ZwCreateJobObject TEXTEQU <__imp_ZwCreateJobObject> 
+extern __imp_ZwCreateJobSet:qword 
+ZwCreateJobSet TEXTEQU <__imp_ZwCreateJobSet> 
+extern __imp_ZwCreateKey:qword 
+ZwCreateKey TEXTEQU <__imp_ZwCreateKey> 
+extern __imp_ZwCreateKeyTransacted:qword 
+ZwCreateKeyTransacted TEXTEQU <__imp_ZwCreateKeyTransacted> 
+extern __imp_ZwCreateKeyedEvent:qword 
+ZwCreateKeyedEvent TEXTEQU <__imp_ZwCreateKeyedEvent> 
+extern __imp_ZwCreateMailslotFile:qword 
+ZwCreateMailslotFile TEXTEQU <__imp_ZwCreateMailslotFile> 
+extern __imp_ZwCreateMutant:qword 
+ZwCreateMutant TEXTEQU <__imp_ZwCreateMutant> 
+extern __imp_ZwCreateNamedPipeFile:qword 
+ZwCreateNamedPipeFile TEXTEQU <__imp_ZwCreateNamedPipeFile> 
+extern __imp_ZwCreatePagingFile:qword 
+ZwCreatePagingFile TEXTEQU <__imp_ZwCreatePagingFile> 
+extern __imp_ZwCreatePort:qword 
+ZwCreatePort TEXTEQU <__imp_ZwCreatePort> 
+extern __imp_ZwCreatePrivateNamespace:qword 
+ZwCreatePrivateNamespace TEXTEQU <__imp_ZwCreatePrivateNamespace> 
+extern __imp_ZwCreateProcess:qword 
+ZwCreateProcess TEXTEQU <__imp_ZwCreateProcess> 
+extern __imp_ZwCreateProcessEx:qword 
+ZwCreateProcessEx TEXTEQU <__imp_ZwCreateProcessEx> 
+extern __imp_ZwCreateProfile:qword 
+ZwCreateProfile TEXTEQU <__imp_ZwCreateProfile> 
+extern __imp_ZwCreateProfileEx:qword 
+ZwCreateProfileEx TEXTEQU <__imp_ZwCreateProfileEx> 
+extern __imp_ZwCreateResourceManager:qword 
+ZwCreateResourceManager TEXTEQU <__imp_ZwCreateResourceManager> 
+extern __imp_ZwCreateSection:qword 
+ZwCreateSection TEXTEQU <__imp_ZwCreateSection> 
+extern __imp_ZwCreateSemaphore:qword 
+ZwCreateSemaphore TEXTEQU <__imp_ZwCreateSemaphore> 
+extern __imp_ZwCreateSymbolicLinkObject:qword 
+ZwCreateSymbolicLinkObject TEXTEQU <__imp_ZwCreateSymbolicLinkObject> 
+extern __imp_ZwCreateThread:qword 
+ZwCreateThread TEXTEQU <__imp_ZwCreateThread> 
+extern __imp_ZwCreateThreadEx:qword 
+ZwCreateThreadEx TEXTEQU <__imp_ZwCreateThreadEx> 
+extern __imp_ZwCreateTimer:qword 
+ZwCreateTimer TEXTEQU <__imp_ZwCreateTimer> 
+extern __imp_ZwCreateToken:qword 
+ZwCreateToken TEXTEQU <__imp_ZwCreateToken> 
+extern __imp_ZwCreateTransaction:qword 
+ZwCreateTransaction TEXTEQU <__imp_ZwCreateTransaction> 
+extern __imp_ZwCreateTransactionManager:qword 
+ZwCreateTransactionManager TEXTEQU <__imp_ZwCreateTransactionManager> 
+extern __imp_ZwCreateUserProcess:qword 
+ZwCreateUserProcess TEXTEQU <__imp_ZwCreateUserProcess> 
+extern __imp_ZwCreateWaitablePort:qword 
+ZwCreateWaitablePort TEXTEQU <__imp_ZwCreateWaitablePort> 
+extern __imp_ZwCreateWorkerFactory:qword 
+ZwCreateWorkerFactory TEXTEQU <__imp_ZwCreateWorkerFactory> 
+extern __imp_ZwDebugActiveProcess:qword 
+ZwDebugActiveProcess TEXTEQU <__imp_ZwDebugActiveProcess> 
+extern __imp_ZwDebugContinue:qword 
+ZwDebugContinue TEXTEQU <__imp_ZwDebugContinue> 
+extern __imp_ZwDelayExecution:qword 
+ZwDelayExecution TEXTEQU <__imp_ZwDelayExecution> 
+extern __imp_ZwDeleteAtom:qword 
+ZwDeleteAtom TEXTEQU <__imp_ZwDeleteAtom> 
+extern __imp_ZwDeleteBootEntry:qword 
+ZwDeleteBootEntry TEXTEQU <__imp_ZwDeleteBootEntry> 
+extern __imp_ZwDeleteDriverEntry:qword 
+ZwDeleteDriverEntry TEXTEQU <__imp_ZwDeleteDriverEntry> 
+extern __imp_ZwDeleteFile:qword 
+ZwDeleteFile TEXTEQU <__imp_ZwDeleteFile> 
+extern __imp_ZwDeleteKey:qword 
+ZwDeleteKey TEXTEQU <__imp_ZwDeleteKey> 
+extern __imp_ZwDeleteObjectAuditAlarm:qword 
+ZwDeleteObjectAuditAlarm TEXTEQU <__imp_ZwDeleteObjectAuditAlarm> 
+extern __imp_ZwDeletePrivateNamespace:qword 
+ZwDeletePrivateNamespace TEXTEQU <__imp_ZwDeletePrivateNamespace> 
+extern __imp_ZwDeleteValueKey:qword 
+ZwDeleteValueKey TEXTEQU <__imp_ZwDeleteValueKey> 
+extern __imp_ZwDeviceIoControlFile:qword 
+ZwDeviceIoControlFile TEXTEQU <__imp_ZwDeviceIoControlFile> 
+extern __imp_ZwDisableLastKnownGood:qword 
+ZwDisableLastKnownGood TEXTEQU <__imp_ZwDisableLastKnownGood> 
+extern __imp_ZwDisplayString:qword 
+ZwDisplayString TEXTEQU <__imp_ZwDisplayString> 
+extern __imp_ZwDrawText:qword 
+ZwDrawText TEXTEQU <__imp_ZwDrawText> 
+extern __imp_ZwDuplicateObject:qword 
+ZwDuplicateObject TEXTEQU <__imp_ZwDuplicateObject> 
+extern __imp_ZwDuplicateToken:qword 
+ZwDuplicateToken TEXTEQU <__imp_ZwDuplicateToken> 
+extern __imp_ZwEnableLastKnownGood:qword 
+ZwEnableLastKnownGood TEXTEQU <__imp_ZwEnableLastKnownGood> 
+extern __imp_ZwEnumerateBootEntries:qword 
+ZwEnumerateBootEntries TEXTEQU <__imp_ZwEnumerateBootEntries> 
+extern __imp_ZwEnumerateDriverEntries:qword 
+ZwEnumerateDriverEntries TEXTEQU <__imp_ZwEnumerateDriverEntries> 
+extern __imp_ZwEnumerateKey:qword 
+ZwEnumerateKey TEXTEQU <__imp_ZwEnumerateKey> 
+extern __imp_ZwEnumerateSystemEnvironmentValuesEx:qword 
+ZwEnumerateSystemEnvironmentValuesEx TEXTEQU <__imp_ZwEnumerateSystemEnvironmentValuesEx> 
+extern __imp_ZwEnumerateTransactionObject:qword 
+ZwEnumerateTransactionObject TEXTEQU <__imp_ZwEnumerateTransactionObject> 
+extern __imp_ZwEnumerateValueKey:qword 
+ZwEnumerateValueKey TEXTEQU <__imp_ZwEnumerateValueKey> 
+extern __imp_ZwExtendSection:qword 
+ZwExtendSection TEXTEQU <__imp_ZwExtendSection> 
+extern __imp_ZwFilterToken:qword 
+ZwFilterToken TEXTEQU <__imp_ZwFilterToken> 
+extern __imp_ZwFindAtom:qword 
+ZwFindAtom TEXTEQU <__imp_ZwFindAtom> 
+extern __imp_ZwFlushBuffersFile:qword 
+ZwFlushBuffersFile TEXTEQU <__imp_ZwFlushBuffersFile> 
+extern __imp_ZwFlushInstallUILanguage:qword 
+ZwFlushInstallUILanguage TEXTEQU <__imp_ZwFlushInstallUILanguage> 
+extern __imp_ZwFlushInstructionCache:qword 
+ZwFlushInstructionCache TEXTEQU <__imp_ZwFlushInstructionCache> 
+extern __imp_ZwFlushKey:qword 
+ZwFlushKey TEXTEQU <__imp_ZwFlushKey> 
+extern __imp_ZwFlushProcessWriteBuffers:qword 
+ZwFlushProcessWriteBuffers TEXTEQU <__imp_ZwFlushProcessWriteBuffers> 
+extern __imp_ZwFlushVirtualMemory:qword 
+ZwFlushVirtualMemory TEXTEQU <__imp_ZwFlushVirtualMemory> 
+extern __imp_ZwFlushWriteBuffer:qword 
+ZwFlushWriteBuffer TEXTEQU <__imp_ZwFlushWriteBuffer> 
+extern __imp_ZwFreeUserPhysicalPages:qword 
+ZwFreeUserPhysicalPages TEXTEQU <__imp_ZwFreeUserPhysicalPages> 
+extern __imp_ZwFreeVirtualMemory:qword 
+ZwFreeVirtualMemory TEXTEQU <__imp_ZwFreeVirtualMemory> 
+extern __imp_ZwFreezeRegistry:qword 
+ZwFreezeRegistry TEXTEQU <__imp_ZwFreezeRegistry> 
+extern __imp_ZwFreezeTransactions:qword 
+ZwFreezeTransactions TEXTEQU <__imp_ZwFreezeTransactions> 
+extern __imp_ZwFsControlFile:qword 
+ZwFsControlFile TEXTEQU <__imp_ZwFsControlFile> 
+extern __imp_ZwGetContextThread:qword 
+ZwGetContextThread TEXTEQU <__imp_ZwGetContextThread> 
+extern __imp_ZwGetCurrentProcessorNumber:qword 
+ZwGetCurrentProcessorNumber TEXTEQU <__imp_ZwGetCurrentProcessorNumber> 
+extern __imp_ZwGetDevicePowerState:qword 
+ZwGetDevicePowerState TEXTEQU <__imp_ZwGetDevicePowerState> 
+extern __imp_ZwGetMUIRegistryInfo:qword 
+ZwGetMUIRegistryInfo TEXTEQU <__imp_ZwGetMUIRegistryInfo> 
+extern __imp_ZwGetNextProcess:qword 
+ZwGetNextProcess TEXTEQU <__imp_ZwGetNextProcess> 
+extern __imp_ZwGetNextThread:qword 
+ZwGetNextThread TEXTEQU <__imp_ZwGetNextThread> 
+extern __imp_ZwGetNlsSectionPtr:qword 
+ZwGetNlsSectionPtr TEXTEQU <__imp_ZwGetNlsSectionPtr> 
+extern __imp_ZwGetNotificationResourceManager:qword 
+ZwGetNotificationResourceManager TEXTEQU <__imp_ZwGetNotificationResourceManager> 
+extern __imp_ZwGetPlugPlayEvent:qword 
+ZwGetPlugPlayEvent TEXTEQU <__imp_ZwGetPlugPlayEvent> 
+extern __imp_ZwGetWriteWatch:qword 
+ZwGetWriteWatch TEXTEQU <__imp_ZwGetWriteWatch> 
+extern __imp_ZwImpersonateAnonymousToken:qword 
+ZwImpersonateAnonymousToken TEXTEQU <__imp_ZwImpersonateAnonymousToken> 
+extern __imp_ZwImpersonateClientOfPort:qword 
+ZwImpersonateClientOfPort TEXTEQU <__imp_ZwImpersonateClientOfPort> 
+extern __imp_ZwImpersonateThread:qword 
+ZwImpersonateThread TEXTEQU <__imp_ZwImpersonateThread> 
+extern __imp_ZwInitializeNlsFiles:qword 
+ZwInitializeNlsFiles TEXTEQU <__imp_ZwInitializeNlsFiles> 
+extern __imp_ZwInitializeRegistry:qword 
+ZwInitializeRegistry TEXTEQU <__imp_ZwInitializeRegistry> 
+extern __imp_ZwInitiatePowerAction:qword 
+ZwInitiatePowerAction TEXTEQU <__imp_ZwInitiatePowerAction> 
+extern __imp_ZwIsProcessInJob:qword 
+ZwIsProcessInJob TEXTEQU <__imp_ZwIsProcessInJob> 
+extern __imp_ZwIsSystemResumeAutomatic:qword 
+ZwIsSystemResumeAutomatic TEXTEQU <__imp_ZwIsSystemResumeAutomatic> 
+extern __imp_ZwIsUILanguageComitted:qword 
+ZwIsUILanguageComitted TEXTEQU <__imp_ZwIsUILanguageComitted> 
+extern __imp_ZwListenPort:qword 
+ZwListenPort TEXTEQU <__imp_ZwListenPort> 
+extern __imp_ZwLoadDriver:qword 
+ZwLoadDriver TEXTEQU <__imp_ZwLoadDriver> 
+extern __imp_ZwLoadKey:qword 
+ZwLoadKey TEXTEQU <__imp_ZwLoadKey> 
+extern __imp_ZwLoadKey2:qword 
+ZwLoadKey2 TEXTEQU <__imp_ZwLoadKey2> 
+extern __imp_ZwLoadKeyEx:qword 
+ZwLoadKeyEx TEXTEQU <__imp_ZwLoadKeyEx> 
+extern __imp_ZwLockFile:qword 
+ZwLockFile TEXTEQU <__imp_ZwLockFile> 
+extern __imp_ZwLockProductActivationKeys:qword 
+ZwLockProductActivationKeys TEXTEQU <__imp_ZwLockProductActivationKeys> 
+extern __imp_ZwLockRegistryKey:qword 
+ZwLockRegistryKey TEXTEQU <__imp_ZwLockRegistryKey> 
+extern __imp_ZwLockVirtualMemory:qword 
+ZwLockVirtualMemory TEXTEQU <__imp_ZwLockVirtualMemory> 
+extern __imp_ZwMakePermanentObject:qword 
+ZwMakePermanentObject TEXTEQU <__imp_ZwMakePermanentObject> 
+extern __imp_ZwMakeTemporaryObject:qword 
+ZwMakeTemporaryObject TEXTEQU <__imp_ZwMakeTemporaryObject> 
+extern __imp_ZwMapCMFModule:qword 
+ZwMapCMFModule TEXTEQU <__imp_ZwMapCMFModule> 
+extern __imp_ZwMapUserPhysicalPages:qword 
+ZwMapUserPhysicalPages TEXTEQU <__imp_ZwMapUserPhysicalPages> 
+extern __imp_ZwMapUserPhysicalPagesScatter:qword 
+ZwMapUserPhysicalPagesScatter TEXTEQU <__imp_ZwMapUserPhysicalPagesScatter> 
+extern __imp_ZwMapViewOfSection:qword 
+ZwMapViewOfSection TEXTEQU <__imp_ZwMapViewOfSection> 
+extern __imp_ZwModifyBootEntry:qword 
+ZwModifyBootEntry TEXTEQU <__imp_ZwModifyBootEntry> 
+extern __imp_ZwModifyDriverEntry:qword 
+ZwModifyDriverEntry TEXTEQU <__imp_ZwModifyDriverEntry> 
+extern __imp_ZwNotifyChangeDirectoryFile:qword 
+ZwNotifyChangeDirectoryFile TEXTEQU <__imp_ZwNotifyChangeDirectoryFile> 
+extern __imp_ZwNotifyChangeKey:qword 
+ZwNotifyChangeKey TEXTEQU <__imp_ZwNotifyChangeKey> 
+extern __imp_ZwNotifyChangeMultipleKeys:qword 
+ZwNotifyChangeMultipleKeys TEXTEQU <__imp_ZwNotifyChangeMultipleKeys> 
+extern __imp_ZwNotifyChangeSession:qword 
+ZwNotifyChangeSession TEXTEQU <__imp_ZwNotifyChangeSession> 
+extern __imp_ZwOpenDirectoryObject:qword 
+ZwOpenDirectoryObject TEXTEQU <__imp_ZwOpenDirectoryObject> 
+extern __imp_ZwOpenEnlistment:qword 
+ZwOpenEnlistment TEXTEQU <__imp_ZwOpenEnlistment> 
+extern __imp_ZwOpenEvent:qword 
+ZwOpenEvent TEXTEQU <__imp_ZwOpenEvent> 
+extern __imp_ZwOpenEventPair:qword 
+ZwOpenEventPair TEXTEQU <__imp_ZwOpenEventPair> 
+extern __imp_ZwOpenFile:qword 
+ZwOpenFile TEXTEQU <__imp_ZwOpenFile> 
+extern __imp_ZwOpenIoCompletion:qword 
+ZwOpenIoCompletion TEXTEQU <__imp_ZwOpenIoCompletion> 
+extern __imp_ZwOpenJobObject:qword 
+ZwOpenJobObject TEXTEQU <__imp_ZwOpenJobObject> 
+extern __imp_ZwOpenKey:qword 
+ZwOpenKey TEXTEQU <__imp_ZwOpenKey> 
+extern __imp_ZwOpenKeyEx:qword 
+ZwOpenKeyEx TEXTEQU <__imp_ZwOpenKeyEx> 
+extern __imp_ZwOpenKeyTransacted:qword 
+ZwOpenKeyTransacted TEXTEQU <__imp_ZwOpenKeyTransacted> 
+extern __imp_ZwOpenKeyTransactedEx:qword 
+ZwOpenKeyTransactedEx TEXTEQU <__imp_ZwOpenKeyTransactedEx> 
+extern __imp_ZwOpenKeyedEvent:qword 
+ZwOpenKeyedEvent TEXTEQU <__imp_ZwOpenKeyedEvent> 
+extern __imp_ZwOpenMutant:qword 
+ZwOpenMutant TEXTEQU <__imp_ZwOpenMutant> 
+extern __imp_ZwOpenObjectAuditAlarm:qword 
+ZwOpenObjectAuditAlarm TEXTEQU <__imp_ZwOpenObjectAuditAlarm> 
+extern __imp_ZwOpenPrivateNamespace:qword 
+ZwOpenPrivateNamespace TEXTEQU <__imp_ZwOpenPrivateNamespace> 
+extern __imp_ZwOpenProcess:qword 
+ZwOpenProcess TEXTEQU <__imp_ZwOpenProcess> 
+extern __imp_ZwOpenProcessToken:qword 
+ZwOpenProcessToken TEXTEQU <__imp_ZwOpenProcessToken> 
+extern __imp_ZwOpenProcessTokenEx:qword 
+ZwOpenProcessTokenEx TEXTEQU <__imp_ZwOpenProcessTokenEx> 
+extern __imp_ZwOpenResourceManager:qword 
+ZwOpenResourceManager TEXTEQU <__imp_ZwOpenResourceManager> 
+extern __imp_ZwOpenSection:qword 
+ZwOpenSection TEXTEQU <__imp_ZwOpenSection> 
+extern __imp_ZwOpenSemaphore:qword 
+ZwOpenSemaphore TEXTEQU <__imp_ZwOpenSemaphore> 
+extern __imp_ZwOpenSession:qword 
+ZwOpenSession TEXTEQU <__imp_ZwOpenSession> 
+extern __imp_ZwOpenSymbolicLinkObject:qword 
+ZwOpenSymbolicLinkObject TEXTEQU <__imp_ZwOpenSymbolicLinkObject> 
+extern __imp_ZwOpenThread:qword 
+ZwOpenThread TEXTEQU <__imp_ZwOpenThread> 
+extern __imp_ZwOpenThreadToken:qword 
+ZwOpenThreadToken TEXTEQU <__imp_ZwOpenThreadToken> 
+extern __imp_ZwOpenThreadTokenEx:qword 
+ZwOpenThreadTokenEx TEXTEQU <__imp_ZwOpenThreadTokenEx> 
+extern __imp_ZwOpenTimer:qword 
+ZwOpenTimer TEXTEQU <__imp_ZwOpenTimer> 
+extern __imp_ZwOpenTransaction:qword 
+ZwOpenTransaction TEXTEQU <__imp_ZwOpenTransaction> 
+extern __imp_ZwOpenTransactionManager:qword 
+ZwOpenTransactionManager TEXTEQU <__imp_ZwOpenTransactionManager> 
+extern __imp_ZwPlugPlayControl:qword 
+ZwPlugPlayControl TEXTEQU <__imp_ZwPlugPlayControl> 
+extern __imp_ZwPowerInformation:qword 
+ZwPowerInformation TEXTEQU <__imp_ZwPowerInformation> 
+extern __imp_ZwPrePrepareComplete:qword 
+ZwPrePrepareComplete TEXTEQU <__imp_ZwPrePrepareComplete> 
+extern __imp_ZwPrePrepareEnlistment:qword 
+ZwPrePrepareEnlistment TEXTEQU <__imp_ZwPrePrepareEnlistment> 
+extern __imp_ZwPrepareComplete:qword 
+ZwPrepareComplete TEXTEQU <__imp_ZwPrepareComplete> 
+extern __imp_ZwPrepareEnlistment:qword 
+ZwPrepareEnlistment TEXTEQU <__imp_ZwPrepareEnlistment> 
+extern __imp_ZwPrivilegeCheck:qword 
+ZwPrivilegeCheck TEXTEQU <__imp_ZwPrivilegeCheck> 
+extern __imp_ZwPrivilegeObjectAuditAlarm:qword 
+ZwPrivilegeObjectAuditAlarm TEXTEQU <__imp_ZwPrivilegeObjectAuditAlarm> 
+extern __imp_ZwPrivilegedServiceAuditAlarm:qword 
+ZwPrivilegedServiceAuditAlarm TEXTEQU <__imp_ZwPrivilegedServiceAuditAlarm> 
+extern __imp_ZwPropagationComplete:qword 
+ZwPropagationComplete TEXTEQU <__imp_ZwPropagationComplete> 
+extern __imp_ZwPropagationFailed:qword 
+ZwPropagationFailed TEXTEQU <__imp_ZwPropagationFailed> 
+extern __imp_ZwProtectVirtualMemory:qword 
+ZwProtectVirtualMemory TEXTEQU <__imp_ZwProtectVirtualMemory> 
+extern __imp_ZwPulseEvent:qword 
+ZwPulseEvent TEXTEQU <__imp_ZwPulseEvent> 
+extern __imp_ZwQueryAttributesFile:qword 
+ZwQueryAttributesFile TEXTEQU <__imp_ZwQueryAttributesFile> 
+extern __imp_ZwQueryBootEntryOrder:qword 
+ZwQueryBootEntryOrder TEXTEQU <__imp_ZwQueryBootEntryOrder> 
+extern __imp_ZwQueryBootOptions:qword 
+ZwQueryBootOptions TEXTEQU <__imp_ZwQueryBootOptions> 
+extern __imp_ZwQueryDebugFilterState:qword 
+ZwQueryDebugFilterState TEXTEQU <__imp_ZwQueryDebugFilterState> 
+extern __imp_ZwQueryDefaultLocale:qword 
+ZwQueryDefaultLocale TEXTEQU <__imp_ZwQueryDefaultLocale> 
+extern __imp_ZwQueryDefaultUILanguage:qword 
+ZwQueryDefaultUILanguage TEXTEQU <__imp_ZwQueryDefaultUILanguage> 
+extern __imp_ZwQueryDirectoryFile:qword 
+ZwQueryDirectoryFile TEXTEQU <__imp_ZwQueryDirectoryFile> 
+extern __imp_ZwQueryDirectoryObject:qword 
+ZwQueryDirectoryObject TEXTEQU <__imp_ZwQueryDirectoryObject> 
+extern __imp_ZwQueryDriverEntryOrder:qword 
+ZwQueryDriverEntryOrder TEXTEQU <__imp_ZwQueryDriverEntryOrder> 
+extern __imp_ZwQueryEaFile:qword 
+ZwQueryEaFile TEXTEQU <__imp_ZwQueryEaFile> 
+extern __imp_ZwQueryEvent:qword 
+ZwQueryEvent TEXTEQU <__imp_ZwQueryEvent> 
+extern __imp_ZwQueryFullAttributesFile:qword 
+ZwQueryFullAttributesFile TEXTEQU <__imp_ZwQueryFullAttributesFile> 
+extern __imp_ZwQueryInformationAtom:qword 
+ZwQueryInformationAtom TEXTEQU <__imp_ZwQueryInformationAtom> 
+extern __imp_ZwQueryInformationEnlistment:qword 
+ZwQueryInformationEnlistment TEXTEQU <__imp_ZwQueryInformationEnlistment> 
+extern __imp_ZwQueryInformationFile:qword 
+ZwQueryInformationFile TEXTEQU <__imp_ZwQueryInformationFile> 
+extern __imp_ZwQueryInformationJobObject:qword 
+ZwQueryInformationJobObject TEXTEQU <__imp_ZwQueryInformationJobObject> 
+extern __imp_ZwQueryInformationPort:qword 
+ZwQueryInformationPort TEXTEQU <__imp_ZwQueryInformationPort> 
+extern __imp_ZwQueryInformationProcess:qword 
+ZwQueryInformationProcess TEXTEQU <__imp_ZwQueryInformationProcess> 
+extern __imp_ZwQueryInformationResourceManager:qword 
+ZwQueryInformationResourceManager TEXTEQU <__imp_ZwQueryInformationResourceManager> 
+extern __imp_ZwQueryInformationThread:qword 
+ZwQueryInformationThread TEXTEQU <__imp_ZwQueryInformationThread> 
+extern __imp_ZwQueryInformationToken:qword 
+ZwQueryInformationToken TEXTEQU <__imp_ZwQueryInformationToken> 
+extern __imp_ZwQueryInformationTransaction:qword 
+ZwQueryInformationTransaction TEXTEQU <__imp_ZwQueryInformationTransaction> 
+extern __imp_ZwQueryInformationTransactionManager:qword 
+ZwQueryInformationTransactionManager TEXTEQU <__imp_ZwQueryInformationTransactionManager> 
+extern __imp_ZwQueryInformationWorkerFactory:qword 
+ZwQueryInformationWorkerFactory TEXTEQU <__imp_ZwQueryInformationWorkerFactory> 
+extern __imp_ZwQueryInstallUILanguage:qword 
+ZwQueryInstallUILanguage TEXTEQU <__imp_ZwQueryInstallUILanguage> 
+extern __imp_ZwQueryIntervalProfile:qword 
+ZwQueryIntervalProfile TEXTEQU <__imp_ZwQueryIntervalProfile> 
+extern __imp_ZwQueryIoCompletion:qword 
+ZwQueryIoCompletion TEXTEQU <__imp_ZwQueryIoCompletion> 
+extern __imp_ZwQueryKey:qword 
+ZwQueryKey TEXTEQU <__imp_ZwQueryKey> 
+extern __imp_ZwQueryLicenseValue:qword 
+ZwQueryLicenseValue TEXTEQU <__imp_ZwQueryLicenseValue> 
+extern __imp_ZwQueryMultipleValueKey:qword 
+ZwQueryMultipleValueKey TEXTEQU <__imp_ZwQueryMultipleValueKey> 
+extern __imp_ZwQueryMutant:qword 
+ZwQueryMutant TEXTEQU <__imp_ZwQueryMutant> 
+extern __imp_ZwQueryObject:qword 
+ZwQueryObject TEXTEQU <__imp_ZwQueryObject> 
+extern __imp_ZwQueryOpenSubKeys:qword 
+ZwQueryOpenSubKeys TEXTEQU <__imp_ZwQueryOpenSubKeys> 
+extern __imp_ZwQueryOpenSubKeysEx:qword 
+ZwQueryOpenSubKeysEx TEXTEQU <__imp_ZwQueryOpenSubKeysEx> 
+extern __imp_ZwQueryPerformanceCounter:qword 
+ZwQueryPerformanceCounter TEXTEQU <__imp_ZwQueryPerformanceCounter> 
+extern __imp_ZwQueryPortInformationProcess:qword 
+ZwQueryPortInformationProcess TEXTEQU <__imp_ZwQueryPortInformationProcess> 
+extern __imp_ZwQueryQuotaInformationFile:qword 
+ZwQueryQuotaInformationFile TEXTEQU <__imp_ZwQueryQuotaInformationFile> 
+extern __imp_ZwQuerySection:qword 
+ZwQuerySection TEXTEQU <__imp_ZwQuerySection> 
+extern __imp_ZwQuerySecurityAttributesToken:qword 
+ZwQuerySecurityAttributesToken TEXTEQU <__imp_ZwQuerySecurityAttributesToken> 
+extern __imp_ZwQuerySecurityObject:qword 
+ZwQuerySecurityObject TEXTEQU <__imp_ZwQuerySecurityObject> 
+extern __imp_ZwQuerySemaphore:qword 
+ZwQuerySemaphore TEXTEQU <__imp_ZwQuerySemaphore> 
+extern __imp_ZwQuerySymbolicLinkObject:qword 
+ZwQuerySymbolicLinkObject TEXTEQU <__imp_ZwQuerySymbolicLinkObject> 
+extern __imp_ZwQuerySystemEnvironmentValue:qword 
+ZwQuerySystemEnvironmentValue TEXTEQU <__imp_ZwQuerySystemEnvironmentValue> 
+extern __imp_ZwQuerySystemEnvironmentValueEx:qword 
+ZwQuerySystemEnvironmentValueEx TEXTEQU <__imp_ZwQuerySystemEnvironmentValueEx> 
+extern __imp_ZwQuerySystemInformation:qword 
+ZwQuerySystemInformation TEXTEQU <__imp_ZwQuerySystemInformation> 
+extern __imp_ZwQuerySystemInformationEx:qword 
+ZwQuerySystemInformationEx TEXTEQU <__imp_ZwQuerySystemInformationEx> 
+extern __imp_ZwQuerySystemTime:qword 
+ZwQuerySystemTime TEXTEQU <__imp_ZwQuerySystemTime> 
+extern __imp_ZwQueryTimer:qword 
+ZwQueryTimer TEXTEQU <__imp_ZwQueryTimer> 
+extern __imp_ZwQueryTimerResolution:qword 
+ZwQueryTimerResolution TEXTEQU <__imp_ZwQueryTimerResolution> 
+extern __imp_ZwQueryValueKey:qword 
+ZwQueryValueKey TEXTEQU <__imp_ZwQueryValueKey> 
+extern __imp_ZwQueryVirtualMemory:qword 
+ZwQueryVirtualMemory TEXTEQU <__imp_ZwQueryVirtualMemory> 
+extern __imp_ZwQueryVolumeInformationFile:qword 
+ZwQueryVolumeInformationFile TEXTEQU <__imp_ZwQueryVolumeInformationFile> 
+extern __imp_ZwQueueApcThread:qword 
+ZwQueueApcThread TEXTEQU <__imp_ZwQueueApcThread> 
+extern __imp_ZwQueueApcThreadEx:qword 
+ZwQueueApcThreadEx TEXTEQU <__imp_ZwQueueApcThreadEx> 
+extern __imp_ZwRaiseException:qword 
+ZwRaiseException TEXTEQU <__imp_ZwRaiseException> 
+extern __imp_ZwRaiseHardError:qword 
+ZwRaiseHardError TEXTEQU <__imp_ZwRaiseHardError> 
+extern __imp_ZwReadFile:qword 
+ZwReadFile TEXTEQU <__imp_ZwReadFile> 
+extern __imp_ZwReadFileScatter:qword 
+ZwReadFileScatter TEXTEQU <__imp_ZwReadFileScatter> 
+extern __imp_ZwReadOnlyEnlistment:qword 
+ZwReadOnlyEnlistment TEXTEQU <__imp_ZwReadOnlyEnlistment> 
+extern __imp_ZwReadRequestData:qword 
+ZwReadRequestDat TEXTEQU <__imp_ZwReadRequestData> 
+extern __imp_ZwReadVirtualMemory:qword 
+ZwReadVirtualMemory TEXTEQU <__imp_ZwReadVirtualMemory> 
+extern __imp_ZwRecoverEnlistment:qword 
+ZwRecoverEnlistment TEXTEQU <__imp_ZwRecoverEnlistment> 
+extern __imp_ZwRecoverResourceManager:qword 
+ZwRecoverResourceManager TEXTEQU <__imp_ZwRecoverResourceManager> 
+extern __imp_ZwRecoverTransactionManager:qword 
+ZwRecoverTransactionManager TEXTEQU <__imp_ZwRecoverTransactionManager> 
+extern __imp_ZwRegisterProtocolAddressInformation:qword 
+ZwRegisterProtocolAddressInformation TEXTEQU <__imp_ZwRegisterProtocolAddressInformation> 
+extern __imp_ZwRegisterThreadTerminatePort:qword 
+ZwRegisterThreadTerminatePort TEXTEQU <__imp_ZwRegisterThreadTerminatePort> 
+extern __imp_ZwReleaseKeyedEvent:qword 
+ZwReleaseKeyedEvent TEXTEQU <__imp_ZwReleaseKeyedEvent> 
+extern __imp_ZwReleaseMutant:qword 
+ZwReleaseMutant TEXTEQU <__imp_ZwReleaseMutant> 
+extern __imp_ZwReleaseSemaphore:qword 
+ZwReleaseSemaphore TEXTEQU <__imp_ZwReleaseSemaphore> 
+extern __imp_ZwReleaseWorkerFactoryWorker:qword 
+ZwReleaseWorkerFactoryWorker TEXTEQU <__imp_ZwReleaseWorkerFactoryWorker> 
+extern __imp_ZwRemoveIoCompletion:qword 
+ZwRemoveIoCompletion TEXTEQU <__imp_ZwRemoveIoCompletion> 
+extern __imp_ZwRemoveIoCompletionEx:qword 
+ZwRemoveIoCompletionEx TEXTEQU <__imp_ZwRemoveIoCompletionEx> 
+extern __imp_ZwRemoveProcessDebug:qword 
+ZwRemoveProcessDebug TEXTEQU <__imp_ZwRemoveProcessDebug> 
+extern __imp_ZwRenameKey:qword 
+ZwRenameKey TEXTEQU <__imp_ZwRenameKey> 
+extern __imp_ZwRenameTransactionManager:qword 
+ZwRenameTransactionManager TEXTEQU <__imp_ZwRenameTransactionManager> 
+extern __imp_ZwReplaceKey:qword 
+ZwReplaceKey TEXTEQU <__imp_ZwReplaceKey> 
+extern __imp_ZwReplacePartitionUnit:qword 
+ZwReplacePartitionUnit TEXTEQU <__imp_ZwReplacePartitionUnit> 
+extern __imp_ZwReplyPort:qword 
+ZwReplyPort TEXTEQU <__imp_ZwReplyPort> 
+extern __imp_ZwReplyWaitReceivePort:qword 
+ZwReplyWaitReceivePort TEXTEQU <__imp_ZwReplyWaitReceivePort> 
+extern __imp_ZwReplyWaitReceivePortEx:qword 
+ZwReplyWaitReceivePortEx TEXTEQU <__imp_ZwReplyWaitReceivePortEx> 
+extern __imp_ZwReplyWaitReplyPort:qword 
+ZwReplyWaitReplyPort TEXTEQU <__imp_ZwReplyWaitReplyPort> 
+extern __imp_ZwRequestPort:qword 
+ZwRequestPort TEXTEQU <__imp_ZwRequestPort> 
+extern __imp_ZwRequestWaitReplyPort:qword 
+ZwRequestWaitReplyPort TEXTEQU <__imp_ZwRequestWaitReplyPort> 
+extern __imp_ZwResetEvent:qword 
+ZwResetEvent TEXTEQU <__imp_ZwResetEvent> 
+extern __imp_ZwResetWriteWatch:qword 
+ZwResetWriteWatch TEXTEQU <__imp_ZwResetWriteWatch> 
+extern __imp_ZwRestoreKey:qword 
+ZwRestoreKey TEXTEQU <__imp_ZwRestoreKey> 
+extern __imp_ZwResumeProcess:qword 
+ZwResumeProcess TEXTEQU <__imp_ZwResumeProcess> 
+extern __imp_ZwResumeThread:qword 
+ZwResumeThread TEXTEQU <__imp_ZwResumeThread> 
+extern __imp_ZwRollbackComplete:qword 
+ZwRollbackComplete TEXTEQU <__imp_ZwRollbackComplete> 
+extern __imp_ZwRollbackEnlistment:qword 
+ZwRollbackEnlistment TEXTEQU <__imp_ZwRollbackEnlistment> 
+extern __imp_ZwRollbackTransaction:qword 
+ZwRollbackTransaction TEXTEQU <__imp_ZwRollbackTransaction> 
+extern __imp_ZwRollforwardTransactionManager:qword 
+ZwRollforwardTransactionManager TEXTEQU <__imp_ZwRollforwardTransactionManager> 
+extern __imp_ZwSaveKey:qword 
+ZwSaveKey TEXTEQU <__imp_ZwSaveKey> 
+extern __imp_ZwSaveKeyEx:qword 
+ZwSaveKeyEx TEXTEQU <__imp_ZwSaveKeyEx> 
+extern __imp_ZwSaveMergedKeys:qword 
+ZwSaveMergedKeys TEXTEQU <__imp_ZwSaveMergedKeys> 
+extern __imp_ZwSecureConnectPort:qword 
+ZwSecureConnectPort TEXTEQU <__imp_ZwSecureConnectPort> 
+extern __imp_ZwSerializeBoot:qword 
+ZwSerializeBoot TEXTEQU <__imp_ZwSerializeBoot> 
+extern __imp_ZwSetBootEntryOrder:qword 
+ZwSetBootEntryOrder TEXTEQU <__imp_ZwSetBootEntryOrder> 
+extern __imp_ZwSetBootOptions:qword 
+ZwSetBootOptions TEXTEQU <__imp_ZwSetBootOptions> 
+extern __imp_ZwSetContextThread:qword 
+ZwSetContextThread TEXTEQU <__imp_ZwSetContextThread> 
+extern __imp_ZwSetDebugFilterState:qword 
+ZwSetDebugFilterState TEXTEQU <__imp_ZwSetDebugFilterState> 
+extern __imp_ZwSetDefaultHardErrorPort:qword 
+ZwSetDefaultHardErrorPort TEXTEQU <__imp_ZwSetDefaultHardErrorPort> 
+extern __imp_ZwSetDefaultLocale:qword 
+ZwSetDefaultLocale TEXTEQU <__imp_ZwSetDefaultLocale> 
+extern __imp_ZwSetDefaultUILanguage:qword 
+ZwSetDefaultUILanguage TEXTEQU <__imp_ZwSetDefaultUILanguage> 
+extern __imp_ZwSetDriverEntryOrder:qword 
+ZwSetDriverEntryOrder TEXTEQU <__imp_ZwSetDriverEntryOrder> 
+extern __imp_ZwSetEaFile:qword 
+ZwSetEaFile TEXTEQU <__imp_ZwSetEaFile> 
+extern __imp_ZwSetEvent:qword 
+ZwSetEvent TEXTEQU <__imp_ZwSetEvent> 
+extern __imp_ZwSetEventBoostPriority:qword 
+ZwSetEventBoostPriority TEXTEQU <__imp_ZwSetEventBoostPriority> 
+extern __imp_ZwSetHighEventPair:qword 
+ZwSetHighEventPair TEXTEQU <__imp_ZwSetHighEventPair> 
+extern __imp_ZwSetHighWaitLowEventPair:qword 
+ZwSetHighWaitLowEventPair TEXTEQU <__imp_ZwSetHighWaitLowEventPair> 
+extern __imp_ZwSetInformationDebugObject:qword 
+ZwSetInformationDebugObject TEXTEQU <__imp_ZwSetInformationDebugObject> 
+extern __imp_ZwSetInformationEnlistment:qword 
+ZwSetInformationEnlistment TEXTEQU <__imp_ZwSetInformationEnlistment> 
+extern __imp_ZwSetInformationFile:qword 
+ZwSetInformationFile TEXTEQU <__imp_ZwSetInformationFile> 
+extern __imp_ZwSetInformationJobObject:qword 
+ZwSetInformationJobObject TEXTEQU <__imp_ZwSetInformationJobObject> 
+extern __imp_ZwSetInformationKey:qword 
+ZwSetInformationKey TEXTEQU <__imp_ZwSetInformationKey> 
+extern __imp_ZwSetInformationObject:qword 
+ZwSetInformationObject TEXTEQU <__imp_ZwSetInformationObject> 
+extern __imp_ZwSetInformationProcess:qword 
+ZwSetInformationProcess TEXTEQU <__imp_ZwSetInformationProcess> 
+extern __imp_ZwSetInformationResourceManager:qword 
+ZwSetInformationResourceManager TEXTEQU <__imp_ZwSetInformationResourceManager> 
+extern __imp_ZwSetInformationThread:qword 
+ZwSetInformationThread TEXTEQU <__imp_ZwSetInformationThread> 
+extern __imp_ZwSetInformationToken:qword 
+ZwSetInformationToken TEXTEQU <__imp_ZwSetInformationToken> 
+extern __imp_ZwSetInformationTransaction:qword 
+ZwSetInformationTransaction TEXTEQU <__imp_ZwSetInformationTransaction> 
+extern __imp_ZwSetInformationTransactionManager:qword 
+ZwSetInformationTransactionManager TEXTEQU <__imp_ZwSetInformationTransactionManager> 
+extern __imp_ZwSetInformationWorkerFactory:qword 
+ZwSetInformationWorkerFactory TEXTEQU <__imp_ZwSetInformationWorkerFactory> 
+extern __imp_ZwSetIntervalProfile:qword 
+ZwSetIntervalProfile TEXTEQU <__imp_ZwSetIntervalProfile> 
+extern __imp_ZwSetIoCompletion:qword 
+ZwSetIoCompletion TEXTEQU <__imp_ZwSetIoCompletion> 
+extern __imp_ZwSetIoCompletionEx:qword 
+ZwSetIoCompletionEx TEXTEQU <__imp_ZwSetIoCompletionEx> 
+extern __imp_ZwSetLdtEntries:qword 
+ZwSetLdtEntries TEXTEQU <__imp_ZwSetLdtEntries> 
+extern __imp_ZwSetLowEventPair:qword 
+ZwSetLowEventPair TEXTEQU <__imp_ZwSetLowEventPair> 
+extern __imp_ZwSetLowWaitHighEventPair:qword 
+ZwSetLowWaitHighEventPair TEXTEQU <__imp_ZwSetLowWaitHighEventPair> 
+extern __imp_ZwSetQuotaInformationFile:qword 
+ZwSetQuotaInformationFile TEXTEQU <__imp_ZwSetQuotaInformationFile> 
+extern __imp_ZwSetSecurityObject:qword 
+ZwSetSecurityObject TEXTEQU <__imp_ZwSetSecurityObject> 
+extern __imp_ZwSetSystemEnvironmentValue:qword 
+ZwSetSystemEnvironmentValue TEXTEQU <__imp_ZwSetSystemEnvironmentValue> 
+extern __imp_ZwSetSystemEnvironmentValueEx:qword 
+ZwSetSystemEnvironmentValueEx TEXTEQU <__imp_ZwSetSystemEnvironmentValueEx> 
+extern __imp_ZwSetSystemInformation:qword 
+ZwSetSystemInformation TEXTEQU <__imp_ZwSetSystemInformation> 
+extern __imp_ZwSetSystemPowerState:qword 
+ZwSetSystemPowerState TEXTEQU <__imp_ZwSetSystemPowerState> 
+extern __imp_ZwSetSystemTime:qword 
+ZwSetSystemTime TEXTEQU <__imp_ZwSetSystemTime> 
+extern __imp_ZwSetThreadExecutionState:qword 
+ZwSetThreadExecutionState TEXTEQU <__imp_ZwSetThreadExecutionState> 
+extern __imp_ZwSetTimer:qword 
+ZwSetTimer TEXTEQU <__imp_ZwSetTimer> 
+extern __imp_ZwSetTimerEx:qword 
+ZwSetTimerEx TEXTEQU <__imp_ZwSetTimerEx> 
+extern __imp_ZwSetTimerResolution:qword 
+ZwSetTimerResolution TEXTEQU <__imp_ZwSetTimerResolution> 
+extern __imp_ZwSetUuidSeed:qword 
+ZwSetUuidSeed TEXTEQU <__imp_ZwSetUuidSeed> 
+extern __imp_ZwSetValueKey:qword 
+ZwSetValueKey TEXTEQU <__imp_ZwSetValueKey> 
+extern __imp_ZwSetVolumeInformationFile:qword 
+ZwSetVolumeInformationFile TEXTEQU <__imp_ZwSetVolumeInformationFile> 
+extern __imp_ZwShutdownSystem:qword 
+ZwShutdownSystem TEXTEQU <__imp_ZwShutdownSystem> 
+extern __imp_ZwShutdownWorkerFactory:qword 
+ZwShutdownWorkerFactory TEXTEQU <__imp_ZwShutdownWorkerFactory> 
+extern __imp_ZwSignalAndWaitForSingleObject:qword 
+ZwSignalAndWaitForSingleObject TEXTEQU <__imp_ZwSignalAndWaitForSingleObject> 
+extern __imp_ZwSinglePhaseReject:qword 
+ZwSinglePhaseReject TEXTEQU <__imp_ZwSinglePhaseReject> 
+extern __imp_ZwStartProfile:qword 
+ZwStartProfile TEXTEQU <__imp_ZwStartProfile> 
+extern __imp_ZwStopProfile:qword 
+ZwStopProfile TEXTEQU <__imp_ZwStopProfile> 
+extern __imp_ZwSuspendProcess:qword 
+ZwSuspendProcess TEXTEQU <__imp_ZwSuspendProcess> 
+extern __imp_ZwSuspendThread:qword 
+ZwSuspendThread TEXTEQU <__imp_ZwSuspendThread> 
+extern __imp_ZwSystemDebugControl:qword 
+ZwSystemDebugControl TEXTEQU <__imp_ZwSystemDebugControl> 
+extern __imp_ZwTerminateJobObject:qword 
+ZwTerminateJobObject TEXTEQU <__imp_ZwTerminateJobObject> 
+extern __imp_ZwTerminateProcess:qword 
+ZwTerminateProcess TEXTEQU <__imp_ZwTerminateProcess> 
+extern __imp_ZwTerminateThread:qword 
+ZwTerminateThread TEXTEQU <__imp_ZwTerminateThread> 
+extern __imp_ZwTestAlert:qword 
+ZwTestAlert TEXTEQU <__imp_ZwTestAlert> 
+extern __imp_ZwThawRegistry:qword 
+ZwThawRegistry TEXTEQU <__imp_ZwThawRegistry> 
+extern __imp_ZwThawTransactions:qword 
+ZwThawTransactions TEXTEQU <__imp_ZwThawTransactions> 
+extern __imp_ZwTraceControl:qword 
+ZwTraceControl TEXTEQU <__imp_ZwTraceControl> 
+extern __imp_ZwTraceEvent:qword 
+ZwTraceEvent TEXTEQU <__imp_ZwTraceEvent> 
+extern __imp_ZwTranslateFilePath:qword 
+ZwTranslateFilePath TEXTEQU <__imp_ZwTranslateFilePath> 
+extern __imp_ZwUmsThreadYield:qword 
+ZwUmsThreadYield TEXTEQU <__imp_ZwUmsThreadYield> 
+extern __imp_ZwUnloadDriver:qword 
+ZwUnloadDriver TEXTEQU <__imp_ZwUnloadDriver> 
+extern __imp_ZwUnloadKey:qword 
+ZwUnloadKey TEXTEQU <__imp_ZwUnloadKey> 
+extern __imp_ZwUnloadKey2:qword 
+ZwUnloadKey2 TEXTEQU <__imp_ZwUnloadKey2> 
+extern __imp_ZwUnloadKeyEx:qword 
+ZwUnloadKeyEx TEXTEQU <__imp_ZwUnloadKeyEx> 
+extern __imp_ZwUnlockFile:qword 
+ZwUnlockFile TEXTEQU <__imp_ZwUnlockFile> 
+extern __imp_ZwUnlockVirtualMemory:qword 
+ZwUnlockVirtualMemory TEXTEQU <__imp_ZwUnlockVirtualMemory> 
+extern __imp_ZwUnmapViewOfSection:qword 
+ZwUnmapViewOfSection TEXTEQU <__imp_ZwUnmapViewOfSection> 
+extern __imp_ZwVdmControl:qword 
+ZwVdmControl TEXTEQU <__imp_ZwVdmControl> 
+extern __imp_ZwWaitForDebugEvent:qword 
+ZwWaitForDebugEvent TEXTEQU <__imp_ZwWaitForDebugEvent> 
+extern __imp_ZwWaitForKeyedEvent:qword 
+ZwWaitForKeyedEvent TEXTEQU <__imp_ZwWaitForKeyedEvent> 
+extern __imp_ZwWaitForMultipleObjects:qword 
+ZwWaitForMultipleObjects TEXTEQU <__imp_ZwWaitForMultipleObjects> 
+extern __imp_ZwWaitForMultipleObjects32:qword 
+ZwWaitForMultipleObjects32 TEXTEQU <__imp_ZwWaitForMultipleObjects32> 
+extern __imp_ZwWaitForSingleObject:qword 
+ZwWaitForSingleObject TEXTEQU <__imp_ZwWaitForSingleObject> 
+extern __imp_ZwWaitForWorkViaWorkerFactory:qword 
+ZwWaitForWorkViaWorkerFactory TEXTEQU <__imp_ZwWaitForWorkViaWorkerFactory> 
+extern __imp_ZwWaitHighEventPair:qword 
+ZwWaitHighEventPair TEXTEQU <__imp_ZwWaitHighEventPair> 
+extern __imp_ZwWaitLowEventPair:qword 
+ZwWaitLowEventPair TEXTEQU <__imp_ZwWaitLowEventPair> 
+extern __imp_ZwWorkerFactoryWorkerReady:qword 
+ZwWorkerFactoryWorkerReady TEXTEQU <__imp_ZwWorkerFactoryWorkerReady> 
+extern __imp_ZwWriteFile:qword 
+ZwWriteFile TEXTEQU <__imp_ZwWriteFile> 
+extern __imp_ZwWriteFileGather:qword 
+ZwWriteFileGather TEXTEQU <__imp_ZwWriteFileGather> 
+extern __imp_ZwWriteRequestData:qword 
+ZwWriteRequestDat TEXTEQU <__imp_ZwWriteRequestData> 
+extern __imp_ZwWriteVirtualMemory:qword 
+ZwWriteVirtualMemory TEXTEQU <__imp_ZwWriteVirtualMemory> 
+extern __imp_ZwYieldExecution:qword 
+ZwYieldExecution TEXTEQU <__imp_ZwYieldExecution> 
+extern __imp___C_specific_handler:qword 
+__C_specific_handler TEXTEQU <__imp___C_specific_handler> 
+extern __imp___chkstk:qword 
+__chkstk TEXTEQU <__imp___chkstk> 
+extern __imp___isascii:qword 
+__isascii TEXTEQU <__imp___isascii> 
+extern __imp___iscsym:qword 
+__iscsym TEXTEQU <__imp___iscsym> 
+extern __imp___iscsymf:qword 
+__iscsymf TEXTEQU <__imp___iscsymf> 
+extern __imp___misaligned_access:qword 
+__misaligned_access TEXTEQU <__imp___misaligned_access> 
+extern __imp___toascii:qword 
+__toascii TEXTEQU <__imp___toascii> 
+extern __imp__atoi64:qword 
+_atoi64 TEXTEQU <__imp__atoi64> 
+extern __imp__fltused:qword 
+_fltused TEXTEQU <__imp__fltused> 
+extern __imp__i64toa:qword 
+_i64to TEXTEQU <__imp__i64toa> 
+extern __imp__i64toa_s:qword 
+_i64toa_s TEXTEQU <__imp__i64toa_s> 
+extern __imp__i64tow:qword 
+_i64tow TEXTEQU <__imp__i64tow> 
+extern __imp__i64tow_s:qword 
+_i64tow_s TEXTEQU <__imp__i64tow_s> 
+extern __imp__itoa:qword 
+_ito TEXTEQU <__imp__itoa> 
+extern __imp__itoa_s:qword 
+_itoa_s TEXTEQU <__imp__itoa_s> 
+extern __imp__itow:qword 
+_itow TEXTEQU <__imp__itow> 
+extern __imp__itow_s:qword 
+_itow_s TEXTEQU <__imp__itow_s> 
+extern __imp__lfind:qword 
+_lfind TEXTEQU <__imp__lfind> 
+extern __imp__local_unwind:qword 
+_local_unwind TEXTEQU <__imp__local_unwind> 
+extern __imp__ltoa:qword 
+_lto TEXTEQU <__imp__ltoa> 
+extern __imp__ltoa_s:qword 
+_ltoa_s TEXTEQU <__imp__ltoa_s> 
+extern __imp__ltow:qword 
+_ltow TEXTEQU <__imp__ltow> 
+extern __imp__ltow_s:qword 
+_ltow_s TEXTEQU <__imp__ltow_s> 
+extern __imp__makepath_s:qword 
+_makepath_s TEXTEQU <__imp__makepath_s> 
+extern __imp__memccpy:qword 
+_memccpy TEXTEQU <__imp__memccpy> 
+extern __imp__memicmp:qword 
+_memicmp TEXTEQU <__imp__memicmp> 
+extern __imp__setjmp:qword 
+_setjmp TEXTEQU <__imp__setjmp> 
+extern __imp__setjmpex:qword 
+_setjmpex TEXTEQU <__imp__setjmpex> 
+extern __imp__snprintf:qword 
+_snprintf TEXTEQU <__imp__snprintf> 
+extern __imp__snprintf_s:qword 
+_snprintf_s TEXTEQU <__imp__snprintf_s> 
+extern __imp__snscanf_s:qword 
+_snscanf_s TEXTEQU <__imp__snscanf_s> 
+extern __imp__snwprintf:qword 
+_snwprintf TEXTEQU <__imp__snwprintf> 
+extern __imp__snwprintf_s:qword 
+_snwprintf_s TEXTEQU <__imp__snwprintf_s> 
+extern __imp__snwscanf_s:qword 
+_snwscanf_s TEXTEQU <__imp__snwscanf_s> 
+extern __imp__splitpath:qword 
+_splitpath TEXTEQU <__imp__splitpath> 
+extern __imp__splitpath_s:qword 
+_splitpath_s TEXTEQU <__imp__splitpath_s> 
+extern __imp__strcmpi:qword 
+_strcmpi TEXTEQU <__imp__strcmpi> 
+extern __imp__stricmp:qword 
+_stricmp TEXTEQU <__imp__stricmp> 
+extern __imp__strlwr:qword 
+_strlwr TEXTEQU <__imp__strlwr> 
+extern __imp__strnicmp:qword 
+_strnicmp TEXTEQU <__imp__strnicmp> 
+extern __imp__strnset_s:qword 
+_strnset_s TEXTEQU <__imp__strnset_s> 
+extern __imp__strset_s:qword 
+_strset_s TEXTEQU <__imp__strset_s> 
+extern __imp__strupr:qword 
+_strupr TEXTEQU <__imp__strupr> 
+extern __imp__swprintf:qword 
+_swprintf TEXTEQU <__imp__swprintf> 
+extern __imp__ui64toa:qword 
+_ui64to TEXTEQU <__imp__ui64toa> 
+extern __imp__ui64toa_s:qword 
+_ui64toa_s TEXTEQU <__imp__ui64toa_s> 
+extern __imp__ui64tow:qword 
+_ui64tow TEXTEQU <__imp__ui64tow> 
+extern __imp__ui64tow_s:qword 
+_ui64tow_s TEXTEQU <__imp__ui64tow_s> 
+extern __imp__ultoa:qword 
+_ulto TEXTEQU <__imp__ultoa> 
+extern __imp__ultoa_s:qword 
+_ultoa_s TEXTEQU <__imp__ultoa_s> 
+extern __imp__ultow:qword 
+_ultow TEXTEQU <__imp__ultow> 
+extern __imp__ultow_s:qword 
+_ultow_s TEXTEQU <__imp__ultow_s> 
+extern __imp__vscwprintf:qword 
+_vscwprintf TEXTEQU <__imp__vscwprintf> 
+extern __imp__vsnprintf:qword 
+_vsnprintf TEXTEQU <__imp__vsnprintf> 
+extern __imp__vsnprintf_s:qword 
+_vsnprintf_s TEXTEQU <__imp__vsnprintf_s> 
+extern __imp__vsnwprintf:qword 
+_vsnwprintf TEXTEQU <__imp__vsnwprintf> 
+extern __imp__vsnwprintf_s:qword 
+_vsnwprintf_s TEXTEQU <__imp__vsnwprintf_s> 
+extern __imp__vswprintf:qword 
+_vswprintf TEXTEQU <__imp__vswprintf> 
+extern __imp__wcsicmp:qword 
+_wcsicmp TEXTEQU <__imp__wcsicmp> 
+extern __imp__wcslwr:qword 
+_wcslwr TEXTEQU <__imp__wcslwr> 
+extern __imp__wcsnicmp:qword 
+_wcsnicmp TEXTEQU <__imp__wcsnicmp> 
+extern __imp__wcsnset_s:qword 
+_wcsnset_s TEXTEQU <__imp__wcsnset_s> 
+extern __imp__wcsset_s:qword 
+_wcsset_s TEXTEQU <__imp__wcsset_s> 
+extern __imp__wcstoui64:qword 
+_wcstoui64 TEXTEQU <__imp__wcstoui64> 
+extern __imp__wcsupr:qword 
+_wcsupr TEXTEQU <__imp__wcsupr> 
+extern __imp__wmakepath_s:qword 
+_wmakepath_s TEXTEQU <__imp__wmakepath_s> 
+extern __imp__wsplitpath_s:qword 
+_wsplitpath_s TEXTEQU <__imp__wsplitpath_s> 
+extern __imp__wtoi:qword 
+_wtoi TEXTEQU <__imp__wtoi> 
+extern __imp__wtoi64:qword 
+_wtoi64 TEXTEQU <__imp__wtoi64> 
+extern __imp__wtol:qword 
+_wtol TEXTEQU <__imp__wtol> 
+extern __imp_abs:qword 
+abs TEXTEQU <__imp_abs> 
+extern __imp_atan:qword 
+atan TEXTEQU <__imp_atan> 
+extern __imp_atoi:qword 
+atoi TEXTEQU <__imp_atoi> 
+extern __imp_atol:qword 
+atol TEXTEQU <__imp_atol> 
+extern __imp_bsearch:qword 
+bsearch TEXTEQU <__imp_bsearch> 
+extern __imp_ceil:qword 
+ceil TEXTEQU <__imp_ceil> 
+extern __imp_cos:qword 
+cos TEXTEQU <__imp_cos> 
+extern __imp_floor:qword 
+floor TEXTEQU <__imp_floor> 
+extern __imp_isalnum:qword 
+isalnum TEXTEQU <__imp_isalnum> 
+extern __imp_isalpha:qword 
+isalph TEXTEQU <__imp_isalpha> 
+extern __imp_iscntrl:qword 
+iscntrl TEXTEQU <__imp_iscntrl> 
+extern __imp_isdigit:qword 
+isdigit TEXTEQU <__imp_isdigit> 
+extern __imp_isgraph:qword 
+isgraph TEXTEQU <__imp_isgraph> 
+extern __imp_islower:qword 
+islower TEXTEQU <__imp_islower> 
+extern __imp_isprint:qword 
+isprint TEXTEQU <__imp_isprint> 
+extern __imp_ispunct:qword 
+ispunct TEXTEQU <__imp_ispunct> 
+extern __imp_isspace:qword 
+isspace TEXTEQU <__imp_isspace> 
+extern __imp_isupper:qword 
+isupper TEXTEQU <__imp_isupper> 
+extern __imp_iswalpha:qword 
+iswalph TEXTEQU <__imp_iswalpha> 
+extern __imp_iswctype:qword 
+iswctype TEXTEQU <__imp_iswctype> 
+extern __imp_iswdigit:qword 
+iswdigit TEXTEQU <__imp_iswdigit> 
+extern __imp_iswlower:qword 
+iswlower TEXTEQU <__imp_iswlower> 
+extern __imp_iswspace:qword 
+iswspace TEXTEQU <__imp_iswspace> 
+extern __imp_iswxdigit:qword 
+iswxdigit TEXTEQU <__imp_iswxdigit> 
+extern __imp_isxdigit:qword 
+isxdigit TEXTEQU <__imp_isxdigit> 
+extern __imp_labs:qword 
+labs TEXTEQU <__imp_labs> 
+extern __imp_log:qword 
+log TEXTEQU <__imp_log> 
+extern __imp_longjmp:qword 
+longjmp TEXTEQU <__imp_longjmp> 
+extern __imp_mbstowcs:qword 
+mbstowcs TEXTEQU <__imp_mbstowcs> 
+extern __imp_memchr:qword 
+memchr TEXTEQU <__imp_memchr> 
+extern __imp_memcmp:qword 
+memcmp TEXTEQU <__imp_memcmp> 
+extern __imp_memcpy:qword 
+memcpy TEXTEQU <__imp_memcpy> 
+extern __imp_memcpy_s:qword 
+memcpy_s TEXTEQU <__imp_memcpy_s> 
+extern __imp_memmove:qword 
+memmove TEXTEQU <__imp_memmove> 
+extern __imp_memmove_s:qword 
+memmove_s TEXTEQU <__imp_memmove_s> 
+extern __imp_memset:qword 
+memset TEXTEQU <__imp_memset> 
+extern __imp_pow:qword 
+pow TEXTEQU <__imp_pow> 
+extern __imp_qsort:qword 
+qsort TEXTEQU <__imp_qsort> 
+extern __imp_sin:qword 
+sin TEXTEQU <__imp_sin> 
+extern __imp_sprintf:qword 
+sprintf TEXTEQU <__imp_sprintf> 
+extern __imp_sprintf_s:qword 
+sprintf_s TEXTEQU <__imp_sprintf_s> 
+extern __imp_sqrt:qword 
+sqrt TEXTEQU <__imp_sqrt> 
+extern __imp_sscanf:qword 
+sscanf TEXTEQU <__imp_sscanf> 
+extern __imp_sscanf_s:qword 
+sscanf_s TEXTEQU <__imp_sscanf_s> 
+extern __imp_strcat:qword 
+strcat TEXTEQU <__imp_strcat> 
+extern __imp_strcat_s:qword 
+strcat_s TEXTEQU <__imp_strcat_s> 
+extern __imp_strchr:qword 
+strchr TEXTEQU <__imp_strchr> 
+extern __imp_strcmp:qword 
+strcmp TEXTEQU <__imp_strcmp> 
+extern __imp_strcpy:qword 
+strcpy TEXTEQU <__imp_strcpy> 
+extern __imp_strcpy_s:qword 
+strcpy_s TEXTEQU <__imp_strcpy_s> 
+extern __imp_strcspn:qword 
+strcspn TEXTEQU <__imp_strcspn> 
+extern __imp_strlen:qword 
+strlen TEXTEQU <__imp_strlen> 
+extern __imp_strncat:qword 
+strncat TEXTEQU <__imp_strncat> 
+extern __imp_strncat_s:qword 
+strncat_s TEXTEQU <__imp_strncat_s> 
+extern __imp_strncmp:qword 
+strncmp TEXTEQU <__imp_strncmp> 
+extern __imp_strncpy:qword 
+strncpy TEXTEQU <__imp_strncpy> 
+extern __imp_strncpy_s:qword 
+strncpy_s TEXTEQU <__imp_strncpy_s> 
+extern __imp_strnlen:qword 
+strnlen TEXTEQU <__imp_strnlen> 
+extern __imp_strpbrk:qword 
+strpbrk TEXTEQU <__imp_strpbrk> 
+extern __imp_strrchr:qword 
+strrchr TEXTEQU <__imp_strrchr> 
+extern __imp_strspn:qword 
+strspn TEXTEQU <__imp_strspn> 
+extern __imp_strstr:qword 
+strstr TEXTEQU <__imp_strstr> 
+extern __imp_strtok_s:qword 
+strtok_s TEXTEQU <__imp_strtok_s> 
+extern __imp_strtol:qword 
+strtol TEXTEQU <__imp_strtol> 
+extern __imp_strtoul:qword 
+strtoul TEXTEQU <__imp_strtoul> 
+extern __imp_swprintf:qword 
+swprintf TEXTEQU <__imp_swprintf> 
+extern __imp_swprintf_s:qword 
+swprintf_s TEXTEQU <__imp_swprintf_s> 
+extern __imp_swscanf_s:qword 
+swscanf_s TEXTEQU <__imp_swscanf_s> 
+extern __imp_tan:qword 
+tan TEXTEQU <__imp_tan> 
+extern __imp_tolower:qword 
+tolower TEXTEQU <__imp_tolower> 
+extern __imp_toupper:qword 
+toupper TEXTEQU <__imp_toupper> 
+extern __imp_towlower:qword 
+towlower TEXTEQU <__imp_towlower> 
+extern __imp_towupper:qword 
+towupper TEXTEQU <__imp_towupper> 
+extern __imp_vDbgPrintEx:qword 
+vDbgPrintEx TEXTEQU <__imp_vDbgPrintEx> 
+extern __imp_vDbgPrintExWithPrefix:qword 
+vDbgPrintExWithPrefix TEXTEQU <__imp_vDbgPrintExWithPrefix> 
+extern __imp_vsprintf:qword 
+vsprintf TEXTEQU <__imp_vsprintf> 
+extern __imp_vsprintf_s:qword 
+vsprintf_s TEXTEQU <__imp_vsprintf_s> 
+extern __imp_vswprintf_s:qword 
+vswprintf_s TEXTEQU <__imp_vswprintf_s> 
+extern __imp_wcscat:qword 
+wcscat TEXTEQU <__imp_wcscat> 
+extern __imp_wcscat_s:qword 
+wcscat_s TEXTEQU <__imp_wcscat_s> 
+extern __imp_wcschr:qword 
+wcschr TEXTEQU <__imp_wcschr> 
+extern __imp_wcscmp:qword 
+wcscmp TEXTEQU <__imp_wcscmp> 
+extern __imp_wcscpy:qword 
+wcscpy TEXTEQU <__imp_wcscpy> 
+extern __imp_wcscpy_s:qword 
+wcscpy_s TEXTEQU <__imp_wcscpy_s> 
+extern __imp_wcscspn:qword 
+wcscspn TEXTEQU <__imp_wcscspn> 
+extern __imp_wcslen:qword 
+wcslen TEXTEQU <__imp_wcslen> 
+extern __imp_wcsncat:qword 
+wcsncat TEXTEQU <__imp_wcsncat> 
+extern __imp_wcsncat_s:qword 
+wcsncat_s TEXTEQU <__imp_wcsncat_s> 
+extern __imp_wcsncmp:qword 
+wcsncmp TEXTEQU <__imp_wcsncmp> 
+extern __imp_wcsncpy:qword 
+wcsncpy TEXTEQU <__imp_wcsncpy> 
+extern __imp_wcsncpy_s:qword 
+wcsncpy_s TEXTEQU <__imp_wcsncpy_s> 
+extern __imp_wcsnlen:qword 
+wcsnlen TEXTEQU <__imp_wcsnlen> 
+extern __imp_wcspbrk:qword 
+wcspbrk TEXTEQU <__imp_wcspbrk> 
+extern __imp_wcsrchr:qword 
+wcsrchr TEXTEQU <__imp_wcsrchr> 
+extern __imp_wcsspn:qword 
+wcsspn TEXTEQU <__imp_wcsspn> 
+extern __imp_wcsstr:qword 
+wcsstr TEXTEQU <__imp_wcsstr> 
+extern __imp_wcstol:qword 
+wcstol TEXTEQU <__imp_wcstol> 
+extern __imp_wcstombs:qword 
+wcstombs TEXTEQU <__imp_wcstombs> 
+extern __imp_wcstoul:qword 
+wcstoul TEXTEQU <__imp_wcstoul> 
+extern __imp_ntdll_ordinal1:qword 
+ntdll_ordinal1 TEXTEQU <__imp_ntdll_ordinal1> 
+extern __imp_ntdll_ordinal2:qword 
+ntdll_ordinal2 TEXTEQU <__imp_ntdll_ordinal2> 
+extern __imp_ntdll_ordinal3:qword 
+ntdll_ordinal3 TEXTEQU <__imp_ntdll_ordinal3> 
+extern __imp_ntdll_ordinal4:qword 
+ntdll_ordinal4 TEXTEQU <__imp_ntdll_ordinal4> 
+extern __imp_ntdll_ordinal5:qword 
+ntdll_ordinal5 TEXTEQU <__imp_ntdll_ordinal5> 
+extern __imp_ntdll_ordinal6:qword 
+ntdll_ordinal6 TEXTEQU <__imp_ntdll_ordinal6> 
+extern __imp_ntdll_ordinal7:qword 
+ntdll_ordinal7 TEXTEQU <__imp_ntdll_ordinal7> 
+extern __imp_ntdll_ordinal8:qword 
+ntdll_ordinal8 TEXTEQU <__imp_ntdll_ordinal8> 

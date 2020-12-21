@@ -1,0 +1,12 @@
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\bin\Debug\PassV2.exe.config
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\bin\Debug\PassV2.exe
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\bin\Debug\PassV2.pdb
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.csprojAssemblyReference.cache
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.Form1.resources
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.Properties.Resources.resources
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.csproj.GenerateResource.cache
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.csproj.CoreCompileInputs.cache
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.exe
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.pdb
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.Form2.resources
+E:\Учеба\АЗЗИ-2019\lab2\PassV2\PassV2\obj\Debug\PassV2.Form3.resources

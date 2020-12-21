@@ -1,0 +1,35 @@
+include win64a.inc
+.data
+stdout dq 0
+stdin  dq 0
+rdn   dq 0
+wrtn   dq 0
+msg db  «Enter symbol:»
+MSIZE  equ $ — msg
+msgOK  db «Ok!»
+symbol  db  «1»
+buff  db  0
+opc  db  075h
+.code
+WinMain proc
+sub rsp,28h; còåê: 28h=32d+8; 8 — âîçâðàò
+mov rbp,rsp
+invoke GetCurrentProcessId
+invoke OpenProcess,PROCESS_VM_OPERATION or PROCESS_VM_WRITE, 1, eax
+lea rdi,_toWrite
+invoke WriteProcessMemory,rax,rdi,addr opc,1,0
+invoke GetStdHandle,STD_INPUT_HANDLE
+mov stdin,rax
+invoke GetStdHandle,STD_OUTPUT_HANDLE
+mov stdout,rax
+invoke WriteConsole,stdout,offset msg,MSIZE,offset wrtn,0
+invoke ReadConsole,stdin,offset buff,1,offset rdn,0
+mov al,byte ptr [buff]
+cmp al,symbol
+_toWrite:
+jc _exit
+invoke WriteConsole,stdout,offset msgOK,3,offset wrtn,0
+_exit:
+invoke RtlExitUserProcess,0 ;ExitProcess,0
+WinMain endp
+end

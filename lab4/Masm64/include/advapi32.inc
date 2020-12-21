@@ -1,0 +1,1504 @@
+extern __imp_AbortSystemShutdownA:qword 
+AbortSystemShutdown TEXTEQU <__imp_AbortSystemShutdownA> 
+extern __imp_AbortSystemShutdownW:qword 
+AbortSystemShutdownW TEXTEQU <__imp_AbortSystemShutdownW> 
+extern __imp_AccessCheck:qword 
+AccessCheck TEXTEQU <__imp_AccessCheck> 
+extern __imp_AccessCheckAndAuditAlarmA:qword 
+AccessCheckAndAuditAlarm TEXTEQU <__imp_AccessCheckAndAuditAlarmA> 
+extern __imp_AccessCheckAndAuditAlarmW:qword 
+AccessCheckAndAuditAlarmW TEXTEQU <__imp_AccessCheckAndAuditAlarmW> 
+extern __imp_AccessCheckByType:qword 
+AccessCheckByType TEXTEQU <__imp_AccessCheckByType> 
+extern __imp_AccessCheckByTypeAndAuditAlarmA:qword 
+AccessCheckByTypeAndAuditAlarm TEXTEQU <__imp_AccessCheckByTypeAndAuditAlarmA> 
+extern __imp_AccessCheckByTypeAndAuditAlarmW:qword 
+AccessCheckByTypeAndAuditAlarmW TEXTEQU <__imp_AccessCheckByTypeAndAuditAlarmW> 
+extern __imp_AccessCheckByTypeResultList:qword 
+AccessCheckByTypeResultList TEXTEQU <__imp_AccessCheckByTypeResultList> 
+extern __imp_AccessCheckByTypeResultListAndAuditAlarmA:qword 
+AccessCheckByTypeResultListAndAuditAlarm TEXTEQU <__imp_AccessCheckByTypeResultListAndAuditAlarmA> 
+extern __imp_AccessCheckByTypeResultListAndAuditAlarmByHandleA:qword 
+AccessCheckByTypeResultListAndAuditAlarmByHandle TEXTEQU <__imp_AccessCheckByTypeResultListAndAuditAlarmByHandleA> 
+extern __imp_AccessCheckByTypeResultListAndAuditAlarmByHandleW:qword 
+AccessCheckByTypeResultListAndAuditAlarmByHandleW TEXTEQU <__imp_AccessCheckByTypeResultListAndAuditAlarmByHandleW> 
+extern __imp_AccessCheckByTypeResultListAndAuditAlarmW:qword 
+AccessCheckByTypeResultListAndAuditAlarmW TEXTEQU <__imp_AccessCheckByTypeResultListAndAuditAlarmW> 
+extern __imp_AddAccessAllowedAce:qword 
+AddAccessAllowedAce TEXTEQU <__imp_AddAccessAllowedAce> 
+extern __imp_AddAccessAllowedAceEx:qword 
+AddAccessAllowedAceEx TEXTEQU <__imp_AddAccessAllowedAceEx> 
+extern __imp_AddAccessAllowedObjectAce:qword 
+AddAccessAllowedObjectAce TEXTEQU <__imp_AddAccessAllowedObjectAce> 
+extern __imp_AddAccessDeniedAce:qword 
+AddAccessDeniedAce TEXTEQU <__imp_AddAccessDeniedAce> 
+extern __imp_AddAccessDeniedAceEx:qword 
+AddAccessDeniedAceEx TEXTEQU <__imp_AddAccessDeniedAceEx> 
+extern __imp_AddAccessDeniedObjectAce:qword 
+AddAccessDeniedObjectAce TEXTEQU <__imp_AddAccessDeniedObjectAce> 
+extern __imp_AddAce:qword 
+AddAce TEXTEQU <__imp_AddAce> 
+extern __imp_AddAuditAccessAce:qword 
+AddAuditAccessAce TEXTEQU <__imp_AddAuditAccessAce> 
+extern __imp_AddAuditAccessAceEx:qword 
+AddAuditAccessAceEx TEXTEQU <__imp_AddAuditAccessAceEx> 
+extern __imp_AddAuditAccessObjectAce:qword 
+AddAuditAccessObjectAce TEXTEQU <__imp_AddAuditAccessObjectAce> 
+extern __imp_AddConditionalAce:qword 
+AddConditionalAce TEXTEQU <__imp_AddConditionalAce> 
+extern __imp_AddUsersToEncryptedFile:qword 
+AddUsersToEncryptedFile TEXTEQU <__imp_AddUsersToEncryptedFile> 
+extern __imp_AddUsersToEncryptedFileEx:qword 
+AddUsersToEncryptedFileEx TEXTEQU <__imp_AddUsersToEncryptedFileEx> 
+extern __imp_AdjustTokenGroups:qword 
+AdjustTokenGroups TEXTEQU <__imp_AdjustTokenGroups> 
+extern __imp_AdjustTokenPrivileges:qword 
+AdjustTokenPrivileges TEXTEQU <__imp_AdjustTokenPrivileges> 
+extern __imp_AllocateAndInitializeSid:qword 
+AllocateAndInitializeSid TEXTEQU <__imp_AllocateAndInitializeSid> 
+extern __imp_AllocateLocallyUniqueId:qword 
+AllocateLocallyUniqueId TEXTEQU <__imp_AllocateLocallyUniqueId> 
+extern __imp_AreAllAccessesGranted:qword 
+AreAllAccessesGranted TEXTEQU <__imp_AreAllAccessesGranted> 
+extern __imp_AreAnyAccessesGranted:qword 
+AreAnyAccessesGranted TEXTEQU <__imp_AreAnyAccessesGranted> 
+extern __imp_AuditComputeEffectivePolicyBySid:qword 
+AuditComputeEffectivePolicyBySid TEXTEQU <__imp_AuditComputeEffectivePolicyBySid> 
+extern __imp_AuditComputeEffectivePolicyByToken:qword 
+AuditComputeEffectivePolicyByToken TEXTEQU <__imp_AuditComputeEffectivePolicyByToken> 
+extern __imp_AuditEnumerateCategories:qword 
+AuditEnumerateCategories TEXTEQU <__imp_AuditEnumerateCategories> 
+extern __imp_AuditEnumeratePerUserPolicy:qword 
+AuditEnumeratePerUserPolicy TEXTEQU <__imp_AuditEnumeratePerUserPolicy> 
+extern __imp_AuditEnumerateSubCategories:qword 
+AuditEnumerateSubCategories TEXTEQU <__imp_AuditEnumerateSubCategories> 
+extern __imp_AuditFree:qword 
+AuditFree TEXTEQU <__imp_AuditFree> 
+extern __imp_AuditLookupCategoryGuidFromCategoryId:qword 
+AuditLookupCategoryGuidFromCategoryId TEXTEQU <__imp_AuditLookupCategoryGuidFromCategoryId> 
+extern __imp_AuditLookupCategoryIdFromCategoryGuid:qword 
+AuditLookupCategoryIdFromCategoryGuid TEXTEQU <__imp_AuditLookupCategoryIdFromCategoryGuid> 
+extern __imp_AuditLookupCategoryNameA:qword 
+AuditLookupCategoryName TEXTEQU <__imp_AuditLookupCategoryNameA> 
+extern __imp_AuditLookupCategoryNameW:qword 
+AuditLookupCategoryNameW TEXTEQU <__imp_AuditLookupCategoryNameW> 
+extern __imp_AuditLookupSubCategoryNameA:qword 
+AuditLookupSubCategoryName TEXTEQU <__imp_AuditLookupSubCategoryNameA> 
+extern __imp_AuditLookupSubCategoryNameW:qword 
+AuditLookupSubCategoryNameW TEXTEQU <__imp_AuditLookupSubCategoryNameW> 
+extern __imp_AuditQueryGlobalSaclA:qword 
+AuditQueryGlobalSacl TEXTEQU <__imp_AuditQueryGlobalSaclA> 
+extern __imp_AuditQueryGlobalSaclW:qword 
+AuditQueryGlobalSaclW TEXTEQU <__imp_AuditQueryGlobalSaclW> 
+extern __imp_AuditQueryPerUserPolicy:qword 
+AuditQueryPerUserPolicy TEXTEQU <__imp_AuditQueryPerUserPolicy> 
+extern __imp_AuditQuerySecurity:qword 
+AuditQuerySecurity TEXTEQU <__imp_AuditQuerySecurity> 
+extern __imp_AuditQuerySystemPolicy:qword 
+AuditQuerySystemPolicy TEXTEQU <__imp_AuditQuerySystemPolicy> 
+extern __imp_AuditSetGlobalSaclA:qword 
+AuditSetGlobalSacl TEXTEQU <__imp_AuditSetGlobalSaclA> 
+extern __imp_AuditSetGlobalSaclW:qword 
+AuditSetGlobalSaclW TEXTEQU <__imp_AuditSetGlobalSaclW> 
+extern __imp_AuditSetPerUserPolicy:qword 
+AuditSetPerUserPolicy TEXTEQU <__imp_AuditSetPerUserPolicy> 
+extern __imp_AuditSetSecurity:qword 
+AuditSetSecurity TEXTEQU <__imp_AuditSetSecurity> 
+extern __imp_AuditSetSystemPolicy:qword 
+AuditSetSystemPolicy TEXTEQU <__imp_AuditSetSystemPolicy> 
+extern __imp_BackupEventLogA:qword 
+BackupEventLog TEXTEQU <__imp_BackupEventLogA> 
+extern __imp_BackupEventLogW:qword 
+BackupEventLogW TEXTEQU <__imp_BackupEventLogW> 
+extern __imp_BuildExplicitAccessWithNameA:qword 
+BuildExplicitAccessWithName TEXTEQU <__imp_BuildExplicitAccessWithNameA> 
+extern __imp_BuildExplicitAccessWithNameW:qword 
+BuildExplicitAccessWithNameW TEXTEQU <__imp_BuildExplicitAccessWithNameW> 
+extern __imp_BuildImpersonateExplicitAccessWithNameA:qword 
+BuildImpersonateExplicitAccessWithName TEXTEQU <__imp_BuildImpersonateExplicitAccessWithNameA> 
+extern __imp_BuildImpersonateExplicitAccessWithNameW:qword 
+BuildImpersonateExplicitAccessWithNameW TEXTEQU <__imp_BuildImpersonateExplicitAccessWithNameW> 
+extern __imp_BuildImpersonateTrusteeA:qword 
+BuildImpersonateTrustee TEXTEQU <__imp_BuildImpersonateTrusteeA> 
+extern __imp_BuildImpersonateTrusteeW:qword 
+BuildImpersonateTrusteeW TEXTEQU <__imp_BuildImpersonateTrusteeW> 
+extern __imp_BuildSecurityDescriptorA:qword 
+BuildSecurityDescriptor TEXTEQU <__imp_BuildSecurityDescriptorA> 
+extern __imp_BuildSecurityDescriptorW:qword 
+BuildSecurityDescriptorW TEXTEQU <__imp_BuildSecurityDescriptorW> 
+extern __imp_BuildTrusteeWithNameA:qword 
+BuildTrusteeWithName TEXTEQU <__imp_BuildTrusteeWithNameA> 
+extern __imp_BuildTrusteeWithNameW:qword 
+BuildTrusteeWithNameW TEXTEQU <__imp_BuildTrusteeWithNameW> 
+extern __imp_BuildTrusteeWithObjectsAndNameA:qword 
+BuildTrusteeWithObjectsAndName TEXTEQU <__imp_BuildTrusteeWithObjectsAndNameA> 
+extern __imp_BuildTrusteeWithObjectsAndNameW:qword 
+BuildTrusteeWithObjectsAndNameW TEXTEQU <__imp_BuildTrusteeWithObjectsAndNameW> 
+extern __imp_BuildTrusteeWithObjectsAndSidA:qword 
+BuildTrusteeWithObjectsAndSid TEXTEQU <__imp_BuildTrusteeWithObjectsAndSidA> 
+extern __imp_BuildTrusteeWithObjectsAndSidW:qword 
+BuildTrusteeWithObjectsAndSidW TEXTEQU <__imp_BuildTrusteeWithObjectsAndSidW> 
+extern __imp_BuildTrusteeWithSidA:qword 
+BuildTrusteeWithSid TEXTEQU <__imp_BuildTrusteeWithSidA> 
+extern __imp_BuildTrusteeWithSidW:qword 
+BuildTrusteeWithSidW TEXTEQU <__imp_BuildTrusteeWithSidW> 
+extern __imp_CancelOverlappedAccess:qword 
+CancelOverlappedAccess TEXTEQU <__imp_CancelOverlappedAccess> 
+extern __imp_ChangeServiceConfig2A:qword 
+ChangeServiceConfig2 TEXTEQU <__imp_ChangeServiceConfig2A> 
+extern __imp_ChangeServiceConfig2W:qword 
+ChangeServiceConfig2W TEXTEQU <__imp_ChangeServiceConfig2W> 
+extern __imp_ChangeServiceConfigA:qword 
+ChangeServiceConfig TEXTEQU <__imp_ChangeServiceConfigA> 
+extern __imp_ChangeServiceConfigW:qword 
+ChangeServiceConfigW TEXTEQU <__imp_ChangeServiceConfigW> 
+extern __imp_CheckTokenMembership:qword 
+CheckTokenMembership TEXTEQU <__imp_CheckTokenMembership> 
+extern __imp_ClearEventLogA:qword 
+ClearEventLog TEXTEQU <__imp_ClearEventLogA> 
+extern __imp_ClearEventLogW:qword 
+ClearEventLogW TEXTEQU <__imp_ClearEventLogW> 
+extern __imp_CloseCodeAuthzLevel:qword 
+CloseCodeAuthzLevel TEXTEQU <__imp_CloseCodeAuthzLevel> 
+extern __imp_CloseEncryptedFileRaw:qword 
+CloseEncryptedFileRaw TEXTEQU <__imp_CloseEncryptedFileRaw> 
+extern __imp_CloseEventLog:qword 
+CloseEventLog TEXTEQU <__imp_CloseEventLog> 
+extern __imp_CloseServiceHandle:qword 
+CloseServiceHandle TEXTEQU <__imp_CloseServiceHandle> 
+extern __imp_CloseThreadWaitChainSession:qword 
+CloseThreadWaitChainSession TEXTEQU <__imp_CloseThreadWaitChainSession> 
+extern __imp_CloseTrace:qword 
+CloseTrace TEXTEQU <__imp_CloseTrace> 
+extern __imp_CommandLineFromMsiDescriptor:qword 
+CommandLineFromMsiDescriptor TEXTEQU <__imp_CommandLineFromMsiDescriptor> 
+extern __imp_ComputeAccessTokenFromCodeAuthzLevel:qword 
+ComputeAccessTokenFromCodeAuthzLevel TEXTEQU <__imp_ComputeAccessTokenFromCodeAuthzLevel> 
+extern __imp_ControlService:qword 
+ControlService TEXTEQU <__imp_ControlService> 
+extern __imp_ControlServiceExA:qword 
+ControlServiceEx TEXTEQU <__imp_ControlServiceExA> 
+extern __imp_ControlServiceExW:qword 
+ControlServiceExW TEXTEQU <__imp_ControlServiceExW> 
+extern __imp_ControlTraceA:qword 
+ControlTrace TEXTEQU <__imp_ControlTraceA> 
+extern __imp_ControlTraceW:qword 
+ControlTraceW TEXTEQU <__imp_ControlTraceW> 
+extern __imp_ConvertAccessToSecurityDescriptorA:qword 
+ConvertAccessToSecurityDescriptor TEXTEQU <__imp_ConvertAccessToSecurityDescriptorA> 
+extern __imp_ConvertAccessToSecurityDescriptorW:qword 
+ConvertAccessToSecurityDescriptorW TEXTEQU <__imp_ConvertAccessToSecurityDescriptorW> 
+extern __imp_ConvertSDToStringSDRootDomainA:qword 
+ConvertSDToStringSDRootDomain TEXTEQU <__imp_ConvertSDToStringSDRootDomainA> 
+extern __imp_ConvertSDToStringSDRootDomainW:qword 
+ConvertSDToStringSDRootDomainW TEXTEQU <__imp_ConvertSDToStringSDRootDomainW> 
+extern __imp_ConvertSecurityDescriptorToAccessA:qword 
+ConvertSecurityDescriptorToAccess TEXTEQU <__imp_ConvertSecurityDescriptorToAccessA> 
+extern __imp_ConvertSecurityDescriptorToAccessNamedA:qword 
+ConvertSecurityDescriptorToAccessNamed TEXTEQU <__imp_ConvertSecurityDescriptorToAccessNamedA> 
+extern __imp_ConvertSecurityDescriptorToAccessNamedW:qword 
+ConvertSecurityDescriptorToAccessNamedW TEXTEQU <__imp_ConvertSecurityDescriptorToAccessNamedW> 
+extern __imp_ConvertSecurityDescriptorToAccessW:qword 
+ConvertSecurityDescriptorToAccessW TEXTEQU <__imp_ConvertSecurityDescriptorToAccessW> 
+extern __imp_ConvertSecurityDescriptorToStringSecurityDescriptorA:qword 
+ConvertSecurityDescriptorToStringSecurityDescriptor TEXTEQU <__imp_ConvertSecurityDescriptorToStringSecurityDescriptorA> 
+extern __imp_ConvertSecurityDescriptorToStringSecurityDescriptorW:qword 
+ConvertSecurityDescriptorToStringSecurityDescriptorW TEXTEQU <__imp_ConvertSecurityDescriptorToStringSecurityDescriptorW> 
+extern __imp_ConvertSidToStringSidA:qword 
+ConvertSidToStringSid TEXTEQU <__imp_ConvertSidToStringSidA> 
+extern __imp_ConvertSidToStringSidW:qword 
+ConvertSidToStringSidW TEXTEQU <__imp_ConvertSidToStringSidW> 
+extern __imp_ConvertStringSDToSDDomainA:qword 
+ConvertStringSDToSDDomain TEXTEQU <__imp_ConvertStringSDToSDDomainA> 
+extern __imp_ConvertStringSDToSDDomainW:qword 
+ConvertStringSDToSDDomainW TEXTEQU <__imp_ConvertStringSDToSDDomainW> 
+extern __imp_ConvertStringSDToSDRootDomainA:qword 
+ConvertStringSDToSDRootDomain TEXTEQU <__imp_ConvertStringSDToSDRootDomainA> 
+extern __imp_ConvertStringSDToSDRootDomainW:qword 
+ConvertStringSDToSDRootDomainW TEXTEQU <__imp_ConvertStringSDToSDRootDomainW> 
+extern __imp_ConvertStringSecurityDescriptorToSecurityDescriptorA:qword 
+ConvertStringSecurityDescriptorToSecurityDescriptor TEXTEQU <__imp_ConvertStringSecurityDescriptorToSecurityDescriptorA> 
+extern __imp_ConvertStringSecurityDescriptorToSecurityDescriptorW:qword 
+ConvertStringSecurityDescriptorToSecurityDescriptorW TEXTEQU <__imp_ConvertStringSecurityDescriptorToSecurityDescriptorW> 
+extern __imp_ConvertStringSidToSidA:qword 
+ConvertStringSidToSid TEXTEQU <__imp_ConvertStringSidToSidA> 
+extern __imp_ConvertStringSidToSidW:qword 
+ConvertStringSidToSidW TEXTEQU <__imp_ConvertStringSidToSidW> 
+extern __imp_ConvertToAutoInheritPrivateObjectSecurity:qword 
+ConvertToAutoInheritPrivateObjectSecurity TEXTEQU <__imp_ConvertToAutoInheritPrivateObjectSecurity> 
+extern __imp_CopySid:qword 
+CopySid TEXTEQU <__imp_CopySid> 
+extern __imp_CreateCodeAuthzLevel:qword 
+CreateCodeAuthzLevel TEXTEQU <__imp_CreateCodeAuthzLevel> 
+extern __imp_CreatePrivateObjectSecurity:qword 
+CreatePrivateObjectSecurity TEXTEQU <__imp_CreatePrivateObjectSecurity> 
+extern __imp_CreatePrivateObjectSecurityEx:qword 
+CreatePrivateObjectSecurityEx TEXTEQU <__imp_CreatePrivateObjectSecurityEx> 
+extern __imp_CreatePrivateObjectSecurityWithMultipleInheritance:qword 
+CreatePrivateObjectSecurityWithMultipleInheritance TEXTEQU <__imp_CreatePrivateObjectSecurityWithMultipleInheritance> 
+extern __imp_CreateProcessAsUserA:qword 
+CreateProcessAsUser TEXTEQU <__imp_CreateProcessAsUserA> 
+extern __imp_CreateProcessAsUserW:qword 
+CreateProcessAsUserW TEXTEQU <__imp_CreateProcessAsUserW> 
+extern __imp_CreateProcessWithLogonW:qword 
+CreateProcessWithLogonW TEXTEQU <__imp_CreateProcessWithLogonW> 
+extern __imp_CreateProcessWithTokenW:qword 
+CreateProcessWithTokenW TEXTEQU <__imp_CreateProcessWithTokenW> 
+extern __imp_CreateRestrictedToken:qword 
+CreateRestrictedToken TEXTEQU <__imp_CreateRestrictedToken> 
+extern __imp_CreateServiceA:qword 
+CreateService TEXTEQU <__imp_CreateServiceA> 
+extern __imp_CreateServiceW:qword 
+CreateServiceW TEXTEQU <__imp_CreateServiceW> 
+extern __imp_CreateWellKnownSid:qword 
+CreateWellKnownSid TEXTEQU <__imp_CreateWellKnownSid> 
+extern __imp_CredBackupCredentials:qword 
+CredBackupCredentials TEXTEQU <__imp_CredBackupCredentials> 
+extern __imp_CredDeleteA:qword 
+CredDelete TEXTEQU <__imp_CredDeleteA> 
+extern __imp_CredDeleteW:qword 
+CredDeleteW TEXTEQU <__imp_CredDeleteW> 
+extern __imp_CredEncryptAndMarshalBinaryBlob:qword 
+CredEncryptAndMarshalBinaryBlob TEXTEQU <__imp_CredEncryptAndMarshalBinaryBlob> 
+extern __imp_CredEnumerateA:qword 
+CredEnumerate TEXTEQU <__imp_CredEnumerateA> 
+extern __imp_CredEnumerateW:qword 
+CredEnumerateW TEXTEQU <__imp_CredEnumerateW> 
+extern __imp_CredFindBestCredentialA:qword 
+CredFindBestCredential TEXTEQU <__imp_CredFindBestCredentialA> 
+extern __imp_CredFindBestCredentialW:qword 
+CredFindBestCredentialW TEXTEQU <__imp_CredFindBestCredentialW> 
+extern __imp_CredFree:qword 
+CredFree TEXTEQU <__imp_CredFree> 
+extern __imp_CredGetSessionTypes:qword 
+CredGetSessionTypes TEXTEQU <__imp_CredGetSessionTypes> 
+extern __imp_CredGetTargetInfoA:qword 
+CredGetTargetInfo TEXTEQU <__imp_CredGetTargetInfoA> 
+extern __imp_CredGetTargetInfoW:qword 
+CredGetTargetInfoW TEXTEQU <__imp_CredGetTargetInfoW> 
+extern __imp_CredIsMarshaledCredentialA:qword 
+CredIsMarshaledCredential TEXTEQU <__imp_CredIsMarshaledCredentialA> 
+extern __imp_CredIsMarshaledCredentialW:qword 
+CredIsMarshaledCredentialW TEXTEQU <__imp_CredIsMarshaledCredentialW> 
+extern __imp_CredIsProtectedA:qword 
+CredIsProtected TEXTEQU <__imp_CredIsProtectedA> 
+extern __imp_CredIsProtectedW:qword 
+CredIsProtectedW TEXTEQU <__imp_CredIsProtectedW> 
+extern __imp_CredMarshalCredentialA:qword 
+CredMarshalCredential TEXTEQU <__imp_CredMarshalCredentialA> 
+extern __imp_CredMarshalCredentialW:qword 
+CredMarshalCredentialW TEXTEQU <__imp_CredMarshalCredentialW> 
+extern __imp_CredProfileLoaded:qword 
+CredProfileLoaded TEXTEQU <__imp_CredProfileLoaded> 
+extern __imp_CredProfileUnloaded:qword 
+CredProfileUnloaded TEXTEQU <__imp_CredProfileUnloaded> 
+extern __imp_CredProtectA:qword 
+CredProtect TEXTEQU <__imp_CredProtectA> 
+extern __imp_CredProtectW:qword 
+CredProtectW TEXTEQU <__imp_CredProtectW> 
+extern __imp_CredReadA:qword 
+CredRead TEXTEQU <__imp_CredReadA> 
+extern __imp_CredReadByTokenHandle:qword 
+CredReadByTokenHandle TEXTEQU <__imp_CredReadByTokenHandle> 
+extern __imp_CredReadDomainCredentialsA:qword 
+CredReadDomainCredentials TEXTEQU <__imp_CredReadDomainCredentialsA> 
+extern __imp_CredReadDomainCredentialsW:qword 
+CredReadDomainCredentialsW TEXTEQU <__imp_CredReadDomainCredentialsW> 
+extern __imp_CredReadW:qword 
+CredReadW TEXTEQU <__imp_CredReadW> 
+extern __imp_CredRenameA:qword 
+CredRename TEXTEQU <__imp_CredRenameA> 
+extern __imp_CredRenameW:qword 
+CredRenameW TEXTEQU <__imp_CredRenameW> 
+extern __imp_CredRestoreCredentials:qword 
+CredRestoreCredentials TEXTEQU <__imp_CredRestoreCredentials> 
+extern __imp_CredUnmarshalCredentialA:qword 
+CredUnmarshalCredential TEXTEQU <__imp_CredUnmarshalCredentialA> 
+extern __imp_CredUnmarshalCredentialW:qword 
+CredUnmarshalCredentialW TEXTEQU <__imp_CredUnmarshalCredentialW> 
+extern __imp_CredUnprotectA:qword 
+CredUnprotect TEXTEQU <__imp_CredUnprotectA> 
+extern __imp_CredUnprotectW:qword 
+CredUnprotectW TEXTEQU <__imp_CredUnprotectW> 
+extern __imp_CredWriteA:qword 
+CredWrite TEXTEQU <__imp_CredWriteA> 
+extern __imp_CredWriteDomainCredentialsA:qword 
+CredWriteDomainCredentials TEXTEQU <__imp_CredWriteDomainCredentialsA> 
+extern __imp_CredWriteDomainCredentialsW:qword 
+CredWriteDomainCredentialsW TEXTEQU <__imp_CredWriteDomainCredentialsW> 
+extern __imp_CredWriteW:qword 
+CredWriteW TEXTEQU <__imp_CredWriteW> 
+extern __imp_CredpConvertCredential:qword 
+CredpConvertCredential TEXTEQU <__imp_CredpConvertCredential> 
+extern __imp_CredpConvertOneCredentialSize:qword 
+CredpConvertOneCredentialSize TEXTEQU <__imp_CredpConvertOneCredentialSize> 
+extern __imp_CredpConvertTargetInfo:qword 
+CredpConvertTargetInfo TEXTEQU <__imp_CredpConvertTargetInfo> 
+extern __imp_CredpDecodeCredential:qword 
+CredpDecodeCredential TEXTEQU <__imp_CredpDecodeCredential> 
+extern __imp_CredpEncodeCredential:qword 
+CredpEncodeCredential TEXTEQU <__imp_CredpEncodeCredential> 
+extern __imp_CredpEncodeSecret:qword 
+CredpEncodeSecret TEXTEQU <__imp_CredpEncodeSecret> 
+extern __imp_CryptAcquireContextA:qword 
+CryptAcquireContext TEXTEQU <__imp_CryptAcquireContextA> 
+extern __imp_CryptAcquireContextW:qword 
+CryptAcquireContextW TEXTEQU <__imp_CryptAcquireContextW> 
+extern __imp_CryptContextAddRef:qword 
+CryptContextAddRef TEXTEQU <__imp_CryptContextAddRef> 
+extern __imp_CryptCreateHash:qword 
+CryptCreateHash TEXTEQU <__imp_CryptCreateHash> 
+extern __imp_CryptDecrypt:qword 
+CryptDecrypt TEXTEQU <__imp_CryptDecrypt> 
+extern __imp_CryptDeriveKey:qword 
+CryptDeriveKey TEXTEQU <__imp_CryptDeriveKey> 
+extern __imp_CryptDestroyHash:qword 
+CryptDestroyHash TEXTEQU <__imp_CryptDestroyHash> 
+extern __imp_CryptDestroyKey:qword 
+CryptDestroyKey TEXTEQU <__imp_CryptDestroyKey> 
+extern __imp_CryptDuplicateHash:qword 
+CryptDuplicateHash TEXTEQU <__imp_CryptDuplicateHash> 
+extern __imp_CryptDuplicateKey:qword 
+CryptDuplicateKey TEXTEQU <__imp_CryptDuplicateKey> 
+extern __imp_CryptEncrypt:qword 
+CryptEncrypt TEXTEQU <__imp_CryptEncrypt> 
+extern __imp_CryptEnumProviderTypesA:qword 
+CryptEnumProviderTypes TEXTEQU <__imp_CryptEnumProviderTypesA> 
+extern __imp_CryptEnumProviderTypesW:qword 
+CryptEnumProviderTypesW TEXTEQU <__imp_CryptEnumProviderTypesW> 
+extern __imp_CryptEnumProvidersA:qword 
+CryptEnumProviders TEXTEQU <__imp_CryptEnumProvidersA> 
+extern __imp_CryptEnumProvidersW:qword 
+CryptEnumProvidersW TEXTEQU <__imp_CryptEnumProvidersW> 
+extern __imp_CryptExportKey:qword 
+CryptExportKey TEXTEQU <__imp_CryptExportKey> 
+extern __imp_CryptGenKey:qword 
+CryptGenKey TEXTEQU <__imp_CryptGenKey> 
+extern __imp_CryptGenRandom:qword 
+CryptGenRandom TEXTEQU <__imp_CryptGenRandom> 
+extern __imp_CryptGetDefaultProviderA:qword 
+CryptGetDefaultProvider TEXTEQU <__imp_CryptGetDefaultProviderA> 
+extern __imp_CryptGetDefaultProviderW:qword 
+CryptGetDefaultProviderW TEXTEQU <__imp_CryptGetDefaultProviderW> 
+extern __imp_CryptGetHashParam:qword 
+CryptGetHashParam TEXTEQU <__imp_CryptGetHashParam> 
+extern __imp_CryptGetKeyParam:qword 
+CryptGetKeyParam TEXTEQU <__imp_CryptGetKeyParam> 
+extern __imp_CryptGetProvParam:qword 
+CryptGetProvParam TEXTEQU <__imp_CryptGetProvParam> 
+extern __imp_CryptGetUserKey:qword 
+CryptGetUserKey TEXTEQU <__imp_CryptGetUserKey> 
+extern __imp_CryptHashData:qword 
+CryptHashData TEXTEQU <__imp_CryptHashData> 
+extern __imp_CryptHashSessionKey:qword 
+CryptHashSessionKey TEXTEQU <__imp_CryptHashSessionKey> 
+extern __imp_CryptImportKey:qword 
+CryptImportKey TEXTEQU <__imp_CryptImportKey> 
+extern __imp_CryptReleaseContext:qword 
+CryptReleaseContext TEXTEQU <__imp_CryptReleaseContext> 
+extern __imp_CryptSetHashParam:qword 
+CryptSetHashParam TEXTEQU <__imp_CryptSetHashParam> 
+extern __imp_CryptSetKeyParam:qword 
+CryptSetKeyParam TEXTEQU <__imp_CryptSetKeyParam> 
+extern __imp_CryptSetProvParam:qword 
+CryptSetProvParam TEXTEQU <__imp_CryptSetProvParam> 
+extern __imp_CryptSetProviderA:qword 
+CryptSetProvider TEXTEQU <__imp_CryptSetProviderA> 
+extern __imp_CryptSetProviderExA:qword 
+CryptSetProviderEx TEXTEQU <__imp_CryptSetProviderExA> 
+extern __imp_CryptSetProviderExW:qword 
+CryptSetProviderExW TEXTEQU <__imp_CryptSetProviderExW> 
+extern __imp_CryptSetProviderW:qword 
+CryptSetProviderW TEXTEQU <__imp_CryptSetProviderW> 
+extern __imp_CryptSignHashA:qword 
+CryptSignHash TEXTEQU <__imp_CryptSignHashA> 
+extern __imp_CryptSignHashW:qword 
+CryptSignHashW TEXTEQU <__imp_CryptSignHashW> 
+extern __imp_CryptVerifySignatureA:qword 
+CryptVerifySignature TEXTEQU <__imp_CryptVerifySignatureA> 
+extern __imp_CryptVerifySignatureW:qword 
+CryptVerifySignatureW TEXTEQU <__imp_CryptVerifySignatureW> 
+extern __imp_DecryptFileA:qword 
+DecryptFile TEXTEQU <__imp_DecryptFileA> 
+extern __imp_DecryptFileW:qword 
+DecryptFileW TEXTEQU <__imp_DecryptFileW> 
+extern __imp_DeleteAce:qword 
+DeleteAce TEXTEQU <__imp_DeleteAce> 
+extern __imp_DeleteService:qword 
+DeleteService TEXTEQU <__imp_DeleteService> 
+extern __imp_DeregisterEventSource:qword 
+DeregisterEventSource TEXTEQU <__imp_DeregisterEventSource> 
+extern __imp_DestroyPrivateObjectSecurity:qword 
+DestroyPrivateObjectSecurity TEXTEQU <__imp_DestroyPrivateObjectSecurity> 
+extern __imp_DuplicateEncryptionInfoFile:qword 
+DuplicateEncryptionInfoFile TEXTEQU <__imp_DuplicateEncryptionInfoFile> 
+extern __imp_DuplicateToken:qword 
+DuplicateToken TEXTEQU <__imp_DuplicateToken> 
+extern __imp_DuplicateTokenEx:qword 
+DuplicateTokenEx TEXTEQU <__imp_DuplicateTokenEx> 
+extern __imp_ElfBackupEventLogFileA:qword 
+ElfBackupEventLogFile TEXTEQU <__imp_ElfBackupEventLogFileA> 
+extern __imp_ElfBackupEventLogFileW:qword 
+ElfBackupEventLogFileW TEXTEQU <__imp_ElfBackupEventLogFileW> 
+extern __imp_ElfChangeNotify:qword 
+ElfChangeNotify TEXTEQU <__imp_ElfChangeNotify> 
+extern __imp_ElfClearEventLogFileA:qword 
+ElfClearEventLogFile TEXTEQU <__imp_ElfClearEventLogFileA> 
+extern __imp_ElfClearEventLogFileW:qword 
+ElfClearEventLogFileW TEXTEQU <__imp_ElfClearEventLogFileW> 
+extern __imp_ElfCloseEventLog:qword 
+ElfCloseEventLog TEXTEQU <__imp_ElfCloseEventLog> 
+extern __imp_ElfDeregisterEventSource:qword 
+ElfDeregisterEventSource TEXTEQU <__imp_ElfDeregisterEventSource> 
+extern __imp_ElfFlushEventLog:qword 
+ElfFlushEventLog TEXTEQU <__imp_ElfFlushEventLog> 
+extern __imp_ElfNumberOfRecords:qword 
+ElfNumberOfRecords TEXTEQU <__imp_ElfNumberOfRecords> 
+extern __imp_ElfOldestRecord:qword 
+ElfOldestRecord TEXTEQU <__imp_ElfOldestRecord> 
+extern __imp_ElfOpenBackupEventLogA:qword 
+ElfOpenBackupEventLog TEXTEQU <__imp_ElfOpenBackupEventLogA> 
+extern __imp_ElfOpenBackupEventLogW:qword 
+ElfOpenBackupEventLogW TEXTEQU <__imp_ElfOpenBackupEventLogW> 
+extern __imp_ElfOpenEventLogA:qword 
+ElfOpenEventLog TEXTEQU <__imp_ElfOpenEventLogA> 
+extern __imp_ElfOpenEventLogW:qword 
+ElfOpenEventLogW TEXTEQU <__imp_ElfOpenEventLogW> 
+extern __imp_ElfReadEventLogA:qword 
+ElfReadEventLog TEXTEQU <__imp_ElfReadEventLogA> 
+extern __imp_ElfReadEventLogW:qword 
+ElfReadEventLogW TEXTEQU <__imp_ElfReadEventLogW> 
+extern __imp_ElfRegisterEventSourceA:qword 
+ElfRegisterEventSource TEXTEQU <__imp_ElfRegisterEventSourceA> 
+extern __imp_ElfRegisterEventSourceW:qword 
+ElfRegisterEventSourceW TEXTEQU <__imp_ElfRegisterEventSourceW> 
+extern __imp_ElfReportEventA:qword 
+ElfReportEvent TEXTEQU <__imp_ElfReportEventA> 
+extern __imp_ElfReportEventAndSourceW:qword 
+ElfReportEventAndSourceW TEXTEQU <__imp_ElfReportEventAndSourceW> 
+extern __imp_ElfReportEventW:qword 
+ElfReportEventW TEXTEQU <__imp_ElfReportEventW> 
+extern __imp_EnableTrace:qword 
+EnableTrace TEXTEQU <__imp_EnableTrace> 
+extern __imp_EnableTraceEx:qword 
+EnableTraceEx TEXTEQU <__imp_EnableTraceEx> 
+extern __imp_EnableTraceEx2:qword 
+EnableTraceEx2 TEXTEQU <__imp_EnableTraceEx2> 
+extern __imp_EncryptFileA:qword 
+EncryptFile TEXTEQU <__imp_EncryptFileA> 
+extern __imp_EncryptFileW:qword 
+EncryptFileW TEXTEQU <__imp_EncryptFileW> 
+extern __imp_EncryptedFileKeyInfo:qword 
+EncryptedFileKeyInfo TEXTEQU <__imp_EncryptedFileKeyInfo> 
+extern __imp_EncryptionDisable:qword 
+EncryptionDisable TEXTEQU <__imp_EncryptionDisable> 
+extern __imp_EnumDependentServicesA:qword 
+EnumDependentServices TEXTEQU <__imp_EnumDependentServicesA> 
+extern __imp_EnumDependentServicesW:qword 
+EnumDependentServicesW TEXTEQU <__imp_EnumDependentServicesW> 
+extern __imp_EnumServiceGroupW:qword 
+EnumServiceGroupW TEXTEQU <__imp_EnumServiceGroupW> 
+extern __imp_EnumServicesStatusA:qword 
+EnumServicesStatus TEXTEQU <__imp_EnumServicesStatusA> 
+extern __imp_EnumServicesStatusExA:qword 
+EnumServicesStatusEx TEXTEQU <__imp_EnumServicesStatusExA> 
+extern __imp_EnumServicesStatusExW:qword 
+EnumServicesStatusExW TEXTEQU <__imp_EnumServicesStatusExW> 
+extern __imp_EnumServicesStatusW:qword 
+EnumServicesStatusW TEXTEQU <__imp_EnumServicesStatusW> 
+extern __imp_EnumerateTraceGuids:qword 
+EnumerateTraceGuids TEXTEQU <__imp_EnumerateTraceGuids> 
+extern __imp_EnumerateTraceGuidsEx:qword 
+EnumerateTraceGuidsEx TEXTEQU <__imp_EnumerateTraceGuidsEx> 
+extern __imp_EqualDomainSid:qword 
+EqualDomainSid TEXTEQU <__imp_EqualDomainSid> 
+extern __imp_EqualPrefixSid:qword 
+EqualPrefixSid TEXTEQU <__imp_EqualPrefixSid> 
+extern __imp_EqualSid:qword 
+EqualSid TEXTEQU <__imp_EqualSid> 
+extern __imp_EventAccessControl:qword 
+EventAccessControl TEXTEQU <__imp_EventAccessControl> 
+extern __imp_EventAccessQuery:qword 
+EventAccessQuery TEXTEQU <__imp_EventAccessQuery> 
+extern __imp_EventAccessRemove:qword 
+EventAccessRemove TEXTEQU <__imp_EventAccessRemove> 
+extern __imp_EventWriteEx:qword 
+EventWriteEx TEXTEQU <__imp_EventWriteEx> 
+extern __imp_FileEncryptionStatusA:qword 
+FileEncryptionStatus TEXTEQU <__imp_FileEncryptionStatusA> 
+extern __imp_FileEncryptionStatusW:qword 
+FileEncryptionStatusW TEXTEQU <__imp_FileEncryptionStatusW> 
+extern __imp_FindFirstFreeAce:qword 
+FindFirstFreeAce TEXTEQU <__imp_FindFirstFreeAce> 
+extern __imp_FlushEfsCache:qword 
+FlushEfsCache TEXTEQU <__imp_FlushEfsCache> 
+extern __imp_FlushTraceA:qword 
+FlushTrace TEXTEQU <__imp_FlushTraceA> 
+extern __imp_FlushTraceW:qword 
+FlushTraceW TEXTEQU <__imp_FlushTraceW> 
+extern __imp_FreeEncryptedFileKeyInfo:qword 
+FreeEncryptedFileKeyInfo TEXTEQU <__imp_FreeEncryptedFileKeyInfo> 
+extern __imp_FreeEncryptedFileMetadata:qword 
+FreeEncryptedFileMetadata TEXTEQU <__imp_FreeEncryptedFileMetadata> 
+extern __imp_FreeEncryptionCertificateHashList:qword 
+FreeEncryptionCertificateHashList TEXTEQU <__imp_FreeEncryptionCertificateHashList> 
+extern __imp_FreeInheritedFromArray:qword 
+FreeInheritedFromArray TEXTEQU <__imp_FreeInheritedFromArray> 
+extern __imp_FreeSid:qword 
+FreeSid TEXTEQU <__imp_FreeSid> 
+extern __imp_GetAccessPermissionsForObjectA:qword 
+GetAccessPermissionsForObject TEXTEQU <__imp_GetAccessPermissionsForObjectA> 
+extern __imp_GetAccessPermissionsForObjectW:qword 
+GetAccessPermissionsForObjectW TEXTEQU <__imp_GetAccessPermissionsForObjectW> 
+extern __imp_GetAce:qword 
+GetAce TEXTEQU <__imp_GetAce> 
+extern __imp_GetAclInformation:qword 
+GetAclInformation TEXTEQU <__imp_GetAclInformation> 
+extern __imp_GetAuditedPermissionsFromAclA:qword 
+GetAuditedPermissionsFromAcl TEXTEQU <__imp_GetAuditedPermissionsFromAclA> 
+extern __imp_GetAuditedPermissionsFromAclW:qword 
+GetAuditedPermissionsFromAclW TEXTEQU <__imp_GetAuditedPermissionsFromAclW> 
+extern __imp_GetCurrentHwProfileA:qword 
+GetCurrentHwProfile TEXTEQU <__imp_GetCurrentHwProfileA> 
+extern __imp_GetCurrentHwProfileW:qword 
+GetCurrentHwProfileW TEXTEQU <__imp_GetCurrentHwProfileW> 
+extern __imp_GetEffectiveRightsFromAclA:qword 
+GetEffectiveRightsFromAcl TEXTEQU <__imp_GetEffectiveRightsFromAclA> 
+extern __imp_GetEffectiveRightsFromAclW:qword 
+GetEffectiveRightsFromAclW TEXTEQU <__imp_GetEffectiveRightsFromAclW> 
+extern __imp_GetEncryptedFileMetadata:qword 
+GetEncryptedFileMetadata TEXTEQU <__imp_GetEncryptedFileMetadata> 
+extern __imp_GetEventLogInformation:qword 
+GetEventLogInformation TEXTEQU <__imp_GetEventLogInformation> 
+extern __imp_GetExplicitEntriesFromAclA:qword 
+GetExplicitEntriesFromAcl TEXTEQU <__imp_GetExplicitEntriesFromAclA> 
+extern __imp_GetExplicitEntriesFromAclW:qword 
+GetExplicitEntriesFromAclW TEXTEQU <__imp_GetExplicitEntriesFromAclW> 
+extern __imp_GetFileSecurityA:qword 
+GetFileSecurity TEXTEQU <__imp_GetFileSecurityA> 
+extern __imp_GetFileSecurityW:qword 
+GetFileSecurityW TEXTEQU <__imp_GetFileSecurityW> 
+extern __imp_GetInformationCodeAuthzLevelW:qword 
+GetInformationCodeAuthzLevelW TEXTEQU <__imp_GetInformationCodeAuthzLevelW> 
+extern __imp_GetInformationCodeAuthzPolicyW:qword 
+GetInformationCodeAuthzPolicyW TEXTEQU <__imp_GetInformationCodeAuthzPolicyW> 
+extern __imp_GetInheritanceSourceA:qword 
+GetInheritanceSource TEXTEQU <__imp_GetInheritanceSourceA> 
+extern __imp_GetInheritanceSourceW:qword 
+GetInheritanceSourceW TEXTEQU <__imp_GetInheritanceSourceW> 
+extern __imp_GetKernelObjectSecurity:qword 
+GetKernelObjectSecurity TEXTEQU <__imp_GetKernelObjectSecurity> 
+extern __imp_GetLengthSid:qword 
+GetLengthSid TEXTEQU <__imp_GetLengthSid> 
+extern __imp_GetLocalManagedApplicationData:qword 
+GetLocalManagedApplicationData TEXTEQU <__imp_GetLocalManagedApplicationData> 
+extern __imp_GetLocalManagedApplications:qword 
+GetLocalManagedApplications TEXTEQU <__imp_GetLocalManagedApplications> 
+extern __imp_GetManagedApplicationCategories:qword 
+GetManagedApplicationCategories TEXTEQU <__imp_GetManagedApplicationCategories> 
+extern __imp_GetManagedApplications:qword 
+GetManagedApplications TEXTEQU <__imp_GetManagedApplications> 
+extern __imp_GetMultipleTrusteeA:qword 
+GetMultipleTrustee TEXTEQU <__imp_GetMultipleTrusteeA> 
+extern __imp_GetMultipleTrusteeOperationA:qword 
+GetMultipleTrusteeOperation TEXTEQU <__imp_GetMultipleTrusteeOperationA> 
+extern __imp_GetMultipleTrusteeOperationW:qword 
+GetMultipleTrusteeOperationW TEXTEQU <__imp_GetMultipleTrusteeOperationW> 
+extern __imp_GetMultipleTrusteeW:qword 
+GetMultipleTrusteeW TEXTEQU <__imp_GetMultipleTrusteeW> 
+extern __imp_GetNamedSecurityInfoA:qword 
+GetNamedSecurityInfo TEXTEQU <__imp_GetNamedSecurityInfoA> 
+extern __imp_GetNamedSecurityInfoExA:qword 
+GetNamedSecurityInfoEx TEXTEQU <__imp_GetNamedSecurityInfoExA> 
+extern __imp_GetNamedSecurityInfoExW:qword 
+GetNamedSecurityInfoExW TEXTEQU <__imp_GetNamedSecurityInfoExW> 
+extern __imp_GetNamedSecurityInfoW:qword 
+GetNamedSecurityInfoW TEXTEQU <__imp_GetNamedSecurityInfoW> 
+extern __imp_GetNumberOfEventLogRecords:qword 
+GetNumberOfEventLogRecords TEXTEQU <__imp_GetNumberOfEventLogRecords> 
+extern __imp_GetOldestEventLogRecord:qword 
+GetOldestEventLogRecord TEXTEQU <__imp_GetOldestEventLogRecord> 
+extern __imp_GetOverlappedAccessResults:qword 
+GetOverlappedAccessResults TEXTEQU <__imp_GetOverlappedAccessResults> 
+extern __imp_GetPrivateObjectSecurity:qword 
+GetPrivateObjectSecurity TEXTEQU <__imp_GetPrivateObjectSecurity> 
+extern __imp_GetSecurityDescriptorControl:qword 
+GetSecurityDescriptorControl TEXTEQU <__imp_GetSecurityDescriptorControl> 
+extern __imp_GetSecurityDescriptorDacl:qword 
+GetSecurityDescriptorDacl TEXTEQU <__imp_GetSecurityDescriptorDacl> 
+extern __imp_GetSecurityDescriptorGroup:qword 
+GetSecurityDescriptorGroup TEXTEQU <__imp_GetSecurityDescriptorGroup> 
+extern __imp_GetSecurityDescriptorLength:qword 
+GetSecurityDescriptorLength TEXTEQU <__imp_GetSecurityDescriptorLength> 
+extern __imp_GetSecurityDescriptorOwner:qword 
+GetSecurityDescriptorOwner TEXTEQU <__imp_GetSecurityDescriptorOwner> 
+extern __imp_GetSecurityDescriptorRMControl:qword 
+GetSecurityDescriptorRMControl TEXTEQU <__imp_GetSecurityDescriptorRMControl> 
+extern __imp_GetSecurityDescriptorSacl:qword 
+GetSecurityDescriptorSacl TEXTEQU <__imp_GetSecurityDescriptorSacl> 
+extern __imp_GetSecurityInfo:qword 
+GetSecurityInfo TEXTEQU <__imp_GetSecurityInfo> 
+extern __imp_GetSecurityInfoExA:qword 
+GetSecurityInfoEx TEXTEQU <__imp_GetSecurityInfoExA> 
+extern __imp_GetSecurityInfoExW:qword 
+GetSecurityInfoExW TEXTEQU <__imp_GetSecurityInfoExW> 
+extern __imp_GetServiceDisplayNameA:qword 
+GetServiceDisplayName TEXTEQU <__imp_GetServiceDisplayNameA> 
+extern __imp_GetServiceDisplayNameW:qword 
+GetServiceDisplayNameW TEXTEQU <__imp_GetServiceDisplayNameW> 
+extern __imp_GetServiceKeyNameA:qword 
+GetServiceKeyName TEXTEQU <__imp_GetServiceKeyNameA> 
+extern __imp_GetServiceKeyNameW:qword 
+GetServiceKeyNameW TEXTEQU <__imp_GetServiceKeyNameW> 
+extern __imp_GetSidIdentifierAuthority:qword 
+GetSidIdentifierAuthority TEXTEQU <__imp_GetSidIdentifierAuthority> 
+extern __imp_GetSidLengthRequired:qword 
+GetSidLengthRequired TEXTEQU <__imp_GetSidLengthRequired> 
+extern __imp_GetSidSubAuthority:qword 
+GetSidSubAuthority TEXTEQU <__imp_GetSidSubAuthority> 
+extern __imp_GetSidSubAuthorityCount:qword 
+GetSidSubAuthorityCount TEXTEQU <__imp_GetSidSubAuthorityCount> 
+extern __imp_GetThreadWaitChain:qword 
+GetThreadWaitChain TEXTEQU <__imp_GetThreadWaitChain> 
+extern __imp_GetTokenInformation:qword 
+GetTokenInformation TEXTEQU <__imp_GetTokenInformation> 
+extern __imp_GetTrusteeFormA:qword 
+GetTrusteeForm TEXTEQU <__imp_GetTrusteeFormA> 
+extern __imp_GetTrusteeFormW:qword 
+GetTrusteeFormW TEXTEQU <__imp_GetTrusteeFormW> 
+extern __imp_GetTrusteeNameA:qword 
+GetTrusteeName TEXTEQU <__imp_GetTrusteeNameA> 
+extern __imp_GetTrusteeNameW:qword 
+GetTrusteeNameW TEXTEQU <__imp_GetTrusteeNameW> 
+extern __imp_GetTrusteeTypeA:qword 
+GetTrusteeType TEXTEQU <__imp_GetTrusteeTypeA> 
+extern __imp_GetTrusteeTypeW:qword 
+GetTrusteeTypeW TEXTEQU <__imp_GetTrusteeTypeW> 
+extern __imp_GetUserNameA:qword 
+GetUserName TEXTEQU <__imp_GetUserNameA> 
+extern __imp_GetUserNameW:qword 
+GetUserNameW TEXTEQU <__imp_GetUserNameW> 
+extern __imp_GetWindowsAccountDomainSid:qword 
+GetWindowsAccountDomainSid TEXTEQU <__imp_GetWindowsAccountDomainSid> 
+extern __imp_I_ScGetCurrentGroupStateW:qword 
+I_ScGetCurrentGroupStateW TEXTEQU <__imp_I_ScGetCurrentGroupStateW> 
+extern __imp_I_ScSetServiceBitsA:qword 
+I_ScSetServiceBits TEXTEQU <__imp_I_ScSetServiceBitsA> 
+extern __imp_I_ScSetServiceBitsW:qword 
+I_ScSetServiceBitsW TEXTEQU <__imp_I_ScSetServiceBitsW> 
+extern __imp_IdentifyCodeAuthzLevelW:qword 
+IdentifyCodeAuthzLevelW TEXTEQU <__imp_IdentifyCodeAuthzLevelW> 
+extern __imp_ImpersonateAnonymousToken:qword 
+ImpersonateAnonymousToken TEXTEQU <__imp_ImpersonateAnonymousToken> 
+extern __imp_ImpersonateLoggedOnUser:qword 
+ImpersonateLoggedOnUser TEXTEQU <__imp_ImpersonateLoggedOnUser> 
+extern __imp_ImpersonateNamedPipeClient:qword 
+ImpersonateNamedPipeClient TEXTEQU <__imp_ImpersonateNamedPipeClient> 
+extern __imp_ImpersonateSelf:qword 
+ImpersonateSelf TEXTEQU <__imp_ImpersonateSelf> 
+extern __imp_InitializeAcl:qword 
+InitializeAcl TEXTEQU <__imp_InitializeAcl> 
+extern __imp_InitializeSecurityDescriptor:qword 
+InitializeSecurityDescriptor TEXTEQU <__imp_InitializeSecurityDescriptor> 
+extern __imp_InitializeSid:qword 
+InitializeSid TEXTEQU <__imp_InitializeSid> 
+extern __imp_InitiateShutdownA:qword 
+InitiateShutdown TEXTEQU <__imp_InitiateShutdownA> 
+extern __imp_InitiateShutdownW:qword 
+InitiateShutdownW TEXTEQU <__imp_InitiateShutdownW> 
+extern __imp_InitiateSystemShutdownA:qword 
+InitiateSystemShutdown TEXTEQU <__imp_InitiateSystemShutdownA> 
+extern __imp_InitiateSystemShutdownExA:qword 
+InitiateSystemShutdownEx TEXTEQU <__imp_InitiateSystemShutdownExA> 
+extern __imp_InitiateSystemShutdownExW:qword 
+InitiateSystemShutdownExW TEXTEQU <__imp_InitiateSystemShutdownExW> 
+extern __imp_InitiateSystemShutdownW:qword 
+InitiateSystemShutdownW TEXTEQU <__imp_InitiateSystemShutdownW> 
+extern __imp_InstallApplication:qword 
+InstallApplication TEXTEQU <__imp_InstallApplication> 
+extern __imp_IsTextUnicode:qword 
+IsTextUnicode TEXTEQU <__imp_IsTextUnicode> 
+extern __imp_IsTokenRestricted:qword 
+IsTokenRestricted TEXTEQU <__imp_IsTokenRestricted> 
+extern __imp_IsTokenUntrusted:qword 
+IsTokenUntrusted TEXTEQU <__imp_IsTokenUntrusted> 
+extern __imp_IsValidAcl:qword 
+IsValidAcl TEXTEQU <__imp_IsValidAcl> 
+extern __imp_IsValidSecurityDescriptor:qword 
+IsValidSecurityDescriptor TEXTEQU <__imp_IsValidSecurityDescriptor> 
+extern __imp_IsValidSid:qword 
+IsValidSid TEXTEQU <__imp_IsValidSid> 
+extern __imp_IsWellKnownSid:qword 
+IsWellKnownSid TEXTEQU <__imp_IsWellKnownSid> 
+extern __imp_LockServiceDatabase:qword 
+LockServiceDatabase TEXTEQU <__imp_LockServiceDatabase> 
+extern __imp_LogonUserA:qword 
+LogonUser TEXTEQU <__imp_LogonUserA> 
+extern __imp_LogonUserExA:qword 
+LogonUserEx TEXTEQU <__imp_LogonUserExA> 
+extern __imp_LogonUserExExW:qword 
+LogonUserExExW TEXTEQU <__imp_LogonUserExExW> 
+extern __imp_LogonUserExW:qword 
+LogonUserExW TEXTEQU <__imp_LogonUserExW> 
+extern __imp_LogonUserW:qword 
+LogonUserW TEXTEQU <__imp_LogonUserW> 
+extern __imp_LookupAccountNameA:qword 
+LookupAccountName TEXTEQU <__imp_LookupAccountNameA> 
+extern __imp_LookupAccountNameW:qword 
+LookupAccountNameW TEXTEQU <__imp_LookupAccountNameW> 
+extern __imp_LookupAccountSidA:qword 
+LookupAccountSid TEXTEQU <__imp_LookupAccountSidA> 
+extern __imp_LookupAccountSidW:qword 
+LookupAccountSidW TEXTEQU <__imp_LookupAccountSidW> 
+extern __imp_LookupPrivilegeDisplayNameA:qword 
+LookupPrivilegeDisplayName TEXTEQU <__imp_LookupPrivilegeDisplayNameA> 
+extern __imp_LookupPrivilegeDisplayNameW:qword 
+LookupPrivilegeDisplayNameW TEXTEQU <__imp_LookupPrivilegeDisplayNameW> 
+extern __imp_LookupPrivilegeNameA:qword 
+LookupPrivilegeName TEXTEQU <__imp_LookupPrivilegeNameA> 
+extern __imp_LookupPrivilegeNameW:qword 
+LookupPrivilegeNameW TEXTEQU <__imp_LookupPrivilegeNameW> 
+extern __imp_LookupPrivilegeValueA:qword 
+LookupPrivilegeValue TEXTEQU <__imp_LookupPrivilegeValueA> 
+extern __imp_LookupPrivilegeValueW:qword 
+LookupPrivilegeValueW TEXTEQU <__imp_LookupPrivilegeValueW> 
+extern __imp_LookupSecurityDescriptorPartsA:qword 
+LookupSecurityDescriptorParts TEXTEQU <__imp_LookupSecurityDescriptorPartsA> 
+extern __imp_LookupSecurityDescriptorPartsW:qword 
+LookupSecurityDescriptorPartsW TEXTEQU <__imp_LookupSecurityDescriptorPartsW> 
+extern __imp_LsaAddAccountRights:qword 
+LsaAddAccountRights TEXTEQU <__imp_LsaAddAccountRights> 
+extern __imp_LsaAddPrivilegesToAccount:qword 
+LsaAddPrivilegesToAccount TEXTEQU <__imp_LsaAddPrivilegesToAccount> 
+extern __imp_LsaClearAuditLog:qword 
+LsaClearAuditLog TEXTEQU <__imp_LsaClearAuditLog> 
+extern __imp_LsaClose:qword 
+LsaClose TEXTEQU <__imp_LsaClose> 
+extern __imp_LsaCreateAccount:qword 
+LsaCreateAccount TEXTEQU <__imp_LsaCreateAccount> 
+extern __imp_LsaCreateSecret:qword 
+LsaCreateSecret TEXTEQU <__imp_LsaCreateSecret> 
+extern __imp_LsaCreateTrustedDomain:qword 
+LsaCreateTrustedDomain TEXTEQU <__imp_LsaCreateTrustedDomain> 
+extern __imp_LsaCreateTrustedDomainEx:qword 
+LsaCreateTrustedDomainEx TEXTEQU <__imp_LsaCreateTrustedDomainEx> 
+extern __imp_LsaDelete:qword 
+LsaDelete TEXTEQU <__imp_LsaDelete> 
+extern __imp_LsaDeleteTrustedDomain:qword 
+LsaDeleteTrustedDomain TEXTEQU <__imp_LsaDeleteTrustedDomain> 
+extern __imp_LsaEnumerateAccountRights:qword 
+LsaEnumerateAccountRights TEXTEQU <__imp_LsaEnumerateAccountRights> 
+extern __imp_LsaEnumerateAccounts:qword 
+LsaEnumerateAccounts TEXTEQU <__imp_LsaEnumerateAccounts> 
+extern __imp_LsaEnumerateAccountsWithUserRight:qword 
+LsaEnumerateAccountsWithUserRight TEXTEQU <__imp_LsaEnumerateAccountsWithUserRight> 
+extern __imp_LsaEnumeratePrivileges:qword 
+LsaEnumeratePrivileges TEXTEQU <__imp_LsaEnumeratePrivileges> 
+extern __imp_LsaEnumeratePrivilegesOfAccount:qword 
+LsaEnumeratePrivilegesOfAccount TEXTEQU <__imp_LsaEnumeratePrivilegesOfAccount> 
+extern __imp_LsaEnumerateTrustedDomains:qword 
+LsaEnumerateTrustedDomains TEXTEQU <__imp_LsaEnumerateTrustedDomains> 
+extern __imp_LsaEnumerateTrustedDomainsEx:qword 
+LsaEnumerateTrustedDomainsEx TEXTEQU <__imp_LsaEnumerateTrustedDomainsEx> 
+extern __imp_LsaFreeMemory:qword 
+LsaFreeMemory TEXTEQU <__imp_LsaFreeMemory> 
+extern __imp_LsaGetQuotasForAccount:qword 
+LsaGetQuotasForAccount TEXTEQU <__imp_LsaGetQuotasForAccount> 
+extern __imp_LsaGetRemoteUserName:qword 
+LsaGetRemoteUserName TEXTEQU <__imp_LsaGetRemoteUserName> 
+extern __imp_LsaGetSystemAccessAccount:qword 
+LsaGetSystemAccessAccount TEXTEQU <__imp_LsaGetSystemAccessAccount> 
+extern __imp_LsaGetUserName:qword 
+LsaGetUserName TEXTEQU <__imp_LsaGetUserName> 
+extern __imp_LsaICLookupNames:qword 
+LsaICLookupNames TEXTEQU <__imp_LsaICLookupNames> 
+extern __imp_LsaICLookupNamesWithCreds:qword 
+LsaICLookupNamesWithCreds TEXTEQU <__imp_LsaICLookupNamesWithCreds> 
+extern __imp_LsaICLookupSids:qword 
+LsaICLookupSids TEXTEQU <__imp_LsaICLookupSids> 
+extern __imp_LsaICLookupSidsWithCreds:qword 
+LsaICLookupSidsWithCreds TEXTEQU <__imp_LsaICLookupSidsWithCreds> 
+extern __imp_LsaLookupNames:qword 
+LsaLookupNames TEXTEQU <__imp_LsaLookupNames> 
+extern __imp_LsaLookupNames2:qword 
+LsaLookupNames2 TEXTEQU <__imp_LsaLookupNames2> 
+extern __imp_LsaLookupPrivilegeDisplayName:qword 
+LsaLookupPrivilegeDisplayName TEXTEQU <__imp_LsaLookupPrivilegeDisplayName> 
+extern __imp_LsaLookupPrivilegeName:qword 
+LsaLookupPrivilegeName TEXTEQU <__imp_LsaLookupPrivilegeName> 
+extern __imp_LsaLookupPrivilegeValue:qword 
+LsaLookupPrivilegeValue TEXTEQU <__imp_LsaLookupPrivilegeValue> 
+extern __imp_LsaLookupSids:qword 
+LsaLookupSids TEXTEQU <__imp_LsaLookupSids> 
+extern __imp_LsaManageSidNameMapping:qword 
+LsaManageSidNameMapping TEXTEQU <__imp_LsaManageSidNameMapping> 
+extern __imp_LsaNtStatusToWinError:qword 
+LsaNtStatusToWinError TEXTEQU <__imp_LsaNtStatusToWinError> 
+extern __imp_LsaOpenAccount:qword 
+LsaOpenAccount TEXTEQU <__imp_LsaOpenAccount> 
+extern __imp_LsaOpenPolicy:qword 
+LsaOpenPolicy TEXTEQU <__imp_LsaOpenPolicy> 
+extern __imp_LsaOpenPolicySce:qword 
+LsaOpenPolicySce TEXTEQU <__imp_LsaOpenPolicySce> 
+extern __imp_LsaOpenSecret:qword 
+LsaOpenSecret TEXTEQU <__imp_LsaOpenSecret> 
+extern __imp_LsaOpenTrustedDomain:qword 
+LsaOpenTrustedDomain TEXTEQU <__imp_LsaOpenTrustedDomain> 
+extern __imp_LsaOpenTrustedDomainByName:qword 
+LsaOpenTrustedDomainByName TEXTEQU <__imp_LsaOpenTrustedDomainByName> 
+extern __imp_LsaQueryDomainInformationPolicy:qword 
+LsaQueryDomainInformationPolicy TEXTEQU <__imp_LsaQueryDomainInformationPolicy> 
+extern __imp_LsaQueryForestTrustInformation:qword 
+LsaQueryForestTrustInformation TEXTEQU <__imp_LsaQueryForestTrustInformation> 
+extern __imp_LsaQueryInfoTrustedDomain:qword 
+LsaQueryInfoTrustedDomain TEXTEQU <__imp_LsaQueryInfoTrustedDomain> 
+extern __imp_LsaQueryInformationPolicy:qword 
+LsaQueryInformationPolicy TEXTEQU <__imp_LsaQueryInformationPolicy> 
+extern __imp_LsaQuerySecret:qword 
+LsaQuerySecret TEXTEQU <__imp_LsaQuerySecret> 
+extern __imp_LsaQuerySecurityObject:qword 
+LsaQuerySecurityObject TEXTEQU <__imp_LsaQuerySecurityObject> 
+extern __imp_LsaQueryTrustedDomainInfo:qword 
+LsaQueryTrustedDomainInfo TEXTEQU <__imp_LsaQueryTrustedDomainInfo> 
+extern __imp_LsaQueryTrustedDomainInfoByName:qword 
+LsaQueryTrustedDomainInfoByName TEXTEQU <__imp_LsaQueryTrustedDomainInfoByName> 
+extern __imp_LsaRemoveAccountRights:qword 
+LsaRemoveAccountRights TEXTEQU <__imp_LsaRemoveAccountRights> 
+extern __imp_LsaRemovePrivilegesFromAccount:qword 
+LsaRemovePrivilegesFromAccount TEXTEQU <__imp_LsaRemovePrivilegesFromAccount> 
+extern __imp_LsaRetrievePrivateData:qword 
+LsaRetrievePrivateData TEXTEQU <__imp_LsaRetrievePrivateData> 
+extern __imp_LsaSetDomainInformationPolicy:qword 
+LsaSetDomainInformationPolicy TEXTEQU <__imp_LsaSetDomainInformationPolicy> 
+extern __imp_LsaSetForestTrustInformation:qword 
+LsaSetForestTrustInformation TEXTEQU <__imp_LsaSetForestTrustInformation> 
+extern __imp_LsaSetInformationPolicy:qword 
+LsaSetInformationPolicy TEXTEQU <__imp_LsaSetInformationPolicy> 
+extern __imp_LsaSetInformationTrustedDomain:qword 
+LsaSetInformationTrustedDomain TEXTEQU <__imp_LsaSetInformationTrustedDomain> 
+extern __imp_LsaSetQuotasForAccount:qword 
+LsaSetQuotasForAccount TEXTEQU <__imp_LsaSetQuotasForAccount> 
+extern __imp_LsaSetSecret:qword 
+LsaSetSecret TEXTEQU <__imp_LsaSetSecret> 
+extern __imp_LsaSetSecurityObject:qword 
+LsaSetSecurityObject TEXTEQU <__imp_LsaSetSecurityObject> 
+extern __imp_LsaSetSystemAccessAccount:qword 
+LsaSetSystemAccessAccount TEXTEQU <__imp_LsaSetSystemAccessAccount> 
+extern __imp_LsaSetTrustedDomainInfoByName:qword 
+LsaSetTrustedDomainInfoByName TEXTEQU <__imp_LsaSetTrustedDomainInfoByName> 
+extern __imp_LsaSetTrustedDomainInformation:qword 
+LsaSetTrustedDomainInformation TEXTEQU <__imp_LsaSetTrustedDomainInformation> 
+extern __imp_LsaStorePrivateData:qword 
+LsaStorePrivateData TEXTEQU <__imp_LsaStorePrivateData> 
+extern __imp_MSChapSrvChangePassword:qword 
+MSChapSrvChangePassword TEXTEQU <__imp_MSChapSrvChangePassword> 
+extern __imp_MSChapSrvChangePassword2:qword 
+MSChapSrvChangePassword2 TEXTEQU <__imp_MSChapSrvChangePassword2> 
+extern __imp_MakeAbsoluteSD:qword 
+MakeAbsoluteSD TEXTEQU <__imp_MakeAbsoluteSD> 
+extern __imp_MakeAbsoluteSD2:qword 
+MakeAbsoluteSD2 TEXTEQU <__imp_MakeAbsoluteSD2> 
+extern __imp_MakeSelfRelativeSD:qword 
+MakeSelfRelativeSD TEXTEQU <__imp_MakeSelfRelativeSD> 
+extern __imp_MapGenericMask:qword 
+MapGenericMask TEXTEQU <__imp_MapGenericMask> 
+extern __imp_NotifyBootConfigStatus:qword 
+NotifyBootConfigStatus TEXTEQU <__imp_NotifyBootConfigStatus> 
+extern __imp_NotifyChangeEventLog:qword 
+NotifyChangeEventLog TEXTEQU <__imp_NotifyChangeEventLog> 
+extern __imp_NotifyServiceStatusChange:qword 
+NotifyServiceStatusChange TEXTEQU <__imp_NotifyServiceStatusChange> 
+extern __imp_NotifyServiceStatusChangeA:qword 
+NotifyServiceStatusChange TEXTEQU <__imp_NotifyServiceStatusChangeA> 
+extern __imp_NotifyServiceStatusChangeW:qword 
+NotifyServiceStatusChangeW TEXTEQU <__imp_NotifyServiceStatusChangeW> 
+extern __imp_ObjectCloseAuditAlarmA:qword 
+ObjectCloseAuditAlarm TEXTEQU <__imp_ObjectCloseAuditAlarmA> 
+extern __imp_ObjectCloseAuditAlarmW:qword 
+ObjectCloseAuditAlarmW TEXTEQU <__imp_ObjectCloseAuditAlarmW> 
+extern __imp_ObjectDeleteAuditAlarmA:qword 
+ObjectDeleteAuditAlarm TEXTEQU <__imp_ObjectDeleteAuditAlarmA> 
+extern __imp_ObjectDeleteAuditAlarmW:qword 
+ObjectDeleteAuditAlarmW TEXTEQU <__imp_ObjectDeleteAuditAlarmW> 
+extern __imp_ObjectOpenAuditAlarmA:qword 
+ObjectOpenAuditAlarm TEXTEQU <__imp_ObjectOpenAuditAlarmA> 
+extern __imp_ObjectOpenAuditAlarmW:qword 
+ObjectOpenAuditAlarmW TEXTEQU <__imp_ObjectOpenAuditAlarmW> 
+extern __imp_ObjectPrivilegeAuditAlarmA:qword 
+ObjectPrivilegeAuditAlarm TEXTEQU <__imp_ObjectPrivilegeAuditAlarmA> 
+extern __imp_ObjectPrivilegeAuditAlarmW:qword 
+ObjectPrivilegeAuditAlarmW TEXTEQU <__imp_ObjectPrivilegeAuditAlarmW> 
+extern __imp_OpenBackupEventLogA:qword 
+OpenBackupEventLog TEXTEQU <__imp_OpenBackupEventLogA> 
+extern __imp_OpenBackupEventLogW:qword 
+OpenBackupEventLogW TEXTEQU <__imp_OpenBackupEventLogW> 
+extern __imp_OpenEncryptedFileRawA:qword 
+OpenEncryptedFileRaw TEXTEQU <__imp_OpenEncryptedFileRawA> 
+extern __imp_OpenEncryptedFileRawW:qword 
+OpenEncryptedFileRawW TEXTEQU <__imp_OpenEncryptedFileRawW> 
+extern __imp_OpenEventLogA:qword 
+OpenEventLog TEXTEQU <__imp_OpenEventLogA> 
+extern __imp_OpenEventLogW:qword 
+OpenEventLogW TEXTEQU <__imp_OpenEventLogW> 
+extern __imp_OpenProcessToken:qword 
+OpenProcessToken TEXTEQU <__imp_OpenProcessToken> 
+extern __imp_OpenSCManagerA:qword 
+OpenSCManager TEXTEQU <__imp_OpenSCManagerA> 
+extern __imp_OpenSCManagerW:qword 
+OpenSCManagerW TEXTEQU <__imp_OpenSCManagerW> 
+extern __imp_OpenServiceA:qword 
+OpenService TEXTEQU <__imp_OpenServiceA> 
+extern __imp_OpenServiceW:qword 
+OpenServiceW TEXTEQU <__imp_OpenServiceW> 
+extern __imp_OpenThreadToken:qword 
+OpenThreadToken TEXTEQU <__imp_OpenThreadToken> 
+extern __imp_OpenThreadWaitChainSession:qword 
+OpenThreadWaitChainSession TEXTEQU <__imp_OpenThreadWaitChainSession> 
+extern __imp_OpenTraceA:qword 
+OpenTrace TEXTEQU <__imp_OpenTraceA> 
+extern __imp_OpenTraceW:qword 
+OpenTraceW TEXTEQU <__imp_OpenTraceW> 
+extern __imp_PerfAddCounters:qword 
+PerfAddCounters TEXTEQU <__imp_PerfAddCounters> 
+extern __imp_PerfCloseQueryHandle:qword 
+PerfCloseQueryHandle TEXTEQU <__imp_PerfCloseQueryHandle> 
+extern __imp_PerfDeleteCounters:qword 
+PerfDeleteCounters TEXTEQU <__imp_PerfDeleteCounters> 
+extern __imp_PerfEnumerateCounterSet:qword 
+PerfEnumerateCounterSet TEXTEQU <__imp_PerfEnumerateCounterSet> 
+extern __imp_PerfEnumerateCounterSetInstances:qword 
+PerfEnumerateCounterSetInstances TEXTEQU <__imp_PerfEnumerateCounterSetInstances> 
+extern __imp_PerfOpenQueryHandle:qword 
+PerfOpenQueryHandle TEXTEQU <__imp_PerfOpenQueryHandle> 
+extern __imp_PerfQueryCounterData:qword 
+PerfQueryCounterData TEXTEQU <__imp_PerfQueryCounterData> 
+extern __imp_PerfQueryCounterInfo:qword 
+PerfQueryCounterInfo TEXTEQU <__imp_PerfQueryCounterInfo> 
+extern __imp_PerfQueryCounterSetRegistrationInfo:qword 
+PerfQueryCounterSetRegistrationInfo TEXTEQU <__imp_PerfQueryCounterSetRegistrationInfo> 
+extern __imp_PrivilegeCheck:qword 
+PrivilegeCheck TEXTEQU <__imp_PrivilegeCheck> 
+extern __imp_PrivilegedServiceAuditAlarmA:qword 
+PrivilegedServiceAuditAlarm TEXTEQU <__imp_PrivilegedServiceAuditAlarmA> 
+extern __imp_PrivilegedServiceAuditAlarmW:qword 
+PrivilegedServiceAuditAlarmW TEXTEQU <__imp_PrivilegedServiceAuditAlarmW> 
+extern __imp_ProcessIdleTasks:qword 
+ProcessIdleTasks TEXTEQU <__imp_ProcessIdleTasks> 
+extern __imp_ProcessIdleTasksW:qword 
+ProcessIdleTasksW TEXTEQU <__imp_ProcessIdleTasksW> 
+extern __imp_ProcessTrace:qword 
+ProcessTrace TEXTEQU <__imp_ProcessTrace> 
+extern __imp_QueryAllTracesA:qword 
+QueryAllTraces TEXTEQU <__imp_QueryAllTracesA> 
+extern __imp_QueryAllTracesW:qword 
+QueryAllTracesW TEXTEQU <__imp_QueryAllTracesW> 
+extern __imp_QueryRecoveryAgentsOnEncryptedFile:qword 
+QueryRecoveryAgentsOnEncryptedFile TEXTEQU <__imp_QueryRecoveryAgentsOnEncryptedFile> 
+extern __imp_QuerySecurityAccessMask:qword 
+QuerySecurityAccessMask TEXTEQU <__imp_QuerySecurityAccessMask> 
+extern __imp_QueryServiceConfig2A:qword 
+QueryServiceConfig2 TEXTEQU <__imp_QueryServiceConfig2A> 
+extern __imp_QueryServiceConfig2W:qword 
+QueryServiceConfig2W TEXTEQU <__imp_QueryServiceConfig2W> 
+extern __imp_QueryServiceConfigA:qword 
+QueryServiceConfig TEXTEQU <__imp_QueryServiceConfigA> 
+extern __imp_QueryServiceConfigW:qword 
+QueryServiceConfigW TEXTEQU <__imp_QueryServiceConfigW> 
+extern __imp_QueryServiceLockStatusA:qword 
+QueryServiceLockStatus TEXTEQU <__imp_QueryServiceLockStatusA> 
+extern __imp_QueryServiceLockStatusW:qword 
+QueryServiceLockStatusW TEXTEQU <__imp_QueryServiceLockStatusW> 
+extern __imp_QueryServiceObjectSecurity:qword 
+QueryServiceObjectSecurity TEXTEQU <__imp_QueryServiceObjectSecurity> 
+extern __imp_QueryServiceStatus:qword 
+QueryServiceStatus TEXTEQU <__imp_QueryServiceStatus> 
+extern __imp_QueryServiceStatusEx:qword 
+QueryServiceStatusEx TEXTEQU <__imp_QueryServiceStatusEx> 
+extern __imp_QueryTraceA:qword 
+QueryTrace TEXTEQU <__imp_QueryTraceA> 
+extern __imp_QueryTraceW:qword 
+QueryTraceW TEXTEQU <__imp_QueryTraceW> 
+extern __imp_QueryUsersOnEncryptedFile:qword 
+QueryUsersOnEncryptedFile TEXTEQU <__imp_QueryUsersOnEncryptedFile> 
+extern __imp_ReadEncryptedFileRaw:qword 
+ReadEncryptedFileRaw TEXTEQU <__imp_ReadEncryptedFileRaw> 
+extern __imp_ReadEventLogA:qword 
+ReadEventLog TEXTEQU <__imp_ReadEventLogA> 
+extern __imp_ReadEventLogW:qword 
+ReadEventLogW TEXTEQU <__imp_ReadEventLogW> 
+extern __imp_RegCloseKey:qword 
+RegCloseKey TEXTEQU <__imp_RegCloseKey> 
+extern __imp_RegConnectRegistryA:qword 
+RegConnectRegistry TEXTEQU <__imp_RegConnectRegistryA> 
+extern __imp_RegConnectRegistryExA:qword 
+RegConnectRegistryEx TEXTEQU <__imp_RegConnectRegistryExA> 
+extern __imp_RegConnectRegistryExW:qword 
+RegConnectRegistryExW TEXTEQU <__imp_RegConnectRegistryExW> 
+extern __imp_RegConnectRegistryW:qword 
+RegConnectRegistryW TEXTEQU <__imp_RegConnectRegistryW> 
+extern __imp_RegCopyTreeA:qword 
+RegCopyTree TEXTEQU <__imp_RegCopyTreeA> 
+extern __imp_RegCopyTreeW:qword 
+RegCopyTreeW TEXTEQU <__imp_RegCopyTreeW> 
+extern __imp_RegCreateKeyA:qword 
+RegCreateKey TEXTEQU <__imp_RegCreateKeyA> 
+extern __imp_RegCreateKeyExA:qword 
+RegCreateKeyEx TEXTEQU <__imp_RegCreateKeyExA> 
+extern __imp_RegCreateKeyExW:qword 
+RegCreateKeyExW TEXTEQU <__imp_RegCreateKeyExW> 
+extern __imp_RegCreateKeyTransactedA:qword 
+RegCreateKeyTransacted TEXTEQU <__imp_RegCreateKeyTransactedA> 
+extern __imp_RegCreateKeyTransactedW:qword 
+RegCreateKeyTransactedW TEXTEQU <__imp_RegCreateKeyTransactedW> 
+extern __imp_RegCreateKeyW:qword 
+RegCreateKeyW TEXTEQU <__imp_RegCreateKeyW> 
+extern __imp_RegDeleteKeyA:qword 
+RegDeleteKey TEXTEQU <__imp_RegDeleteKeyA> 
+extern __imp_RegDeleteKeyExA:qword 
+RegDeleteKeyEx TEXTEQU <__imp_RegDeleteKeyExA> 
+extern __imp_RegDeleteKeyExW:qword 
+RegDeleteKeyExW TEXTEQU <__imp_RegDeleteKeyExW> 
+extern __imp_RegDeleteKeyTransactedA:qword 
+RegDeleteKeyTransacted TEXTEQU <__imp_RegDeleteKeyTransactedA> 
+extern __imp_RegDeleteKeyTransactedW:qword 
+RegDeleteKeyTransactedW TEXTEQU <__imp_RegDeleteKeyTransactedW> 
+extern __imp_RegDeleteKeyValueA:qword 
+RegDeleteKeyValue TEXTEQU <__imp_RegDeleteKeyValueA> 
+extern __imp_RegDeleteKeyValueW:qword 
+RegDeleteKeyValueW TEXTEQU <__imp_RegDeleteKeyValueW> 
+extern __imp_RegDeleteKeyW:qword 
+RegDeleteKeyW TEXTEQU <__imp_RegDeleteKeyW> 
+extern __imp_RegDeleteTreeA:qword 
+RegDeleteTree TEXTEQU <__imp_RegDeleteTreeA> 
+extern __imp_RegDeleteTreeW:qword 
+RegDeleteTreeW TEXTEQU <__imp_RegDeleteTreeW> 
+extern __imp_RegDeleteValueA:qword 
+RegDeleteValue TEXTEQU <__imp_RegDeleteValueA> 
+extern __imp_RegDeleteValueW:qword 
+RegDeleteValueW TEXTEQU <__imp_RegDeleteValueW> 
+extern __imp_RegDisablePredefinedCache:qword 
+RegDisablePredefinedCache TEXTEQU <__imp_RegDisablePredefinedCache> 
+extern __imp_RegDisablePredefinedCacheEx:qword 
+RegDisablePredefinedCacheEx TEXTEQU <__imp_RegDisablePredefinedCacheEx> 
+extern __imp_RegDisableReflectionKey:qword 
+RegDisableReflectionKey TEXTEQU <__imp_RegDisableReflectionKey> 
+extern __imp_RegEnableReflectionKey:qword 
+RegEnableReflectionKey TEXTEQU <__imp_RegEnableReflectionKey> 
+extern __imp_RegEnumKeyA:qword 
+RegEnumKey TEXTEQU <__imp_RegEnumKeyA> 
+extern __imp_RegEnumKeyExA:qword 
+RegEnumKeyEx TEXTEQU <__imp_RegEnumKeyExA> 
+extern __imp_RegEnumKeyExW:qword 
+RegEnumKeyExW TEXTEQU <__imp_RegEnumKeyExW> 
+extern __imp_RegEnumKeyW:qword 
+RegEnumKeyW TEXTEQU <__imp_RegEnumKeyW> 
+extern __imp_RegEnumValueA:qword 
+RegEnumValue TEXTEQU <__imp_RegEnumValueA> 
+extern __imp_RegEnumValueW:qword 
+RegEnumValueW TEXTEQU <__imp_RegEnumValueW> 
+extern __imp_RegFlushKey:qword 
+RegFlushKey TEXTEQU <__imp_RegFlushKey> 
+extern __imp_RegGetKeySecurity:qword 
+RegGetKeySecurity TEXTEQU <__imp_RegGetKeySecurity> 
+extern __imp_RegGetValueA:qword 
+RegGetValue TEXTEQU <__imp_RegGetValueA> 
+extern __imp_RegGetValueW:qword 
+RegGetValueW TEXTEQU <__imp_RegGetValueW> 
+extern __imp_RegLoadAppKeyA:qword 
+RegLoadAppKey TEXTEQU <__imp_RegLoadAppKeyA> 
+extern __imp_RegLoadAppKeyW:qword 
+RegLoadAppKeyW TEXTEQU <__imp_RegLoadAppKeyW> 
+extern __imp_RegLoadKeyA:qword 
+RegLoadKey TEXTEQU <__imp_RegLoadKeyA> 
+extern __imp_RegLoadKeyW:qword 
+RegLoadKeyW TEXTEQU <__imp_RegLoadKeyW> 
+extern __imp_RegLoadMUIStringA:qword 
+RegLoadMUIString TEXTEQU <__imp_RegLoadMUIStringA> 
+extern __imp_RegLoadMUIStringW:qword 
+RegLoadMUIStringW TEXTEQU <__imp_RegLoadMUIStringW> 
+extern __imp_RegNotifyChangeKeyValue:qword 
+RegNotifyChangeKeyValue TEXTEQU <__imp_RegNotifyChangeKeyValue> 
+extern __imp_RegOpenCurrentUser:qword 
+RegOpenCurrentUser TEXTEQU <__imp_RegOpenCurrentUser> 
+extern __imp_RegOpenKeyA:qword 
+RegOpenKey TEXTEQU <__imp_RegOpenKeyA> 
+extern __imp_RegOpenKeyExA:qword 
+RegOpenKeyEx TEXTEQU <__imp_RegOpenKeyExA> 
+extern __imp_RegOpenKeyExW:qword 
+RegOpenKeyExW TEXTEQU <__imp_RegOpenKeyExW> 
+extern __imp_RegOpenKeyTransactedA:qword 
+RegOpenKeyTransacted TEXTEQU <__imp_RegOpenKeyTransactedA> 
+extern __imp_RegOpenKeyTransactedW:qword 
+RegOpenKeyTransactedW TEXTEQU <__imp_RegOpenKeyTransactedW> 
+extern __imp_RegOpenKeyW:qword 
+RegOpenKeyW TEXTEQU <__imp_RegOpenKeyW> 
+extern __imp_RegOpenUserClassesRoot:qword 
+RegOpenUserClassesRoot TEXTEQU <__imp_RegOpenUserClassesRoot> 
+extern __imp_RegOverridePredefKey:qword 
+RegOverridePredefKey TEXTEQU <__imp_RegOverridePredefKey> 
+extern __imp_RegQueryInfoKeyA:qword 
+RegQueryInfoKey TEXTEQU <__imp_RegQueryInfoKeyA> 
+extern __imp_RegQueryInfoKeyW:qword 
+RegQueryInfoKeyW TEXTEQU <__imp_RegQueryInfoKeyW> 
+extern __imp_RegQueryMultipleValuesA:qword 
+RegQueryMultipleValues TEXTEQU <__imp_RegQueryMultipleValuesA> 
+extern __imp_RegQueryMultipleValuesW:qword 
+RegQueryMultipleValuesW TEXTEQU <__imp_RegQueryMultipleValuesW> 
+extern __imp_RegQueryReflectionKey:qword 
+RegQueryReflectionKey TEXTEQU <__imp_RegQueryReflectionKey> 
+extern __imp_RegQueryValueA:qword 
+RegQueryValue TEXTEQU <__imp_RegQueryValueA> 
+extern __imp_RegQueryValueExA:qword 
+RegQueryValueEx TEXTEQU <__imp_RegQueryValueExA> 
+extern __imp_RegQueryValueExW:qword 
+RegQueryValueExW TEXTEQU <__imp_RegQueryValueExW> 
+extern __imp_RegQueryValueW:qword 
+RegQueryValueW TEXTEQU <__imp_RegQueryValueW> 
+extern __imp_RegRenameKey:qword 
+RegRenameKey TEXTEQU <__imp_RegRenameKey> 
+extern __imp_RegReplaceKeyA:qword 
+RegReplaceKey TEXTEQU <__imp_RegReplaceKeyA> 
+extern __imp_RegReplaceKeyW:qword 
+RegReplaceKeyW TEXTEQU <__imp_RegReplaceKeyW> 
+extern __imp_RegRestoreKeyA:qword 
+RegRestoreKey TEXTEQU <__imp_RegRestoreKeyA> 
+extern __imp_RegRestoreKeyW:qword 
+RegRestoreKeyW TEXTEQU <__imp_RegRestoreKeyW> 
+extern __imp_RegSaveKeyA:qword 
+RegSaveKey TEXTEQU <__imp_RegSaveKeyA> 
+extern __imp_RegSaveKeyExA:qword 
+RegSaveKeyEx TEXTEQU <__imp_RegSaveKeyExA> 
+extern __imp_RegSaveKeyExW:qword 
+RegSaveKeyExW TEXTEQU <__imp_RegSaveKeyExW> 
+extern __imp_RegSaveKeyW:qword 
+RegSaveKeyW TEXTEQU <__imp_RegSaveKeyW> 
+extern __imp_RegSetKeySecurity:qword 
+RegSetKeySecurity TEXTEQU <__imp_RegSetKeySecurity> 
+extern __imp_RegSetKeyValueA:qword 
+RegSetKeyValue TEXTEQU <__imp_RegSetKeyValueA> 
+extern __imp_RegSetKeyValueW:qword 
+RegSetKeyValueW TEXTEQU <__imp_RegSetKeyValueW> 
+extern __imp_RegSetValueA:qword 
+RegSetValue TEXTEQU <__imp_RegSetValueA> 
+extern __imp_RegSetValueExA:qword 
+RegSetValueEx TEXTEQU <__imp_RegSetValueExA> 
+extern __imp_RegSetValueExW:qword 
+RegSetValueExW TEXTEQU <__imp_RegSetValueExW> 
+extern __imp_RegSetValueW:qword 
+RegSetValueW TEXTEQU <__imp_RegSetValueW> 
+extern __imp_RegUnLoadKeyA:qword 
+RegUnLoadKey TEXTEQU <__imp_RegUnLoadKeyA> 
+extern __imp_RegUnLoadKeyW:qword 
+RegUnLoadKeyW TEXTEQU <__imp_RegUnLoadKeyW> 
+extern __imp_RegisterEventSourceA:qword 
+RegisterEventSource TEXTEQU <__imp_RegisterEventSourceA> 
+extern __imp_RegisterEventSourceW:qword 
+RegisterEventSourceW TEXTEQU <__imp_RegisterEventSourceW> 
+extern __imp_RegisterIdleTask:qword 
+RegisterIdleTask TEXTEQU <__imp_RegisterIdleTask> 
+extern __imp_RegisterServiceCtrlHandlerA:qword 
+RegisterServiceCtrlHandler TEXTEQU <__imp_RegisterServiceCtrlHandlerA> 
+extern __imp_RegisterServiceCtrlHandlerExA:qword 
+RegisterServiceCtrlHandlerEx TEXTEQU <__imp_RegisterServiceCtrlHandlerExA> 
+extern __imp_RegisterServiceCtrlHandlerExW:qword 
+RegisterServiceCtrlHandlerExW TEXTEQU <__imp_RegisterServiceCtrlHandlerExW> 
+extern __imp_RegisterServiceCtrlHandlerW:qword 
+RegisterServiceCtrlHandlerW TEXTEQU <__imp_RegisterServiceCtrlHandlerW> 
+extern __imp_RegisterWaitChainCOMCallback:qword 
+RegisterWaitChainCOMCallback TEXTEQU <__imp_RegisterWaitChainCOMCallback> 
+extern __imp_RemoveTraceCallback:qword 
+RemoveTraceCallback TEXTEQU <__imp_RemoveTraceCallback> 
+extern __imp_RemoveUsersFromEncryptedFile:qword 
+RemoveUsersFromEncryptedFile TEXTEQU <__imp_RemoveUsersFromEncryptedFile> 
+extern __imp_ReportEventA:qword 
+ReportEvent TEXTEQU <__imp_ReportEventA> 
+extern __imp_ReportEventW:qword 
+ReportEventW TEXTEQU <__imp_ReportEventW> 
+extern __imp_RevertToSelf:qword 
+RevertToSelf TEXTEQU <__imp_RevertToSelf> 
+extern __imp_SaferCloseLevel:qword 
+SaferCloseLevel TEXTEQU <__imp_SaferCloseLevel> 
+extern __imp_SaferComputeTokenFromLevel:qword 
+SaferComputeTokenFromLevel TEXTEQU <__imp_SaferComputeTokenFromLevel> 
+extern __imp_SaferCreateLevel:qword 
+SaferCreateLevel TEXTEQU <__imp_SaferCreateLevel> 
+extern __imp_SaferGetLevelInformation:qword 
+SaferGetLevelInformation TEXTEQU <__imp_SaferGetLevelInformation> 
+extern __imp_SaferGetPolicyInformation:qword 
+SaferGetPolicyInformation TEXTEQU <__imp_SaferGetPolicyInformation> 
+extern __imp_SaferIdentifyLevel:qword 
+SaferIdentifyLevel TEXTEQU <__imp_SaferIdentifyLevel> 
+extern __imp_SaferRecordEventLogEntry:qword 
+SaferRecordEventLogEntry TEXTEQU <__imp_SaferRecordEventLogEntry> 
+extern __imp_SaferSetLevelInformation:qword 
+SaferSetLevelInformation TEXTEQU <__imp_SaferSetLevelInformation> 
+extern __imp_SaferSetPolicyInformation:qword 
+SaferSetPolicyInformation TEXTEQU <__imp_SaferSetPolicyInformation> 
+extern __imp_SaferiChangeRegistryScope:qword 
+SaferiChangeRegistryScope TEXTEQU <__imp_SaferiChangeRegistryScope> 
+extern __imp_SaferiCompareTokenLevels:qword 
+SaferiCompareTokenLevels TEXTEQU <__imp_SaferiCompareTokenLevels> 
+extern __imp_SaferiIsDllAllowed:qword 
+SaferiIsDllAllowed TEXTEQU <__imp_SaferiIsDllAllowed> 
+extern __imp_SaferiIsExecutableFileType:qword 
+SaferiIsExecutableFileType TEXTEQU <__imp_SaferiIsExecutableFileType> 
+extern __imp_SaferiPopulateDefaultsInRegistry:qword 
+SaferiPopulateDefaultsInRegistry TEXTEQU <__imp_SaferiPopulateDefaultsInRegistry> 
+extern __imp_SaferiRecordEventLogEntry:qword 
+SaferiRecordEventLogEntry TEXTEQU <__imp_SaferiRecordEventLogEntry> 
+extern __imp_SaferiSearchMatchingHashRules:qword 
+SaferiSearchMatchingHashRules TEXTEQU <__imp_SaferiSearchMatchingHashRules> 
+extern __imp_SetAclInformation:qword 
+SetAclInformation TEXTEQU <__imp_SetAclInformation> 
+extern __imp_SetEncryptedFileMetadata:qword 
+SetEncryptedFileMetadata TEXTEQU <__imp_SetEncryptedFileMetadata> 
+extern __imp_SetEntriesInAccessListA:qword 
+SetEntriesInAccessList TEXTEQU <__imp_SetEntriesInAccessListA> 
+extern __imp_SetEntriesInAccessListW:qword 
+SetEntriesInAccessListW TEXTEQU <__imp_SetEntriesInAccessListW> 
+extern __imp_SetEntriesInAclA:qword 
+SetEntriesInAcl TEXTEQU <__imp_SetEntriesInAclA> 
+extern __imp_SetEntriesInAclW:qword 
+SetEntriesInAclW TEXTEQU <__imp_SetEntriesInAclW> 
+extern __imp_SetEntriesInAuditListA:qword 
+SetEntriesInAuditList TEXTEQU <__imp_SetEntriesInAuditListA> 
+extern __imp_SetEntriesInAuditListW:qword 
+SetEntriesInAuditListW TEXTEQU <__imp_SetEntriesInAuditListW> 
+extern __imp_SetFileSecurityA:qword 
+SetFileSecurity TEXTEQU <__imp_SetFileSecurityA> 
+extern __imp_SetFileSecurityW:qword 
+SetFileSecurityW TEXTEQU <__imp_SetFileSecurityW> 
+extern __imp_SetInformationCodeAuthzLevelW:qword 
+SetInformationCodeAuthzLevelW TEXTEQU <__imp_SetInformationCodeAuthzLevelW> 
+extern __imp_SetInformationCodeAuthzPolicyW:qword 
+SetInformationCodeAuthzPolicyW TEXTEQU <__imp_SetInformationCodeAuthzPolicyW> 
+extern __imp_SetKernelObjectSecurity:qword 
+SetKernelObjectSecurity TEXTEQU <__imp_SetKernelObjectSecurity> 
+extern __imp_SetNamedSecurityInfoA:qword 
+SetNamedSecurityInfo TEXTEQU <__imp_SetNamedSecurityInfoA> 
+extern __imp_SetNamedSecurityInfoExA:qword 
+SetNamedSecurityInfoEx TEXTEQU <__imp_SetNamedSecurityInfoExA> 
+extern __imp_SetNamedSecurityInfoExW:qword 
+SetNamedSecurityInfoExW TEXTEQU <__imp_SetNamedSecurityInfoExW> 
+extern __imp_SetNamedSecurityInfoW:qword 
+SetNamedSecurityInfoW TEXTEQU <__imp_SetNamedSecurityInfoW> 
+extern __imp_SetPrivateObjectSecurity:qword 
+SetPrivateObjectSecurity TEXTEQU <__imp_SetPrivateObjectSecurity> 
+extern __imp_SetPrivateObjectSecurityEx:qword 
+SetPrivateObjectSecurityEx TEXTEQU <__imp_SetPrivateObjectSecurityEx> 
+extern __imp_SetSecurityAccessMask:qword 
+SetSecurityAccessMask TEXTEQU <__imp_SetSecurityAccessMask> 
+extern __imp_SetSecurityDescriptorControl:qword 
+SetSecurityDescriptorControl TEXTEQU <__imp_SetSecurityDescriptorControl> 
+extern __imp_SetSecurityDescriptorDacl:qword 
+SetSecurityDescriptorDacl TEXTEQU <__imp_SetSecurityDescriptorDacl> 
+extern __imp_SetSecurityDescriptorGroup:qword 
+SetSecurityDescriptorGroup TEXTEQU <__imp_SetSecurityDescriptorGroup> 
+extern __imp_SetSecurityDescriptorOwner:qword 
+SetSecurityDescriptorOwner TEXTEQU <__imp_SetSecurityDescriptorOwner> 
+extern __imp_SetSecurityDescriptorRMControl:qword 
+SetSecurityDescriptorRMControl TEXTEQU <__imp_SetSecurityDescriptorRMControl> 
+extern __imp_SetSecurityDescriptorSacl:qword 
+SetSecurityDescriptorSacl TEXTEQU <__imp_SetSecurityDescriptorSacl> 
+extern __imp_SetSecurityInfo:qword 
+SetSecurityInfo TEXTEQU <__imp_SetSecurityInfo> 
+extern __imp_SetSecurityInfoExA:qword 
+SetSecurityInfoEx TEXTEQU <__imp_SetSecurityInfoExA> 
+extern __imp_SetSecurityInfoExW:qword 
+SetSecurityInfoExW TEXTEQU <__imp_SetSecurityInfoExW> 
+extern __imp_SetServiceBits:qword 
+SetServiceBits TEXTEQU <__imp_SetServiceBits> 
+extern __imp_SetServiceObjectSecurity:qword 
+SetServiceObjectSecurity TEXTEQU <__imp_SetServiceObjectSecurity> 
+extern __imp_SetServiceStatus:qword 
+SetServiceStatus TEXTEQU <__imp_SetServiceStatus> 
+extern __imp_SetThreadToken:qword 
+SetThreadToken TEXTEQU <__imp_SetThreadToken> 
+extern __imp_SetTokenInformation:qword 
+SetTokenInformation TEXTEQU <__imp_SetTokenInformation> 
+extern __imp_SetTraceCallback:qword 
+SetTraceCallback TEXTEQU <__imp_SetTraceCallback> 
+extern __imp_SetUserFileEncryptionKey:qword 
+SetUserFileEncryptionKey TEXTEQU <__imp_SetUserFileEncryptionKey> 
+extern __imp_SetUserFileEncryptionKeyEx:qword 
+SetUserFileEncryptionKeyEx TEXTEQU <__imp_SetUserFileEncryptionKeyEx> 
+extern __imp_StartServiceA:qword 
+StartService TEXTEQU <__imp_StartServiceA> 
+extern __imp_StartServiceCtrlDispatcherA:qword 
+StartServiceCtrlDispatcher TEXTEQU <__imp_StartServiceCtrlDispatcherA> 
+extern __imp_StartServiceCtrlDispatcherW:qword 
+StartServiceCtrlDispatcherW TEXTEQU <__imp_StartServiceCtrlDispatcherW> 
+extern __imp_StartServiceW:qword 
+StartServiceW TEXTEQU <__imp_StartServiceW> 
+extern __imp_StartTraceA:qword 
+StartTrace TEXTEQU <__imp_StartTraceA> 
+extern __imp_StartTraceW:qword 
+StartTraceW TEXTEQU <__imp_StartTraceW> 
+extern __imp_StopTraceA:qword 
+StopTrace TEXTEQU <__imp_StopTraceA> 
+extern __imp_StopTraceW:qword 
+StopTraceW TEXTEQU <__imp_StopTraceW> 
+extern __imp_SystemFunction001:qword 
+SystemFunction001 TEXTEQU <__imp_SystemFunction001> 
+extern __imp_SystemFunction002:qword 
+SystemFunction002 TEXTEQU <__imp_SystemFunction002> 
+extern __imp_SystemFunction003:qword 
+SystemFunction003 TEXTEQU <__imp_SystemFunction003> 
+extern __imp_SystemFunction004:qword 
+SystemFunction004 TEXTEQU <__imp_SystemFunction004> 
+extern __imp_SystemFunction005:qword 
+SystemFunction005 TEXTEQU <__imp_SystemFunction005> 
+extern __imp_SystemFunction006:qword 
+SystemFunction006 TEXTEQU <__imp_SystemFunction006> 
+extern __imp_SystemFunction007:qword 
+SystemFunction007 TEXTEQU <__imp_SystemFunction007> 
+extern __imp_SystemFunction008:qword 
+SystemFunction008 TEXTEQU <__imp_SystemFunction008> 
+extern __imp_SystemFunction009:qword 
+SystemFunction009 TEXTEQU <__imp_SystemFunction009> 
+extern __imp_SystemFunction010:qword 
+SystemFunction010 TEXTEQU <__imp_SystemFunction010> 
+extern __imp_SystemFunction011:qword 
+SystemFunction011 TEXTEQU <__imp_SystemFunction011> 
+extern __imp_SystemFunction012:qword 
+SystemFunction012 TEXTEQU <__imp_SystemFunction012> 
+extern __imp_SystemFunction013:qword 
+SystemFunction013 TEXTEQU <__imp_SystemFunction013> 
+extern __imp_SystemFunction014:qword 
+SystemFunction014 TEXTEQU <__imp_SystemFunction014> 
+extern __imp_SystemFunction015:qword 
+SystemFunction015 TEXTEQU <__imp_SystemFunction015> 
+extern __imp_SystemFunction016:qword 
+SystemFunction016 TEXTEQU <__imp_SystemFunction016> 
+extern __imp_SystemFunction017:qword 
+SystemFunction017 TEXTEQU <__imp_SystemFunction017> 
+extern __imp_SystemFunction018:qword 
+SystemFunction018 TEXTEQU <__imp_SystemFunction018> 
+extern __imp_SystemFunction019:qword 
+SystemFunction019 TEXTEQU <__imp_SystemFunction019> 
+extern __imp_SystemFunction020:qword 
+SystemFunction020 TEXTEQU <__imp_SystemFunction020> 
+extern __imp_SystemFunction021:qword 
+SystemFunction021 TEXTEQU <__imp_SystemFunction021> 
+extern __imp_SystemFunction022:qword 
+SystemFunction022 TEXTEQU <__imp_SystemFunction022> 
+extern __imp_SystemFunction023:qword 
+SystemFunction023 TEXTEQU <__imp_SystemFunction023> 
+extern __imp_SystemFunction024:qword 
+SystemFunction024 TEXTEQU <__imp_SystemFunction024> 
+extern __imp_SystemFunction025:qword 
+SystemFunction025 TEXTEQU <__imp_SystemFunction025> 
+extern __imp_SystemFunction026:qword 
+SystemFunction026 TEXTEQU <__imp_SystemFunction026> 
+extern __imp_SystemFunction027:qword 
+SystemFunction027 TEXTEQU <__imp_SystemFunction027> 
+extern __imp_SystemFunction028:qword 
+SystemFunction028 TEXTEQU <__imp_SystemFunction028> 
+extern __imp_SystemFunction029:qword 
+SystemFunction029 TEXTEQU <__imp_SystemFunction029> 
+extern __imp_SystemFunction030:qword 
+SystemFunction030 TEXTEQU <__imp_SystemFunction030> 
+extern __imp_SystemFunction031:qword 
+SystemFunction031 TEXTEQU <__imp_SystemFunction031> 
+extern __imp_SystemFunction032:qword 
+SystemFunction032 TEXTEQU <__imp_SystemFunction032> 
+extern __imp_SystemFunction033:qword 
+SystemFunction033 TEXTEQU <__imp_SystemFunction033> 
+extern __imp_SystemFunction034:qword 
+SystemFunction034 TEXTEQU <__imp_SystemFunction034> 
+extern __imp_SystemFunction036:qword 
+SystemFunction036 TEXTEQU <__imp_SystemFunction036> 
+extern __imp_SystemFunction040:qword 
+SystemFunction040 TEXTEQU <__imp_SystemFunction040> 
+extern __imp_SystemFunction041:qword 
+SystemFunction041 TEXTEQU <__imp_SystemFunction041> 
+extern __imp_TraceSetInformation:qword 
+TraceSetInformation TEXTEQU <__imp_TraceSetInformation> 
+extern __imp_TreeResetNamedSecurityInfoA:qword 
+TreeResetNamedSecurityInfo TEXTEQU <__imp_TreeResetNamedSecurityInfoA> 
+extern __imp_TreeResetNamedSecurityInfoW:qword 
+TreeResetNamedSecurityInfoW TEXTEQU <__imp_TreeResetNamedSecurityInfoW> 
+extern __imp_TreeSetNamedSecurityInfoA:qword 
+TreeSetNamedSecurityInfo TEXTEQU <__imp_TreeSetNamedSecurityInfoA> 
+extern __imp_TreeSetNamedSecurityInfoW:qword 
+TreeSetNamedSecurityInfoW TEXTEQU <__imp_TreeSetNamedSecurityInfoW> 
+extern __imp_TrusteeAccessToObjectA:qword 
+TrusteeAccessToObject TEXTEQU <__imp_TrusteeAccessToObjectA> 
+extern __imp_TrusteeAccessToObjectW:qword 
+TrusteeAccessToObjectW TEXTEQU <__imp_TrusteeAccessToObjectW> 
+extern __imp_UninstallApplication:qword 
+UninstallApplication TEXTEQU <__imp_UninstallApplication> 
+extern __imp_UnlockServiceDatabase:qword 
+UnlockServiceDatabase TEXTEQU <__imp_UnlockServiceDatabase> 
+extern __imp_UnregisterIdleTask:qword 
+UnregisterIdleTask TEXTEQU <__imp_UnregisterIdleTask> 
+extern __imp_UpdateTraceA:qword 
+UpdateTrace TEXTEQU <__imp_UpdateTraceA> 
+extern __imp_UpdateTraceW:qword 
+UpdateTraceW TEXTEQU <__imp_UpdateTraceW> 
+extern __imp_UsePinForEncryptedFilesA:qword 
+UsePinForEncryptedFiles TEXTEQU <__imp_UsePinForEncryptedFilesA> 
+extern __imp_UsePinForEncryptedFilesW:qword 
+UsePinForEncryptedFilesW TEXTEQU <__imp_UsePinForEncryptedFilesW> 
+extern __imp_WmiCloseBlock:qword 
+WmiCloseBlock TEXTEQU <__imp_WmiCloseBlock> 
+extern __imp_WmiDevInstToInstanceNameA:qword 
+WmiDevInstToInstanceName TEXTEQU <__imp_WmiDevInstToInstanceNameA> 
+extern __imp_WmiDevInstToInstanceNameW:qword 
+WmiDevInstToInstanceNameW TEXTEQU <__imp_WmiDevInstToInstanceNameW> 
+extern __imp_WmiEnumerateGuids:qword 
+WmiEnumerateGuids TEXTEQU <__imp_WmiEnumerateGuids> 
+extern __imp_WmiExecuteMethodA:qword 
+WmiExecuteMethod TEXTEQU <__imp_WmiExecuteMethodA> 
+extern __imp_WmiExecuteMethodW:qword 
+WmiExecuteMethodW TEXTEQU <__imp_WmiExecuteMethodW> 
+extern __imp_WmiFileHandleToInstanceNameA:qword 
+WmiFileHandleToInstanceName TEXTEQU <__imp_WmiFileHandleToInstanceNameA> 
+extern __imp_WmiFileHandleToInstanceNameW:qword 
+WmiFileHandleToInstanceNameW TEXTEQU <__imp_WmiFileHandleToInstanceNameW> 
+extern __imp_WmiFreeBuffer:qword 
+WmiFreeBuffer TEXTEQU <__imp_WmiFreeBuffer> 
+extern __imp_WmiMofEnumerateResourcesA:qword 
+WmiMofEnumerateResources TEXTEQU <__imp_WmiMofEnumerateResourcesA> 
+extern __imp_WmiMofEnumerateResourcesW:qword 
+WmiMofEnumerateResourcesW TEXTEQU <__imp_WmiMofEnumerateResourcesW> 
+extern __imp_WmiNotificationRegistrationA:qword 
+WmiNotificationRegistration TEXTEQU <__imp_WmiNotificationRegistrationA> 
+extern __imp_WmiNotificationRegistrationW:qword 
+WmiNotificationRegistrationW TEXTEQU <__imp_WmiNotificationRegistrationW> 
+extern __imp_WmiOpenBlock:qword 
+WmiOpenBlock TEXTEQU <__imp_WmiOpenBlock> 
+extern __imp_WmiQueryAllDataA:qword 
+WmiQueryAllData TEXTEQU <__imp_WmiQueryAllDataA> 
+extern __imp_WmiQueryAllDataMultipleA:qword 
+WmiQueryAllDataMultiple TEXTEQU <__imp_WmiQueryAllDataMultipleA> 
+extern __imp_WmiQueryAllDataMultipleW:qword 
+WmiQueryAllDataMultipleW TEXTEQU <__imp_WmiQueryAllDataMultipleW> 
+extern __imp_WmiQueryAllDataW:qword 
+WmiQueryAllDataW TEXTEQU <__imp_WmiQueryAllDataW> 
+extern __imp_WmiQueryGuidInformation:qword 
+WmiQueryGuidInformation TEXTEQU <__imp_WmiQueryGuidInformation> 
+extern __imp_WmiQuerySingleInstanceA:qword 
+WmiQuerySingleInstance TEXTEQU <__imp_WmiQuerySingleInstanceA> 
+extern __imp_WmiQuerySingleInstanceMultipleA:qword 
+WmiQuerySingleInstanceMultiple TEXTEQU <__imp_WmiQuerySingleInstanceMultipleA> 
+extern __imp_WmiQuerySingleInstanceMultipleW:qword 
+WmiQuerySingleInstanceMultipleW TEXTEQU <__imp_WmiQuerySingleInstanceMultipleW> 
+extern __imp_WmiQuerySingleInstanceW:qword 
+WmiQuerySingleInstanceW TEXTEQU <__imp_WmiQuerySingleInstanceW> 
+extern __imp_WmiReceiveNotificationsA:qword 
+WmiReceiveNotifications TEXTEQU <__imp_WmiReceiveNotificationsA> 
+extern __imp_WmiReceiveNotificationsW:qword 
+WmiReceiveNotificationsW TEXTEQU <__imp_WmiReceiveNotificationsW> 
+extern __imp_WmiSetSingleInstanceA:qword 
+WmiSetSingleInstance TEXTEQU <__imp_WmiSetSingleInstanceA> 
+extern __imp_WmiSetSingleInstanceW:qword 
+WmiSetSingleInstanceW TEXTEQU <__imp_WmiSetSingleInstanceW> 
+extern __imp_WmiSetSingleItemA:qword 
+WmiSetSingleItem TEXTEQU <__imp_WmiSetSingleItemA> 
+extern __imp_WmiSetSingleItemW:qword 
+WmiSetSingleItemW TEXTEQU <__imp_WmiSetSingleItemW> 
+extern __imp_WriteEncryptedFileRaw:qword 
+WriteEncryptedFileRaw TEXTEQU <__imp_WriteEncryptedFileRaw> 
+extern __imp_advapi32_ordinal1000:qword 
+advapi32_ordinal1000 TEXTEQU <__imp_advapi32_ordinal1000> 

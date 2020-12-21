@@ -1,0 +1,43 @@
+E:\Учеба\АЗЗИ-2019\lab7\lab7\bin\Debug\lab7.exe.config
+E:\Учеба\АЗЗИ-2019\lab7\lab7\bin\Debug\lab7.exe
+E:\Учеба\АЗЗИ-2019\lab7\lab7\bin\Debug\lab7.pdb
+E:\Учеба\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.csprojAssemblyReference.cache
+E:\Учеба\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.Form1.resources
+E:\Учеба\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.Properties.Resources.resources
+E:\Учеба\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.csproj.GenerateResource.cache
+E:\Учеба\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.csproj.CoreCompileInputs.cache
+E:\Учеба\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.exe
+E:\Учеба\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.pdb
+E:\Учеба\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.Form2.resources
+E:\C#\АЗЗИ-2019\lab7\lab7\bin\Debug\lab7.exe.config
+E:\C#\АЗЗИ-2019\lab7\lab7\bin\Debug\lab7.exe
+E:\C#\АЗЗИ-2019\lab7\lab7\bin\Debug\lab7.pdb
+E:\C#\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.csprojAssemblyReference.cache
+E:\C#\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.Form1.resources
+E:\C#\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.Form2.resources
+E:\C#\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.Properties.Resources.resources
+E:\C#\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.csproj.GenerateResource.cache
+E:\C#\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.csproj.CoreCompileInputs.cache
+E:\C#\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.exe
+E:\C#\АЗЗИ-2019\lab7\lab7\obj\Debug\lab7.pdb
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\bin\Debug\lab7.exe.config
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\bin\Debug\lab7.exe
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\bin\Debug\lab7.pdb
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\obj\Debug\lab7.csprojAssemblyReference.cache
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\obj\Debug\lab7.Form1.resources
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\obj\Debug\lab7.Form2.resources
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\obj\Debug\lab7.Properties.Resources.resources
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\obj\Debug\lab7.csproj.GenerateResource.cache
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\obj\Debug\lab7.csproj.CoreCompileInputs.cache
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\obj\Debug\lab7.exe
+C:\Users\Владислав\Desktop\kovalenko06 pass\lab7\lab7\obj\Debug\lab7.pdb
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\bin\Debug\lab7.exe.config
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\bin\Debug\lab7.exe
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\bin\Debug\lab7.pdb
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\obj\Debug\lab7.Form1.resources
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\obj\Debug\lab7.Form2.resources
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\obj\Debug\lab7.Properties.Resources.resources
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\obj\Debug\lab7.csproj.GenerateResource.cache
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\obj\Debug\lab7.csproj.CoreCompileInputs.cache
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\obj\Debug\lab7.exe
+C:\Users\Владислав\Desktop\kovalenko06 pass\KeyGen\lab7\obj\Debug\lab7.pdb

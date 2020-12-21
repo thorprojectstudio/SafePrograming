@@ -1,0 +1,1260 @@
+extern __imp_GdipAddPathArc:qword 
+GdipAddPathArc TEXTEQU <__imp_GdipAddPathArc> 
+extern __imp_GdipAddPathArcI:qword 
+GdipAddPathArcI TEXTEQU <__imp_GdipAddPathArcI> 
+extern __imp_GdipAddPathBezier:qword 
+GdipAddPathBezier TEXTEQU <__imp_GdipAddPathBezier> 
+extern __imp_GdipAddPathBezierI:qword 
+GdipAddPathBezierI TEXTEQU <__imp_GdipAddPathBezierI> 
+extern __imp_GdipAddPathBeziers:qword 
+GdipAddPathBeziers TEXTEQU <__imp_GdipAddPathBeziers> 
+extern __imp_GdipAddPathBeziersI:qword 
+GdipAddPathBeziersI TEXTEQU <__imp_GdipAddPathBeziersI> 
+extern __imp_GdipAddPathClosedCurve:qword 
+GdipAddPathClosedCurve TEXTEQU <__imp_GdipAddPathClosedCurve> 
+extern __imp_GdipAddPathClosedCurve2:qword 
+GdipAddPathClosedCurve2 TEXTEQU <__imp_GdipAddPathClosedCurve2> 
+extern __imp_GdipAddPathClosedCurve2I:qword 
+GdipAddPathClosedCurve2I TEXTEQU <__imp_GdipAddPathClosedCurve2I> 
+extern __imp_GdipAddPathClosedCurveI:qword 
+GdipAddPathClosedCurveI TEXTEQU <__imp_GdipAddPathClosedCurveI> 
+extern __imp_GdipAddPathCurve:qword 
+GdipAddPathCurve TEXTEQU <__imp_GdipAddPathCurve> 
+extern __imp_GdipAddPathCurve2:qword 
+GdipAddPathCurve2 TEXTEQU <__imp_GdipAddPathCurve2> 
+extern __imp_GdipAddPathCurve2I:qword 
+GdipAddPathCurve2I TEXTEQU <__imp_GdipAddPathCurve2I> 
+extern __imp_GdipAddPathCurve3:qword 
+GdipAddPathCurve3 TEXTEQU <__imp_GdipAddPathCurve3> 
+extern __imp_GdipAddPathCurve3I:qword 
+GdipAddPathCurve3I TEXTEQU <__imp_GdipAddPathCurve3I> 
+extern __imp_GdipAddPathCurveI:qword 
+GdipAddPathCurveI TEXTEQU <__imp_GdipAddPathCurveI> 
+extern __imp_GdipAddPathEllipse:qword 
+GdipAddPathEllipse TEXTEQU <__imp_GdipAddPathEllipse> 
+extern __imp_GdipAddPathEllipseI:qword 
+GdipAddPathEllipseI TEXTEQU <__imp_GdipAddPathEllipseI> 
+extern __imp_GdipAddPathLine:qword 
+GdipAddPathLine TEXTEQU <__imp_GdipAddPathLine> 
+extern __imp_GdipAddPathLine2:qword 
+GdipAddPathLine2 TEXTEQU <__imp_GdipAddPathLine2> 
+extern __imp_GdipAddPathLine2I:qword 
+GdipAddPathLine2I TEXTEQU <__imp_GdipAddPathLine2I> 
+extern __imp_GdipAddPathLineI:qword 
+GdipAddPathLineI TEXTEQU <__imp_GdipAddPathLineI> 
+extern __imp_GdipAddPathPath:qword 
+GdipAddPathPath TEXTEQU <__imp_GdipAddPathPath> 
+extern __imp_GdipAddPathPie:qword 
+GdipAddPathPie TEXTEQU <__imp_GdipAddPathPie> 
+extern __imp_GdipAddPathPieI:qword 
+GdipAddPathPieI TEXTEQU <__imp_GdipAddPathPieI> 
+extern __imp_GdipAddPathPolygon:qword 
+GdipAddPathPolygon TEXTEQU <__imp_GdipAddPathPolygon> 
+extern __imp_GdipAddPathPolygonI:qword 
+GdipAddPathPolygonI TEXTEQU <__imp_GdipAddPathPolygonI> 
+extern __imp_GdipAddPathRectangle:qword 
+GdipAddPathRectangle TEXTEQU <__imp_GdipAddPathRectangle> 
+extern __imp_GdipAddPathRectangleI:qword 
+GdipAddPathRectangleI TEXTEQU <__imp_GdipAddPathRectangleI> 
+extern __imp_GdipAddPathRectangles:qword 
+GdipAddPathRectangles TEXTEQU <__imp_GdipAddPathRectangles> 
+extern __imp_GdipAddPathRectanglesI:qword 
+GdipAddPathRectanglesI TEXTEQU <__imp_GdipAddPathRectanglesI> 
+extern __imp_GdipAddPathString:qword 
+GdipAddPathString TEXTEQU <__imp_GdipAddPathString> 
+extern __imp_GdipAddPathStringI:qword 
+GdipAddPathStringI TEXTEQU <__imp_GdipAddPathStringI> 
+extern __imp_GdipAlloc:qword 
+GdipAlloc TEXTEQU <__imp_GdipAlloc> 
+extern __imp_GdipBeginContainer:qword 
+GdipBeginContainer TEXTEQU <__imp_GdipBeginContainer> 
+extern __imp_GdipBeginContainer2:qword 
+GdipBeginContainer2 TEXTEQU <__imp_GdipBeginContainer2> 
+extern __imp_GdipBeginContainerI:qword 
+GdipBeginContainerI TEXTEQU <__imp_GdipBeginContainerI> 
+extern __imp_GdipBitmapApplyEffect:qword 
+GdipBitmapApplyEffect TEXTEQU <__imp_GdipBitmapApplyEffect> 
+extern __imp_GdipBitmapConvertFormat:qword 
+GdipBitmapConvertFormat TEXTEQU <__imp_GdipBitmapConvertFormat> 
+extern __imp_GdipBitmapCreateApplyEffect:qword 
+GdipBitmapCreateApplyEffect TEXTEQU <__imp_GdipBitmapCreateApplyEffect> 
+extern __imp_GdipBitmapGetHistogram:qword 
+GdipBitmapGetHistogram TEXTEQU <__imp_GdipBitmapGetHistogram> 
+extern __imp_GdipBitmapGetHistogramSize:qword 
+GdipBitmapGetHistogramSize TEXTEQU <__imp_GdipBitmapGetHistogramSize> 
+extern __imp_GdipBitmapGetPixel:qword 
+GdipBitmapGetPixel TEXTEQU <__imp_GdipBitmapGetPixel> 
+extern __imp_GdipBitmapLockBits:qword 
+GdipBitmapLockBits TEXTEQU <__imp_GdipBitmapLockBits> 
+extern __imp_GdipBitmapSetPixel:qword 
+GdipBitmapSetPixel TEXTEQU <__imp_GdipBitmapSetPixel> 
+extern __imp_GdipBitmapSetResolution:qword 
+GdipBitmapSetResolution TEXTEQU <__imp_GdipBitmapSetResolution> 
+extern __imp_GdipBitmapUnlockBits:qword 
+GdipBitmapUnlockBits TEXTEQU <__imp_GdipBitmapUnlockBits> 
+extern __imp_GdipClearPathMarkers:qword 
+GdipClearPathMarkers TEXTEQU <__imp_GdipClearPathMarkers> 
+extern __imp_GdipCloneBitmapArea:qword 
+GdipCloneBitmapArea TEXTEQU <__imp_GdipCloneBitmapArea> 
+extern __imp_GdipCloneBitmapAreaI:qword 
+GdipCloneBitmapAreaI TEXTEQU <__imp_GdipCloneBitmapAreaI> 
+extern __imp_GdipCloneBrush:qword 
+GdipCloneBrush TEXTEQU <__imp_GdipCloneBrush> 
+extern __imp_GdipCloneCustomLineCap:qword 
+GdipCloneCustomLineCap TEXTEQU <__imp_GdipCloneCustomLineCap> 
+extern __imp_GdipCloneFont:qword 
+GdipCloneFont TEXTEQU <__imp_GdipCloneFont> 
+extern __imp_GdipCloneFontFamily:qword 
+GdipCloneFontFamily TEXTEQU <__imp_GdipCloneFontFamily> 
+extern __imp_GdipCloneImage:qword 
+GdipCloneImage TEXTEQU <__imp_GdipCloneImage> 
+extern __imp_GdipCloneImageAttributes:qword 
+GdipCloneImageAttributes TEXTEQU <__imp_GdipCloneImageAttributes> 
+extern __imp_GdipCloneMatrix:qword 
+GdipCloneMatrix TEXTEQU <__imp_GdipCloneMatrix> 
+extern __imp_GdipClonePath:qword 
+GdipClonePath TEXTEQU <__imp_GdipClonePath> 
+extern __imp_GdipClonePen:qword 
+GdipClonePen TEXTEQU <__imp_GdipClonePen> 
+extern __imp_GdipCloneRegion:qword 
+GdipCloneRegion TEXTEQU <__imp_GdipCloneRegion> 
+extern __imp_GdipCloneStringFormat:qword 
+GdipCloneStringFormat TEXTEQU <__imp_GdipCloneStringFormat> 
+extern __imp_GdipClosePathFigure:qword 
+GdipClosePathFigure TEXTEQU <__imp_GdipClosePathFigure> 
+extern __imp_GdipClosePathFigures:qword 
+GdipClosePathFigures TEXTEQU <__imp_GdipClosePathFigures> 
+extern __imp_GdipCombineRegionPath:qword 
+GdipCombineRegionPath TEXTEQU <__imp_GdipCombineRegionPath> 
+extern __imp_GdipCombineRegionRect:qword 
+GdipCombineRegionRect TEXTEQU <__imp_GdipCombineRegionRect> 
+extern __imp_GdipCombineRegionRectI:qword 
+GdipCombineRegionRectI TEXTEQU <__imp_GdipCombineRegionRectI> 
+extern __imp_GdipCombineRegionRegion:qword 
+GdipCombineRegionRegion TEXTEQU <__imp_GdipCombineRegionRegion> 
+extern __imp_GdipComment:qword 
+GdipComment TEXTEQU <__imp_GdipComment> 
+extern __imp_GdipConvertToEmfPlus:qword 
+GdipConvertToEmfPlus TEXTEQU <__imp_GdipConvertToEmfPlus> 
+extern __imp_GdipConvertToEmfPlusToFile:qword 
+GdipConvertToEmfPlusToFile TEXTEQU <__imp_GdipConvertToEmfPlusToFile> 
+extern __imp_GdipConvertToEmfPlusToStream:qword 
+GdipConvertToEmfPlusToStream TEXTEQU <__imp_GdipConvertToEmfPlusToStream> 
+extern __imp_GdipCreateAdjustableArrowCap:qword 
+GdipCreateAdjustableArrowCap TEXTEQU <__imp_GdipCreateAdjustableArrowCap> 
+extern __imp_GdipCreateBitmapFromDirectDrawSurface:qword 
+GdipCreateBitmapFromDirectDrawSurface TEXTEQU <__imp_GdipCreateBitmapFromDirectDrawSurface> 
+extern __imp_GdipCreateBitmapFromFile:qword 
+GdipCreateBitmapFromFile TEXTEQU <__imp_GdipCreateBitmapFromFile> 
+extern __imp_GdipCreateBitmapFromFileICM:qword 
+GdipCreateBitmapFromFileICM TEXTEQU <__imp_GdipCreateBitmapFromFileICM> 
+extern __imp_GdipCreateBitmapFromGdiDib:qword 
+GdipCreateBitmapFromGdiDib TEXTEQU <__imp_GdipCreateBitmapFromGdiDib> 
+extern __imp_GdipCreateBitmapFromGraphics:qword 
+GdipCreateBitmapFromGraphics TEXTEQU <__imp_GdipCreateBitmapFromGraphics> 
+extern __imp_GdipCreateBitmapFromHBITMAP:qword 
+GdipCreateBitmapFromHBITMAP TEXTEQU <__imp_GdipCreateBitmapFromHBITMAP> 
+extern __imp_GdipCreateBitmapFromHICON:qword 
+GdipCreateBitmapFromHICON TEXTEQU <__imp_GdipCreateBitmapFromHICON> 
+extern __imp_GdipCreateBitmapFromResource:qword 
+GdipCreateBitmapFromResource TEXTEQU <__imp_GdipCreateBitmapFromResource> 
+extern __imp_GdipCreateBitmapFromScan0:qword 
+GdipCreateBitmapFromScan0 TEXTEQU <__imp_GdipCreateBitmapFromScan0> 
+extern __imp_GdipCreateBitmapFromStream:qword 
+GdipCreateBitmapFromStream TEXTEQU <__imp_GdipCreateBitmapFromStream> 
+extern __imp_GdipCreateBitmapFromStreamICM:qword 
+GdipCreateBitmapFromStreamICM TEXTEQU <__imp_GdipCreateBitmapFromStreamICM> 
+extern __imp_GdipCreateCachedBitmap:qword 
+GdipCreateCachedBitmap TEXTEQU <__imp_GdipCreateCachedBitmap> 
+extern __imp_GdipCreateCustomLineCap:qword 
+GdipCreateCustomLineCap TEXTEQU <__imp_GdipCreateCustomLineCap> 
+extern __imp_GdipCreateEffect:qword 
+GdipCreateEffect TEXTEQU <__imp_GdipCreateEffect> 
+extern __imp_GdipCreateFont:qword 
+GdipCreateFont TEXTEQU <__imp_GdipCreateFont> 
+extern __imp_GdipCreateFontFamilyFromName:qword 
+GdipCreateFontFamilyFromName TEXTEQU <__imp_GdipCreateFontFamilyFromName> 
+extern __imp_GdipCreateFontFromDC:qword 
+GdipCreateFontFromDC TEXTEQU <__imp_GdipCreateFontFromDC> 
+extern __imp_GdipCreateFontFromLogfontA:qword 
+GdipCreateFontFromLogfont TEXTEQU <__imp_GdipCreateFontFromLogfontA> 
+extern __imp_GdipCreateFontFromLogfontW:qword 
+GdipCreateFontFromLogfontW TEXTEQU <__imp_GdipCreateFontFromLogfontW> 
+extern __imp_GdipCreateFromHDC:qword 
+GdipCreateFromHDC TEXTEQU <__imp_GdipCreateFromHDC> 
+extern __imp_GdipCreateFromHDC2:qword 
+GdipCreateFromHDC2 TEXTEQU <__imp_GdipCreateFromHDC2> 
+extern __imp_GdipCreateFromHWND:qword 
+GdipCreateFromHWND TEXTEQU <__imp_GdipCreateFromHWND> 
+extern __imp_GdipCreateFromHWNDICM:qword 
+GdipCreateFromHWNDICM TEXTEQU <__imp_GdipCreateFromHWNDICM> 
+extern __imp_GdipCreateHBITMAPFromBitmap:qword 
+GdipCreateHBITMAPFromBitmap TEXTEQU <__imp_GdipCreateHBITMAPFromBitmap> 
+extern __imp_GdipCreateHICONFromBitmap:qword 
+GdipCreateHICONFromBitmap TEXTEQU <__imp_GdipCreateHICONFromBitmap> 
+extern __imp_GdipCreateHalftonePalette:qword 
+GdipCreateHalftonePalette TEXTEQU <__imp_GdipCreateHalftonePalette> 
+extern __imp_GdipCreateHatchBrush:qword 
+GdipCreateHatchBrush TEXTEQU <__imp_GdipCreateHatchBrush> 
+extern __imp_GdipCreateImageAttributes:qword 
+GdipCreateImageAttributes TEXTEQU <__imp_GdipCreateImageAttributes> 
+extern __imp_GdipCreateLineBrush:qword 
+GdipCreateLineBrush TEXTEQU <__imp_GdipCreateLineBrush> 
+extern __imp_GdipCreateLineBrushFromRect:qword 
+GdipCreateLineBrushFromRect TEXTEQU <__imp_GdipCreateLineBrushFromRect> 
+extern __imp_GdipCreateLineBrushFromRectI:qword 
+GdipCreateLineBrushFromRectI TEXTEQU <__imp_GdipCreateLineBrushFromRectI> 
+extern __imp_GdipCreateLineBrushFromRectWithAngle:qword 
+GdipCreateLineBrushFromRectWithAngle TEXTEQU <__imp_GdipCreateLineBrushFromRectWithAngle> 
+extern __imp_GdipCreateLineBrushFromRectWithAngleI:qword 
+GdipCreateLineBrushFromRectWithAngleI TEXTEQU <__imp_GdipCreateLineBrushFromRectWithAngleI> 
+extern __imp_GdipCreateLineBrushI:qword 
+GdipCreateLineBrushI TEXTEQU <__imp_GdipCreateLineBrushI> 
+extern __imp_GdipCreateMatrix:qword 
+GdipCreateMatrix TEXTEQU <__imp_GdipCreateMatrix> 
+extern __imp_GdipCreateMatrix2:qword 
+GdipCreateMatrix2 TEXTEQU <__imp_GdipCreateMatrix2> 
+extern __imp_GdipCreateMatrix3:qword 
+GdipCreateMatrix3 TEXTEQU <__imp_GdipCreateMatrix3> 
+extern __imp_GdipCreateMatrix3I:qword 
+GdipCreateMatrix3I TEXTEQU <__imp_GdipCreateMatrix3I> 
+extern __imp_GdipCreateMetafileFromEmf:qword 
+GdipCreateMetafileFromEmf TEXTEQU <__imp_GdipCreateMetafileFromEmf> 
+extern __imp_GdipCreateMetafileFromFile:qword 
+GdipCreateMetafileFromFile TEXTEQU <__imp_GdipCreateMetafileFromFile> 
+extern __imp_GdipCreateMetafileFromStream:qword 
+GdipCreateMetafileFromStream TEXTEQU <__imp_GdipCreateMetafileFromStream> 
+extern __imp_GdipCreateMetafileFromWmf:qword 
+GdipCreateMetafileFromWmf TEXTEQU <__imp_GdipCreateMetafileFromWmf> 
+extern __imp_GdipCreateMetafileFromWmfFile:qword 
+GdipCreateMetafileFromWmfFile TEXTEQU <__imp_GdipCreateMetafileFromWmfFile> 
+extern __imp_GdipCreatePath:qword 
+GdipCreatePath TEXTEQU <__imp_GdipCreatePath> 
+extern __imp_GdipCreatePath2:qword 
+GdipCreatePath2 TEXTEQU <__imp_GdipCreatePath2> 
+extern __imp_GdipCreatePath2I:qword 
+GdipCreatePath2I TEXTEQU <__imp_GdipCreatePath2I> 
+extern __imp_GdipCreatePathGradient:qword 
+GdipCreatePathGradient TEXTEQU <__imp_GdipCreatePathGradient> 
+extern __imp_GdipCreatePathGradientFromPath:qword 
+GdipCreatePathGradientFromPath TEXTEQU <__imp_GdipCreatePathGradientFromPath> 
+extern __imp_GdipCreatePathGradientI:qword 
+GdipCreatePathGradientI TEXTEQU <__imp_GdipCreatePathGradientI> 
+extern __imp_GdipCreatePathIter:qword 
+GdipCreatePathIter TEXTEQU <__imp_GdipCreatePathIter> 
+extern __imp_GdipCreatePen1:qword 
+GdipCreatePen1 TEXTEQU <__imp_GdipCreatePen1> 
+extern __imp_GdipCreatePen2:qword 
+GdipCreatePen2 TEXTEQU <__imp_GdipCreatePen2> 
+extern __imp_GdipCreateRegion:qword 
+GdipCreateRegion TEXTEQU <__imp_GdipCreateRegion> 
+extern __imp_GdipCreateRegionHrgn:qword 
+GdipCreateRegionHrgn TEXTEQU <__imp_GdipCreateRegionHrgn> 
+extern __imp_GdipCreateRegionPath:qword 
+GdipCreateRegionPath TEXTEQU <__imp_GdipCreateRegionPath> 
+extern __imp_GdipCreateRegionRect:qword 
+GdipCreateRegionRect TEXTEQU <__imp_GdipCreateRegionRect> 
+extern __imp_GdipCreateRegionRectI:qword 
+GdipCreateRegionRectI TEXTEQU <__imp_GdipCreateRegionRectI> 
+extern __imp_GdipCreateRegionRgnData:qword 
+GdipCreateRegionRgnData TEXTEQU <__imp_GdipCreateRegionRgnData> 
+extern __imp_GdipCreateSolidFill:qword 
+GdipCreateSolidFill TEXTEQU <__imp_GdipCreateSolidFill> 
+extern __imp_GdipCreateStreamOnFile:qword 
+GdipCreateStreamOnFile TEXTEQU <__imp_GdipCreateStreamOnFile> 
+extern __imp_GdipCreateStringFormat:qword 
+GdipCreateStringFormat TEXTEQU <__imp_GdipCreateStringFormat> 
+extern __imp_GdipCreateTexture:qword 
+GdipCreateTexture TEXTEQU <__imp_GdipCreateTexture> 
+extern __imp_GdipCreateTexture2:qword 
+GdipCreateTexture2 TEXTEQU <__imp_GdipCreateTexture2> 
+extern __imp_GdipCreateTexture2I:qword 
+GdipCreateTexture2I TEXTEQU <__imp_GdipCreateTexture2I> 
+extern __imp_GdipCreateTextureIA:qword 
+GdipCreateTextureI TEXTEQU <__imp_GdipCreateTextureIA> 
+extern __imp_GdipCreateTextureIAI:qword 
+GdipCreateTextureIAI TEXTEQU <__imp_GdipCreateTextureIAI> 
+extern __imp_GdipDeleteBrush:qword 
+GdipDeleteBrush TEXTEQU <__imp_GdipDeleteBrush> 
+extern __imp_GdipDeleteCachedBitmap:qword 
+GdipDeleteCachedBitmap TEXTEQU <__imp_GdipDeleteCachedBitmap> 
+extern __imp_GdipDeleteCustomLineCap:qword 
+GdipDeleteCustomLineCap TEXTEQU <__imp_GdipDeleteCustomLineCap> 
+extern __imp_GdipDeleteEffect:qword 
+GdipDeleteEffect TEXTEQU <__imp_GdipDeleteEffect> 
+extern __imp_GdipDeleteFont:qword 
+GdipDeleteFont TEXTEQU <__imp_GdipDeleteFont> 
+extern __imp_GdipDeleteFontFamily:qword 
+GdipDeleteFontFamily TEXTEQU <__imp_GdipDeleteFontFamily> 
+extern __imp_GdipDeleteGraphics:qword 
+GdipDeleteGraphics TEXTEQU <__imp_GdipDeleteGraphics> 
+extern __imp_GdipDeleteMatrix:qword 
+GdipDeleteMatrix TEXTEQU <__imp_GdipDeleteMatrix> 
+extern __imp_GdipDeletePath:qword 
+GdipDeletePath TEXTEQU <__imp_GdipDeletePath> 
+extern __imp_GdipDeletePathIter:qword 
+GdipDeletePathIter TEXTEQU <__imp_GdipDeletePathIter> 
+extern __imp_GdipDeletePen:qword 
+GdipDeletePen TEXTEQU <__imp_GdipDeletePen> 
+extern __imp_GdipDeletePrivateFontCollection:qword 
+GdipDeletePrivateFontCollection TEXTEQU <__imp_GdipDeletePrivateFontCollection> 
+extern __imp_GdipDeleteRegion:qword 
+GdipDeleteRegion TEXTEQU <__imp_GdipDeleteRegion> 
+extern __imp_GdipDeleteStringFormat:qword 
+GdipDeleteStringFormat TEXTEQU <__imp_GdipDeleteStringFormat> 
+extern __imp_GdipDisposeImage:qword 
+GdipDisposeImage TEXTEQU <__imp_GdipDisposeImage> 
+extern __imp_GdipDisposeImageAttributes:qword 
+GdipDisposeImageAttributes TEXTEQU <__imp_GdipDisposeImageAttributes> 
+extern __imp_GdipDrawArc:qword 
+GdipDrawArc TEXTEQU <__imp_GdipDrawArc> 
+extern __imp_GdipDrawArcI:qword 
+GdipDrawArcI TEXTEQU <__imp_GdipDrawArcI> 
+extern __imp_GdipDrawBezier:qword 
+GdipDrawBezier TEXTEQU <__imp_GdipDrawBezier> 
+extern __imp_GdipDrawBezierI:qword 
+GdipDrawBezierI TEXTEQU <__imp_GdipDrawBezierI> 
+extern __imp_GdipDrawBeziers:qword 
+GdipDrawBeziers TEXTEQU <__imp_GdipDrawBeziers> 
+extern __imp_GdipDrawBeziersI:qword 
+GdipDrawBeziersI TEXTEQU <__imp_GdipDrawBeziersI> 
+extern __imp_GdipDrawCachedBitmap:qword 
+GdipDrawCachedBitmap TEXTEQU <__imp_GdipDrawCachedBitmap> 
+extern __imp_GdipDrawClosedCurve:qword 
+GdipDrawClosedCurve TEXTEQU <__imp_GdipDrawClosedCurve> 
+extern __imp_GdipDrawClosedCurve2:qword 
+GdipDrawClosedCurve2 TEXTEQU <__imp_GdipDrawClosedCurve2> 
+extern __imp_GdipDrawClosedCurve2I:qword 
+GdipDrawClosedCurve2I TEXTEQU <__imp_GdipDrawClosedCurve2I> 
+extern __imp_GdipDrawClosedCurveI:qword 
+GdipDrawClosedCurveI TEXTEQU <__imp_GdipDrawClosedCurveI> 
+extern __imp_GdipDrawCurve:qword 
+GdipDrawCurve TEXTEQU <__imp_GdipDrawCurve> 
+extern __imp_GdipDrawCurve2:qword 
+GdipDrawCurve2 TEXTEQU <__imp_GdipDrawCurve2> 
+extern __imp_GdipDrawCurve2I:qword 
+GdipDrawCurve2I TEXTEQU <__imp_GdipDrawCurve2I> 
+extern __imp_GdipDrawCurve3:qword 
+GdipDrawCurve3 TEXTEQU <__imp_GdipDrawCurve3> 
+extern __imp_GdipDrawCurve3I:qword 
+GdipDrawCurve3I TEXTEQU <__imp_GdipDrawCurve3I> 
+extern __imp_GdipDrawCurveI:qword 
+GdipDrawCurveI TEXTEQU <__imp_GdipDrawCurveI> 
+extern __imp_GdipDrawDriverString:qword 
+GdipDrawDriverString TEXTEQU <__imp_GdipDrawDriverString> 
+extern __imp_GdipDrawEllipse:qword 
+GdipDrawEllipse TEXTEQU <__imp_GdipDrawEllipse> 
+extern __imp_GdipDrawEllipseI:qword 
+GdipDrawEllipseI TEXTEQU <__imp_GdipDrawEllipseI> 
+extern __imp_GdipDrawImage:qword 
+GdipDrawImage TEXTEQU <__imp_GdipDrawImage> 
+extern __imp_GdipDrawImageFX:qword 
+GdipDrawImageFX TEXTEQU <__imp_GdipDrawImageFX> 
+extern __imp_GdipDrawImageI:qword 
+GdipDrawImageI TEXTEQU <__imp_GdipDrawImageI> 
+extern __imp_GdipDrawImagePointRect:qword 
+GdipDrawImagePointRect TEXTEQU <__imp_GdipDrawImagePointRect> 
+extern __imp_GdipDrawImagePointRectI:qword 
+GdipDrawImagePointRectI TEXTEQU <__imp_GdipDrawImagePointRectI> 
+extern __imp_GdipDrawImagePoints:qword 
+GdipDrawImagePoints TEXTEQU <__imp_GdipDrawImagePoints> 
+extern __imp_GdipDrawImagePointsI:qword 
+GdipDrawImagePointsI TEXTEQU <__imp_GdipDrawImagePointsI> 
+extern __imp_GdipDrawImagePointsRect:qword 
+GdipDrawImagePointsRect TEXTEQU <__imp_GdipDrawImagePointsRect> 
+extern __imp_GdipDrawImagePointsRectI:qword 
+GdipDrawImagePointsRectI TEXTEQU <__imp_GdipDrawImagePointsRectI> 
+extern __imp_GdipDrawImageRect:qword 
+GdipDrawImageRect TEXTEQU <__imp_GdipDrawImageRect> 
+extern __imp_GdipDrawImageRectI:qword 
+GdipDrawImageRectI TEXTEQU <__imp_GdipDrawImageRectI> 
+extern __imp_GdipDrawImageRectRect:qword 
+GdipDrawImageRectRect TEXTEQU <__imp_GdipDrawImageRectRect> 
+extern __imp_GdipDrawImageRectRectI:qword 
+GdipDrawImageRectRectI TEXTEQU <__imp_GdipDrawImageRectRectI> 
+extern __imp_GdipDrawLine:qword 
+GdipDrawLine TEXTEQU <__imp_GdipDrawLine> 
+extern __imp_GdipDrawLineI:qword 
+GdipDrawLineI TEXTEQU <__imp_GdipDrawLineI> 
+extern __imp_GdipDrawLines:qword 
+GdipDrawLines TEXTEQU <__imp_GdipDrawLines> 
+extern __imp_GdipDrawLinesI:qword 
+GdipDrawLinesI TEXTEQU <__imp_GdipDrawLinesI> 
+extern __imp_GdipDrawPath:qword 
+GdipDrawPath TEXTEQU <__imp_GdipDrawPath> 
+extern __imp_GdipDrawPie:qword 
+GdipDrawPie TEXTEQU <__imp_GdipDrawPie> 
+extern __imp_GdipDrawPieI:qword 
+GdipDrawPieI TEXTEQU <__imp_GdipDrawPieI> 
+extern __imp_GdipDrawPolygon:qword 
+GdipDrawPolygon TEXTEQU <__imp_GdipDrawPolygon> 
+extern __imp_GdipDrawPolygonI:qword 
+GdipDrawPolygonI TEXTEQU <__imp_GdipDrawPolygonI> 
+extern __imp_GdipDrawRectangle:qword 
+GdipDrawRectangle TEXTEQU <__imp_GdipDrawRectangle> 
+extern __imp_GdipDrawRectangleI:qword 
+GdipDrawRectangleI TEXTEQU <__imp_GdipDrawRectangleI> 
+extern __imp_GdipDrawRectangles:qword 
+GdipDrawRectangles TEXTEQU <__imp_GdipDrawRectangles> 
+extern __imp_GdipDrawRectanglesI:qword 
+GdipDrawRectanglesI TEXTEQU <__imp_GdipDrawRectanglesI> 
+extern __imp_GdipDrawString:qword 
+GdipDrawString TEXTEQU <__imp_GdipDrawString> 
+extern __imp_GdipEmfToWmfBits:qword 
+GdipEmfToWmfBits TEXTEQU <__imp_GdipEmfToWmfBits> 
+extern __imp_GdipEndContainer:qword 
+GdipEndContainer TEXTEQU <__imp_GdipEndContainer> 
+extern __imp_GdipEnumerateMetafileDestPoint:qword 
+GdipEnumerateMetafileDestPoint TEXTEQU <__imp_GdipEnumerateMetafileDestPoint> 
+extern __imp_GdipEnumerateMetafileDestPointI:qword 
+GdipEnumerateMetafileDestPointI TEXTEQU <__imp_GdipEnumerateMetafileDestPointI> 
+extern __imp_GdipEnumerateMetafileDestPoints:qword 
+GdipEnumerateMetafileDestPoints TEXTEQU <__imp_GdipEnumerateMetafileDestPoints> 
+extern __imp_GdipEnumerateMetafileDestPointsI:qword 
+GdipEnumerateMetafileDestPointsI TEXTEQU <__imp_GdipEnumerateMetafileDestPointsI> 
+extern __imp_GdipEnumerateMetafileDestRect:qword 
+GdipEnumerateMetafileDestRect TEXTEQU <__imp_GdipEnumerateMetafileDestRect> 
+extern __imp_GdipEnumerateMetafileDestRectI:qword 
+GdipEnumerateMetafileDestRectI TEXTEQU <__imp_GdipEnumerateMetafileDestRectI> 
+extern __imp_GdipEnumerateMetafileSrcRectDestPoint:qword 
+GdipEnumerateMetafileSrcRectDestPoint TEXTEQU <__imp_GdipEnumerateMetafileSrcRectDestPoint> 
+extern __imp_GdipEnumerateMetafileSrcRectDestPointI:qword 
+GdipEnumerateMetafileSrcRectDestPointI TEXTEQU <__imp_GdipEnumerateMetafileSrcRectDestPointI> 
+extern __imp_GdipEnumerateMetafileSrcRectDestPoints:qword 
+GdipEnumerateMetafileSrcRectDestPoints TEXTEQU <__imp_GdipEnumerateMetafileSrcRectDestPoints> 
+extern __imp_GdipEnumerateMetafileSrcRectDestPointsI:qword 
+GdipEnumerateMetafileSrcRectDestPointsI TEXTEQU <__imp_GdipEnumerateMetafileSrcRectDestPointsI> 
+extern __imp_GdipEnumerateMetafileSrcRectDestRect:qword 
+GdipEnumerateMetafileSrcRectDestRect TEXTEQU <__imp_GdipEnumerateMetafileSrcRectDestRect> 
+extern __imp_GdipEnumerateMetafileSrcRectDestRectI:qword 
+GdipEnumerateMetafileSrcRectDestRectI TEXTEQU <__imp_GdipEnumerateMetafileSrcRectDestRectI> 
+extern __imp_GdipFillClosedCurve:qword 
+GdipFillClosedCurve TEXTEQU <__imp_GdipFillClosedCurve> 
+extern __imp_GdipFillClosedCurve2:qword 
+GdipFillClosedCurve2 TEXTEQU <__imp_GdipFillClosedCurve2> 
+extern __imp_GdipFillClosedCurve2I:qword 
+GdipFillClosedCurve2I TEXTEQU <__imp_GdipFillClosedCurve2I> 
+extern __imp_GdipFillClosedCurveI:qword 
+GdipFillClosedCurveI TEXTEQU <__imp_GdipFillClosedCurveI> 
+extern __imp_GdipFillEllipse:qword 
+GdipFillEllipse TEXTEQU <__imp_GdipFillEllipse> 
+extern __imp_GdipFillEllipseI:qword 
+GdipFillEllipseI TEXTEQU <__imp_GdipFillEllipseI> 
+extern __imp_GdipFillPath:qword 
+GdipFillPath TEXTEQU <__imp_GdipFillPath> 
+extern __imp_GdipFillPie:qword 
+GdipFillPie TEXTEQU <__imp_GdipFillPie> 
+extern __imp_GdipFillPieI:qword 
+GdipFillPieI TEXTEQU <__imp_GdipFillPieI> 
+extern __imp_GdipFillPolygon:qword 
+GdipFillPolygon TEXTEQU <__imp_GdipFillPolygon> 
+extern __imp_GdipFillPolygon2:qword 
+GdipFillPolygon2 TEXTEQU <__imp_GdipFillPolygon2> 
+extern __imp_GdipFillPolygon2I:qword 
+GdipFillPolygon2I TEXTEQU <__imp_GdipFillPolygon2I> 
+extern __imp_GdipFillPolygonI:qword 
+GdipFillPolygonI TEXTEQU <__imp_GdipFillPolygonI> 
+extern __imp_GdipFillRectangle:qword 
+GdipFillRectangle TEXTEQU <__imp_GdipFillRectangle> 
+extern __imp_GdipFillRectangleI:qword 
+GdipFillRectangleI TEXTEQU <__imp_GdipFillRectangleI> 
+extern __imp_GdipFillRectangles:qword 
+GdipFillRectangles TEXTEQU <__imp_GdipFillRectangles> 
+extern __imp_GdipFillRectanglesI:qword 
+GdipFillRectanglesI TEXTEQU <__imp_GdipFillRectanglesI> 
+extern __imp_GdipFillRegion:qword 
+GdipFillRegion TEXTEQU <__imp_GdipFillRegion> 
+extern __imp_GdipFindFirstImageItem:qword 
+GdipFindFirstImageItem TEXTEQU <__imp_GdipFindFirstImageItem> 
+extern __imp_GdipFindNextImageItem:qword 
+GdipFindNextImageItem TEXTEQU <__imp_GdipFindNextImageItem> 
+extern __imp_GdipFlattenPath:qword 
+GdipFlattenPath TEXTEQU <__imp_GdipFlattenPath> 
+extern __imp_GdipFlush:qword 
+GdipFlush TEXTEQU <__imp_GdipFlush> 
+extern __imp_GdipFree:qword 
+GdipFree TEXTEQU <__imp_GdipFree> 
+extern __imp_GdipGetAdjustableArrowCapFillState:qword 
+GdipGetAdjustableArrowCapFillState TEXTEQU <__imp_GdipGetAdjustableArrowCapFillState> 
+extern __imp_GdipGetAdjustableArrowCapHeight:qword 
+GdipGetAdjustableArrowCapHeight TEXTEQU <__imp_GdipGetAdjustableArrowCapHeight> 
+extern __imp_GdipGetAdjustableArrowCapMiddleInset:qword 
+GdipGetAdjustableArrowCapMiddleInset TEXTEQU <__imp_GdipGetAdjustableArrowCapMiddleInset> 
+extern __imp_GdipGetAdjustableArrowCapWidth:qword 
+GdipGetAdjustableArrowCapWidth TEXTEQU <__imp_GdipGetAdjustableArrowCapWidth> 
+extern __imp_GdipGetAllPropertyItems:qword 
+GdipGetAllPropertyItems TEXTEQU <__imp_GdipGetAllPropertyItems> 
+extern __imp_GdipGetBrushType:qword 
+GdipGetBrushType TEXTEQU <__imp_GdipGetBrushType> 
+extern __imp_GdipGetCellAscent:qword 
+GdipGetCellAscent TEXTEQU <__imp_GdipGetCellAscent> 
+extern __imp_GdipGetCellDescent:qword 
+GdipGetCellDescent TEXTEQU <__imp_GdipGetCellDescent> 
+extern __imp_GdipGetClip:qword 
+GdipGetClip TEXTEQU <__imp_GdipGetClip> 
+extern __imp_GdipGetClipBounds:qword 
+GdipGetClipBounds TEXTEQU <__imp_GdipGetClipBounds> 
+extern __imp_GdipGetClipBoundsI:qword 
+GdipGetClipBoundsI TEXTEQU <__imp_GdipGetClipBoundsI> 
+extern __imp_GdipGetCompositingMode:qword 
+GdipGetCompositingMode TEXTEQU <__imp_GdipGetCompositingMode> 
+extern __imp_GdipGetCompositingQuality:qword 
+GdipGetCompositingQuality TEXTEQU <__imp_GdipGetCompositingQuality> 
+extern __imp_GdipGetCustomLineCapBaseCap:qword 
+GdipGetCustomLineCapBaseCap TEXTEQU <__imp_GdipGetCustomLineCapBaseCap> 
+extern __imp_GdipGetCustomLineCapBaseInset:qword 
+GdipGetCustomLineCapBaseInset TEXTEQU <__imp_GdipGetCustomLineCapBaseInset> 
+extern __imp_GdipGetCustomLineCapStrokeCaps:qword 
+GdipGetCustomLineCapStrokeCaps TEXTEQU <__imp_GdipGetCustomLineCapStrokeCaps> 
+extern __imp_GdipGetCustomLineCapStrokeJoin:qword 
+GdipGetCustomLineCapStrokeJoin TEXTEQU <__imp_GdipGetCustomLineCapStrokeJoin> 
+extern __imp_GdipGetCustomLineCapType:qword 
+GdipGetCustomLineCapType TEXTEQU <__imp_GdipGetCustomLineCapType> 
+extern __imp_GdipGetCustomLineCapWidthScale:qword 
+GdipGetCustomLineCapWidthScale TEXTEQU <__imp_GdipGetCustomLineCapWidthScale> 
+extern __imp_GdipGetDC:qword 
+GdipGetDC TEXTEQU <__imp_GdipGetDC> 
+extern __imp_GdipGetDpiX:qword 
+GdipGetDpiX TEXTEQU <__imp_GdipGetDpiX> 
+extern __imp_GdipGetDpiY:qword 
+GdipGetDpiY TEXTEQU <__imp_GdipGetDpiY> 
+extern __imp_GdipGetEffectParameterSize:qword 
+GdipGetEffectParameterSize TEXTEQU <__imp_GdipGetEffectParameterSize> 
+extern __imp_GdipGetEffectParameters:qword 
+GdipGetEffectParameters TEXTEQU <__imp_GdipGetEffectParameters> 
+extern __imp_GdipGetEmHeight:qword 
+GdipGetEmHeight TEXTEQU <__imp_GdipGetEmHeight> 
+extern __imp_GdipGetEncoderParameterList:qword 
+GdipGetEncoderParameterList TEXTEQU <__imp_GdipGetEncoderParameterList> 
+extern __imp_GdipGetEncoderParameterListSize:qword 
+GdipGetEncoderParameterListSize TEXTEQU <__imp_GdipGetEncoderParameterListSize> 
+extern __imp_GdipGetFamily:qword 
+GdipGetFamily TEXTEQU <__imp_GdipGetFamily> 
+extern __imp_GdipGetFamilyName:qword 
+GdipGetFamilyName TEXTEQU <__imp_GdipGetFamilyName> 
+extern __imp_GdipGetFontCollectionFamilyCount:qword 
+GdipGetFontCollectionFamilyCount TEXTEQU <__imp_GdipGetFontCollectionFamilyCount> 
+extern __imp_GdipGetFontCollectionFamilyList:qword 
+GdipGetFontCollectionFamilyList TEXTEQU <__imp_GdipGetFontCollectionFamilyList> 
+extern __imp_GdipGetFontHeight:qword 
+GdipGetFontHeight TEXTEQU <__imp_GdipGetFontHeight> 
+extern __imp_GdipGetFontHeightGivenDPI:qword 
+GdipGetFontHeightGivenDPI TEXTEQU <__imp_GdipGetFontHeightGivenDPI> 
+extern __imp_GdipGetFontSize:qword 
+GdipGetFontSize TEXTEQU <__imp_GdipGetFontSize> 
+extern __imp_GdipGetFontStyle:qword 
+GdipGetFontStyle TEXTEQU <__imp_GdipGetFontStyle> 
+extern __imp_GdipGetFontUnit:qword 
+GdipGetFontUnit TEXTEQU <__imp_GdipGetFontUnit> 
+extern __imp_GdipGetGenericFontFamilyMonospace:qword 
+GdipGetGenericFontFamilyMonospace TEXTEQU <__imp_GdipGetGenericFontFamilyMonospace> 
+extern __imp_GdipGetGenericFontFamilySansSerif:qword 
+GdipGetGenericFontFamilySansSerif TEXTEQU <__imp_GdipGetGenericFontFamilySansSerif> 
+extern __imp_GdipGetGenericFontFamilySerif:qword 
+GdipGetGenericFontFamilySerif TEXTEQU <__imp_GdipGetGenericFontFamilySerif> 
+extern __imp_GdipGetHatchBackgroundColor:qword 
+GdipGetHatchBackgroundColor TEXTEQU <__imp_GdipGetHatchBackgroundColor> 
+extern __imp_GdipGetHatchForegroundColor:qword 
+GdipGetHatchForegroundColor TEXTEQU <__imp_GdipGetHatchForegroundColor> 
+extern __imp_GdipGetHatchStyle:qword 
+GdipGetHatchStyle TEXTEQU <__imp_GdipGetHatchStyle> 
+extern __imp_GdipGetHemfFromMetafile:qword 
+GdipGetHemfFromMetafile TEXTEQU <__imp_GdipGetHemfFromMetafile> 
+extern __imp_GdipGetImageAttributesAdjustedPalette:qword 
+GdipGetImageAttributesAdjustedPalette TEXTEQU <__imp_GdipGetImageAttributesAdjustedPalette> 
+extern __imp_GdipGetImageBounds:qword 
+GdipGetImageBounds TEXTEQU <__imp_GdipGetImageBounds> 
+extern __imp_GdipGetImageDecoders:qword 
+GdipGetImageDecoders TEXTEQU <__imp_GdipGetImageDecoders> 
+extern __imp_GdipGetImageDecodersSize:qword 
+GdipGetImageDecodersSize TEXTEQU <__imp_GdipGetImageDecodersSize> 
+extern __imp_GdipGetImageDimension:qword 
+GdipGetImageDimension TEXTEQU <__imp_GdipGetImageDimension> 
+extern __imp_GdipGetImageEncoders:qword 
+GdipGetImageEncoders TEXTEQU <__imp_GdipGetImageEncoders> 
+extern __imp_GdipGetImageEncodersSize:qword 
+GdipGetImageEncodersSize TEXTEQU <__imp_GdipGetImageEncodersSize> 
+extern __imp_GdipGetImageFlags:qword 
+GdipGetImageFlags TEXTEQU <__imp_GdipGetImageFlags> 
+extern __imp_GdipGetImageGraphicsContext:qword 
+GdipGetImageGraphicsContext TEXTEQU <__imp_GdipGetImageGraphicsContext> 
+extern __imp_GdipGetImageHeight:qword 
+GdipGetImageHeight TEXTEQU <__imp_GdipGetImageHeight> 
+extern __imp_GdipGetImageHorizontalResolution:qword 
+GdipGetImageHorizontalResolution TEXTEQU <__imp_GdipGetImageHorizontalResolution> 
+extern __imp_GdipGetImageItemData:qword 
+GdipGetImageItemData TEXTEQU <__imp_GdipGetImageItemData> 
+extern __imp_GdipGetImagePalette:qword 
+GdipGetImagePalette TEXTEQU <__imp_GdipGetImagePalette> 
+extern __imp_GdipGetImagePaletteSize:qword 
+GdipGetImagePaletteSize TEXTEQU <__imp_GdipGetImagePaletteSize> 
+extern __imp_GdipGetImagePixelFormat:qword 
+GdipGetImagePixelFormat TEXTEQU <__imp_GdipGetImagePixelFormat> 
+extern __imp_GdipGetImageRawFormat:qword 
+GdipGetImageRawFormat TEXTEQU <__imp_GdipGetImageRawFormat> 
+extern __imp_GdipGetImageThumbnail:qword 
+GdipGetImageThumbnail TEXTEQU <__imp_GdipGetImageThumbnail> 
+extern __imp_GdipGetImageType:qword 
+GdipGetImageType TEXTEQU <__imp_GdipGetImageType> 
+extern __imp_GdipGetImageVerticalResolution:qword 
+GdipGetImageVerticalResolution TEXTEQU <__imp_GdipGetImageVerticalResolution> 
+extern __imp_GdipGetImageWidth:qword 
+GdipGetImageWidth TEXTEQU <__imp_GdipGetImageWidth> 
+extern __imp_GdipGetInterpolationMode:qword 
+GdipGetInterpolationMode TEXTEQU <__imp_GdipGetInterpolationMode> 
+extern __imp_GdipGetLineBlend:qword 
+GdipGetLineBlend TEXTEQU <__imp_GdipGetLineBlend> 
+extern __imp_GdipGetLineBlendCount:qword 
+GdipGetLineBlendCount TEXTEQU <__imp_GdipGetLineBlendCount> 
+extern __imp_GdipGetLineColors:qword 
+GdipGetLineColors TEXTEQU <__imp_GdipGetLineColors> 
+extern __imp_GdipGetLineGammaCorrection:qword 
+GdipGetLineGammaCorrection TEXTEQU <__imp_GdipGetLineGammaCorrection> 
+extern __imp_GdipGetLinePresetBlend:qword 
+GdipGetLinePresetBlend TEXTEQU <__imp_GdipGetLinePresetBlend> 
+extern __imp_GdipGetLinePresetBlendCount:qword 
+GdipGetLinePresetBlendCount TEXTEQU <__imp_GdipGetLinePresetBlendCount> 
+extern __imp_GdipGetLineRect:qword 
+GdipGetLineRect TEXTEQU <__imp_GdipGetLineRect> 
+extern __imp_GdipGetLineRectI:qword 
+GdipGetLineRectI TEXTEQU <__imp_GdipGetLineRectI> 
+extern __imp_GdipGetLineSpacing:qword 
+GdipGetLineSpacing TEXTEQU <__imp_GdipGetLineSpacing> 
+extern __imp_GdipGetLineTransform:qword 
+GdipGetLineTransform TEXTEQU <__imp_GdipGetLineTransform> 
+extern __imp_GdipGetLineWrapMode:qword 
+GdipGetLineWrapMode TEXTEQU <__imp_GdipGetLineWrapMode> 
+extern __imp_GdipGetLogFontA:qword 
+GdipGetLogFont TEXTEQU <__imp_GdipGetLogFontA> 
+extern __imp_GdipGetLogFontW:qword 
+GdipGetLogFontW TEXTEQU <__imp_GdipGetLogFontW> 
+extern __imp_GdipGetMatrixElements:qword 
+GdipGetMatrixElements TEXTEQU <__imp_GdipGetMatrixElements> 
+extern __imp_GdipGetMetafileDownLevelRasterizationLimit:qword 
+GdipGetMetafileDownLevelRasterizationLimit TEXTEQU <__imp_GdipGetMetafileDownLevelRasterizationLimit> 
+extern __imp_GdipGetMetafileHeaderFromEmf:qword 
+GdipGetMetafileHeaderFromEmf TEXTEQU <__imp_GdipGetMetafileHeaderFromEmf> 
+extern __imp_GdipGetMetafileHeaderFromFile:qword 
+GdipGetMetafileHeaderFromFile TEXTEQU <__imp_GdipGetMetafileHeaderFromFile> 
+extern __imp_GdipGetMetafileHeaderFromMetafile:qword 
+GdipGetMetafileHeaderFromMetafile TEXTEQU <__imp_GdipGetMetafileHeaderFromMetafile> 
+extern __imp_GdipGetMetafileHeaderFromStream:qword 
+GdipGetMetafileHeaderFromStream TEXTEQU <__imp_GdipGetMetafileHeaderFromStream> 
+extern __imp_GdipGetMetafileHeaderFromWmf:qword 
+GdipGetMetafileHeaderFromWmf TEXTEQU <__imp_GdipGetMetafileHeaderFromWmf> 
+extern __imp_GdipGetNearestColor:qword 
+GdipGetNearestColor TEXTEQU <__imp_GdipGetNearestColor> 
+extern __imp_GdipGetPageScale:qword 
+GdipGetPageScale TEXTEQU <__imp_GdipGetPageScale> 
+extern __imp_GdipGetPageUnit:qword 
+GdipGetPageUnit TEXTEQU <__imp_GdipGetPageUnit> 
+extern __imp_GdipGetPathData:qword 
+GdipGetPathData TEXTEQU <__imp_GdipGetPathData> 
+extern __imp_GdipGetPathFillMode:qword 
+GdipGetPathFillMode TEXTEQU <__imp_GdipGetPathFillMode> 
+extern __imp_GdipGetPathGradientBlend:qword 
+GdipGetPathGradientBlend TEXTEQU <__imp_GdipGetPathGradientBlend> 
+extern __imp_GdipGetPathGradientBlendCount:qword 
+GdipGetPathGradientBlendCount TEXTEQU <__imp_GdipGetPathGradientBlendCount> 
+extern __imp_GdipGetPathGradientCenterColor:qword 
+GdipGetPathGradientCenterColor TEXTEQU <__imp_GdipGetPathGradientCenterColor> 
+extern __imp_GdipGetPathGradientCenterPoint:qword 
+GdipGetPathGradientCenterPoint TEXTEQU <__imp_GdipGetPathGradientCenterPoint> 
+extern __imp_GdipGetPathGradientCenterPointI:qword 
+GdipGetPathGradientCenterPointI TEXTEQU <__imp_GdipGetPathGradientCenterPointI> 
+extern __imp_GdipGetPathGradientFocusScales:qword 
+GdipGetPathGradientFocusScales TEXTEQU <__imp_GdipGetPathGradientFocusScales> 
+extern __imp_GdipGetPathGradientGammaCorrection:qword 
+GdipGetPathGradientGammaCorrection TEXTEQU <__imp_GdipGetPathGradientGammaCorrection> 
+extern __imp_GdipGetPathGradientPath:qword 
+GdipGetPathGradientPath TEXTEQU <__imp_GdipGetPathGradientPath> 
+extern __imp_GdipGetPathGradientPointCount:qword 
+GdipGetPathGradientPointCount TEXTEQU <__imp_GdipGetPathGradientPointCount> 
+extern __imp_GdipGetPathGradientPresetBlend:qword 
+GdipGetPathGradientPresetBlend TEXTEQU <__imp_GdipGetPathGradientPresetBlend> 
+extern __imp_GdipGetPathGradientPresetBlendCount:qword 
+GdipGetPathGradientPresetBlendCount TEXTEQU <__imp_GdipGetPathGradientPresetBlendCount> 
+extern __imp_GdipGetPathGradientRect:qword 
+GdipGetPathGradientRect TEXTEQU <__imp_GdipGetPathGradientRect> 
+extern __imp_GdipGetPathGradientRectI:qword 
+GdipGetPathGradientRectI TEXTEQU <__imp_GdipGetPathGradientRectI> 
+extern __imp_GdipGetPathGradientSurroundColorCount:qword 
+GdipGetPathGradientSurroundColorCount TEXTEQU <__imp_GdipGetPathGradientSurroundColorCount> 
+extern __imp_GdipGetPathGradientSurroundColorsWithCount:qword 
+GdipGetPathGradientSurroundColorsWithCount TEXTEQU <__imp_GdipGetPathGradientSurroundColorsWithCount> 
+extern __imp_GdipGetPathGradientTransform:qword 
+GdipGetPathGradientTransform TEXTEQU <__imp_GdipGetPathGradientTransform> 
+extern __imp_GdipGetPathGradientWrapMode:qword 
+GdipGetPathGradientWrapMode TEXTEQU <__imp_GdipGetPathGradientWrapMode> 
+extern __imp_GdipGetPathLastPoint:qword 
+GdipGetPathLastPoint TEXTEQU <__imp_GdipGetPathLastPoint> 
+extern __imp_GdipGetPathPoints:qword 
+GdipGetPathPoints TEXTEQU <__imp_GdipGetPathPoints> 
+extern __imp_GdipGetPathPointsI:qword 
+GdipGetPathPointsI TEXTEQU <__imp_GdipGetPathPointsI> 
+extern __imp_GdipGetPathTypes:qword 
+GdipGetPathTypes TEXTEQU <__imp_GdipGetPathTypes> 
+extern __imp_GdipGetPathWorldBounds:qword 
+GdipGetPathWorldBounds TEXTEQU <__imp_GdipGetPathWorldBounds> 
+extern __imp_GdipGetPathWorldBoundsI:qword 
+GdipGetPathWorldBoundsI TEXTEQU <__imp_GdipGetPathWorldBoundsI> 
+extern __imp_GdipGetPenBrushFill:qword 
+GdipGetPenBrushFill TEXTEQU <__imp_GdipGetPenBrushFill> 
+extern __imp_GdipGetPenColor:qword 
+GdipGetPenColor TEXTEQU <__imp_GdipGetPenColor> 
+extern __imp_GdipGetPenCompoundArray:qword 
+GdipGetPenCompoundArray TEXTEQU <__imp_GdipGetPenCompoundArray> 
+extern __imp_GdipGetPenCompoundCount:qword 
+GdipGetPenCompoundCount TEXTEQU <__imp_GdipGetPenCompoundCount> 
+extern __imp_GdipGetPenCustomEndCap:qword 
+GdipGetPenCustomEndCap TEXTEQU <__imp_GdipGetPenCustomEndCap> 
+extern __imp_GdipGetPenCustomStartCap:qword 
+GdipGetPenCustomStartCap TEXTEQU <__imp_GdipGetPenCustomStartCap> 
+extern __imp_GdipGetPenDashArray:qword 
+GdipGetPenDashArray TEXTEQU <__imp_GdipGetPenDashArray> 
+extern __imp_GdipGetPenDashCap197819:qword 
+GdipGetPenDashCap197819 TEXTEQU <__imp_GdipGetPenDashCap197819> 
+extern __imp_GdipGetPenDashCount:qword 
+GdipGetPenDashCount TEXTEQU <__imp_GdipGetPenDashCount> 
+extern __imp_GdipGetPenDashOffset:qword 
+GdipGetPenDashOffset TEXTEQU <__imp_GdipGetPenDashOffset> 
+extern __imp_GdipGetPenDashStyle:qword 
+GdipGetPenDashStyle TEXTEQU <__imp_GdipGetPenDashStyle> 
+extern __imp_GdipGetPenEndCap:qword 
+GdipGetPenEndCap TEXTEQU <__imp_GdipGetPenEndCap> 
+extern __imp_GdipGetPenFillType:qword 
+GdipGetPenFillType TEXTEQU <__imp_GdipGetPenFillType> 
+extern __imp_GdipGetPenLineJoin:qword 
+GdipGetPenLineJoin TEXTEQU <__imp_GdipGetPenLineJoin> 
+extern __imp_GdipGetPenMiterLimit:qword 
+GdipGetPenMiterLimit TEXTEQU <__imp_GdipGetPenMiterLimit> 
+extern __imp_GdipGetPenMode:qword 
+GdipGetPenMode TEXTEQU <__imp_GdipGetPenMode> 
+extern __imp_GdipGetPenStartCap:qword 
+GdipGetPenStartCap TEXTEQU <__imp_GdipGetPenStartCap> 
+extern __imp_GdipGetPenTransform:qword 
+GdipGetPenTransform TEXTEQU <__imp_GdipGetPenTransform> 
+extern __imp_GdipGetPenUnit:qword 
+GdipGetPenUnit TEXTEQU <__imp_GdipGetPenUnit> 
+extern __imp_GdipGetPenWidth:qword 
+GdipGetPenWidth TEXTEQU <__imp_GdipGetPenWidth> 
+extern __imp_GdipGetPixelOffsetMode:qword 
+GdipGetPixelOffsetMode TEXTEQU <__imp_GdipGetPixelOffsetMode> 
+extern __imp_GdipGetPointCount:qword 
+GdipGetPointCount TEXTEQU <__imp_GdipGetPointCount> 
+extern __imp_GdipGetPropertyCount:qword 
+GdipGetPropertyCount TEXTEQU <__imp_GdipGetPropertyCount> 
+extern __imp_GdipGetPropertyIdList:qword 
+GdipGetPropertyIdList TEXTEQU <__imp_GdipGetPropertyIdList> 
+extern __imp_GdipGetPropertyItem:qword 
+GdipGetPropertyItem TEXTEQU <__imp_GdipGetPropertyItem> 
+extern __imp_GdipGetPropertyItemSize:qword 
+GdipGetPropertyItemSize TEXTEQU <__imp_GdipGetPropertyItemSize> 
+extern __imp_GdipGetPropertySize:qword 
+GdipGetPropertySize TEXTEQU <__imp_GdipGetPropertySize> 
+extern __imp_GdipGetRegionBounds:qword 
+GdipGetRegionBounds TEXTEQU <__imp_GdipGetRegionBounds> 
+extern __imp_GdipGetRegionBoundsI:qword 
+GdipGetRegionBoundsI TEXTEQU <__imp_GdipGetRegionBoundsI> 
+extern __imp_GdipGetRegionData:qword 
+GdipGetRegionData TEXTEQU <__imp_GdipGetRegionData> 
+extern __imp_GdipGetRegionDataSize:qword 
+GdipGetRegionDataSize TEXTEQU <__imp_GdipGetRegionDataSize> 
+extern __imp_GdipGetRegionHRgn:qword 
+GdipGetRegionHRgn TEXTEQU <__imp_GdipGetRegionHRgn> 
+extern __imp_GdipGetRegionScans:qword 
+GdipGetRegionScans TEXTEQU <__imp_GdipGetRegionScans> 
+extern __imp_GdipGetRegionScansCount:qword 
+GdipGetRegionScansCount TEXTEQU <__imp_GdipGetRegionScansCount> 
+extern __imp_GdipGetRegionScansI:qword 
+GdipGetRegionScansI TEXTEQU <__imp_GdipGetRegionScansI> 
+extern __imp_GdipGetRenderingOrigin:qword 
+GdipGetRenderingOrigin TEXTEQU <__imp_GdipGetRenderingOrigin> 
+extern __imp_GdipGetSmoothingMode:qword 
+GdipGetSmoothingMode TEXTEQU <__imp_GdipGetSmoothingMode> 
+extern __imp_GdipGetSolidFillColor:qword 
+GdipGetSolidFillColor TEXTEQU <__imp_GdipGetSolidFillColor> 
+extern __imp_GdipGetStringFormatAlign:qword 
+GdipGetStringFormatAlign TEXTEQU <__imp_GdipGetStringFormatAlign> 
+extern __imp_GdipGetStringFormatDigitSubstitution:qword 
+GdipGetStringFormatDigitSubstitution TEXTEQU <__imp_GdipGetStringFormatDigitSubstitution> 
+extern __imp_GdipGetStringFormatFlags:qword 
+GdipGetStringFormatFlags TEXTEQU <__imp_GdipGetStringFormatFlags> 
+extern __imp_GdipGetStringFormatHotkeyPrefix:qword 
+GdipGetStringFormatHotkeyPrefix TEXTEQU <__imp_GdipGetStringFormatHotkeyPrefix> 
+extern __imp_GdipGetStringFormatLineAlign:qword 
+GdipGetStringFormatLineAlign TEXTEQU <__imp_GdipGetStringFormatLineAlign> 
+extern __imp_GdipGetStringFormatMeasurableCharacterRangeCount:qword 
+GdipGetStringFormatMeasurableCharacterRangeCount TEXTEQU <__imp_GdipGetStringFormatMeasurableCharacterRangeCount> 
+extern __imp_GdipGetStringFormatTabStopCount:qword 
+GdipGetStringFormatTabStopCount TEXTEQU <__imp_GdipGetStringFormatTabStopCount> 
+extern __imp_GdipGetStringFormatTabStops:qword 
+GdipGetStringFormatTabStops TEXTEQU <__imp_GdipGetStringFormatTabStops> 
+extern __imp_GdipGetStringFormatTrimming:qword 
+GdipGetStringFormatTrimming TEXTEQU <__imp_GdipGetStringFormatTrimming> 
+extern __imp_GdipGetTextContrast:qword 
+GdipGetTextContrast TEXTEQU <__imp_GdipGetTextContrast> 
+extern __imp_GdipGetTextRenderingHint:qword 
+GdipGetTextRenderingHint TEXTEQU <__imp_GdipGetTextRenderingHint> 
+extern __imp_GdipGetTextureImage:qword 
+GdipGetTextureImage TEXTEQU <__imp_GdipGetTextureImage> 
+extern __imp_GdipGetTextureTransform:qword 
+GdipGetTextureTransform TEXTEQU <__imp_GdipGetTextureTransform> 
+extern __imp_GdipGetTextureWrapMode:qword 
+GdipGetTextureWrapMode TEXTEQU <__imp_GdipGetTextureWrapMode> 
+extern __imp_GdipGetVisibleClipBounds:qword 
+GdipGetVisibleClipBounds TEXTEQU <__imp_GdipGetVisibleClipBounds> 
+extern __imp_GdipGetVisibleClipBoundsI:qword 
+GdipGetVisibleClipBoundsI TEXTEQU <__imp_GdipGetVisibleClipBoundsI> 
+extern __imp_GdipGetWorldTransform:qword 
+GdipGetWorldTransform TEXTEQU <__imp_GdipGetWorldTransform> 
+extern __imp_GdipGraphicsClear:qword 
+GdipGraphicsClear TEXTEQU <__imp_GdipGraphicsClear> 
+extern __imp_GdipGraphicsSetAbort:qword 
+GdipGraphicsSetAbort TEXTEQU <__imp_GdipGraphicsSetAbort> 
+extern __imp_GdipImageForceValidation:qword 
+GdipImageForceValidation TEXTEQU <__imp_GdipImageForceValidation> 
+extern __imp_GdipImageGetFrameCount:qword 
+GdipImageGetFrameCount TEXTEQU <__imp_GdipImageGetFrameCount> 
+extern __imp_GdipImageGetFrameDimensionsCount:qword 
+GdipImageGetFrameDimensionsCount TEXTEQU <__imp_GdipImageGetFrameDimensionsCount> 
+extern __imp_GdipImageGetFrameDimensionsList:qword 
+GdipImageGetFrameDimensionsList TEXTEQU <__imp_GdipImageGetFrameDimensionsList> 
+extern __imp_GdipImageRotateFlip:qword 
+GdipImageRotateFlip TEXTEQU <__imp_GdipImageRotateFlip> 
+extern __imp_GdipImageSelectActiveFrame:qword 
+GdipImageSelectActiveFrame TEXTEQU <__imp_GdipImageSelectActiveFrame> 
+extern __imp_GdipImageSetAbort:qword 
+GdipImageSetAbort TEXTEQU <__imp_GdipImageSetAbort> 
+extern __imp_GdipInitializePalette:qword 
+GdipInitializePalette TEXTEQU <__imp_GdipInitializePalette> 
+extern __imp_GdipInvertMatrix:qword 
+GdipInvertMatrix TEXTEQU <__imp_GdipInvertMatrix> 
+extern __imp_GdipIsClipEmpty:qword 
+GdipIsClipEmpty TEXTEQU <__imp_GdipIsClipEmpty> 
+extern __imp_GdipIsEmptyRegion:qword 
+GdipIsEmptyRegion TEXTEQU <__imp_GdipIsEmptyRegion> 
+extern __imp_GdipIsEqualRegion:qword 
+GdipIsEqualRegion TEXTEQU <__imp_GdipIsEqualRegion> 
+extern __imp_GdipIsInfiniteRegion:qword 
+GdipIsInfiniteRegion TEXTEQU <__imp_GdipIsInfiniteRegion> 
+extern __imp_GdipIsMatrixEqual:qword 
+GdipIsMatrixEqual TEXTEQU <__imp_GdipIsMatrixEqual> 
+extern __imp_GdipIsMatrixIdentity:qword 
+GdipIsMatrixIdentity TEXTEQU <__imp_GdipIsMatrixIdentity> 
+extern __imp_GdipIsMatrixInvertible:qword 
+GdipIsMatrixInvertible TEXTEQU <__imp_GdipIsMatrixInvertible> 
+extern __imp_GdipIsOutlineVisiblePathPoint:qword 
+GdipIsOutlineVisiblePathPoint TEXTEQU <__imp_GdipIsOutlineVisiblePathPoint> 
+extern __imp_GdipIsOutlineVisiblePathPointI:qword 
+GdipIsOutlineVisiblePathPointI TEXTEQU <__imp_GdipIsOutlineVisiblePathPointI> 
+extern __imp_GdipIsStyleAvailable:qword 
+GdipIsStyleAvailable TEXTEQU <__imp_GdipIsStyleAvailable> 
+extern __imp_GdipIsVisibleClipEmpty:qword 
+GdipIsVisibleClipEmpty TEXTEQU <__imp_GdipIsVisibleClipEmpty> 
+extern __imp_GdipIsVisiblePathPoint:qword 
+GdipIsVisiblePathPoint TEXTEQU <__imp_GdipIsVisiblePathPoint> 
+extern __imp_GdipIsVisiblePathPointI:qword 
+GdipIsVisiblePathPointI TEXTEQU <__imp_GdipIsVisiblePathPointI> 
+extern __imp_GdipIsVisiblePoint:qword 
+GdipIsVisiblePoint TEXTEQU <__imp_GdipIsVisiblePoint> 
+extern __imp_GdipIsVisiblePointI:qword 
+GdipIsVisiblePointI TEXTEQU <__imp_GdipIsVisiblePointI> 
+extern __imp_GdipIsVisibleRect:qword 
+GdipIsVisibleRect TEXTEQU <__imp_GdipIsVisibleRect> 
+extern __imp_GdipIsVisibleRectI:qword 
+GdipIsVisibleRectI TEXTEQU <__imp_GdipIsVisibleRectI> 
+extern __imp_GdipIsVisibleRegionPoint:qword 
+GdipIsVisibleRegionPoint TEXTEQU <__imp_GdipIsVisibleRegionPoint> 
+extern __imp_GdipIsVisibleRegionPointI:qword 
+GdipIsVisibleRegionPointI TEXTEQU <__imp_GdipIsVisibleRegionPointI> 
+extern __imp_GdipIsVisibleRegionRect:qword 
+GdipIsVisibleRegionRect TEXTEQU <__imp_GdipIsVisibleRegionRect> 
+extern __imp_GdipIsVisibleRegionRectI:qword 
+GdipIsVisibleRegionRectI TEXTEQU <__imp_GdipIsVisibleRegionRectI> 
+extern __imp_GdipLoadImageFromFile:qword 
+GdipLoadImageFromFile TEXTEQU <__imp_GdipLoadImageFromFile> 
+extern __imp_GdipLoadImageFromFileICM:qword 
+GdipLoadImageFromFileICM TEXTEQU <__imp_GdipLoadImageFromFileICM> 
+extern __imp_GdipLoadImageFromStream:qword 
+GdipLoadImageFromStream TEXTEQU <__imp_GdipLoadImageFromStream> 
+extern __imp_GdipLoadImageFromStreamICM:qword 
+GdipLoadImageFromStreamICM TEXTEQU <__imp_GdipLoadImageFromStreamICM> 
+extern __imp_GdipMeasureCharacterRanges:qword 
+GdipMeasureCharacterRanges TEXTEQU <__imp_GdipMeasureCharacterRanges> 
+extern __imp_GdipMeasureDriverString:qword 
+GdipMeasureDriverString TEXTEQU <__imp_GdipMeasureDriverString> 
+extern __imp_GdipMeasureString:qword 
+GdipMeasureString TEXTEQU <__imp_GdipMeasureString> 
+extern __imp_GdipMultiplyLineTransform:qword 
+GdipMultiplyLineTransform TEXTEQU <__imp_GdipMultiplyLineTransform> 
+extern __imp_GdipMultiplyMatrix:qword 
+GdipMultiplyMatrix TEXTEQU <__imp_GdipMultiplyMatrix> 
+extern __imp_GdipMultiplyPathGradientTransform:qword 
+GdipMultiplyPathGradientTransform TEXTEQU <__imp_GdipMultiplyPathGradientTransform> 
+extern __imp_GdipMultiplyPenTransform:qword 
+GdipMultiplyPenTransform TEXTEQU <__imp_GdipMultiplyPenTransform> 
+extern __imp_GdipMultiplyTextureTransform:qword 
+GdipMultiplyTextureTransform TEXTEQU <__imp_GdipMultiplyTextureTransform> 
+extern __imp_GdipMultiplyWorldTransform:qword 
+GdipMultiplyWorldTransform TEXTEQU <__imp_GdipMultiplyWorldTransform> 
+extern __imp_GdipNewInstalledFontCollection:qword 
+GdipNewInstalledFontCollection TEXTEQU <__imp_GdipNewInstalledFontCollection> 
+extern __imp_GdipNewPrivateFontCollection:qword 
+GdipNewPrivateFontCollection TEXTEQU <__imp_GdipNewPrivateFontCollection> 
+extern __imp_GdipPathIterCopyData:qword 
+GdipPathIterCopyData TEXTEQU <__imp_GdipPathIterCopyData> 
+extern __imp_GdipPathIterEnumerate:qword 
+GdipPathIterEnumerate TEXTEQU <__imp_GdipPathIterEnumerate> 
+extern __imp_GdipPathIterGetCount:qword 
+GdipPathIterGetCount TEXTEQU <__imp_GdipPathIterGetCount> 
+extern __imp_GdipPathIterGetSubpathCount:qword 
+GdipPathIterGetSubpathCount TEXTEQU <__imp_GdipPathIterGetSubpathCount> 
+extern __imp_GdipPathIterHasCurve:qword 
+GdipPathIterHasCurve TEXTEQU <__imp_GdipPathIterHasCurve> 
+extern __imp_GdipPathIterIsValid:qword 
+GdipPathIterIsValid TEXTEQU <__imp_GdipPathIterIsValid> 
+extern __imp_GdipPathIterNextMarker:qword 
+GdipPathIterNextMarker TEXTEQU <__imp_GdipPathIterNextMarker> 
+extern __imp_GdipPathIterNextMarkerPath:qword 
+GdipPathIterNextMarkerPath TEXTEQU <__imp_GdipPathIterNextMarkerPath> 
+extern __imp_GdipPathIterNextPathType:qword 
+GdipPathIterNextPathType TEXTEQU <__imp_GdipPathIterNextPathType> 
+extern __imp_GdipPathIterNextSubpath:qword 
+GdipPathIterNextSubpath TEXTEQU <__imp_GdipPathIterNextSubpath> 
+extern __imp_GdipPathIterNextSubpathPath:qword 
+GdipPathIterNextSubpathPath TEXTEQU <__imp_GdipPathIterNextSubpathPath> 
+extern __imp_GdipPathIterRewind:qword 
+GdipPathIterRewind TEXTEQU <__imp_GdipPathIterRewind> 
+extern __imp_GdipPlayMetafileRecord:qword 
+GdipPlayMetafileRecord TEXTEQU <__imp_GdipPlayMetafileRecord> 
+extern __imp_GdipPlayTSClientRecord:qword 
+GdipPlayTSClientRecord TEXTEQU <__imp_GdipPlayTSClientRecord> 
+extern __imp_GdipPrivateAddFontFile:qword 
+GdipPrivateAddFontFile TEXTEQU <__imp_GdipPrivateAddFontFile> 
+extern __imp_GdipPrivateAddMemoryFont:qword 
+GdipPrivateAddMemoryFont TEXTEQU <__imp_GdipPrivateAddMemoryFont> 
+extern __imp_GdipRecordMetafile:qword 
+GdipRecordMetafile TEXTEQU <__imp_GdipRecordMetafile> 
+extern __imp_GdipRecordMetafileFileName:qword 
+GdipRecordMetafileFileName TEXTEQU <__imp_GdipRecordMetafileFileName> 
+extern __imp_GdipRecordMetafileFileNameI:qword 
+GdipRecordMetafileFileNameI TEXTEQU <__imp_GdipRecordMetafileFileNameI> 
+extern __imp_GdipRecordMetafileI:qword 
+GdipRecordMetafileI TEXTEQU <__imp_GdipRecordMetafileI> 
+extern __imp_GdipRecordMetafileStream:qword 
+GdipRecordMetafileStream TEXTEQU <__imp_GdipRecordMetafileStream> 
+extern __imp_GdipRecordMetafileStreamI:qword 
+GdipRecordMetafileStreamI TEXTEQU <__imp_GdipRecordMetafileStreamI> 
+extern __imp_GdipReleaseDC:qword 
+GdipReleaseDC TEXTEQU <__imp_GdipReleaseDC> 
+extern __imp_GdipRemovePropertyItem:qword 
+GdipRemovePropertyItem TEXTEQU <__imp_GdipRemovePropertyItem> 
+extern __imp_GdipResetClip:qword 
+GdipResetClip TEXTEQU <__imp_GdipResetClip> 
+extern __imp_GdipResetImageAttributes:qword 
+GdipResetImageAttributes TEXTEQU <__imp_GdipResetImageAttributes> 
+extern __imp_GdipResetLineTransform:qword 
+GdipResetLineTransform TEXTEQU <__imp_GdipResetLineTransform> 
+extern __imp_GdipResetPageTransform:qword 
+GdipResetPageTransform TEXTEQU <__imp_GdipResetPageTransform> 
+extern __imp_GdipResetPath:qword 
+GdipResetPath TEXTEQU <__imp_GdipResetPath> 
+extern __imp_GdipResetPathGradientTransform:qword 
+GdipResetPathGradientTransform TEXTEQU <__imp_GdipResetPathGradientTransform> 
+extern __imp_GdipResetPenTransform:qword 
+GdipResetPenTransform TEXTEQU <__imp_GdipResetPenTransform> 
+extern __imp_GdipResetTextureTransform:qword 
+GdipResetTextureTransform TEXTEQU <__imp_GdipResetTextureTransform> 
+extern __imp_GdipResetWorldTransform:qword 
+GdipResetWorldTransform TEXTEQU <__imp_GdipResetWorldTransform> 
+extern __imp_GdipRestoreGraphics:qword 
+GdipRestoreGraphics TEXTEQU <__imp_GdipRestoreGraphics> 
+extern __imp_GdipReversePath:qword 
+GdipReversePath TEXTEQU <__imp_GdipReversePath> 
+extern __imp_GdipRotateLineTransform:qword 
+GdipRotateLineTransform TEXTEQU <__imp_GdipRotateLineTransform> 
+extern __imp_GdipRotateMatrix:qword 
+GdipRotateMatrix TEXTEQU <__imp_GdipRotateMatrix> 
+extern __imp_GdipRotatePathGradientTransform:qword 
+GdipRotatePathGradientTransform TEXTEQU <__imp_GdipRotatePathGradientTransform> 
+extern __imp_GdipRotatePenTransform:qword 
+GdipRotatePenTransform TEXTEQU <__imp_GdipRotatePenTransform> 
+extern __imp_GdipRotateTextureTransform:qword 
+GdipRotateTextureTransform TEXTEQU <__imp_GdipRotateTextureTransform> 
+extern __imp_GdipRotateWorldTransform:qword 
+GdipRotateWorldTransform TEXTEQU <__imp_GdipRotateWorldTransform> 
+extern __imp_GdipSaveAdd:qword 
+GdipSaveAdd TEXTEQU <__imp_GdipSaveAdd> 
+extern __imp_GdipSaveAddImage:qword 
+GdipSaveAddImage TEXTEQU <__imp_GdipSaveAddImage> 
+extern __imp_GdipSaveGraphics:qword 
+GdipSaveGraphics TEXTEQU <__imp_GdipSaveGraphics> 
+extern __imp_GdipSaveImageToFile:qword 
+GdipSaveImageToFile TEXTEQU <__imp_GdipSaveImageToFile> 
+extern __imp_GdipSaveImageToStream:qword 
+GdipSaveImageToStream TEXTEQU <__imp_GdipSaveImageToStream> 
+extern __imp_GdipScaleLineTransform:qword 
+GdipScaleLineTransform TEXTEQU <__imp_GdipScaleLineTransform> 
+extern __imp_GdipScaleMatrix:qword 
+GdipScaleMatrix TEXTEQU <__imp_GdipScaleMatrix> 
+extern __imp_GdipScalePathGradientTransform:qword 
+GdipScalePathGradientTransform TEXTEQU <__imp_GdipScalePathGradientTransform> 
+extern __imp_GdipScalePenTransform:qword 
+GdipScalePenTransform TEXTEQU <__imp_GdipScalePenTransform> 
+extern __imp_GdipScaleTextureTransform:qword 
+GdipScaleTextureTransform TEXTEQU <__imp_GdipScaleTextureTransform> 
+extern __imp_GdipScaleWorldTransform:qword 
+GdipScaleWorldTransform TEXTEQU <__imp_GdipScaleWorldTransform> 
+extern __imp_GdipSetAdjustableArrowCapFillState:qword 
+GdipSetAdjustableArrowCapFillState TEXTEQU <__imp_GdipSetAdjustableArrowCapFillState> 
+extern __imp_GdipSetAdjustableArrowCapHeight:qword 
+GdipSetAdjustableArrowCapHeight TEXTEQU <__imp_GdipSetAdjustableArrowCapHeight> 
+extern __imp_GdipSetAdjustableArrowCapMiddleInset:qword 
+GdipSetAdjustableArrowCapMiddleInset TEXTEQU <__imp_GdipSetAdjustableArrowCapMiddleInset> 
+extern __imp_GdipSetAdjustableArrowCapWidth:qword 
+GdipSetAdjustableArrowCapWidth TEXTEQU <__imp_GdipSetAdjustableArrowCapWidth> 
+extern __imp_GdipSetClipGraphics:qword 
+GdipSetClipGraphics TEXTEQU <__imp_GdipSetClipGraphics> 
+extern __imp_GdipSetClipHrgn:qword 
+GdipSetClipHrgn TEXTEQU <__imp_GdipSetClipHrgn> 
+extern __imp_GdipSetClipPath:qword 
+GdipSetClipPath TEXTEQU <__imp_GdipSetClipPath> 
+extern __imp_GdipSetClipRect:qword 
+GdipSetClipRect TEXTEQU <__imp_GdipSetClipRect> 
+extern __imp_GdipSetClipRectI:qword 
+GdipSetClipRectI TEXTEQU <__imp_GdipSetClipRectI> 
+extern __imp_GdipSetClipRegion:qword 
+GdipSetClipRegion TEXTEQU <__imp_GdipSetClipRegion> 
+extern __imp_GdipSetCompositingMode:qword 
+GdipSetCompositingMode TEXTEQU <__imp_GdipSetCompositingMode> 
+extern __imp_GdipSetCompositingQuality:qword 
+GdipSetCompositingQuality TEXTEQU <__imp_GdipSetCompositingQuality> 
+extern __imp_GdipSetCustomLineCapBaseCap:qword 
+GdipSetCustomLineCapBaseCap TEXTEQU <__imp_GdipSetCustomLineCapBaseCap> 
+extern __imp_GdipSetCustomLineCapBaseInset:qword 
+GdipSetCustomLineCapBaseInset TEXTEQU <__imp_GdipSetCustomLineCapBaseInset> 
+extern __imp_GdipSetCustomLineCapStrokeCaps:qword 
+GdipSetCustomLineCapStrokeCaps TEXTEQU <__imp_GdipSetCustomLineCapStrokeCaps> 
+extern __imp_GdipSetCustomLineCapStrokeJoin:qword 
+GdipSetCustomLineCapStrokeJoin TEXTEQU <__imp_GdipSetCustomLineCapStrokeJoin> 
+extern __imp_GdipSetCustomLineCapWidthScale:qword 
+GdipSetCustomLineCapWidthScale TEXTEQU <__imp_GdipSetCustomLineCapWidthScale> 
+extern __imp_GdipSetEffectParameters:qword 
+GdipSetEffectParameters TEXTEQU <__imp_GdipSetEffectParameters> 
+extern __imp_GdipSetEmpty:qword 
+GdipSetEmpty TEXTEQU <__imp_GdipSetEmpty> 
+extern __imp_GdipSetImageAttributesCachedBackground:qword 
+GdipSetImageAttributesCachedBackground TEXTEQU <__imp_GdipSetImageAttributesCachedBackground> 
+extern __imp_GdipSetImageAttributesColorKeys:qword 
+GdipSetImageAttributesColorKeys TEXTEQU <__imp_GdipSetImageAttributesColorKeys> 
+extern __imp_GdipSetImageAttributesColorMatrix:qword 
+GdipSetImageAttributesColorMatrix TEXTEQU <__imp_GdipSetImageAttributesColorMatrix> 
+extern __imp_GdipSetImageAttributesGamma:qword 
+GdipSetImageAttributesGamma TEXTEQU <__imp_GdipSetImageAttributesGamma> 
+extern __imp_GdipSetImageAttributesNoOp:qword 
+GdipSetImageAttributesNoOp TEXTEQU <__imp_GdipSetImageAttributesNoOp> 
+extern __imp_GdipSetImageAttributesOutputChannel:qword 
+GdipSetImageAttributesOutputChannel TEXTEQU <__imp_GdipSetImageAttributesOutputChannel> 
+extern __imp_GdipSetImageAttributesOutputChannelColorProfile:qword 
+GdipSetImageAttributesOutputChannelColorProfile TEXTEQU <__imp_GdipSetImageAttributesOutputChannelColorProfile> 
+extern __imp_GdipSetImageAttributesRemapTable:qword 
+GdipSetImageAttributesRemapTable TEXTEQU <__imp_GdipSetImageAttributesRemapTable> 
+extern __imp_GdipSetImageAttributesThreshold:qword 
+GdipSetImageAttributesThreshold TEXTEQU <__imp_GdipSetImageAttributesThreshold> 
+extern __imp_GdipSetImageAttributesToIdentity:qword 
+GdipSetImageAttributesToIdentity TEXTEQU <__imp_GdipSetImageAttributesToIdentity> 
+extern __imp_GdipSetImageAttributesWrapMode:qword 
+GdipSetImageAttributesWrapMode TEXTEQU <__imp_GdipSetImageAttributesWrapMode> 
+extern __imp_GdipSetImagePalette:qword 
+GdipSetImagePalette TEXTEQU <__imp_GdipSetImagePalette> 
+extern __imp_GdipSetInfinite:qword 
+GdipSetInfinite TEXTEQU <__imp_GdipSetInfinite> 
+extern __imp_GdipSetInterpolationMode:qword 
+GdipSetInterpolationMode TEXTEQU <__imp_GdipSetInterpolationMode> 
+extern __imp_GdipSetLineBlend:qword 
+GdipSetLineBlend TEXTEQU <__imp_GdipSetLineBlend> 
+extern __imp_GdipSetLineColors:qword 
+GdipSetLineColors TEXTEQU <__imp_GdipSetLineColors> 
+extern __imp_GdipSetLineGammaCorrection:qword 
+GdipSetLineGammaCorrection TEXTEQU <__imp_GdipSetLineGammaCorrection> 
+extern __imp_GdipSetLineLinearBlend:qword 
+GdipSetLineLinearBlend TEXTEQU <__imp_GdipSetLineLinearBlend> 
+extern __imp_GdipSetLinePresetBlend:qword 
+GdipSetLinePresetBlend TEXTEQU <__imp_GdipSetLinePresetBlend> 
+extern __imp_GdipSetLineSigmaBlend:qword 
+GdipSetLineSigmaBlend TEXTEQU <__imp_GdipSetLineSigmaBlend> 
+extern __imp_GdipSetLineTransform:qword 
+GdipSetLineTransform TEXTEQU <__imp_GdipSetLineTransform> 
+extern __imp_GdipSetLineWrapMode:qword 
+GdipSetLineWrapMode TEXTEQU <__imp_GdipSetLineWrapMode> 
+extern __imp_GdipSetMatrixElements:qword 
+GdipSetMatrixElements TEXTEQU <__imp_GdipSetMatrixElements> 
+extern __imp_GdipSetMetafileDownLevelRasterizationLimit:qword 
+GdipSetMetafileDownLevelRasterizationLimit TEXTEQU <__imp_GdipSetMetafileDownLevelRasterizationLimit> 
+extern __imp_GdipSetPageScale:qword 
+GdipSetPageScale TEXTEQU <__imp_GdipSetPageScale> 
+extern __imp_GdipSetPageUnit:qword 
+GdipSetPageUnit TEXTEQU <__imp_GdipSetPageUnit> 
+extern __imp_GdipSetPathFillMode:qword 
+GdipSetPathFillMode TEXTEQU <__imp_GdipSetPathFillMode> 
+extern __imp_GdipSetPathGradientBlend:qword 
+GdipSetPathGradientBlend TEXTEQU <__imp_GdipSetPathGradientBlend> 
+extern __imp_GdipSetPathGradientCenterColor:qword 
+GdipSetPathGradientCenterColor TEXTEQU <__imp_GdipSetPathGradientCenterColor> 
+extern __imp_GdipSetPathGradientCenterPoint:qword 
+GdipSetPathGradientCenterPoint TEXTEQU <__imp_GdipSetPathGradientCenterPoint> 
+extern __imp_GdipSetPathGradientCenterPointI:qword 
+GdipSetPathGradientCenterPointI TEXTEQU <__imp_GdipSetPathGradientCenterPointI> 
+extern __imp_GdipSetPathGradientFocusScales:qword 
+GdipSetPathGradientFocusScales TEXTEQU <__imp_GdipSetPathGradientFocusScales> 
+extern __imp_GdipSetPathGradientGammaCorrection:qword 
+GdipSetPathGradientGammaCorrection TEXTEQU <__imp_GdipSetPathGradientGammaCorrection> 
+extern __imp_GdipSetPathGradientLinearBlend:qword 
+GdipSetPathGradientLinearBlend TEXTEQU <__imp_GdipSetPathGradientLinearBlend> 
+extern __imp_GdipSetPathGradientPath:qword 
+GdipSetPathGradientPath TEXTEQU <__imp_GdipSetPathGradientPath> 
+extern __imp_GdipSetPathGradientPresetBlend:qword 
+GdipSetPathGradientPresetBlend TEXTEQU <__imp_GdipSetPathGradientPresetBlend> 
+extern __imp_GdipSetPathGradientSigmaBlend:qword 
+GdipSetPathGradientSigmaBlend TEXTEQU <__imp_GdipSetPathGradientSigmaBlend> 
+extern __imp_GdipSetPathGradientSurroundColorsWithCount:qword 
+GdipSetPathGradientSurroundColorsWithCount TEXTEQU <__imp_GdipSetPathGradientSurroundColorsWithCount> 
+extern __imp_GdipSetPathGradientTransform:qword 
+GdipSetPathGradientTransform TEXTEQU <__imp_GdipSetPathGradientTransform> 
+extern __imp_GdipSetPathGradientWrapMode:qword 
+GdipSetPathGradientWrapMode TEXTEQU <__imp_GdipSetPathGradientWrapMode> 
+extern __imp_GdipSetPathMarker:qword 
+GdipSetPathMarker TEXTEQU <__imp_GdipSetPathMarker> 
+extern __imp_GdipSetPenBrushFill:qword 
+GdipSetPenBrushFill TEXTEQU <__imp_GdipSetPenBrushFill> 
+extern __imp_GdipSetPenColor:qword 
+GdipSetPenColor TEXTEQU <__imp_GdipSetPenColor> 
+extern __imp_GdipSetPenCompoundArray:qword 
+GdipSetPenCompoundArray TEXTEQU <__imp_GdipSetPenCompoundArray> 
+extern __imp_GdipSetPenCustomEndCap:qword 
+GdipSetPenCustomEndCap TEXTEQU <__imp_GdipSetPenCustomEndCap> 
+extern __imp_GdipSetPenCustomStartCap:qword 
+GdipSetPenCustomStartCap TEXTEQU <__imp_GdipSetPenCustomStartCap> 
+extern __imp_GdipSetPenDashArray:qword 
+GdipSetPenDashArray TEXTEQU <__imp_GdipSetPenDashArray> 
+extern __imp_GdipSetPenDashCap197819:qword 
+GdipSetPenDashCap197819 TEXTEQU <__imp_GdipSetPenDashCap197819> 
+extern __imp_GdipSetPenDashOffset:qword 
+GdipSetPenDashOffset TEXTEQU <__imp_GdipSetPenDashOffset> 
+extern __imp_GdipSetPenDashStyle:qword 
+GdipSetPenDashStyle TEXTEQU <__imp_GdipSetPenDashStyle> 
+extern __imp_GdipSetPenEndCap:qword 
+GdipSetPenEndCap TEXTEQU <__imp_GdipSetPenEndCap> 
+extern __imp_GdipSetPenLineCap197819:qword 
+GdipSetPenLineCap197819 TEXTEQU <__imp_GdipSetPenLineCap197819> 
+extern __imp_GdipSetPenLineJoin:qword 
+GdipSetPenLineJoin TEXTEQU <__imp_GdipSetPenLineJoin> 
+extern __imp_GdipSetPenMiterLimit:qword 
+GdipSetPenMiterLimit TEXTEQU <__imp_GdipSetPenMiterLimit> 
+extern __imp_GdipSetPenMode:qword 
+GdipSetPenMode TEXTEQU <__imp_GdipSetPenMode> 
+extern __imp_GdipSetPenStartCap:qword 
+GdipSetPenStartCap TEXTEQU <__imp_GdipSetPenStartCap> 
+extern __imp_GdipSetPenTransform:qword 
+GdipSetPenTransform TEXTEQU <__imp_GdipSetPenTransform> 
+extern __imp_GdipSetPenUnit:qword 
+GdipSetPenUnit TEXTEQU <__imp_GdipSetPenUnit> 
+extern __imp_GdipSetPenWidth:qword 
+GdipSetPenWidth TEXTEQU <__imp_GdipSetPenWidth> 
+extern __imp_GdipSetPixelOffsetMode:qword 
+GdipSetPixelOffsetMode TEXTEQU <__imp_GdipSetPixelOffsetMode> 
+extern __imp_GdipSetPropertyItem:qword 
+GdipSetPropertyItem TEXTEQU <__imp_GdipSetPropertyItem> 
+extern __imp_GdipSetRenderingOrigin:qword 
+GdipSetRenderingOrigin TEXTEQU <__imp_GdipSetRenderingOrigin> 
+extern __imp_GdipSetSmoothingMode:qword 
+GdipSetSmoothingMode TEXTEQU <__imp_GdipSetSmoothingMode> 
+extern __imp_GdipSetSolidFillColor:qword 
+GdipSetSolidFillColor TEXTEQU <__imp_GdipSetSolidFillColor> 
+extern __imp_GdipSetStringFormatAlign:qword 
+GdipSetStringFormatAlign TEXTEQU <__imp_GdipSetStringFormatAlign> 
+extern __imp_GdipSetStringFormatDigitSubstitution:qword 
+GdipSetStringFormatDigitSubstitution TEXTEQU <__imp_GdipSetStringFormatDigitSubstitution> 
+extern __imp_GdipSetStringFormatFlags:qword 
+GdipSetStringFormatFlags TEXTEQU <__imp_GdipSetStringFormatFlags> 
+extern __imp_GdipSetStringFormatHotkeyPrefix:qword 
+GdipSetStringFormatHotkeyPrefix TEXTEQU <__imp_GdipSetStringFormatHotkeyPrefix> 
+extern __imp_GdipSetStringFormatLineAlign:qword 
+GdipSetStringFormatLineAlign TEXTEQU <__imp_GdipSetStringFormatLineAlign> 
+extern __imp_GdipSetStringFormatMeasurableCharacterRanges:qword 
+GdipSetStringFormatMeasurableCharacterRanges TEXTEQU <__imp_GdipSetStringFormatMeasurableCharacterRanges> 
+extern __imp_GdipSetStringFormatTabStops:qword 
+GdipSetStringFormatTabStops TEXTEQU <__imp_GdipSetStringFormatTabStops> 
+extern __imp_GdipSetStringFormatTrimming:qword 
+GdipSetStringFormatTrimming TEXTEQU <__imp_GdipSetStringFormatTrimming> 
+extern __imp_GdipSetTextContrast:qword 
+GdipSetTextContrast TEXTEQU <__imp_GdipSetTextContrast> 
+extern __imp_GdipSetTextRenderingHint:qword 
+GdipSetTextRenderingHint TEXTEQU <__imp_GdipSetTextRenderingHint> 
+extern __imp_GdipSetTextureTransform:qword 
+GdipSetTextureTransform TEXTEQU <__imp_GdipSetTextureTransform> 
+extern __imp_GdipSetTextureWrapMode:qword 
+GdipSetTextureWrapMode TEXTEQU <__imp_GdipSetTextureWrapMode> 
+extern __imp_GdipSetWorldTransform:qword 
+GdipSetWorldTransform TEXTEQU <__imp_GdipSetWorldTransform> 
+extern __imp_GdipShearMatrix:qword 
+GdipShearMatrix TEXTEQU <__imp_GdipShearMatrix> 
+extern __imp_GdipStartPathFigure:qword 
+GdipStartPathFigure TEXTEQU <__imp_GdipStartPathFigure> 
+extern __imp_GdipStringFormatGetGenericDefault:qword 
+GdipStringFormatGetGenericDefault TEXTEQU <__imp_GdipStringFormatGetGenericDefault> 
+extern __imp_GdipStringFormatGetGenericTypographic:qword 
+GdipStringFormatGetGenericTypographic TEXTEQU <__imp_GdipStringFormatGetGenericTypographic> 
+extern __imp_GdipTestControl:qword 
+GdipTestControl TEXTEQU <__imp_GdipTestControl> 
+extern __imp_GdipTransformMatrixPoints:qword 
+GdipTransformMatrixPoints TEXTEQU <__imp_GdipTransformMatrixPoints> 
+extern __imp_GdipTransformMatrixPointsI:qword 
+GdipTransformMatrixPointsI TEXTEQU <__imp_GdipTransformMatrixPointsI> 
+extern __imp_GdipTransformPath:qword 
+GdipTransformPath TEXTEQU <__imp_GdipTransformPath> 
+extern __imp_GdipTransformPoints:qword 
+GdipTransformPoints TEXTEQU <__imp_GdipTransformPoints> 
+extern __imp_GdipTransformPointsI:qword 
+GdipTransformPointsI TEXTEQU <__imp_GdipTransformPointsI> 
+extern __imp_GdipTransformRegion:qword 
+GdipTransformRegion TEXTEQU <__imp_GdipTransformRegion> 
+extern __imp_GdipTranslateClip:qword 
+GdipTranslateClip TEXTEQU <__imp_GdipTranslateClip> 
+extern __imp_GdipTranslateClipI:qword 
+GdipTranslateClipI TEXTEQU <__imp_GdipTranslateClipI> 
+extern __imp_GdipTranslateLineTransform:qword 
+GdipTranslateLineTransform TEXTEQU <__imp_GdipTranslateLineTransform> 
+extern __imp_GdipTranslateMatrix:qword 
+GdipTranslateMatrix TEXTEQU <__imp_GdipTranslateMatrix> 
+extern __imp_GdipTranslatePathGradientTransform:qword 
+GdipTranslatePathGradientTransform TEXTEQU <__imp_GdipTranslatePathGradientTransform> 
+extern __imp_GdipTranslatePenTransform:qword 
+GdipTranslatePenTransform TEXTEQU <__imp_GdipTranslatePenTransform> 
+extern __imp_GdipTranslateRegion:qword 
+GdipTranslateRegion TEXTEQU <__imp_GdipTranslateRegion> 
+extern __imp_GdipTranslateRegionI:qword 
+GdipTranslateRegionI TEXTEQU <__imp_GdipTranslateRegionI> 
+extern __imp_GdipTranslateTextureTransform:qword 
+GdipTranslateTextureTransform TEXTEQU <__imp_GdipTranslateTextureTransform> 
+extern __imp_GdipTranslateWorldTransform:qword 
+GdipTranslateWorldTransform TEXTEQU <__imp_GdipTranslateWorldTransform> 
+extern __imp_GdipVectorTransformMatrixPoints:qword 
+GdipVectorTransformMatrixPoints TEXTEQU <__imp_GdipVectorTransformMatrixPoints> 
+extern __imp_GdipVectorTransformMatrixPointsI:qword 
+GdipVectorTransformMatrixPointsI TEXTEQU <__imp_GdipVectorTransformMatrixPointsI> 
+extern __imp_GdipWarpPath:qword 
+GdipWarpPath TEXTEQU <__imp_GdipWarpPath> 
+extern __imp_GdipWidenPath:qword 
+GdipWidenPath TEXTEQU <__imp_GdipWidenPath> 
+extern __imp_GdipWindingModeOutline:qword 
+GdipWindingModeOutline TEXTEQU <__imp_GdipWindingModeOutline> 
+extern __imp_GdiplusNotificationHook:qword 
+GdiplusNotificationHook TEXTEQU <__imp_GdiplusNotificationHook> 
+extern __imp_GdiplusNotificationUnhook:qword 
+GdiplusNotificationUnhook TEXTEQU <__imp_GdiplusNotificationUnhook> 
+extern __imp_GdiplusShutdown:qword 
+GdiplusShutdown TEXTEQU <__imp_GdiplusShutdown> 
+extern __imp_GdiplusStartup:qword 
+GdiplusStartup TEXTEQU <__imp_GdiplusStartup> 

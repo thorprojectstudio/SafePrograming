@@ -1,0 +1,111 @@
+include win64a.inc
+.data
+titl db "Результат программы",0
+
+mas1 dd 10, 33, 3,64, -6,  ; массив данных
+         7,-80,-6,78, -8,
+        24,  6,-7,-9,-23
+
+len2 equ ($-mas1)/type mas1  ; длина массива
+len3 equ ($-mas1)/5 ; определение количества чисел в строках
+sum1 dd 0 ; для суммы чисел первой строки
+sum2 dd 0 ; для суммы чисел второй строки
+sum3 dd 0 ; для суммы чисел третьей строки
+
+res dd 0;
+
+fmt db "Условие: найти строку с максимальной суммой элементов ",0dh,0ah,\
+" 10  33  3 64  -6 ",10,\
+"  7 -80 -6 78  -8 ",10,\
+" 24   6 -7 -9 -23 ",0dh,0ah,\
+
+"Максимальная строка # %d",0dh,0ah
+
+.code
+WinMain proc
+sub rsp,28h; cтек: 28h=32d+8; 8 — возврат
+mov rbp,rsp
+
+mov ecx,len3    ;количество чисел в одной строке
+
+lea rsi,mas1    ;адрес начала массива
+mov eax,[rsi]   ;загрузка числа
+mov sum1,eax
+add rsi,4       ;переходим на следующую строку
+mov eax,[rsi]   ;загружаем число в регистр eax
+add sum1,eax    ;складываем элементы первого столбца
+add rsi,4       ;переходим на следующую строку
+mov eax,[rsi]   ;загружаем число в регистр eax
+add sum1,eax    ;складываем элементы первого столбца
+add rsi,4       ;переходим на следующую строку
+mov eax,[rsi]   ;загружаем число в регистр eax
+add sum1,eax    ;складываем элементы первого столбца
+add rsi,4       ;переходим на следующую строку
+mov eax,[rsi]   ;загружаем число в регистр eax
+add sum1,eax    ;складываем элементы первого столбца
+
+lea rsi,mas1   
+add rsi,20      
+mov eax,[rsi]  
+mov sum2,eax
+add rsi,4      
+mov eax,[rsi]  
+add sum2,eax
+add rsi,4      
+mov eax,[rsi]  
+add sum2,eax
+add rsi,4      
+mov eax,[rsi]  
+add sum2,eax
+add rsi,4      
+mov eax,[rsi]  
+add sum2,eax
+
+lea rsi,mas1   
+add rsi,40      
+mov eax,[rsi]  
+mov sum3,eax
+add rsi,4      
+mov eax,[rsi]  
+add sum3,eax
+add rsi,4      
+mov eax,[rsi]  
+add sum3,eax
+add rsi,4      
+mov eax,[rsi]  
+add sum3,eax
+add rsi,4      
+mov eax,[rsi]  
+add sum3,eax
+
+mov rax, sum1;
+mov rbx, sum2;
+cmp rax, rbx ;  1>2
+ja ma
+mov rax, sum2;  
+mov rbx, sum3;
+cmp rax, rbx ;  2>3
+ja mc
+mov res,sum3
+jmp exit
+ma: 
+mov rax, sum1;
+mov rbx, sum3;
+cmp rax, rbx ;  1>3
+ja mb
+mov res,sum3
+jmp exit
+mb:
+mov res,sum1
+jmp exit
+mc:
+mov res,sum2
+
+exit:
+invoke GetCurrentDirectory,255,ADDR dir; получение директории
+invoke wsprintf, ADDR buf1, ADDR fmt, res
+invoke MessageBox,0,addr buf1,addr titl,MB_ICONEXCLAMATION
+exx:
+invoke RtlExitUserProcess,0 ;ExitProcess,0
+WinMain endp
+end
